@@ -1,10 +1,5 @@
 # Introduction to Data Analysis
 
-<figure>
-  <img src="https://img.huffingtonpost.com/asset/5c930c4a36000020266dac44.gif?ops=scalefit_630_noupscale" width=600 />
-  <figcaption>The Needle from Nate Cohn -- TheUpshot @NYTimes</figcaption>
-</figure>
-
 !!! note inline
 
      **Instructor**
