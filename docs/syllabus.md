@@ -54,18 +54,13 @@ In the code part, students have the opportunity to learn about cutting-edge open
 
 ### Grading
 
-The course is evaluated over two semesters through various activities allowing students to incrementally improve their ability to conduct empirical research.
-
-By the end of the course, students will deliver an end to end empirical research project that is fully reproducible and that leverages the acquired data science skills.
-
-This ability is demonstrated by delivering two incremental scientific papers. The paper, is due by the end of the first semester. It will focus on the theoretical aspects of your paper and on descriptive statistics. This is the foundation for the second paper. The second paper will focus on quantitative methods and inference.
-
+The course is evaluated over two semesters through various activities allowing students to incrementally improve data science skills. By the end of the course, students submit an original and fully reproducible scientific paper that leverages the acquired data analysis skills.
 
 | Activities    | Percentage |
 | -             | :-:        |
 | Participation | 30%        |
-| Assignments   | 30%        |
-| Paper(s)      | 40%        |
+| Milestones    | 30%        |
+| Paper         | 40%        |
 
 
 ## Communication
