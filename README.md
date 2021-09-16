@@ -1,4 +1,7 @@
 # Data Analysis
+
+[![Join the chat at https://gitter.im/ScPoBx/data-analysis](https://badges.gitter.im/ScPoBx/data-analysis.svg)](https://gitter.im/ScPoBx/data-analysis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Repository containing the source code for *Data Analysis*.
 
 The website can be found at: https://mickaeltemporao.github.io/data-analysis/
