@@ -1,5 +1,7 @@
-# 3ACM-DA: Data Analysis
-Repository containing the source code for *3ACM-DA: Data Analysis*.
+# Data Analysis
+Repository containing the source code for *Data Analysis*.
+
+The website can be found at: https://mickaeltemporao.github.io/data-analysis/
 
 # License and credit
 
@@ -8,10 +10,11 @@ Science should be open, and this course builds up other open licensed material, 
 Parts of the contents found of this repository are inspired by many others who have publicly released their materials.
 I try to always give credit but if I forgot anyone, please feel free to reach out.
 
-- [Steven V. Miller](http://svmiller.com/)
-- [Pablo Barberá](http://pablobarbera.com/)
 - [Jeffrey Arnold](http://www.jrnold.me/)
+- [Pablo Barberá](http://pablobarbera.com/)
 - [Matthew Blackwell](https://mattblackwell.org/)
+- Yannick Dufresne
+- [Steven V. Miller](http://svmiller.com/)
 
 
 # Feedback
