@@ -1,4 +1,4 @@
-# Introduction to Data Analysis
+# Data Analysis
 
 !!! note inline
 
