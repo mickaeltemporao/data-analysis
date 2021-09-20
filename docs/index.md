@@ -1,6 +1,6 @@
 # Data Analysis
 
-!!! note inline "Instructor"
+!!! note inline end "Instructor"
      - :material-account-circle: [**Mickael Temporão**](https://durkheim.u-bordeaux.fr/Notre-equipe/Chercheur-e-s-et-enseignant-e-s-chercheur-e-s/CV/Mickael-Temporao)
          - :fontawesome-brands-twitter: [@mickaeltemporao](https://twitter.com/mickaeltemporao)
          - :fontawesome-brands-github: [@mickaeltemporao](https://github.com/mickaeltemporao)
