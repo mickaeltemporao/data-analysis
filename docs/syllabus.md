@@ -69,15 +69,3 @@ Asking questions publicly and providing answers to your peers' questions allows 
 
 Reserve private messages with the instructor for personal matters.
 
-
-## License
-
-Science should be open, and this course builds up other open licensed material. Unless otherwise noted, all materials for this class are licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-The source code and the materials to build this website can be found on [:fontawesome-brands-github: GitHub](https://github.com/mickaeltemporao/data-analysis).
-
-
-## Feedback
-
-If you have suggestions, find a typo, or any other issue on this website, please go to [issues](https://github.com/mickaeltemporao/data-analysis/issues), click on the "New Issue" button to create a new issue, and describe the problem.
-
