@@ -8,7 +8,7 @@
     - [ ] Writing: **:fontawesome-brands-markdown: Markdown Syntax**
     - [ ] Working: **:fontawesome-brands-google: Colaboratory Platform**
 - [ ] Milestones Workflow
-- [ ] Milestone 1
+- [ ] Start Milestone 1
 
 ## What is Gitter?
 - **The place where you ask for help and help others!**
@@ -26,7 +26,7 @@
 - Initially IPython then Jupyter/Colaboratory.
 
 ## For next time
-- :fontawesome-solid-award: Milestone 1
+- :fontawesome-solid-award: Milestone 1 Completed
 - :fontawesome-solid-chalkboard-teacher: Presentation
     - Prepare a reading note using the template.
     - Share the reading note with the group at least 24h before class on the chat.
