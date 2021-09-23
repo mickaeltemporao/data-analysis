@@ -10,17 +10,17 @@
 - [ ] Milestones Workflow
 - [ ] Start Milestone 1
 
-## What is Gitter?
+## :fontawesome-brands-gitter: What is Gitter?
 - **The place where you ask for help and help others!**
 - Free and Open source instant communication platform.
 - Secure and decentralised conversation store.
 
-## What is Markdown?
+## :fontawesome-brands-markdown: What is Markdown?
 - **The syntax you will use to write!**
 - An lightweight free and open source markup language for creating formatted text using a plain-text editor.
 - A syntax to annotate documents.
 
-## What are notebooks?
+## :fontawesome-brands-google: What are notebooks?
 - **The place where you write and code in a reproducible way!**
 - A powerful free and open-source interactive web application that allows you to create and share documents that contain narrative text, live code, visualizations, but also allows you to do data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 - Initially IPython then Jupyter/Colaboratory.
