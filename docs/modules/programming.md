@@ -3,6 +3,12 @@
 ### Théorie
 
 TODO: Prep ipynb for progamming module
+TODO: BOOK FEEDBACK FOR M1
+TODO: Content Analysis Readings
+    - Stemler, S. E. (2015). Content analysis. *Emerging trends in the social and behavioral sciences: An Interdisciplinary, Searchable, and Linkable Resource*, 1-14.
+    - Hsieh, H. F., & Shannon, S. E. (2005). Three approaches to qualitative content analysis. *Qualitative health research*, 15(9), 1277-1288.
+    - Stemler, S. (2000). An overview of content analysis. *Practical assessment, research, and evaluation*, 7(1), 17.
+    - Doing a literature review article
 
 - Présentation du second semestre
     - Exemple d'article : APSR - [Family Matters: How Immigrant Histories Can Promote Inclusion](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/871DB7A02565D65FB0584FE89D7EF35D/S0003055420001057a.pdf/family-matters-how-immigrant-histories-can-promote-inclusion.pdf)
@@ -30,6 +36,5 @@ library(tidyverse)             # Permet de charger un package installé
     - Et aussi [ANES Bibliography Data Base](https://electionstudies.org/papers-documents/anes-bibliography/)
 - Lecture :
     - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
-
 ---
 

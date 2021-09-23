@@ -3,8 +3,8 @@
 The participation grade is divided into three parts: a student presentation, a student discussion, and student engagement.
 
 ## **:fontawesome-solid-chalkboard-teacher: Presentation**
-During class meetings, a student group will make 20 minute presentation during which they will discuss a scientific paper.
-The student group prepares a two-page reading note, due 24 hours before the class meeting and a 20 minute presentation during which they will discuss their assessment of the paper. All students in the class are expected to at least have skimmed the papers and be ready to ask questions or engage in the discussion.
+During class meetings, a student group will make 15 minute presentation during which they will discuss a scientific paper.
+The student group prepares a two-page reading note, due 24 hours before the class meeting and a 15 minute presentation during which they will discuss their assessment of the paper. All students in the class are expected to at least have skimmed the papers and be ready to ask questions or engage in the discussion.
 
 - [**:fontawesome-solid-file-code: Reading Note**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb)
 

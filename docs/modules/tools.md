@@ -1,27 +1,35 @@
 # Tools
 
 ## Agenda
-- Introducing the tools
-    - Communication Platform: :fontawesome-brands-gitter: Gitter
-    - Writing: :fontawesome-brands-markdown: Markdown
-    - Coding Platform: :fontawesome-brands-google: Colaboratory &
-- Assignments workflow
-- TODO: Coding challenge 1 - ipynb: write 1 par using md on voting behaviour and factors use 2 references and submit in Gitter.
+- [ ] Last time...
+- [ ] Schedule Overview
+- [ ] Tools Introduction
+    - [ ] Communicating: **:fontawesome-brands-gitter: Gitter Chat**
+    - [ ] Writing: **:fontawesome-brands-markdown: Markdown Syntax**
+    - [ ] Working: **:fontawesome-brands-google: Colaboratory Platform**
+- [ ] Milestones Workflow
+- [ ] Milestone 1
+
+## What is Gitter?
+- **The place where you ask for help and help others!**
+- Free and Open source instant communication platform.
+- Secure and decentralised conversation store.
+
+## What is Markdown?
+- **The syntax you will use to write!**
+- An lightweight free and open source markup language for creating formatted text using a plain-text editor.
+- A syntax to annotate documents.
+
+## What are notebooks?
+- **The place where you write and code in a reproducible way!**
+- A powerful free and open-source interactive web application that allows you to create and share documents that contain narrative text, live code, visualizations, but also allows you to do data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+- Initially IPython then Jupyter/Colaboratory.
 
 ## For next time
-- First Live Demo
-    - Don't forget to prepare a handout and share it before the class meeting!
-    - The live demo lasts no longer than 15 minutes
-
-- [**:fontawesome-solid-file-code: Handout template**](https://colab.research.google.com/github/mickaeltemporao/ids-materials/blob/main/handout-template.ipynb)
-- Pour vous aider, vous pouvez
-    1. Consultez les derniers articles parus dans les journaux suivants:
-        - [American Journal of Political Science](https://ajps.org/)
-        - [American Political Science Review](https://www.cambridge.org/core/journals/american-political-science-review)
-        - [Political Behavior](https://www.springer.com/journal/11109)
-        - [Public Opinion Quarterly](https://academic.oup.com/poq)
-    2. Consultez la base de données des articles utilisant l'ANES ou ses questions
-        - [Bibliographie de l'ANES](https://electionstudies.org/papers-documents/anes-bibliography/)
-
-- Recommended Reading:
-    - [Knopf, J. W. (2006). Doing a literature review. *PS: Political Science & Politics,* 39(1), 127-132.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/00B62000B6760AB78E1BD27E32A94C9F/S1049096506060264a.pdf/doing-a-literature-review.pdf?casa_token=szUhrJK1G30AAAAA:yj5nqRIULvP0oFEmACEq9AkAIZPdF8YBt9xWDetabQJwdKzVTZQ3yZvbGszZMNoesDnYgFtim2AA)
+- :fontawesome-solid-award: Milestone 1
+- :fontawesome-solid-chalkboard-teacher: Presentation
+    - Prepare a reading note using the template.
+    - Share the reading note with the group at least 24h before class on the chat.
+    - Prepare a 15 minutes presentation.
+- :fontawesome-solid-book: Reading
+    - [King, G., Keohane, R., & Verba, S. (1994). The Science in Social Science. In *Designing Social Inquiry: Scientific Inference in Qualitative Research* (pp. 3-33). Princeton, New Jersey: Princeton University Press. doi:10.2307/j.ctt7sfxj.4](https://proxy.sciencespobordeaux.fr:5139/document/doi/10.1515/9781400821211-002/pdf)
