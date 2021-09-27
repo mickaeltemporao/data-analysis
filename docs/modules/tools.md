@@ -7,7 +7,7 @@
     - [ ] Communicating: **:fontawesome-brands-gitter: Gitter Chat**
     - [ ] Writing: **:fontawesome-brands-markdown: Markdown Syntax**
     - [ ] Working: **:fontawesome-brands-google: Colaboratory Platform**
-- [ ] Milestones Workflow
+- [ ] Assignments Workflow
 - [ ] Start Milestone 1
 
 ## :fontawesome-brands-gitter: What is Gitter?
