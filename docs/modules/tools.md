@@ -29,4 +29,5 @@
 - :fontawesome-solid-award: Complete Milestone 1
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
     - [King, G., Keohane, R., & Verba, S. (1994). The Science in Social Science. In *Designing Social Inquiry: Scientific Inference in Qualitative Research* (pp. 3-33). Princeton, New Jersey: Princeton University Press. doi:10.2307/j.ctt7sfxj.4](https://proxy.sciencespobordeaux.fr:5139/document/doi/10.1515/9781400821211-002/pdf)
-
+- :fontawesome-solid-laptop-house: Recommended Practice
+    - [Markdown Tutorial](https://commonmark.org/help/tutorial/)
