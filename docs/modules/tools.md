@@ -26,10 +26,7 @@
 - Initially IPython then Jupyter/Colaboratory.
 
 ## For next time
-- :fontawesome-solid-award: Milestone 1 Completed
-- :fontawesome-solid-chalkboard-teacher: Presentation
-    - Prepare a reading note using the template.
-    - Share the reading note with the group at least 24h before class on the chat.
-    - Prepare a 15 minutes presentation.
-- :fontawesome-solid-book: Reading
+- :fontawesome-solid-award: Complete Milestone 1
+- :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
     - [King, G., Keohane, R., & Verba, S. (1994). The Science in Social Science. In *Designing Social Inquiry: Scientific Inference in Qualitative Research* (pp. 3-33). Princeton, New Jersey: Princeton University Press. doi:10.2307/j.ctt7sfxj.4](https://proxy.sciencespobordeaux.fr:5139/document/doi/10.1515/9781400821211-002/pdf)
+
