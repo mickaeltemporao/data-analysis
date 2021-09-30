@@ -4,9 +4,9 @@
 - [ ] Last time...
 - [ ] Schedule Overview
 - [ ] Tools Introduction
-    - [ ] Communicating: **:fontawesome-brands-gitter: Gitter Chat**
-    - [ ] Writing: **:fontawesome-brands-markdown: Markdown Syntax**
-    - [ ] Working: **:fontawesome-brands-google: Colaboratory Platform**
+    - Communicating: **:fontawesome-brands-gitter: Gitter Chat**
+    - Writing: **:fontawesome-brands-markdown: Markdown Syntax**
+    - Working: **:fontawesome-brands-google: Colaboratory Platform**
 - [ ] Assignments Workflow
 - [ ] Start Milestone 1
 

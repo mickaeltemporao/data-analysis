@@ -1,12 +1,11 @@
 # Science, Code, and Voter Turnout
 
 ## Agenda
-- [ ] Last time...
 - [ ] The Scientific Method
-    - [ ] Presentation & Discussion
+    - Presentation & Discussion
 - [ ] Dependent and Independent Variables
 - [ ] Science, Code, and Voter Turnout
-    - [ ] Getting started with Python
+    - Getting started with Python
 
 ## Notebook
 - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)

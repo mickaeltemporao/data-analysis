@@ -7,11 +7,11 @@ During class meetings, a student group will make 15 minute presentation about we
 
 The group presenting:
 
-1. Prepares a [:fontawesome-solid-file-code: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb)
-2. Shares the reading note with the group 24h before class on the chat.
+1. Prepares a [:fontawesome-solid-file-code: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb) of the mandatory reading.
+2. Shares a link to the reading note on the chat 24h in advance of the presentation.
 3. Prepares a 15 minutes presentation.
 
-All the students are expected to have read the mandatory reading and be ready to ask questions or engage in the discussion.
+All other students are expected to have read the mandatory reading and be ready to ask questions or engage in the discussion.
 
 ## **:fontawesome-regular-comment-dots: Discussion**
 After each presentation, a student is randomly selected to be the discussant. The discussant makes a 5 minute comment on the paper and the presentation. He brings a new perspective to the table. The discussant's grade will be assigned to the group to whom the discussant belongs.
