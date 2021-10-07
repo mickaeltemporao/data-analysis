@@ -61,7 +61,8 @@ nav:
     - Modules:
       - modules/introduction.md
       - modules/tools.md
-      - modules/programming.md
+      - modules/programming-1.md
+      - modules/programming-2.md
       # - modules/science.md
       # - modules/causality.md
       # - modules/sampling.md
