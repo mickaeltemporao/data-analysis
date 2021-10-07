@@ -1,9 +1,8 @@
-# Science, Code, and Voter Turnout
+# The Scientific Method & Code
 
 ## Agenda
 - [ ] The Scientific Method
     - Presentation & Discussion
-- [ ] Dependent and Independent Variables
 - [ ] Science, Code, and Voter Turnout
     - Getting started with Python
 
