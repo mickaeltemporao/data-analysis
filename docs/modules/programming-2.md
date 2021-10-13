@@ -1,4 +1,4 @@
-# From Concepts to Variables 1/2
+# From Concepts to Variables
 
 ## Agenda
 - [ ] Dependent and Independent Variables
