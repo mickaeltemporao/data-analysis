@@ -64,7 +64,7 @@ nav:
       - modules/programming-1.md
       - modules/programming-2.md
       - modules/programming-3.md
-      # - modules/science.md
+      - modules/programming-4.md
       # - modules/causality.md
       # - modules/sampling.md
       # - modules/measurement.md
