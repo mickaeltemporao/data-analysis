@@ -65,7 +65,10 @@ nav:
       - modules/programming-2.md
       - modules/programming-3.md
       - modules/programming-4.md
-      # - modules/causality.md
+      - modules/exploration-1.md
+      # - modules/exploration-2.md
+      # - modules/exploration-3.md
+      # - modules/exploration-4.md
       # - modules/sampling.md
       # - modules/measurement.md
       # - modules/replication.md
