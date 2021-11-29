@@ -6,7 +6,8 @@
 - [ ] Exploring Variable Relationships
     - Summarising Information
         - Exploring Young Voters' Ideology
-    - Visualising Relationships
+    - Levels of Measurement
+    - Cross Tabulations
 - [ ] Proposal Milestone
     - Discussion
 
