@@ -1,15 +1,14 @@
-# Exploring Election Data
+# Generating Survey Data II
 
 ## Agenda
 - [ ] Miscellaneous
     - Discussion Mental Model: I wish, I like, I wonder
 - [ ] Types of Data for Scientific Research
     - [ ] Presentation & Discussion
-- [ ] Exploratory Data Analysis
+- [ ] Defining Functions
 
 ## Notebook
 - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
-- [:fontawesome-solid-file-code: Introduction to Data Exploration](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/04-data-exploration-columns.ipynb)
 
 ## Miscellaneous
 
@@ -21,5 +20,4 @@
     - [Book a meeting with the instructor!](https://calendly.com/mickaeltemporao/one-on-one)
     - Identify variables to help measuring your DV & IV in the [ANES 2020](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbk.htm)
 - :fontawesome-solid-laptop-house: Recommended Practice
-    - [:fontawesome-solid-file-code: Introduction to Data Exploration](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/04-data-exploration-columns.ipynb)
-
+    - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)

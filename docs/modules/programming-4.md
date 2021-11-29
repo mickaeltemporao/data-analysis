@@ -1,14 +1,13 @@
-# A Survey Respondent's Data
+# Generating Survey Data I
 
 ## Agenda
 - [ ] Causal Inference
     - Presentation & Discussion
 - [ ] Public Opinion Polling
-- [ ] Creating survey data
+- [ ] Creating Data and Using Functions
 
 ## Notebook
 
-- [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
 
 ## Misc
