@@ -8,8 +8,8 @@
         - Exploring Young Voters' Ideology
     - Levels of Measurement
     - Cross Tabulations
-- [ ] Proposal Milestone
-    - Discussion
+- [ ] Exploration Milestone
+    - Code Meetings
 
 ## Notebook
 - [:fontawesome-solid-file-code: Exploring Variable Relationships](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/05-data-exploration-rows.ipynb)
