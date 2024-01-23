@@ -3,10 +3,10 @@
 This schedule is an approximation, subject to change due needs of the students in the course. Students will be informed of changes to the schedule.
 
 ???+ info inline end "Groups Info"
-    - **Group 1:**  Beatrice, Martina, Sara.
-    - **Group 2:**  Alessandra, Leonard, Lucia.
-    - **Group 3:** Gabriele, Jackson, Seitaro
-    - **Group 4:** Borja, Oliver, Rebecca
+    - **Group 1:** TBD
+    - **Group 2:** TBD
+    - **Group 3:** TBD
+    - **Group 4:** TBD
 
 - **:fontawesome-solid-book-reader: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
 - **:fontawesome-solid-chalkboard-teacher: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
