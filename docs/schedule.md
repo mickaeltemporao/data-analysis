@@ -8,8 +8,8 @@ This schedule is an approximation, subject to change due needs of the students i
     - **Group 3:** TBD
     - **Group 4:** TBD
 
-- **:fontawesome-regular-book-reader: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
-- **:fontawesome-regular-chalkboard-teacher: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
+- **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
+- **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
 - **:fontawesome-solid-award: Milestone:** Indicates that there is a milestone due before the next class. Contains a link to the instructions.
 - **:fontawesome-regular-file-code: Project:** Indicates that there is a project due on the specified date. Contains a link to the instructions.
 
