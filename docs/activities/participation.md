@@ -7,7 +7,7 @@ During class meetings, a student group will make 15 minute presentation about we
 
 The group presenting:
 
-1. Prepares a [:fontawesome-solid-file-code: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb) of the mandatory reading.
+1. Prepares a [:fontawesome-solid-clipboard: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb) of the mandatory reading.
 2. Shares a link to the reading note on the chat 24h in advance of the presentation.
 3. Prepares a 15 minutes presentation.
 
