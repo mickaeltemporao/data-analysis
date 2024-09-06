@@ -2,7 +2,7 @@
 
 The participation grade is divided into three parts: a student presentation, a student discussion, and student engagement.
 
-## **:fontawesome-solid-chalkboard-teacher: Presentation**
+## **:fontawesome-solid-chalkboard-user: Presentation**
 During class meetings, a student group will make 15 minute presentation about weekly mandatory reading. The student group making the presentation also needs to prepare a two-page reading note, due 24 hours before the class meeting and a 15 minute presentation during which they will discuss their assessment of the paper.
 
 The group presenting:
