@@ -42,7 +42,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mickaeltemporao
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/mickaeltemporao
 extra_css:
   - stylesheets/extra.css
