@@ -2,7 +2,7 @@
 
 Milestones provide students with the opportunity to learn incrementally and builds up to a fully reproducible scientific paper. There will be some time during the class meetings to start working on these milestones, and to address questions, but most of it will be completed after class.
 
-- **:fontawesome-solid-exclamation-triangle: The milestones are ALWAYS due before the beginning of the next class meeting.**
+- **:fontawesome-exclamation-triangle: The milestones are ALWAYS due before the beginning of the next class meeting.**
 
 ## The Milestone Workflow
 The instructions for a milestone are shared with the students at least 5 days before the due date.
