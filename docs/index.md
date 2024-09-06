@@ -2,7 +2,7 @@
 
 !!! note inline end "Instructor"
      - :material-account-circle: [**Mickael Temporão**](https://www.centreemiledurkheim.fr/notre-equipe/mickael-temporao/)
-         - :fontawesome-square-x-twitter: [@mickaeltemporao](https://twitter.com/mickaeltemporao)
+         - :fontawesome-x-twitter: [@mickaeltemporao](https://twitter.com/mickaeltemporao)
          - :fontawesome-brands-github: [@mickaeltemporao](https://github.com/mickaeltemporao)
      - :fontawesome-solid-building-columns: ScPoBx, B.140
      - :fontawesome-regular-calendar-check: [**Sign up for a meeting**](https://calendly.com/mickaeltemporao/one-on-one)
