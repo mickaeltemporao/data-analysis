@@ -5,9 +5,8 @@
 
 !!! note inline end "Course"
 
-    - :fontawesome-solid-calendar: 17 sep. 2021 to 1 apr. 2022
-    - :fontawesome-solid-clock: F 8:00am-9:30am
-    - :fontawesome-solid-university: ScPoBx, Monnet
+    - :fontawesome-solid-building-columns: A.116 - Espace Numérique 
+    - :fontawesome-solid-clock: 9:45am-11:15am 
 
 What will you learn in this course?
 Our goal is to give you the ability to understand, explain, and perform modern social science research with a special focus on data analysis and inference. You will be able to read and understand the methodology of most academic articles in the social sciences, but more importantly you will have a foot in the door of the data science world. The ability to collect and analyze data in a sophisticated manner is becoming a crucial skill set for the modern job market across industries. Finally, you will obtain data literacy that will help you be a critical consumer of evidence for the rest of your life.
