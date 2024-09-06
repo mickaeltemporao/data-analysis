@@ -46,7 +46,7 @@ extra:
       link: https://twitter.com/mickaeltemporao
 extra_css:
   - stylesheets/extra.css
-# repo_url: https://github.com/mkdocs/mkdocs/
+repo_url: https://github.com/mickaeltemporao/data-analysis
 
 # Page tree
 nav:
