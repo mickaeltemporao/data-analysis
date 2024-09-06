@@ -5,7 +5,7 @@
 
 !!! note inline end "Course"
 
-    - :fontawesome-solid-building-columns: A.116 - Espace Numérique 
+    - :fontawesome-solid-building-columns: A.116 | Espace Numérique 
     - :fontawesome-solid-clock: 9:45am-11:15am 
 
 What will you learn in this course?

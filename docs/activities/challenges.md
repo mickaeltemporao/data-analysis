@@ -2,7 +2,7 @@
 
 Milestones provide students with the opportunity to learn incrementally and builds up to a fully reproducible scientific paper. There will be some time during the class meetings to start working on these milestones, and to address questions, but most of it will be completed after class.
 
-- **:fontawesome-exclamation-triangle: The milestones are ALWAYS due before the beginning of the next class meeting.**
+- **:fontawesome-triangle-exclamation: The milestones are ALWAYS due before the beginning of the next class meeting.**
 
 ## The Milestone Workflow
 The instructions for a milestone are shared with the students at least 5 days before the due date.
@@ -17,7 +17,7 @@ The instructions for a milestone are shared with the students at least 5 days be
     - Verify that your link works by opening it in a new browser window.
     - You should see your latest edits inside the this notebook.
 5. Send a private message to the instructor on **:fontawesome-brands-gitter: Gitter**
-    - In your message include the course name (itds), milestone type (eg. proposal-1), and the copied link to your notebook.
+    - In your message include the course name (da), milestone type (eg. proposal-1), and the copied link to your notebook.
     - Submission are considered until the start of the next session.
     - Late submissions will not be considered!
 
