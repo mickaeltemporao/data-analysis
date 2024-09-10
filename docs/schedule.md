@@ -26,9 +26,18 @@ This schedule is an approximation, subject to change due needs of the students i
 | 2024/10/23 | [:fontawesome-solid-book-open: Generating Survey Data (3h)](modules/programming-4.md)       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
 | 2024/11/06 | [:fontawesome-solid-book-open: Election Data Exploration (3h)](modules/programming-4.md)    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
 | 2024/11/20 | [:fontawesome-solid-book-open: Election Data Preprocesssing (3h)](modules/exploration-3.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2024/12/04 | What's Next?                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |                                                                                                                                                         |
+| 2024/12/04 | [:fontawesome-solid-book-open: What's Next?]()                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
 
 ### Second Semester
+
+| Date       | Module                                                                                      | Presentation                                                               | Deadline |
+| :-:        |                                                                                             | :-:                                                                        | :-:      |
+| 2025/01/08 | [:fontawesome-solid-book-open: Introduction to Inferential Statistics]()                |                                                                            |          |
+| 2025/01/22 | [:fontawesome-solid-book-open: Correlation and Regression Analysis]()   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
+| 2025/02/05 | [:fontawesome-solid-book-open: Classification and Logistic Regression]()       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
+| 2025/02/19 | [:fontawesome-solid-book-open: Survey Weighting and Adjustment]()    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
+| 2025/03/12 | [:fontawesome-solid-book-open: Advanced Data Visualization]() |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+| 2025/03/26 | [:fontawesome-solid-book-open: Final Project and Presentations]() |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
 
 - Upcoming
 <!-- | Date       | Module                             | Class                                                      | Presentation                                                                   | Deadline                                  | -->
@@ -47,23 +56,23 @@ This schedule is an approximation, subject to change due needs of the students i
 <!-- | 2022/04/01 | Communication II                   | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           | -->
 <!-- | 2022/04/10 | **Paper Deadline**                 |                                                            |                                                                                | **:fontawesome-regular-file-code: Paper** | -->
 
-
-#### **Session 1: Introduction to Data Analysis in Political Science**
-#### **Session 2: Introduction to Programming with Python**
-#### **Session 3: Data Structures in Python**
-#### **Session 4: Introduction to Election Survey Data**
-#### **Session 5: Data Cleaning and Preprocessing**
-#### **Session 6: Exploratory Data Analysis (EDA)**
-#### **Session 7: Introduction to Inferential Statistics**
-#### **Session 8: Correlation and Regression Analysis**
-#### **Session 9: Classification and Logistic Regression**
-#### **Session 10: Survey Weighting and Adjustment**
-#### **Session 11: Advanced Data Visualization**
-#### **Session 12: Final Project and Presentation**
-
-[](modules/programming-2.md) 
-[](modules/programming-3.md) | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md)                                                                             |                                                                                                                                                         |
-[](modules/exploration-1.md)
-[](modules/exploration-2.md) 
-[](modules/exploration-4.md) 
-[](modules/exploration-5.md) 
+<!---->
+<!-- #### **Session 1: Introduction to Data Analysis in Political Science** -->
+<!-- #### **Session 2: Introduction to Programming with Python** -->
+<!-- #### **Session 3: Data Structures in Python** -->
+<!-- #### **Session 4: Introduction to Election Survey Data** -->
+<!-- #### **Session 5: Data Cleaning and Preprocessing** -->
+<!-- #### **Session 6: Exploratory Data Analysis (EDA)** -->
+<!-- #### **Session 7: Introduction to Inferential Statistics** -->
+<!-- #### **Session 8: Correlation and Regression Analysis** -->
+<!-- #### **Session 9: Classification and Logistic Regression** -->
+<!-- #### **Session 10: Survey Weighting and Adjustment** -->
+<!-- #### **Session 11: Advanced Data Visualization** -->
+<!-- #### **Session 12: Final Project and Presentation** -->
+<!---->
+<!-- [](modules/programming-2.md)  -->
+<!-- [](modules/programming-3.md) -->
+<!-- [](modules/exploration-1.md) -->
+<!-- [](modules/exploration-2.md)  -->
+<!-- [](modules/exploration-4.md)  -->
+<!-- [](modules/exploration-5.md)  -->
