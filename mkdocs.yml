@@ -60,17 +60,17 @@ nav:
     - schedule.md
     - Modules:
       - modules/introduction.md
-      - modules/tools.md
-      - modules/programming-1.md
-      - modules/programming-2.md
-      - modules/programming-3.md
-      - modules/programming-4.md
-      - modules/exploration-1.md
-      - modules/exploration-2.md
-      - modules/exploration-3.md
-      - modules/exploration-4.md
-      - modules/exploration-5.md
-      - modules/management-1.md
+      # - modules/tools.md
+      # - modules/programming-1.md
+      # - modules/programming-2.md
+      # - modules/programming-3.md
+      # - modules/programming-4.md
+      # - modules/exploration-1.md
+      # - modules/exploration-2.md
+      # - modules/exploration-3.md
+      # - modules/exploration-4.md
+      # - modules/exploration-5.md
+      # - modules/management-1.md
       # - modules/exploration-3.md
       # - modules/exploration-4.md
       # - modules/sampling.md

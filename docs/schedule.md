@@ -19,25 +19,25 @@ This schedule is an approximation, subject to change due needs of the students i
 ### First Semester
 
 | Date       | Class Meeting | Presentation                                                               | Deadline |
-| :-:        |                                                                                             | :-:                                                                        | :-:      |
-| 2024/09/12 | [:fontawesome-solid-book-open: Introduction (1.5h)](modules/introduction.md)                |                                                                            |          |
-| 2024/09/25 | [:fontawesome-solid-book-open: The Scientific Method (3h)](modules/tools.md)                |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
-| 2024/10/09 | [:fontawesome-solid-book-open: From Concepts to Variables (3h)](modules/programming-1.md)   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
-| 2024/10/23 | [:fontawesome-solid-book-open: Generating Survey Data (3h)](modules/programming-4.md)       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
-| 2024/11/06 | [:fontawesome-solid-book-open: Election Data Exploration (3h)](modules/programming-4.md)    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
-| 2024/11/20 | [:fontawesome-solid-book-open: Election Data Preprocesssing (3h)](modules/exploration-3.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2024/12/04 | [:fontawesome-solid-book-open: What's Next?]()                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
+| :-:        |:-:                                                                                             | :-:                                                                        | :-:      |
+| 2024/09/12 | [:fontawesome-solid-book-open: **Introduction** (1.5h)](modules/introduction.md)                |                                                                            |          |
+| 2024/09/25 | :fontawesome-solid-book-open: The Scientific Method (3h)                |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
+| 2024/10/09 | :fontawesome-solid-book-open: From Concepts to Variables (3h)   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
+| 2024/10/23 | :fontawesome-solid-book-open: Generating Survey Data (3h)       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
+| 2024/11/06 | :fontawesome-solid-book-open: Election Data Exploration (3h)    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
+| 2024/11/20 | :fontawesome-solid-book-open: Election Data Preprocesssing (3h) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+| 2024/12/04 | :fontawesome-solid-book-open: What's Next?]()                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
 
 ### Second Semester
 
-| Date       | Module                                                                                      | Presentation                                                               | Deadline |
-| :-:        |                                                                                             | :-:                                                                        | :-:      |
-| 2025/01/08 | [:fontawesome-solid-book-open: Introduction to Inferential Statistics]()                |                                                                            |          |
-| 2025/01/22 | [:fontawesome-solid-book-open: Correlation and Regression Analysis]()   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Analysis**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
-| 2025/02/05 | [:fontawesome-solid-book-open: Classification and Logistic Regression]()       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
-| 2025/02/19 | [:fontawesome-solid-book-open: Survey Weighting and Adjustment]()    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Modeling**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
-| 2025/03/12 | [:fontawesome-solid-book-open: Advanced Data Visualization]() |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2025/03/26 | [:fontawesome-solid-book-open: Final Project and Presentations](modules/forthcoming.md) |                                                                            | **:fontawesome-regular-file-code: Paper**  |
+| Date       | Class Meeting | Presentation                                                               | Deadline |
+| :-:        | :-: | :-:                                                                        | :-:      |
+| 2025/01/08 | :fontawesome-solid-book-open: Introduction to Inferential Statistics                |                                                                            |          |
+| 2025/01/22 | :fontawesome-solid-book-open: Correlation and Regression Analysis   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | **:fontawesome-solid-award: Analysis**     |
+| 2025/02/05 | :fontawesome-solid-book-open: Classification and Logistic Regression       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
+| 2025/02/19 | :fontawesome-solid-book-open: Survey Weighting and Adjustment    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | **:fontawesome-solid-award: Modeling** |
+| 2025/03/12 | :fontawesome-solid-book-open: Advanced Data Visualization |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+| 2025/03/26 | :fontawesome-solid-book-open: Final Project and Presentations|                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)|
 
 
 <!-- | Date       | Module                             | Class                                                      | Presentation                                                                   | Deadline                                  | -->
