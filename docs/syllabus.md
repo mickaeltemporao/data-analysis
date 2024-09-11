@@ -62,7 +62,7 @@ The course is evaluated over two semesters through various activities allowing s
 
 ## Communication
 
-The primary communication medium for this course is the chat platform. When you have questions outside of class meetings, click the **Chat** tab at the top of this page and ask your question in the appropriate channel. The onboarding activity should help you get started!
+We will use an interactive **:fontawesome-regular-comment: Chat** platform as the primary communication medium for this course. When you have questions outside of class meetings, click the **Chat** tab at the top of this page and ask your question in the appropriate channel. The onboarding activity should help you get started!
 
 Asking questions publicly and providing answers to your peers' questions allows everyone to learn dynamically. Furthermore, if you have a question on a topic, it is likely that someone else has the same question. Finally, being active on the platform, whether by answering the questions of your peers or by asking questions, is strongly encouraged and will have a positive impact on your participation grade.
 

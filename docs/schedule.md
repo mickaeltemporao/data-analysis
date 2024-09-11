@@ -11,7 +11,7 @@ This schedule is an approximation, subject to change due needs of the students i
 - **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
 - **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
 - **:fontawesome-solid-award: Milestone:** Indicates that there is a milestone due before the next class. Contains a link to the instructions.
-<!-- - **:fontawesome-regular-file-code: Project:** Indicates that there is a project due on the specified date. Contains a link to the instructions. -->
+- **:fontawesome-regular-file-code: Project:** Indicates that there is final project due on the specified date. Contains a link to the instructions.
 
 
 ## Overview
@@ -37,7 +37,7 @@ This schedule is an approximation, subject to change due needs of the students i
 | 2025/02/05 | [:fontawesome-solid-book-open: Classification and Logistic Regression]()       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
 | 2025/02/19 | [:fontawesome-solid-book-open: Survey Weighting and Adjustment]()    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Modeling**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
 | 2025/03/12 | [:fontawesome-solid-book-open: Advanced Data Visualization]() |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2025/03/26 | [:fontawesome-solid-book-open: Final Project and Presentations](modules/forthcoming.md) |                                                                            | **:fontawesome-solid-book-open: Paper**  |
+| 2025/03/26 | [:fontawesome-solid-book-open: Final Project and Presentations](modules/forthcoming.md) |                                                                            | **:fontawesome-regular-file-code: Paper**  |
 
 
 <!-- | Date       | Module                             | Class                                                      | Presentation                                                                   | Deadline                                  | -->
