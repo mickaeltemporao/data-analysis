@@ -11,14 +11,14 @@ This schedule is an approximation, subject to change due needs of the students i
 - **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
 - **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
 - **:fontawesome-solid-award: Milestone:** Indicates that there is a milestone due before the next class. Contains a link to the instructions.
-- **:fontawesome-regular-file-code: Project:** Indicates that there is a project due on the specified date. Contains a link to the instructions.
+<!-- - **:fontawesome-regular-file-code: Project:** Indicates that there is a project due on the specified date. Contains a link to the instructions. -->
 
 
 ## Overview
 
 ### First Semester
 
-| Date       | Module                                                                                      | Presentation                                                               | Deadline |
+| Date       | Class Meeting | Presentation                                                               | Deadline |
 | :-:        |                                                                                             | :-:                                                                        | :-:      |
 | 2024/09/12 | [:fontawesome-solid-book-open: Introduction (1.5h)](modules/introduction.md)                |                                                                            |          |
 | 2024/09/25 | [:fontawesome-solid-book-open: The Scientific Method (3h)](modules/tools.md)                |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
@@ -33,28 +33,28 @@ This schedule is an approximation, subject to change due needs of the students i
 | Date       | Module                                                                                      | Presentation                                                               | Deadline |
 | :-:        |                                                                                             | :-:                                                                        | :-:      |
 | 2025/01/08 | [:fontawesome-solid-book-open: Introduction to Inferential Statistics]()                |                                                                            |          |
-| 2025/01/22 | [:fontawesome-solid-book-open: Correlation and Regression Analysis]()   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
+| 2025/01/22 | [:fontawesome-solid-book-open: Correlation and Regression Analysis]()   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Analysis**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
 | 2025/02/05 | [:fontawesome-solid-book-open: Classification and Logistic Regression]()       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
-| 2025/02/19 | [:fontawesome-solid-book-open: Survey Weighting and Adjustment]()    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
+| 2025/02/19 | [:fontawesome-solid-book-open: Survey Weighting and Adjustment]()    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Modeling**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
 | 2025/03/12 | [:fontawesome-solid-book-open: Advanced Data Visualization]() |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2025/03/26 | [:fontawesome-solid-book-open: Final Project and Presentations]() |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
+| 2025/03/26 | [:fontawesome-solid-book-open: Final Project and Presentations]() |                                                                            | **:fontawesome-regular-file-code: Paper**  |
 
-- Upcoming
-<!-- | Date       | Module                             | Class                                                      | Presentation                                                                   | Deadline                                  | -->
-<!-- | :-:        | :-:                                | :-:                                                        | :-:                                                                            | :-:                                       | -->
-<!-- | 2022/01/14 | Wrangling Survey Data I            | [:fontawesome-solid-book-open:](modules/management-1.md) |                                                                                |                                           | -->
-<!-- | 2022/01/21 | Wrangling Survey Data II           | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) |                                           | -->
-<!-- | 2022/01/28 | Wrangling Survey Data III          | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) |                                           | -->
-<!-- | 2022/02/04 | Modeling I                         | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | **:fontawesome-solid-award: Analysis**    | -->
-<!-- | 2022/02/11 | Modeling II                        | :fontawesome-solid-book-open:                            |                                                                                |                                           | -->
-<!-- | 2022/02/18 | Modeling III                       | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           | -->
-<!-- | 2022/02/25 | :fontawesome-solid-umbrella-beach: |                                                            |                                                                                |                                           | -->
-<!-- | 2022/03/04 | Inference I                        | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) |                                           | -->
-<!-- | 2022/03/11 | Inference II                       | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | **:fontawesome-solid-award: Modeling**    | -->
-<!-- | 2022/03/18 | Inference III                      | :fontawesome-solid-book-open:                            |                                                                                |                                           | -->
-<!-- | 2022/03/25 | Communication I                    | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) |                                           | -->
-<!-- | 2022/04/01 | Communication II                   | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           | -->
-<!-- | 2022/04/10 | **Paper Deadline**                 |                                                            |                                                                                | **:fontawesome-regular-file-code: Paper** | -->
+
+| Date       | Module                             | Class                                                      | Presentation                                                                   | Deadline                                  |
+| :-:        | :-:                                | :-:                                                        | :-:                                                                            | :-:                                       |
+| 2022/01/14 | Wrangling Survey Data I            | [:fontawesome-solid-book-open:](modules/management-1.md) |                                                                                |                                           |
+| 2022/01/21 | Wrangling Survey Data II           | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) |                                           |
+| 2022/01/28 | Wrangling Survey Data III          | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) |                                           |
+| 2022/02/04 | Modeling I                         | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | **:fontawesome-solid-award: Analysis**    |
+| 2022/02/11 | Modeling II                        | :fontawesome-solid-book-open:                            |                                                                                |                                           |
+| 2022/02/18 | Modeling III                       | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           |
+| 2022/02/25 | :fontawesome-solid-umbrella-beach: |                                                            |                                                                                |                                           |
+| 2022/03/04 | Inference I                        | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) |                                           |
+| 2022/03/11 | Inference II                       | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | **:fontawesome-solid-award: Modeling**    |
+| 2022/03/18 | Inference III                      | :fontawesome-solid-book-open:                            |                                                                                |                                           |
+| 2022/03/25 | Communication I                    | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) |                                           |
+| 2022/04/01 | Communication II                   | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           |
+| 2022/04/10 | **Paper Deadline**                 |                                                            |                                                                                | **:fontawesome-regular-file-code: Paper** |
 
 <!---->
 <!-- #### **Session 1: Introduction to Data Analysis in Political Science** -->
