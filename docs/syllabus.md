@@ -1,18 +1,15 @@
 # Syllabus
 
-
 ## Overview
 
 !!! note inline end "Course"
 
     - :fontawesome-solid-building-columns: A.116 | Espace Numérique 
-    - :fontawesome-solid-clock: 9:45am-11:15am 
+    - :fontawesome-solid-clock: Wednesdays 15h45-19h00 
 
 What will you learn in this course? Our goal is to give you the ability to understand, explain, and perform modern social science research with a special focus on data analysis and inference. You will be able to read and understand the methodology of most academic articles in the social sciences, but more importantly you will have a foot in the door of the data science world. The ability to collect and analyze data in a sophisticated manner has become a crucial skill set for the modern job market across industries. Through a combination of lectures, hands-on exercises, and a final project, you will learn how to clean, visualize, and interpret complex datasets, gaining valuable insights into citizens' attitudes, behaviors, and broader political trends. Finally, you will obtain data literacy that will help you be a critical consumer of evidence for the rest of your life.
 
-This course also introduces to cutting-edge *open source* research tools. These tools will be incrementally introduced to students. Learning support will be provided for at least one programming language, such as *C++*, *Julia*, *Python*, or *R*, but the choice of language supported may vary between years, depending on judged benefits to students, whether in terms of pedagogy or resulting skills. This year, we will rely on *:fontawesome-brands-python: Python*.
-
-
+This course also introduces to cutting-edge *open source* research tools. These tools will be incrementally introduced to students. Learning support will be provided for at least one programming language, such as *C++*, *Julia*, *Python*, or *R*, but the choice of language supported may vary between years, depending on judged benefits to students, whether in terms of pedagogy or resulting skills. This year, we will rely on :fontawesome-brands-python: *Python!*
 
 ### Goals
 
@@ -34,12 +31,12 @@ The course is designed for social science students with no previous experience o
 
     For any questions relating to this device and in order to submit your request, please write only to the following address, specifying your needs:
 
-    - [:fontawesome-regular-envelope: Aides Numériques](mailto:aidesnumeriques@sciencespobordeaux.fr)
+    - [:fontawesome-regular-envelope: **Aides Numériques**](mailto:aidesnumeriques@sciencespobordeaux.fr)
 
 
 
 ## Structure
-This course has 12 class meetings that span over two semester of 6 classes each. During the class meetings students have the opportunity to accomplish various activities. The activities allow students to incrementally assimilate critical concepts that will lead them to deliver a fully reproducible end to end scientific paper.
+This course has 12 modules that span over two semesters of 6 class meetings. During the class meetings students have the opportunity to accomplish various activities. The activities allow students to incrementally assimilate critical concepts that will lead them to deliver a fully reproducible end to end scientific paper.
 
 
 ### Class Meetings
@@ -65,9 +62,9 @@ The course is evaluated over two semesters through various activities allowing s
 
 ## Communication
 
-This course uses a dedicated open source communication platform named :fontawesome-brands-gitter: Gitter. When you have questions outside course meetings, click the **Chat** tab at the top of this page and ask your question in the appropriate channel. The onboarding activity will get you started!
+The primary communication medium for this course is the chat platform. When you have questions outside of class meetings, click the **Chat** tab at the top of this page and ask your question in the appropriate channel. The onboarding activity should help you get started!
 
-Asking questions publicly and providing answers to your peers' questions allows everyone to learn dynamically. Furthermore, if you have a question on a topic, it is likely that someone else has the same question. Finally, being active on the platform, whether by answering the questions of your peers or by asking questions, is strongly encouraged and will have a positive impact on your participation grade!
+Asking questions publicly and providing answers to your peers' questions allows everyone to learn dynamically. Furthermore, if you have a question on a topic, it is likely that someone else has the same question. Finally, being active on the platform, whether by answering the questions of your peers or by asking questions, is strongly encouraged and will have a positive impact on your participation grade.
 
 Reserve private messages with the instructor for personal matters.
 

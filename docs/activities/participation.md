@@ -9,15 +9,16 @@ The group presenting:
 
 1. Prepares a [:fontawesome-solid-clipboard: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb) of the mandatory reading.
 2. Shares a link to the reading note on the chat 24h in advance of the presentation.
-3. Prepares a 15 minutes presentation.
+3. Prepares a 20 minutes presentation.
 
-All other students are expected to have read the mandatory reading and be ready to ask questions or engage in the discussion.
+All other students are expected to have read the mandatory reading and are ready to ask questions or engage in the discussion.
 
 ## **:fontawesome-regular-comment-dots: Discussion**
 After each presentation, a student is randomly selected to be the discussant. The discussant makes a 5 minute comment on the paper and the presentation. He brings a new perspective to the table. The discussant's grade will be assigned to the group to whom the discussant belongs.
 
+![Mental Model](https://images.squarespace-cdn.com/content/v1/55f73529e4b0e5bde7f43a66/1529065898666-ZTYIPZ3Y5PSV0DUZRU90/like+wish+wonder.png)
 
 ## **:fontawesome-regular-comments: Engagement**
 Students are expected to be active during the class meetings and actively participating and engaging in the ongoing class activities.
-Students are also expected to be active on the communication platform, that is by asking questions or by helping their peers when they have questions. For more details see the [Communication](../../#communication) guidelines in the syllabus.
+Students are also expected to be active on the communication platform, that is by asking questions or by helping their peers when they have questions. For more details see the [Communication](../syllabus.md#communication) guidelines in the syllabus.
 

@@ -4,7 +4,7 @@ Students are required to submit a group project, in the form of a co-authored an
 
 ## Grading
 
-The project will be evaluated based on five criteria:
+The project will be evaluated based on four criteria:
 
 | Criteria         | Description                                                               |
 | :-:              | -                                                                         |
