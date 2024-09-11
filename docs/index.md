@@ -7,7 +7,7 @@
      - :fontawesome-solid-building-columns: ScPoBx, B.140
      - :fontawesome-regular-calendar-check: [**Book a meeting**](https://calendar.app.google/FEpE4sdwyFZZA4x78)
 
-Why do people vote? Do social media platforms polarize the electorate? Does ideology still influence voting behavior in the age of social media? How can we predict election results?How does disinformation on social media impact voter attitudes and behaviors? These are just a few questions that social scientists are tackling with data. Beyond academia, organizations across the public, nonprofit, and private sectors have invested heavily in data science techniques to understand their users, platforms, and programs. Data scientists at these institutions are essentially applied social scientists and employ many of the same techniques you will learn in this course.
+Why do people vote? Do social media platforms polarize the electorate? Does ideology still influence voting behavior in the age of social media? How can we predict election results? How does disinformation on social media impact voter attitudes and behaviors? These are just a few questions that social scientists are tackling with data. Beyond academia, organizations across the public, nonprofit, and private sectors have invested heavily in data science techniques to understand their users, platforms, and programs. Data scientists at these institutions are essentially applied social scientists and employ many of the same techniques you will learn in this course.
 
 <figure>
   <img src="https://carnegieendowment.org/static/media/images/Kleinfeld_fig_4-1.png" width=800 />
