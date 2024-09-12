@@ -26,7 +26,7 @@ This schedule is an approximation, subject to change due needs of the students i
 | 2024/10/23 | :fontawesome-solid-book-open: Generating Survey Data (3h)       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
 | 2024/11/06 | :fontawesome-solid-book-open: Election Data Exploration (3h)    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
 | 2024/11/20 | :fontawesome-solid-book-open: Election Data Preprocesssing (3h) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2024/12/04 | :fontawesome-solid-book-open: What's Next?]()                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
+| 2024/12/04 | :fontawesome-solid-book-open: What's Next? (1.5h)                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
 
 ### Second Semester
 
