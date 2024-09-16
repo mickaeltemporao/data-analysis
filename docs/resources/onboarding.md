@@ -5,7 +5,7 @@ Make sure you have completed the following activities before the second class me
 1. Create a [:fontawesome-brands-google: **Colaboratory**](https://colab.research.google.com/notebooks/intro.ipynb) account.
     - You can use an existing :fontawesome-brands-google: Google account or create a new one.
     - This is the main tool we will use to complete all of the courses activities.
-2. Join this course's [:fontawesome-regular-comment: **Chat**](https://teams.microsoft.com/l/channel/19%3Avu56gi47cWMRcApqmqVDMcIfFqH2ii-xZfqAngUNH7w1%40thread.tacv2/General?groupId=5a6b90cb-a892-49a9-ad95-ad20235b7673) 
+2. Join this course's [:fontawesome-regular-comment: **Chat**](https://teams.microsoft.com/l/channel/19%3Avu56gi47cWMRcApqmqVDMcIfFqH2ii-xZfqAngUNH7w1%40thread.tacv2/General?groupId=5a6b90cb-a892-49a9-ad95-ad20235b7673&tenantId=d9315e4a-c1e0-43e9-b21d-2e94e2cafc7f) 
     - Log in and say hi!
     - This is the primary communication tool outside class meetings.
 
