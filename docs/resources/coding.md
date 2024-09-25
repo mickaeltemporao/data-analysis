@@ -2,6 +2,7 @@
 
 ## Python
 - [Python Tutorial](https://www.kaggle.com/learn/python): Introduction to the basics of Python.
+- [Python Exercises](https://www.hackinscience.org/exercises/): A list of Python exercises.
 - [Python Notes](https://chrisalbon.com/): A curated list of Python notes by Chris Albon.
 
 ## Pandas

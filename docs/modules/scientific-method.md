@@ -77,5 +77,5 @@ ChatGPT is a Large Language Model (LLM) designed to generate human-like text bas
     - [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. American Journal of Political Science, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353)
 - :fontawesome-solid-house-laptop: Recommended Practice
     - [:fontawesome-brands-markdown: Markdown Tutorial](https://commonmark.org/help/tutorial/)
-    -  [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
+    - [:fontawesome-solid-file-code: Python Exercises](https://www.hackinscience.org/exercises/)
 
