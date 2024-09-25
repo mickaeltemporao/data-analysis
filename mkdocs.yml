@@ -37,6 +37,7 @@ markdown_extensions:
       clickable_checkbox: true
   - admonition
   - pymdownx.details
+  - attr_list
 extra:
   generator: false
   social:
@@ -60,6 +61,7 @@ nav:
     - schedule.md
     - Modules:
       - modules/introduction.md
+      - modules/scientific-method.md
       # - modules/tools.md
       # - modules/programming-1.md
       # - modules/programming-2.md

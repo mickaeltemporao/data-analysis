@@ -12,10 +12,10 @@ The instructions for a milestone are shared with the students at least 5 days be
 2. When you are inside the notebook click on **"File" -> "Save a copy in Drive"**
     - A new notebook is created named "Copy of ...".
     - :fontawesome-solid-triangle-exclamation: Don't skip this step otherwise you won't be able to save or submit your work!
-3. Rename the notebook called "Copy of ..." appropriately. This is the notebook for your milestone.
-    - You can start working inside the newly generated and renamed notebook
+3. Rename the notebook called "Copy of ..." so that it matches your group. This is the notebook for your milestone.
+    - You can start working inside the newly generated and renamed notebook.
 4. Once you are ready to submit your work click the "Share" button then on the "Copy link" button.
-    - Verify that your link works by opening it in a new browser window.
+    - Verify that your link works by opening it in a new private browser window.
     - You should see your latest edits inside the this notebook.
 5. Send a private message to the instructor on the **Chat**
     - In your message include the course name (da), the milestone name (eg. idea), your group number (group-0), and the copied link to your notebook.

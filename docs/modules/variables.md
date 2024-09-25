@@ -1,4 +1,6 @@
 # Variables
+TODO! [Quick Poll](https://app.wooclap.com/events/OHTNXA/)
+
 
 ## Théorie
 - L'opérationnalisation et les types de variables
@@ -13,6 +15,10 @@
 - Téléchargez le fichier suivant [--> unit_03.R <--](https://github.com/mickaeltemporao/CMT3A-MSS/raw/main/src/unit_03.R) et ouvrez-le dans RStudio.
 
 ### À préparer pour la prochaine séance
+
+- !!! :fontawesome-solid-award: Milestone 1 Feedback
+    - [Book a meeting with the insctructor!](XXX)
+
 - Planifiez une rencontre de feedback pour le TP1 avec le professeur.
 - [Data Manipulation](https://learn.datacamp.com/courses/data-manipulation-with-dplyr)
 - Identifiez des manières potentielles de mesurer vos concepts.
@@ -21,3 +27,5 @@
 
 ---
 
+- :fontawesome-solid-brain: Start thinking about the concepts or variables you are interested in and how they are linked, how to measure them how they impact citizens' political attitudes and behaviors in the context of electoral campaigns.
+    - Looking for inspiration? [ANES DATAEXPLORER](XXXX)
