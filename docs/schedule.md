@@ -4,7 +4,7 @@ This schedule is an approximation, subject to change due needs of the students i
 
 ???+ info inline end "Groups Info"
     - **Group 1:** Margaux LG., Sofia S. Sébastien F., Yemmanuil G., 
-    - **Group 2:** Anaëlle DL., Chloé C., Maddalena M., Rose Marie P., Victoria S.
+    - **Group 2:** Mahe DL., Chloé C., Maddalena M., Rose Marie P., Victoria S.
     - **Group 3:** Alessandro B., Anaïs J., Justine L. Riccardo C., 
     - **Group 4:** Adelina D., Roberto S., Sebastian SG. Valerio P., 
 
@@ -12,11 +12,6 @@ This schedule is an approximation, subject to change due needs of the students i
 - **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
 - **:fontawesome-solid-award: Milestone:** Indicates that there is a milestone due before the next class. Contains a link to the instructions.
 - **:fontawesome-regular-file-code: Project:** Indicates that there is final project due on the specified date. Contains a link to the instructions.
-
-
-
-
-
 
 
 ## Overview
