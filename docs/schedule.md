@@ -20,13 +20,15 @@ This schedule is an approximation, subject to change due needs of the students i
 
 | Date       | Class Meeting | Presentation                                                               | Deadline |
 | :-:        |:-:                                                                                             | :-:                                                                        | :-:      |
-| 2024/09/12 | [:fontawesome-solid-book-open: **Introduction** (1.5h)](modules/introduction.md)                |                                                                            |          |
-| 2024/09/25 | [:fontawesome-solid-book-open: **The Scientific Method** (3h)](modules/scientific-method.md)                |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
-| 2024/10/09 | :fontawesome-solid-book-open: From Concepts to Variables (3h)   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
-| 2024/10/23 | :fontawesome-solid-book-open: Generating Survey Data (3h)       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
+| 2024/09/12 | [:fontawesome-solid-book-open: Introduction (1.5h)](modules/introduction.md)                |                                                                            |          |
+| 2024/09/25 | [:fontawesome-solid-book-open: The Scientific Method (3h)](modules/scientific-method.md)                |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
+| 2024/10/09 | [:fontawesome-solid-book-open: From Concepts to Variables (3h)](modules/forthcoming.md)   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
+| 2024/10/23 | :fontawesome-solid-book-open: Election Survey Data (3h)       |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
 | 2024/11/06 | :fontawesome-solid-book-open: Election Data Exploration (3h)    |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
 | 2024/11/20 | :fontawesome-solid-book-open: Election Data Preprocesssing (3h) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
 | 2024/12/04 | :fontawesome-solid-book-open: What's Next? (1.5h)                                                                                |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
+
+<!-- | 2024/10/09 | [:fontawesome-solid-book-open: From Concepts to Variables (3h)](modules/concepts-variables.md)   |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     | -->
 
 ### Second Semester
 
@@ -56,23 +58,17 @@ This schedule is an approximation, subject to change due needs of the students i
 <!-- | 2022/04/01 | Communication II                   | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           | -->
 <!-- | 2022/04/10 | **Paper Deadline**                 |                                                            |                                                                                | **:fontawesome-regular-file-code: Paper** | -->
 
-<!---->
-<!-- #### **Session 1: Introduction to Data Analysis in Political Science** -->
-<!-- #### **Session 2: Introduction to Programming with Python** -->
-<!-- #### **Session 3: Data Structures in Python** -->
-<!-- #### **Session 4: Introduction to Election Survey Data** -->
-<!-- #### **Session 5: Data Cleaning and Preprocessing** -->
-<!-- #### **Session 6: Exploratory Data Analysis (EDA)** -->
-<!-- #### **Session 7: Introduction to Inferential Statistics** -->
-<!-- #### **Session 8: Correlation and Regression Analysis** -->
-<!-- #### **Session 9: Classification and Logistic Regression** -->
-<!-- #### **Session 10: Survey Weighting and Adjustment** -->
-<!-- #### **Session 11: Advanced Data Visualization** -->
-<!-- #### **Session 12: Final Project and Presentation** -->
-<!---->
 <!-- [](modules/programming-2.md)  -->
 <!-- [](modules/programming-3.md) -->
 <!-- [](modules/exploration-1.md) -->
 <!-- [](modules/exploration-2.md)  -->
 <!-- [](modules/exploration-4.md)  -->
 <!-- [](modules/exploration-5.md)  -->
+
+<!-- - Introduction                        -->
+<!-- - La méthode scientifique             -->
+<!-- - L'inférence descriptive             -->
+<!-- - La collecte de donnés               -->
+<!-- - L'inférence causale 1               -->
+<!-- - Les biais                           -->
+<!-- - La mesure                           -->

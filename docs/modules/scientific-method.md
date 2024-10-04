@@ -61,12 +61,14 @@ ChatGPT is a Large Language Model (LLM) designed to generate human-like text bas
 ### :fontawesome-brands-google: What are notebooks?
 - **The place where you write and code in a reproducible way!**
 - A powerful free and open-source interactive web application that allows you to create and share documents that contain narrative text, live code, visualizations, but also allows you to do data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
-- Initially IPython then Jupyter/Colaboratory.
+- Initially notebooks where calld IPython Notebooks. The popularity of the project expanded to other languages and became Jupyter/Colaboratory Notebooks.
 - Let's practice [:fontawesome-solid-file-code: **Code and Voter Turnout.**](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
 <!-- TODO: REPLACE THIS NOTEBOOK WITH A COLAB STARTER NOTEBOOK THAT EXPLAINS TEXT & CODE BLOCS [--](--.md)-->
 
 
 ### The Assignment 
+
+<!-- TODO: Add COX article about 5 questions! [--](--.md)-->
 - [**Getting started with Assignments (Milestones)**](../../activities/challenges)
 - :fontawesome-solid-award: Link to [**Milestone 1**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)
 - Google Scholar & Annual Reviews

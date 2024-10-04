@@ -62,6 +62,8 @@ nav:
     - Modules:
       - modules/introduction.md
       - modules/scientific-method.md
+      - modules/descriptive-inference.md
+      # - modules/causal-inference.md
       # - modules/tools.md
       # - modules/programming-1.md
       # - modules/programming-2.md
