@@ -28,7 +28,7 @@
 - We need help and to help others. **Sciences is a Social Enterprise!**
 
 ### :fontawesome-brands-markdown: What is Markdown?
-- **A simple syntax you will use to write documents.**
+- **A simple syntax we will use to write documents.**
 - A lightweight free and open source markup language for creating formatted text using a plain-text editor.
 - Let's practice with the [**Markdown Tutorial.**](https://commonmark.org/help/tutorial/)
 
@@ -54,16 +54,16 @@ ChatGPT is a Large Language Model (LLM) designed to generate human-like text bas
 5. **Reflect and Review**: After receiving information, take time to reflect on what you've learned. For example, summarize the key factors that affect public opinion in your own words, or discuss with ChatGPT how these factors might apply to current political events to solidify your understanding.
 
 ### :fontawesome-brands-python: What is Python?
-- **A free and open source programming language we will use to analyse data.**
-- It is the most popular programming language, widely used for data analysis, artificial intelligence, scientific computing, web development, and more.
-- Look at the [**Python Package Index.**](https://pypi.org/)
+- **An accessible programming language we will use to analyse data.**
+- It is the most popular programming language, widely used for data analysis, artificial intelligence, scientific computing, web development, while being free and open source!
+- Look at the number of free tools developed by the community and available at the [**Python Package Index.**](https://pypi.org/)
 
 ### :fontawesome-brands-google: What are notebooks?
 - **The place where you write and code in a reproducible way!**
 - A powerful free and open-source interactive web application that allows you to create and share documents that contain narrative text, live code, visualizations, but also allows you to do data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
 - Initially IPython then Jupyter/Colaboratory.
 - Let's practice [:fontawesome-solid-file-code: **Code and Voter Turnout.**](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
-
+<!-- TODO: REPLACE THIS NOTEBOOK WITH A COLAB STARTER NOTEBOOK THAT EXPLAINS TEXT & CODE BLOCS [--](--.md)-->
 
 
 ### The Assignment 
