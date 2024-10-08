@@ -1,9 +1,7 @@
 # From Concepts to Variables, and ... Code
 
-# Variables
 ## Agenda
-- [Quick Poll](https://app.wooclap.com/events/OHTNXA/)
-- Last Time
+- [ ] [Last Time](scientific-method.md)
 - [ ] Theory
     - Presentation & Discussion
     - Dependent and Independent Variables
@@ -15,19 +13,49 @@
     - Data Types and Structures
 
 
-
 ## Théorie
-- Lecture :
-    - [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12353?casa_token=tlAw257HPaYAAAAA%3AS1xclhUDJ-Fp7qYb9qCVW_WRBb8lMltfTKpC8UTPSosAovXYGDF2HE75gmHNUFjF528w2K-l7pX0WVk)
+
+- [Warm-up :fontawesome-solid-square-poll-vertical:](https://app.wooclap.com/events/OHTNXA/)
+
+### Presentation & Discussion
+- [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12353?casa_token=tlAw257HPaYAAAAA%3AS1xclhUDJ-Fp7qYb9qCVW_WRBb8lMltfTKpC8UTPSosAovXYGDF2HE75gmHNUFjF528w2K-l7pX0WVk)
+
+### Concepts & variables, and indicators?
+
+Political participation, ideology, partisanship, polarization, among other, are common phenomena studied in Political Science. 
+There is no clear definition of each of those concepts and how they are defined will vary across researchers.
+
+**Concepts** provide the overarching themes or ideas that guide political analysis, while **variables** are the measurable elements that allow researchers to explore and examine these concepts empirically.
+
+The process of turning abstract concepts into measurable variables is called **operationalization**. We'll talk more about this next week!
+
+There are two important types of variables for your research projects: 
+
+![Variables](../images/variables-iv-dv.svg)
+
+- The independent variable (IV) is the cause. Its value is independent of other variables in your study. It is also know as the explanatory variable.
+- The dependent variable (DV) is the effect. Its value depends on changes in the independent variable. It is also called the explained variable.
+
+### Operationalization
+Operationalization means turning abstract concepts into measurable observations. Although some concepts, like age or party affiliation can easily be measured, others, like political knowledge, ideology, can be more difficult.
+
+Through operationalization, you can systematically collect data on processes and phenomena that aren't directly observable.
+
+#### Operationalization example
+
+The concept of political ideology can't be directly measured, but it can be operationalized in many different ways. For example:
+
+- self-rating scores on an ideological scale (e.g., from very liberal to very conservative)
+- aggregating attitudes on key political issues (e.g., taxation, healthcare, immigration)
+- recent votes cast for candidates from specific political parties
 
 ## Application
-- Les types variables
 
 - Identifiez des manières potentielles de mesurer vos concepts avec l'ANES
 - :fontawesome-solid-brain: Start thinking about the concepts or variables you are interested in and how they are linked, how to measure them how they impact citizens' political attitudes and behaviors in the context of electoral campaigns.
-    - Looking for inspiration? [ANES DATAEXPLORER](XXXX)
 
-Explore the relationship between concepts: once the words are coded, the text can be analyzed for the following:
+1. Identify key concepts. 
+the relationship between concepts: once the words are coded, the text can be analyzed for the following:
 
 - Strength of relationship: degree to which two or more concepts are related.
 - Sign of relationship: are concepts positively or negatively related to each other?
@@ -35,7 +63,6 @@ Explore the relationship between concepts: once the words are coded, the text ca
 
 - [ANES Codebook](https://electionstudies.org/anes_timeseries_2020_userguidecodebook_20220210/)
 - [ANES 2020 Overview](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbkf01.htm)
-
 
 ## Code
 
@@ -46,7 +73,7 @@ Explore the relationship between concepts: once the words are coded, the text ca
 
 ## For next time
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
-    - [King, G., Keohane, R., & Verba, S. (1994). Descriptive Inference. In *Designing Social Inquiry: Scientific Inference in Qualitative Research* (pp. 34-73). Princeton, New Jersey: Princeton University Press. doi:10.2307/j.ctt7sfxj.4](https://proxy.sciencespobordeaux.fr:5139/document/doi/10.1515/9781400821211-003/pdf)
+
 - :fontawesome-solid-laptop-house: Recommended Practice
     - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
     - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
@@ -57,3 +84,4 @@ Explore the relationship between concepts: once the words are coded, the text ca
 - Lecture :
     - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
     - [Broockman, D. E., & Butler, D. M. (2017). The Causal Effects of Elite Position‐Taking on Voter Attitudes: Field Experiments with Elite Communication. *American Journal of Political Science*, 61(1), 208-221.](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12243)
+

@@ -1,5 +1,7 @@
+https://nulib-oer.github.io/empirical-methods-polisci/data.html#introduction-2
 https://www.scribbr.com/category/methodology/
 https://www.scribbr.com/methodology/operationalization/
+https://www.publichealth.columbia.edu/research/population-health-methods/content-analysis
 
 
 Content Analysis Readings

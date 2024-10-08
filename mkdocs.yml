@@ -47,6 +47,7 @@ extra:
       link: https://twitter.com/mickaeltemporao
 extra_css:
   - stylesheets/extra.css
+  - css/custom.css
 repo_url: https://github.com/mickaeltemporao/data-analysis
 
 # Page tree
@@ -62,6 +63,7 @@ nav:
     - Modules:
       - modules/introduction.md
       - modules/scientific-method.md
+      - modules/variables.md
       - modules/descriptive-inference.md
       # - modules/causal-inference.md
       # - modules/tools.md
