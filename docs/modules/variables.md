@@ -33,8 +33,8 @@ There are two important types of variables for your research projects:
 
 ![Variables](../images/variables-iv-dv.svg)
 
-- The independent variable (IV) is the cause. Its value is independent of other variables in your study. It is also know as the explanatory variable.
-- The dependent variable (DV) is the effect. Its value depends on changes in the independent variable. It is also called the explained variable.
+- The dependent variable (DV) is the effect. Its value depends on changes in the independent variable. It is also called the explained variable or the outcome variable.
+- The independent variable (IV) is the cause. Its value is independent of other variables in your study. It is also know as the explanatory variable or exogenous variable(s).
 
 ### Operationalization
 Operationalization means turning abstract concepts into measurable observations. Although some concepts, like age, turnout or party affiliation can more easily be measured, others, like political ideology, knowledge, or cynicism can be more difficult.
