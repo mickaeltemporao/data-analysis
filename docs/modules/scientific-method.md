@@ -1,4 +1,4 @@
-# The Scientific Method, Tools & Code
+# The Scientific Method & Tools
 
 ## Agenda
 - [ ] The Scientific Method

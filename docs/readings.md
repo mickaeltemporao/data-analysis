@@ -2,7 +2,7 @@ https://nulib-oer.github.io/empirical-methods-polisci/data.html#introduction-2
 https://www.scribbr.com/category/methodology/
 https://www.scribbr.com/methodology/operationalization/
 https://www.publichealth.columbia.edu/research/population-health-methods/content-analysis
-
+https://nulib-oer.github.io/empirical-methods-polisci/data.html#
 
 Content Analysis Readings
     - Stemler, S. E. (2015). Content analysis. *Emerging trends in the social and behavioral sciences: An Interdisciplinary, Searchable, and Linkable Resource*, 1-14.
@@ -32,6 +32,14 @@ Content Analysis Readings
 
 2016 Getting out the vote in the social media era: Are digital tools changing the extent, nature and impact of party contacting in elections?	Party Politics 22:165-178
 
+## SELECTION
+
+Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
+
+Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
+
+Tyler, M., & Iyengar, S. (2024). Testing the robustness of the ANES feeling thermometer indicators of affective polarization. American Political Science Review, 118(3), 1570-1576.
+
 ANES ARTICLES
 
 Campbell, A. (1960). "Surge and Decline: A Study of Electoral Change." Public Opinion Quarterly, 24(3), 397-418.
@@ -43,14 +51,10 @@ Converse, P. E. (1964). "The Nature of Belief Systems in Mass Publics." Critical
 Zaller, J. (1990). "Political Awareness, Elite Opinion Leadership, and the Mass Survey Response." Social Cognition, 8(1), 125-153.
     Zaller examines the interplay between political awareness and elite-driven opinion formation using survey data.
 
-Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
-    Analyzes how varying levels of voter information affect electoral outcomes.
 
-Delli Carpini, M. X., & Keeter, S. (1996). "What Americans Know About Politics and Why It Matters." American Political Science Review, 90(4), 847-864.
+Delli Carpini, M. X., & Keeter, S. (1996). "What Americans Know About Politics and Why It Matters." 
     This article provides key insights into the political knowledge levels of the American electorate and their implications for democracy.
 
-Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
-    Proposes a model that goes beyond socioeconomic status to explain political participation patterns in the U.S.
 
 Iyengar, S., & Kinder, D. R. (1987). "News That Matters: Agenda-Setting and Priming in a Television Age." American Journal of Political Science, 31(1), 53-65.
     This article studies the effects of television news on agenda-setting and priming in shaping public opinion.

@@ -77,12 +77,12 @@ Let's dive in!
 
 
 ## For next time
+
+<!-- - Identify how to measure your concepts and which variables from ANES you could use for your project. -->
 - :fontawesome-solid-brain: Start thinking about how the different concepts of your project are interrelated, translate them into variables (DV, IV, CV) and how the scientific literature supports those relationships.
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
     - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
 - :fontawesome-solid-house-laptop: Recommended Practice
     - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
     - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
-
-
 
