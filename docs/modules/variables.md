@@ -1,4 +1,4 @@
-# From Concepts to Variables, and ... Code
+# From Concepts to Variables
 
 ## Agenda
 - [ ] [Last Time](scientific-method.md)
@@ -6,14 +6,14 @@
     - Presentation & Discussion
     - Dependent and Independent Variables
 - [ ] Application
-    - ANES Data Overview
     - M1 review, concepts, variables
+    - ANES Data Overview
 - [ ] Code
     - Voter Turnout & Code
     - Data Types and Structures
 
 
-## Théorie
+## Theory
 
 - [Warm-up :fontawesome-solid-square-poll-vertical:](https://app.wooclap.com/events/OHTNXA/)
 
@@ -37,7 +37,7 @@ There are two important types of variables for your research projects:
 - The dependent variable (DV) is the effect. Its value depends on changes in the independent variable. It is also called the explained variable.
 
 ### Operationalization
-Operationalization means turning abstract concepts into measurable observations. Although some concepts, like age or party affiliation can easily be measured, others, like political knowledge, ideology, can be more difficult.
+Operationalization means turning abstract concepts into measurable observations. Although some concepts, like age, turnout or party affiliation can more easily be measured, others, like political ideology, knowledge, or cynicism can be more difficult.
 
 Through operationalization, you can systematically collect data on processes and phenomena that aren't directly observable.
 
@@ -51,37 +51,38 @@ The concept of political ideology can't be directly measured, but it can be oper
 
 ## Application
 
-- Identifiez des manières potentielles de mesurer vos concepts avec l'ANES
-- :fontawesome-solid-brain: Start thinking about the concepts or variables you are interested in and how they are linked, how to measure them how they impact citizens' political attitudes and behaviors in the context of electoral campaigns.
+### Explore the relationship between concepts
 
-1. Identify key concepts. 
-the relationship between concepts: once the words are coded, the text can be analyzed for the following:
+1. Identify and explore the relationship between the concepts in your first Milestone.  When you have identified and slightly defined your concepts you can analyzed them in following ways:
+    - Strength of relationship: degree to which two or more concepts are related.
+    - Sign of relationship: are concepts positively or negatively related to each other?
+    - Direction of relationship: the types of relationship that categories exhibit. *
+        - "If X then Y"
+        - "X implies Y"
+        - "X occurs before Y"
+        - "X is the primary cause of Y"
+        - "X motivates Y"
+        - ...
 
-- Strength of relationship: degree to which two or more concepts are related.
-- Sign of relationship: are concepts positively or negatively related to each other?
-- Direction of relationship: the types of relationship that categories exhibit. For example, “X implies Y” or “X occurs before Y” or “if X then Y” or if X is the primary motivator of Y.
-
-- [ANES Codebook](https://electionstudies.org/anes_timeseries_2020_userguidecodebook_20220210/)
-- [ANES 2020 Overview](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbkf01.htm)
+2. With regards to your identified concepts, identify potential variables that you could use in the ANES codebook.
+    - [ANES Codebook](https://electionstudies.org/anes_timeseries_2020_userguidecodebook_20220210/)
+    - [ANES 2020 Overview](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbkf01.htm)
 
 ## Code
 
-### Notebook
+Let's dive in!
+
 - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
 - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 
 
 ## For next time
+- :fontawesome-solid-brain: Start thinking about how the different concepts of your project are interrelated, translate them into variables (DV, IV, CV) and how the scientific literature supports those relationships.
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
-
-- :fontawesome-solid-laptop-house: Recommended Practice
+    - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
+- :fontawesome-solid-house-laptop: Recommended Practice
     - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
     - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 
-- Identifiez un objet de recherche potentiel pouvant être étudié à partir de l'[*"American National Election Study 2016"*](https://electionstudies.org/wp-content/uploads/2018/12/anes_timeseries_2016_userguidecodebook.pdf).
-    - Et aussi [ANES Bibliography Data Base](https://electionstudies.org/papers-documents/anes-bibliography/)
 
-- Lecture :
-    - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
-    - [Broockman, D. E., & Butler, D. M. (2017). The Causal Effects of Elite Position‐Taking on Voter Attitudes: Field Experiments with Elite Communication. *American Journal of Political Science*, 61(1), 208-221.](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12243)
 
