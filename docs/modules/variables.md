@@ -1,7 +1,7 @@
 # From Concepts to Variables
 
 ## Agenda
-- [ ] [Last Time](scientific-method.md)
+- [ ] Last Time
 - [ ] Theory
     - Presentation & Discussion
     - Dependent and Independent Variables
