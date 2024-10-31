@@ -8,7 +8,7 @@
 - [ ] Next Steps
 
 ## Next Steps
-- :fontawesome-regular-paper-plane: Complete [Onboarding](../resources/onboarding.md) before the next class.
+- :fontawesome-regular-paper-plane: Complete [Onboarding](/resources/onboarding.md) before the next class.
 - :fontawesome-solid-brain: Start thinking about a topic/concept that your group might be interested in and consider how it can impact citizens' political attitudes and behaviors in the context of electoral campaigns.
     - Looking for inspiration? Check published "Journal Articles" in the [ANES Bibliography](https://electionstudies.org/papers-documents/anes-bibliography/)
 - :fontawesome-solid-book: Recommended readings:

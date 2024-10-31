@@ -32,13 +32,15 @@ Content Analysis Readings
 
 2016 Getting out the vote in the social media era: Are digital tools changing the extent, nature and impact of party contacting in elections?	Party Politics 22:165-178
 
+
+Tyler, M., & Iyengar, S. (2024). Testing the robustness of the ANES feeling thermometer indicators of affective polarization. American Political Science Review, 118(3), 1570-1576.
+
 ## SELECTION
 
 Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
 
 Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
 
-Tyler, M., & Iyengar, S. (2024). Testing the robustness of the ANES feeling thermometer indicators of affective polarization. American Political Science Review, 118(3), 1570-1576.
 
 ANES ARTICLES
 

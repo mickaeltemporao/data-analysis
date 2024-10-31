@@ -6,12 +6,13 @@
 - [ ] Theory
     - Presentation & Discussion
 - [ ] Application
-    - Data Collection & Levels of Measurement
+    - Variables Types & Levels of Measurement
     - Milestone 1 Review
 - [ ] Code
     - Scientific Writing - Citing & Markdown 
     - Functions and Packages
 
+## Theory
 ### Presentation & Discussion
 - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
 
@@ -38,11 +39,9 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 - Age of Respondents - Measured in categories (e.g. 18-25, 26-45, 46-65, 66+)
 - Gender - Categorical variable (e.g., male, female, non-binary, other)
 - Political Participation - Scale measuring levels of engagement (e.g., none, some, active)
-- [ANES 2020 Overview](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbkf01.htm)
 
 ## Code
 
-- [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
 - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
 

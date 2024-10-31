@@ -1,8 +1,8 @@
-Introduction
-Asking the right Questions
-From questions to concepts
-From Concepts to Variables
-From Variables to Data
+1. Introduction
+2. From context to questions
+3. From questions to concepts
+4. From Concepts to Variables
+5. From Variables to Data
 
 6. **From Data to Insights: Descriptive Statistics in Survey Analysis**  
    (Focus on summarizing and describing the survey data.)
@@ -25,3 +25,13 @@ From Variables to Data
 12. **From Outputs to Interpretations: Understanding Regression Results**  
     (Focus on interpreting regression outputs and their implications.)
 
+1. **Understanding Data: An Exploration of Types and Sources**
+2. **Survey Data Demystified: Categories and Characteristics**
+3. **Data Types Unpacked: A Focus on Survey Methodologies**
+4. **From Questions to Data: Survey Types and Their Implications**
+5. **Survey Data Essentials: Types, Structures, and Uses**
+6. **Navigating Data Types: The Backbone of Survey Analysis**
+7. **Data Diversity: Classifying Survey Responses for Insights**
+8. **Types of Data in Surveys: A Comprehensive Overview**
+9. **The Building Blocks of Survey Data: Types and Terminology**
+10. **Survey Data Types: Understanding Quantitative Foundations**
