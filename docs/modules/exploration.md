@@ -28,7 +28,7 @@
 - Let's find the ANES 2020 Codebook and start exploring variables!
 
 ## For next time
-- :fontawesome-solid-brain: Start exploring the relevant variables (DV, IV, CV) from your proposal using the ANES dataset and pandas. You can use the code at the end of the [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) notebook or start from a new notebook.
+- :fontawesome-solid-brain: Start exploring the relevant variables (DV, IV, CV) from your proposal using the ANES dataset and pandas. You can use the code in the Pandas section at the end of the [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) notebook or start from a new notebook.
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
 
     - [Barber, M., and Jeremy C. Pope. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
