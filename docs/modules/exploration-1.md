@@ -1,23 +1,36 @@
-# Generating Survey Data II
+# From Data to Insights
 
 ## Agenda
-- [ ] Miscellaneous
-    - Discussion Mental Model: I wish, I like, I wonder
-- [ ] Types of Data for Scientific Research
-    - [ ] Presentation & Discussion
-- [ ] Defining Functions
+- [ ] Last Time
+- [ ] Theory
+    - Presentation & Discussion
+- [ ] Code & Application
+    - Data Science Pipeline
+    - Loading Data with Pandas
+    - Selecting, Summarising and Visualising Variables
 
-## Notebook
-- [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
+## Theory
 
-## Miscellaneous
+### Presentation & Discussion
 
-![Mental Model](https://images.squarespace-cdn.com/content/v1/55f73529e4b0e5bde7f43a66/1529065898666-ZTYIPZ3Y5PSV0DUZRU90/like+wish+wonder.png)
+- [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
 
+
+### The Data Science Pipeline
+![Variables](../images/ds-pipeline.svg)
+
+## Code & Application
+
+- [:fontawesome-solid-file-code: Introduction to Data Exploration](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/04-data-exploration-columns.ipynb)
+
+- Let's find the ANES 2020 Codebook and start exploring variables!
 
 ## For next time
--  :fontawesome-solid-award: Milestone 2 Feedback
-    - [Book a meeting with the instructor!](https://calendly.com/mickaeltemporao/one-on-one)
-    - Identify variables to help measuring your DV & IV in the [ANES 2020](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbk.htm)
-- :fontawesome-solid-laptop-house: Recommended Practice
-    - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
+- :fontawesome-solid-brain: Start exploring the relevant variables (DV, IV, CV) from your proposal using the ANES dataset and pandas. You can use the code in the Pandas section at the end of the [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) notebook or start from a new notebook.
+- :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
+
+    - [Barber, M., and Jeremy C. Pope. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
+
+- :fontawesome-solid-house-laptop: Recommended Practice
+    - [:fontawesome-solid-file-code: Introduction to Data Exploration](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/04-data-exploration-columns.ipynb)
+
