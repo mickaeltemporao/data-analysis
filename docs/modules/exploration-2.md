@@ -10,7 +10,7 @@
 - [ ] Application
     - Exploring Young Voters' Ideology
     - Milestone Kick-start
--
+
 ## Theory
 
 ### Presentation & Discussion
