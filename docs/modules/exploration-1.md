@@ -4,10 +4,11 @@
 - [ ] Last Time
 - [ ] Theory
     - Presentation & Discussion
-- [ ] Code & Application
-    - Data Science Pipeline
-    - Loading Data with Pandas
-    - Selecting, Summarising and Visualising Variables
+- [ ] Code 
+    - Acquire & load data
+    - Understanding data frames
+- [ ] Application
+    - Acquire, load & explore variables in the ANES dataset
 
 ## Theory
 
