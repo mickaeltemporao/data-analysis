@@ -8,9 +8,9 @@
 - [ ] Next Steps
     - Playground
 
-## Milestone
+## Milestone Review
 
-- :fontawesome-solid-award: [**Milestone 3**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb)
+- :fontawesome-solid-award: [Milestone 3](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb)
 
 ## Retrospective
 
