@@ -27,3 +27,7 @@ for ways to improve the process for the next iteration ([Beck, K., et al. 2001](
 - More exploration & visualization
 - Full fleshed scientific article
 
+### Let's look ahead!
+- 
+- [:fontawesome-solid-file-code: Playground 1](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/playground-1.ipynb)
+- [:fontawesome-solid-file-code: Playground 2](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/playground-2.ipynb)
