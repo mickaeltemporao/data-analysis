@@ -1,86 +1,70 @@
-import datetime
-import difflib
-import matplotlib.pyplot as plt
-import mwclient
-import nltk
+# Load Pandas
 import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-from statsmodels.nonparametric.smoothers_lowess import lowess
-from nltk.sentiment import SentimentIntensityAnalyzer
+# Import Data
+data_url = "https://raw.githubusercontent.com/datamisc/ts-2020/main/data.csv"
+anes_data  = pd.read_csv(data_url, compression='gzip')
 
+my_vars = [
+    "V201033",  # vote-int 
+    "V201507x",  # age
+    "V201600",  # sex
+    "V201511x",  # educ
+    "V201617x",  # income
+    "V201231x",  # party-id
+    "V201200",  # idl
+    "V201151",  # rate-biden
+]
 
-nltk.download('vader_lexicon')
-
-
-def fetch_wikipedia_revisions(page_title, limit=10):
-    site = mwclient.Site('en.wikipedia.org')
-    page = site.pages[page_title]
-
-    # Fetch revisions
-    revisions = []
-    for rev in page.revisions(prop='content|timestamp', limit=limit):
-        print("Fetched revision", rev)
-        revisions.append(rev)
-    return revisions
-
-
-def compare_revisions(rev1, rev2):
-    diff = difflib.unified_diff(rev1.splitlines(), rev2.splitlines(), lineterm='')
-    change_text = '\n'.join(diff)
-    return change_text
+df = anes_data[my_vars]
+df.columns = ['vote_int', 'age', 'sex', 'educ', 'income', 'party_id', 'ideology', 'approval_rating']
 
 
-def sentiment_analysis(text):
-    sia = SentimentIntensityAnalyzer()
-    sentiment = sia.polarity_scores(text)
-    return sentiment
+df = df[df >= 0]
+df = df.dropna()
+df = df[df['ideology'].between(1,7)]
+df['vote_int'] = df['vote_int'].apply(lambda x: 1 if x == 1 else 0)
+df.describe()
+df = pd.get_dummies(df, columns=['sex', 'educ'], drop_first=True, dtype=int)
 
+# Prepare the data for modeling
+X = df.drop('vote_int', axis=1)
+y = df['vote_int']
 
-def plot_sentiment_evolution(timestamps, sentiments, window=3, frac=0.3):
-    # Extract compound scores for sentiment evolution
-    compound_scores = [s['compound'] for s in sentiments]
-    # Convert timestamps to datetime objects directly
-    dates = [datetime.datetime(*ts[:6]) for ts in timestamps]
-    # Create a DataFrame for rolling average calculation
-    df = pd.DataFrame({'date': dates, 'compound_score': compound_scores})
-    df.set_index('date', inplace=True)
-    # Calculate rolling average
-    df['rolling_avg'] = df['compound_score'].rolling(window=window, min_periods=1).mean()
-    # Apply Lowess smoothing
-    smoothed = lowess(df['compound_score'], df.index, frac=frac, it=0, return_sorted=False)
-    plt.figure(figsize=(12, 8))
-    # Plot rolling average
-    plt.plot(df.index, df['rolling_avg'], marker='o', linestyle='-', linewidth=3, label=f'{window}-Period Rolling Average', color='#AEC6CF')
-    # Plot smoothed line
-    plt.plot(df.index, smoothed, linestyle='-', linewidth=4, color='#FFB6C1', label='Lowess Smoothed')
-    plt.title('Sentiment of Wikipedia Page Changes', fontsize=20)
-    plt.xlabel('Date', fontsize=16)
-    plt.ylabel('Sentiment Score', fontsize=16)
-    plt.grid(True)
-    plt.xticks(rotation=45, fontsize=12)
-    plt.yticks(fontsize=12)
-    plt.legend(fontsize=14)
-    plt.tight_layout()
+# Add a constant for the intercept
+X = sm.add_constant(X)
+# Fit the logistic regression model
+model = sm.Logit(y, X).fit()
+# Print the regression table
+print(model.summary())
 
-    plt.show()
+# Visualization of predicted probabilities based on 'ideology'
+age_values = np.linspace(df['age'].min(), df['age'].max(), 100)
+# Create a DataFrame to store predictions
+pred_df = pd.DataFrame({'age': age_values})
+# Repeat other variables as their mean or mode for prediction
+for col in X.columns:
+    if col not in ['age', 'const']:
+        pred_df[col] = X[col].mean()
+# Add constant
+pred_df = sm.add_constant(pred_df, has_constant='add')
 
-
-page_title = 'Some page'
-revisions = fetch_wikipedia_revisions(page_title)
-
-timestamps = []
-sentiments = []
-
-for i in range(len(revisions) - 1):
-    print("Starting ", i, "out of", len(revisions))
-    rev1 = revisions[i]['*']
-    rev2 = revisions[i + 1]['*']
-
-    changes = compare_revisions(rev1, rev2)
-    sentiment = sentiment_analysis(changes)
-
-    timestamps.append(revisions[i]['timestamp'])
-    sentiments.append(sentiment)
-
-plot_sentiment_evolution(timestamps, sentiments, window=30, frac=0.5)
-
+# Predict probabilities
+pred_probs = model.predict(pred_df)
+# Plotting
+plt.figure(figsize=(10, 10))
+plt.plot(age_values, pred_probs, label='Predicted Probability', linewidth=3)
+plt.title('Predicted Probability of Voting Intention by Age', fontsize=30)
+plt.xlabel('Age', fontsize=25)
+plt.ylabel('Predicted Probability', fontsize=25)
+plt.grid(True)
+plt.legend(fontsize=20)
+plt.yticks(fontsize=20)
+plt.xticks(fontsize=20)
+plt.legend(fontsize=20)
+plt.tight_layout()
+plt.show()
