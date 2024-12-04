@@ -68,6 +68,7 @@ nav:
       - modules/data.md
       - modules/exploration-1.md
       - modules/exploration-2.md
+      - modules/next.md
       # - modules/management.md
       # - modules/descriptive-inference.md
       # - modules/causal-inference.md
