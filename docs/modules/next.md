@@ -23,12 +23,10 @@ for ways to improve the process for the next iteration ([Beck, K., et al. 2001](
 
 ![Variables](../images/ds-pipeline.svg)
 
-- Transform (data preprocessing, data cleaning, ...)
-- More exploration & visualization
-- Data Modeling ... Finally!
-- Towards a fully fleshed scientific article :fontawesome-solid-rocket:
+- More wrangling and exploration (data preprocessing, cleaning, visualization, ...) 
+- Data modeling ... :fontawesome-solid-rocket:
+- [VS Code :fontawesome-solid-terminal:](https://code.visualstudio.com/) and [Github :fontawesome-brands-github:](https://github.com/)
 
 ### Let's look ahead!
-- 
 - [:fontawesome-solid-file-code: Playground 1](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/playground-1.ipynb)
 - [:fontawesome-solid-file-code: Playground 2](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/playground-2.ipynb)
