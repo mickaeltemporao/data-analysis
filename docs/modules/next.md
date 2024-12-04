@@ -6,6 +6,7 @@
 - [ ] Retrospective
     - Share your thoughts & ideas for this and next semester
 - [ ] Next Steps
+    - Playground
 
 ## Milestone
 
@@ -22,10 +23,10 @@ for ways to improve the process for the next iteration ([Beck, K., et al. 2001](
 
 ![Variables](../images/ds-pipeline.svg)
 
-- Transform (data Preprocessing, data cleaning, ...)
-- Model
+- Transform (data preprocessing, data cleaning, ...)
 - More exploration & visualization
-- Full fleshed scientific article
+- Data Modeling ... Finally!
+- Towards a fully fleshed scientific article :fontawesome-solid-rocket:
 
 ### Let's look ahead!
 - 
