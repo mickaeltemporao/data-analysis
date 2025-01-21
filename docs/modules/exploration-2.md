@@ -1,7 +1,6 @@
 # From Insights to Comparisons
 
 ## Agenda
-- [ ] Last Time
 - [ ] Theory
     - Presentation & Discussion
 - [ ] Code 
@@ -20,7 +19,6 @@
 ## Code 
 
 - [:fontawesome-solid-file-code: Introduction to Data Exploration](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/04-data-exploration-columns.ipynb)
-
 - [:fontawesome-solid-file-code: Exploring Variable Relationships](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/05-data-exploration-rows.ipynb)
 
 ## Application

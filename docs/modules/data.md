@@ -1,8 +1,6 @@
 # From Variables to Data
 
 ## Agenda
-- [ ] Last Time
-    - Chat? 
 - [ ] Theory
     - Presentation & Discussion
 - [ ] Application

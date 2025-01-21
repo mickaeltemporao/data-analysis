@@ -1,13 +1,14 @@
 # The Scientific Method & Tools
 
 ## Agenda
-- [ ] The Scientific Method
+- [ ] Theory
     - Presentation & Discussion
-- [ ] The Researchers' Toolbox
-    - Writing: **:fontawesome-brands-markdown: Markdown Syntax**
-    - Coding: **:fontawesome-brands-python: Python Language**
-    - Working: **:fontawesome-brands-google: Colaboratory Platform**
-- [ ] The Assignment
+- [ ] Code
+    - The Researchers' Toolbox
+        - Writing: **:fontawesome-brands-markdown: Markdown Syntax**
+        - Coding: **:fontawesome-brands-python: Python Language**
+        - Working: **:fontawesome-brands-google: Colaboratory Platform**
+- [ ] Application
     - Assignments Workflow
     - Getting started with Milestone 1
 
@@ -39,6 +40,7 @@
 ChatGPT is a Large Language Model (LLM) designed to generate human-like text based on the input it receives. It is part of the GPT (Generative Pre-trained Transformer) family of models and relying on deep learning algorithms to generate coherent and contextually relevant responses in a conversational format.
 
 - [The intuition behind word embeddings](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo/)
+- [The intuition behind LLM's](https://ig.ft.com/generative-ai/)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a3/Gradient_descent.gif)
 

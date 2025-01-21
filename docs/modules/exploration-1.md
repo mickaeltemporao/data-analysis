@@ -1,7 +1,6 @@
 # From Data to Insights
 
 ## Agenda
-- [ ] Last Time
 - [ ] Theory
     - Presentation & Discussion
 - [ ] Code 

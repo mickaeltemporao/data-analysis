@@ -19,11 +19,14 @@ Content Analysis Readings
     - Polarization and the Decline of the American Floating Voter (AJPS) Corwin D. Smidt,
 
     - An Asymmetrical “President-in-Power” Effect (APSR) D. Morisi , J. Jost and V. Singh
-    -
+
     - [Barber, M., & Pope, J. C. (2019). Does party trump ideology? Disentangling party and ideology in America. American Political Science Review, 113(1), 38-54.](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
     - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
 
     - The consequences of online partisan media (PNAS)
+
+    - Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. Political Analysis, 31(3), 337-351.
+    - https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49
 
     - [Social Media and Fake News in the 2016 Election](https://proxy.sciencespobordeaux.fr:2939/stable/44235006?seq=1#metadata_info_tab_contents)
 
@@ -37,6 +40,23 @@ Tyler, M., & Iyengar, S. (2024). Testing the robustness of the ANES feeling ther
 
 ## SELECTION
 
+S2
+
+Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Differences in misinformation sharing can lead to politically asymmetric sanctions. Nature, 1-8.
+- https://www.nature.com/articles/s41586-024-07942-8
+
+Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. American Political Science Review, 1-18.
+Chicago
+- https://www.cambridge.org/core/journals/american-political-science-review/article/toxic-speech-and-limited-demand-for-content-moderation-on-social-media/405333D7072585903E81BEF1729378F8
+
+Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. Political Analysis, 31(3), 337-351.
+- https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49
+
+Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. Nature, 608(7921), 108-121.
+- https://www.nature.com/articles/s41586-022-04996-4
+
+
+S1
 Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
 
 Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
@@ -72,8 +92,6 @@ Abramowitz, A. I., & Saunders, K. L. (1998). "Ideological Realignment in the U.S
 Focuses on the ideological polarization and realignment of voters in the U.S., a trend observed in ANES data.
 
 Gelman, A., & King, G. (1993). "Why Are American Presidential Election Campaign Polls So Variable When Votes Are So Predictable?" British Journal of Political Science, 23(4), 409-451.
-
-Discusses why pre-election polls often vary significantly while actual election outcomes are more stable.
 
 Berinsky, A. J., & Lenz, G. S. (2011). "Education and Political Participation: Exploring the Causal Link." Political Behavior, 33(3), 357-373.
 

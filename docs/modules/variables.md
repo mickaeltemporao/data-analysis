@@ -1,7 +1,6 @@
 # From Concepts to Variables
 
 ## Agenda
-- [ ] Last Time
 - [ ] Theory
     - Presentation & Discussion
     - Dependent and Independent Variables
