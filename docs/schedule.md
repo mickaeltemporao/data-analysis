@@ -32,12 +32,18 @@ This schedule is an approximation, subject to change due needs of the students i
 
 | Date       | Class Meeting | Presentation                                                               | Deadline |
 | :-:        | :-:           | :-:                                                                        | :-:      |
-| 2025/02/05 | :fontawesome-solid-book-open: From Comparisons to Scales |                                                                            |          |
-| 2025/02/19 | :fontawesome-solid-book-open: From Scales to Models |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | **:fontawesome-solid-award: Analysis**     |
+| 2025/02/05 | [:fontawesome-solid-book-open: From Comparisons to Tranformations (3h)](modules/wrangling.md) |                                                                            |          |
+| 2025/02/19 | :fontawesome-solid-book-open: From Transformation to Models |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | **:fontawesome-solid-award: Analysis**     |
 | 2025/02/26 | :fontawesome-solid-book-open: From Models to Inference           |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
 | 2025/03/12 | :fontawesome-solid-book-open: From Inference to Intuition |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | **:fontawesome-solid-award: Modeling** |
 | 2025/03/19 | :fontawesome-solid-book-open: From Intuition to Communication |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
 | 2025/03/26 | :fontawesome-solid-book-open: From Communication to Publication      |                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)|
+
+<!-- analysis.md -->
+<!-- modeling.md -->
+<!-- inference.md -->
+<!-- communication.md -->
+<!-- publication.md -->
 
 <!-- From Comparisons to Patterns -->
 <!-- From Comparisons to Trends -->

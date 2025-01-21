@@ -1,3 +1,43 @@
+
+Making the Most of Statistical Analyses: Improving Interpretation and Presentation - King 2000
+
+[Like-minded sources on Facebook are prevalent but not polarizing](https://www.nature.com/articles/s41586-023-06297-w.pdf)
+Internet, News, and Political Trust: The Difference Between Social Media and Online Media Outlets - Ceron 2015
+[(Almost) Everything in Moderation: New Evidence on Americans' Online Media Diets - Guess 2021](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12589)
+Ideological Asymmetries and the Determinants of Politically Motivated Reasoning - Guay 2021
+Risk Aversion and the Gender Gap in the Vote for Populist Radical Right Parties - Oshri 2022
+The Nature of Affective Polarization: Disentangling Policy Disagreement from Partisan Identity - Dias 2021
+Making the Most of Statistical Analyses: Improving Interpretation and Presentation - King 2000
+
+## SELECTION
+Potential
+Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Differences in misinformation sharing can lead to politically asymmetric sanctions. Nature, 1-8.
+- https://www.nature.com/articles/s41586-024-07942-8
+
+S2
+
+[González-Bailón, S., Lazer, D., Barberá, P., Godel, W., Allcott, H., Brown, T., ... & Tucker, J. A. (2024). The Diffusion and Reach of (Mis) Information on Facebook During the US 2020 Election. *Sociological Science*, 11, 1124-1146.](https://sociologicalscience.com/download/vol_11/december/SocSci_v11_1124to1146_2.pdf)
+
+Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. American Political Science Review, 1-18.
+Chicago
+- https://www.cambridge.org/core/journals/american-political-science-review/article/toxic-speech-and-limited-demand-for-content-moderation-on-social-media/405333D7072585903E81BEF1729378F8
+
+Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. Political Analysis, 31(3), 337-351.
+- https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49
+
+Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. Nature, 608(7921), 108-121.
+- https://www.nature.com/articles/s41586-022-04996-4
+
+
+S1
+Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
+
+Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
+
+
+
+
+
 https://nulib-oer.github.io/empirical-methods-polisci/data.html#introduction-2
 https://www.scribbr.com/category/methodology/
 https://www.scribbr.com/methodology/operationalization/
@@ -37,30 +77,6 @@ Content Analysis Readings
 
 
 Tyler, M., & Iyengar, S. (2024). Testing the robustness of the ANES feeling thermometer indicators of affective polarization. American Political Science Review, 118(3), 1570-1576.
-
-## SELECTION
-
-S2
-
-Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Differences in misinformation sharing can lead to politically asymmetric sanctions. Nature, 1-8.
-- https://www.nature.com/articles/s41586-024-07942-8
-
-Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. American Political Science Review, 1-18.
-Chicago
-- https://www.cambridge.org/core/journals/american-political-science-review/article/toxic-speech-and-limited-demand-for-content-moderation-on-social-media/405333D7072585903E81BEF1729378F8
-
-Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. Political Analysis, 31(3), 337-351.
-- https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49
-
-Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. Nature, 608(7921), 108-121.
-- https://www.nature.com/articles/s41586-022-04996-4
-
-
-S1
-Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
-
-Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
-
 
 ANES ARTICLES
 
