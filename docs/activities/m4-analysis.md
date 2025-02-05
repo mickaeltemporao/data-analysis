@@ -12,7 +12,7 @@ From now on, we will host the remainder of the paper & code on GitHub and rely o
 
 ## Link to the Milestone
 
-- [Follow this link](XXX)
+- [Follow this link](https://classroom.github.com/a/zJGMr4zh)
 
 ## Step-by-Step Guide
 
