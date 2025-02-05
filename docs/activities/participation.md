@@ -5,10 +5,16 @@ The participation grade is divided into three parts: a student presentation, a s
 ## **:fontawesome-solid-chalkboard-user: Presentation**
 During class meetings, a student group will make 20 minute presentation about weekly mandatory reading. The student group making the presentation also needs to prepare a two-page reading note, due 24 hours before the class meeting and a 20 minute presentation during which they will discuss their assessment of the paper.
 
-The group presenting:
+### S1 - The group presenting:
 
 1. Prepares a [:fontawesome-solid-clipboard: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb) of the mandatory reading.
 2. Shares a link to the reading note on the chat 24h in advance of the presentation.
+3. Prepares a 20 minutes presentation.
+
+### S2 - The group presenting:
+
+1. Prepares and compiles a reading note pdf using VSCode and the `reading-note.md` starter found on :fontawesome-brands-github: GitHub.
+2. Sends the reading note in pdf format on the chat 24h in advance of the presentation.
 3. Prepares a 20 minutes presentation.
 
 All other students are expected to have read the mandatory reading and are ready to ask questions or engage in the discussion.

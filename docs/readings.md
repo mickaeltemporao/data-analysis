@@ -2,8 +2,8 @@
 Making the Most of Statistical Analyses: Improving Interpretation and Presentation - King 2000
 
 [Like-minded sources on Facebook are prevalent but not polarizing](https://www.nature.com/articles/s41586-023-06297-w.pdf)
-Internet, News, and Political Trust: The Difference Between Social Media and Online Media Outlets - Ceron 2015
 [(Almost) Everything in Moderation: New Evidence on Americans' Online Media Diets - Guess 2021](https://onlinelibrary.wiley.com/doi/10.1111/ajps.12589)
+Internet, News, and Political Trust: The Difference Between Social Media and Online Media Outlets - Ceron 2015
 Ideological Asymmetries and the Determinants of Politically Motivated Reasoning - Guay 2021
 Risk Aversion and the Gender Gap in the Vote for Populist Radical Right Parties - Oshri 2022
 The Nature of Affective Polarization: Disentangling Policy Disagreement from Partisan Identity - Dias 2021
