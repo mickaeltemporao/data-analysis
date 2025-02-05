@@ -4,12 +4,12 @@
 - [ ] Theory
     - Catch-up and Progress: Review previous concepts and prepare to dive deeper.
     - Milestone 3 Appointment
-    - Tools 2.0 | GitHub & VSCode: Introduction to advanced tools for coding and version control.
+    - Tools 2.0 Introduction 
 - [ ] Code
-    - Hands-on paper writing & coding session on GitHub using VSCode
-    - Coding Bits: Practical exercises 
+    - Hands-on paper writing & coding
+    - Coding Bits
 - [ ] Application
-    - Milestone 4 Kick-start: Begin the next phase of your project.
+    - Milestone 4 Kick-start
 
 ## Theory
 
@@ -20,7 +20,7 @@ GitHub and Visual Studio Code (VSCode) are transformative tools that enhance bot
 Together, GitHub and VSCode empower researchers to conduct rigorous, reproducible research while fostering a collaborative research culture.
 
 ### Tools 2.0
-- Text Editor: [VSCode](https://code.visualstudio.com/)
+- Text Editor: [VS Code :fontawesome-solid-terminal:](https://code.visualstudio.com/)
 - Version Control System: [GitHub :fontawesome-brands-github:](https://github.com/)
     - Some knownn projects developed on GitHub:
         - [Google Chrome](https://github.com/chromium)
@@ -41,12 +41,12 @@ Together, GitHub and VSCode empower researchers to conduct rigorous, reproducibl
 - Saving Figures
     - Open the data management notebook `06-data-management-existing-values.ipynb`
     - How to save figures effectively and include them in a paper.
-    - Explore how to clean existing values
-    - Explore how to create and analyze a polarization variable.
+- Explore how to clean existing values
+- Explore how to create and analyze a polarization variable.
 
 ## Application
 
-- **Milestone 4 - The Update ** Kick-start
+- Milestone 4 Kick-start
 
 ## For Next Time
 

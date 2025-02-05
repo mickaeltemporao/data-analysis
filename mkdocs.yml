@@ -38,6 +38,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - attr_list
+  - footnotes
 extra:
   generator: false
   social:
@@ -69,6 +70,7 @@ nav:
       - modules/exploration-1.md
       - modules/exploration-2.md
       - modules/next.md
+      - modules/wrangling.md
       # - modules/management.md
       # - modules/descriptive-inference.md
       # - modules/causal-inference.md
