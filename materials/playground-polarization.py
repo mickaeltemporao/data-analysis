@@ -88,6 +88,10 @@ political_knowledge_vars = [
 df['political_knowledge_scale'] = df[political_knowledge_vars].sum(axis=1)
 
 
+# Keep major parties
+df = df[df['vote_intention'].between(1,2)]
+
+
 ### Step 3: Build Affective Polarization Variable
 # Calculate the affective polarization based on feeling thermometer scores.
 mask = df['feeling_democrat'] >= 0 
@@ -98,6 +102,16 @@ df = df[mask]
 
 df['affective_polarization'] = np.abs(df['feeling_democrat'] - df['feeling_republican'])
 
+
+## Check DV
+sns.kdeplot(
+   data=df, x="affective_polarization", hue="political_knowledge_scale",
+   fill=True, common_norm=False, palette="crest",
+   alpha=.5, linewidth=0,
+)
+
+
+## Check IV
 
 ### Step 4: Construct the Regression Model
 # Use the cleaned data to build a regression model. We will include control variables such as age, sex, education, income, and ideology.
@@ -124,7 +138,7 @@ coef_df = pd.DataFrame({
 
 coef_df = coef_df.drop('const')
 
-# Plot
+# Plot Reg 1
 plt.figure(figsize=(10, 6))
 sns.barplot(x=coef_df.index, y='coef', data=coef_df, palette='viridis')
 # Annotate p-values
@@ -136,3 +150,99 @@ plt.xlabel('Variables')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 
+# Plot Reg 2
+plt.figure(figsize=(10, 6))
+# Create the lollipop chart
+plt.stem(coef_df.index, coef_df['coef'], linefmt='-', markerfmt='o', basefmt=' ')
+# Annotate p-values
+for i, row in coef_df.iterrows():
+    plt.text(i, row['coef'], f'p={row["pval"]:.2f}', ha='center', va='bottom')
+# Customize the plot
+plt.title('Regression Coefficients for Affective Polarization')
+plt.ylabel('Coefficient')
+plt.xlabel('Variables')
+plt.xticks(ticks=range(len(coef_df)), labels=coef_df.index, rotation=45, ha='right')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+
+# Plot 2
+plt.figure(figsize=(10, 6))
+sns.lineplot(data=df, x='political_knowledge_scale', y='affective_polarization', marker='o')
+# Customize the plot
+plt.title('Effect of Political Knowledge Levels on Affective Polarization')
+plt.xlabel('Political Knowledge Scale')
+plt.ylabel('Average Affective Polarization')
+plt.xticks(knowledge_polarization['political_knowledge_scale'])  # Ensure all knowledge levels are shown
+plt.grid(True)
+plt.tight_layout()
+
+
+When dealing with discrete variables or a limited number of distinct values, as is the case with the political knowledge scale, traditional scatter plots with regression lines might not be the most effective. Here are a couple of alternative visualization strategies that can provide a clearer picture of the relationship:
+
+### 1. Box Plot with Overlayed Regression Line
+A box plot can be used to show the distribution of affective polarization at each level of political knowledge. Overlaying the regression line on top of this can help visualize the trend.
+
+
+### 2. Violin Plot
+
+A violin plot is similar to a box plot but provides a deeper insight into the distribution by showing the kernel density estimation. This can help visualize the spread of the data and the central tendency.
+
+plt.figure(figsize=(10, 6))
+# Create the violin plot
+sns.violinplot(
+    x='political_knowledge_scale', 
+    y='affective_polarization', 
+    data=df, 
+    inner='quartile', 
+    palette='viridis'
+)
+
+# Overlay the regression line
+sns.lineplot(
+    x='political_knowledge_scale', 
+    y='affective_polarization', 
+    data=df, 
+    marker='o', 
+    color='red', 
+    label='Mean Trend'
+)
+
+# Customize the plot
+plt.title('Effect of Political Knowledge on Affective Polarization')
+plt.xlabel('Political Knowledge Scale')
+plt.ylabel('Affective Polarization')
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+
+
+
+import matplotlib.pyplot as plt
+# Extracting coefficients and confidence intervals
+coef = model.params
+conf_int = model.conf_int()
+p_values = model.pvalues
+# Create a DataFrame for easy plotting
+coef_df = pd.DataFrame({
+    'coef': coef,
+    'lower_ci': conf_int[0],
+    'upper_ci': conf_int[1],
+    'pval': p_values
+}).drop('const')
+
+
+# Plotting
+plt.figure(figsize=(8, 10))
+# Plot each coefficient with its confidence interval
+plt.errorbar(coef_df['coef'], coef_df.index, xerr=(coef_df['coef'] - coef_df['lower_ci'], coef_df['upper_ci'] - coef_df['coef']), fmt='o', color='b', elinewidth=2, capsize=4)
+# Annotate p-values
+# for i, row in coef_df.iterrows():
+#     plt.text(row['coef'], i, f'p={row["pval"]:.2f}', va='center', ha='right' if row['coef'] < 0 else 'left')
+# Customize the plot
+plt.axvline(x=0, color='grey', linestyle='--')  # Add a vertical line at zero for reference
+plt.title('Regression Coefficients with Confidence Intervals')
+plt.xlabel('Coefficient')
+plt.ylabel('Variables')
+plt.yticks(ticks=range(len(coef_df)), labels=coef_df.index)
+plt.grid(axis='x', linestyle='--', alpha=0.7)
+plt.tight_layout()
