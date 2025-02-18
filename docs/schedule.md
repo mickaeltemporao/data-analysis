@@ -20,23 +20,23 @@ This schedule is an approximation, subject to change due needs of the students i
 
 | Date       | Class Meeting | Presentation                                                               | Deadline |
 | :-:        |:-:            | :-:                                                                        | :-:      |
-| 2024/09/12 | [:fontawesome-solid-book-open: Introduction (1.5h)](modules/introduction.md)                |                                                                            |          |
-| 2024/09/25 | [:fontawesome-solid-book-open: The Scientific Method (3h)](modules/science.md)              |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
-| 2024/10/09 | [:fontawesome-solid-book-open: From Concepts to Variables (3h)](modules/variables.md)       |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
-| 2024/10/23 | [:fontawesome-solid-book-open: From Variables to Data (3h)](modules/data.md)                |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
-| 2024/11/06 | [:fontawesome-solid-book-open: From Data to Insights (3h)](/modules/exploration-1.md)       |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
-| 2024/11/20 | [:fontawesome-solid-book-open: From Insights to Comparisons (3h)](modules/exploration-2.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2024/12/04 | [:fontawesome-solid-book-open: What's Next? (1.5h)](modules/next.md)                        |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
+| 2024/09/12 | [:fontawesome-solid-book-open: Introduction](modules/introduction.md)                |                                                                            |          |
+| 2024/09/25 | [:fontawesome-solid-book-open: The Scientific Method](modules/science.md)              |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
+| 2024/10/09 | [:fontawesome-solid-book-open: From Concepts to Variables](modules/variables.md)       |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
+| 2024/10/23 | [:fontawesome-solid-book-open: From Variables to Data](modules/data.md)                |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
+| 2024/11/06 | [:fontawesome-solid-book-open: From Data to Insights](/modules/exploration-1.md)       |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
+| 2024/11/20 | [:fontawesome-solid-book-open: From Insights to Comparisons](modules/exploration-2.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+| 2024/12/04 | [:fontawesome-solid-book-open: What's Next?](modules/next.md)                        |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
 
 ### Second Semester
 
 | Date       | Class Meeting | Presentation                                                               | Deadline |
 | :-:        | :-:           | :-:                                                                        | :-:      |
-| 2025/02/05 | [:fontawesome-solid-book-open: From Comparisons to Transformations (3h)](modules/wrangling.md) |                                                                            |          |
-| 2025/02/19 | :fontawesome-solid-book-open: From Transformation to Models |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Update**](activities/m4-analysis.md)     |
-| 2025/02/26 | :fontawesome-solid-book-open: From Models to Inference           |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
-| 2025/03/12 | :fontawesome-solid-book-open: From Inference to Intuition |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | **:fontawesome-solid-award: Modeling** |
-| 2025/03/19 | :fontawesome-solid-book-open: From Intuition to Communication |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+| 2025/02/05 | [:fontawesome-solid-book-open: From Comparisons to Transformations](modules/wrangling.md) |                                                                            |          |
+| 2025/02/19 | [:fontawesome-solid-book-open: From Transformations to Models](modules/modeling.md) |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md/#s2-the-group-presenting) | [**:fontawesome-solid-award: Update**](activities/m4-analysis.md)     |
+| 2025/02/26 | :fontawesome-solid-book-open: From Models to Inference           |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md/#s2-the-group-presenting) | |
+| 2025/03/12 | :fontawesome-solid-book-open: From Inference to Intuition |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md/#s2-the-group-presenting) | **:fontawesome-solid-award: Modeling** |
+| 2025/03/19 | :fontawesome-solid-book-open: From Intuition to Communication |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md/#s2-the-group-presenting) | |
 | 2025/03/26 | :fontawesome-solid-book-open: From Communication to Publication      |                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)|
 
 <!-- analysis.md -->

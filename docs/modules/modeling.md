@@ -21,21 +21,23 @@ We have started to use data to answer questions using descriptive statistics suc
 
 #### Relationships between variables can be complex to see
 
-![](../images/relation.png)
+![](../images/relation.png){width=66%}
 
 #### Adding random lines?
-![](../images/lines.png)
+![](../images/lines.png){width=66%}
 
 
 #### Is it a Strong relationship?
-![](../images/model-1.png)
-![](../images/model-2.png)
+![](../images/model-1.png){width=66%}
+![](../images/model-2.png){width=66%}
 
 #### Is the relationship observed due to random chance?
 
 - To avoid such biases, we can quantify the strength of relationships using statistical models (e.g. Linear Regression)
 
 ### What is a model?
+
+![](../images/time-iep.png){width=66%}
 
 ```python
 # Create data
@@ -47,14 +49,17 @@ my_data = pd.DataFrame({
 })
 
 # Visualize
-plt.figure(figsize=(8, 6))
-sns.histplot(my_data['time_to_iep'])
-plt.axvline(my_data['time_to_iep'].mean(), color='red', linestyle='dashed', linewidth=1.5)
-plt.text(my_data['time_to_iep'].mean(), 4.5, f"{my_data['time_to_iep'].mean():.2f}", color='red', ha='right')
+my_data['time_to_iep'].plot.hist(alpha=0.5, bins=10)
+
+# Add a vertical line at the mean
+mean_value = my_data['time_to_iep'].mean()
+plt.axvline(mean_value, color='red', linestyle='dashed', linewidth=3.5)
+# Annotate the mean value on the plot
+plt.text(mean_value, 4.5, f" {mean_value:.2f}", color='red', ha='left', fontsize=16)
+plt.xlabel('Time to IEP')
+plt.ylabel('Frequency')
+plt.title('Histogram of Time to IEP')
 ```
-
-![](../images/time-iep.png)
-
 
 ## Code
 - [ ] Code
