@@ -121,7 +121,7 @@ sns.kdeplot(
 # TODO: Check IV
 
 
-### Step 4: Modeling - Build a Regression Model
+# Step 4: Modeling - Build a Regression Model
 # Use the cleaned data to build a regression model. 
 # We will include control variables such as age, sex, education, income, and ideology.
 
@@ -138,7 +138,7 @@ print(model.summary())
 
 # TODO: export to latex/md
 
-### Step 5: Visualize Results
+# Step 5: Visualize Results
 # Create a visualization to summarize the results of the regression model.
 
 # Create a DataFrame with coefficients and confidence intervals
@@ -162,4 +162,34 @@ plt.yticks(ticks=range(len(coef_df)), labels=coef_df.index)
 plt.grid(axis='x', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
+
+# TODO: FIX effect plot
+# Create a visualization of the predicted values of affective polarization 
+# across the range of political knowledge scores, holding other variables
+# constant at their mean values.
+
+# Create a range of values for the political knowledge scale
+knowledge_range = pd.Series(df['political_knowledge_scale'].unique())
+# Create a DataFrame to hold the mean values of the other variables
+mean_values = {
+    var: df[var].mean() for var in X.columns[1:] if var != 'political_knowledge_scale'
+}
+mean_values['political_knowledge_scale'] = knowledge_range
+# Create a DataFrame from the mean values
+prediction_data = pd.DataFrame(mean_values)
+# Add a constant to the prediction data 
+prediction_data = sm.add_constant(prediction_data, has_constant='add')
+# Calculate predicted values
+predicted_values = model.predict(prediction_data)
+
+# Make the figure
+plt.figure(figsize=(10, 6))
+plt.plot(knowledge_range, predicted_values, label='Predicted Affective Polarization', color='b', linewidth=2)
+plt.title('Effect of Political Knowledge on Affective Polarization')
+plt.xlabel('Political Knowledge Scale')
+plt.ylabel('Predicted Affective Polarization')
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.axhline(y=0, color='grey', linestyle='--', linewidth=1)  # Reference line at zero if needed
+plt.legend()
+plt.tight_layout()
 
