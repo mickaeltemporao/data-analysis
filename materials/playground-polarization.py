@@ -8,30 +8,7 @@ import seaborn as sns
 data_url = "https://raw.githubusercontent.com/datamisc/ts-2020/main/data.csv"
 anes_data  = pd.read_csv(data_url, compression='gzip')
 
-selected_vars = [
-    "V201033",  # vote-int 
-    "V201507x",  # age
-    "V201600",  # sex
-    "V201511x",  # educ
-    "V201617x",  # income
-    "V201231x",  # party-id
-    "V201200",  # ideology
-    "V201156",  # PRE: Feeling Thermometer: Democratic Party
-    "V201157",  # PRE: Feeling Thermometer: Republican Party
-    "V201641",  # PRE: Political knowledge intro
-    "V201642",  # PRE: Political knowledge catch question
-    "V201643",  # PRE: Political knowledge catch question feedback
-    "V201644",  # PRE: How many years in full term for US Senator
-    "V201645",  # PRE: On which program does Federal government spend the least
-    "V201646",  # PRE: Party with most members in House before election
-    "V201647",  # PRE: Party with most members in Senate before election
-    "V202406",  # POST: CSES5-Q01: How interested in politics is R
-    "V202407",  # POST: CSES5-Q02: How closely does R follow politics in media
-    "V202408",  # POST: CSES5-Q03: Agree/disagree: R understands most important political issues
-]
-
-df = anes_data[selected_vars]
-var_names = {
+vars_dict = {
     "V201033": "vote_intention",
     "V201507x": "age",
     "V201600": "sex",
@@ -39,7 +16,7 @@ var_names = {
     "V201617x": "income",
     "V201231x": "party_id",
     "V201200": "ideology",
-    "V201156": "feeling_democrat",
+    "V201156": "feeling_democrat", 
     "V201157": "feeling_republican",
     "V201641": "political_knowledge_intro",
     "V201642": "political_knowledge_catch1",
@@ -53,8 +30,10 @@ var_names = {
     "V202408": "understand_issues"
 }
 
+df = anes_data[vars_dict.keys()]
+
 # Rename variables to make them more descriptive
-df = df.rename(columns=var_names)
+df = df.rename(columns=selected_variables)
 
 
 # Step 2: Clean & Create Relevant Variables
