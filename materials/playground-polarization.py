@@ -78,6 +78,9 @@ df = df[mask]
 df['sex'].value_counts()
 mask = df['sex'].between(1,2)
 df = df[mask]
+df['sex'] = df['sex'].apply(lambda x: 1 if x == 1 else 0)
+# Or with map
+# df['sex'] = df['sex'].map({1: 1, 2: 0})
 
 # education
 df['education'].value_counts()
@@ -137,7 +140,7 @@ df['affective_polarization'].plot(kind='kde', title='Density Plot')
 
 ## Or using Seaborn!
 sns.kdeplot(
-   data=df, x="affective_polarization", hue="political_knowledge_scale",
+   data=df, x="affective_polarization", hue="sex",
    fill=True, common_norm=False, palette="crest",
    alpha=.5, linewidth=0,
 )
@@ -164,6 +167,7 @@ model = sm.OLS(y, X).fit()
 print(model.summary())
 
 # TODO: export to latex/md
+model.summary().as_latex()
 
 # Step 5: Visualize Results
 # Create a visualization to summarize the results of the regression model.
@@ -190,33 +194,18 @@ plt.grid(axis='x', linestyle='--', alpha=0.7)
 plt.tight_layout()
 
 
-# TODO: FIX effect plot
 # Create a visualization of the predicted values of affective polarization 
-# across the range of political knowledge scores, holding other variables
-# constant at their mean values.
+# across the range of political knowledge scores.
 
-# Create a range of values for the political knowledge scale
-knowledge_range = pd.Series(df['political_knowledge_scale'].unique())
-# Create a DataFrame to hold the mean values of the other variables
-mean_values = {
-    var: df[var].mean() for var in X.columns[1:] if var != 'political_knowledge_scale'
-}
-mean_values['political_knowledge_scale'] = knowledge_range
-# Create a DataFrame from the mean values
-prediction_data = pd.DataFrame(mean_values)
-# Add a constant to the prediction data 
-prediction_data = sm.add_constant(prediction_data, has_constant='add')
-# Calculate predicted values
-predicted_values = model.predict(prediction_data)
-
-# Make the figure
+predicted_values_full = model.predict(X)
 plt.figure(figsize=(10, 6))
-plt.plot(knowledge_range, predicted_values, label='Predicted Affective Polarization', color='b', linewidth=2)
-plt.title('Effect of Political Knowledge on Affective Polarization')
+plt.scatter(df['political_knowledge_scale'], y, label='Actual Values', color='blue', alpha=0.5)
+plt.scatter(df['political_knowledge_scale'], predicted_values_full, label='Predicted Values', color='red', alpha=0.5)
+# Add labels and title
+plt.title('Actual vs. Predicted Affective Polarization')
 plt.xlabel('Political Knowledge Scale')
-plt.ylabel('Predicted Affective Polarization')
-plt.grid(True, linestyle='--', alpha=0.7)
-plt.axhline(y=0, color='grey', linestyle='--', linewidth=1)  # Reference line at zero if needed
+plt.ylabel('Affective Polarization')
 plt.legend()
+plt.grid(True, linestyle='--', alpha=0.7)
 plt.tight_layout()
 
