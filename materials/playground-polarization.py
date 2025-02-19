@@ -8,7 +8,7 @@ import seaborn as sns
 data_url = "https://raw.githubusercontent.com/datamisc/ts-2020/main/data.csv"
 anes_data  = pd.read_csv(data_url, compression='gzip')
 
-vars_dict = {
+vars = {
     "V201033": "vote_intention",
     "V201507x": "age",
     "V201600": "sex",
@@ -30,10 +30,10 @@ vars_dict = {
     "V202408": "understand_issues"
 }
 
-df = anes_data[vars_dict.keys()]
 
-# Rename variables to make them more descriptive
-df = df.rename(columns=selected_variables)
+# Selecte & Rename variables to make them more descriptive
+df = anes_data[vars.keys()]
+df = df.rename(columns=vars)
 
 
 # Step 2: Clean & Create Relevant Variables
