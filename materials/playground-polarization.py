@@ -14,7 +14,9 @@ vars = {
     "V201600": "sex",
     "V201511x": "education",
     "V201617x": "income",
-    "V201231x": "party_id",
+    "V201228": "party_id",
+    "V201231x": "party_id_str",
+    "V201232": "party_id_imp",
     "V201200": "ideology",
     "V201156": "feeling_democrat", 
     "V201157": "feeling_republican",
@@ -25,16 +27,14 @@ vars = {
     "V201645": "political_knowledge_least_spending",
     "V201646": "political_knowledge_house_majority",
     "V201647": "political_knowledge_senate_majority",
-    "V202406": "interest_in_politics",
+    "V202406": "political_interest",
     "V202407": "follow_politics_media",
     "V202408": "understand_issues"
 }
 
-
 # Selecte & Rename variables to make them more descriptive
 df = anes_data[vars.keys()]
 df = df.rename(columns=vars)
-
 
 # Step 2: Clean & Create Relevant Variables
 # We will create a political knowledge scale by summing the correct answers to the political knowledge questions.
@@ -67,19 +67,62 @@ political_knowledge_vars = [
 df['political_knowledge_scale'] = df[political_knowledge_vars].sum(axis=1)
 
 
-# TODO: Quick Data Cleaning
+# TODO: Quick Data Cleaning | WARNING We drop irrelevant observations!
 
 # age
-# education
-# follow_politics_media
-# ideology
-# income
-# interest_in_politics
-# party_id
+df['age'].describe()
+mask = df['age'] >= 18
+df = df[mask]
+
 # sex
-# understand_issue
+df['sex'].value_counts()
+mask = df['sex'].between(1,2)
+df = df[mask]
+
+# education
+df['education'].value_counts()
+mask = df['education'] > 0
+df = df[mask]
+
+# income
+df['income'].value_counts()
+mask = df['income'] > 0
+df = df[mask]
+
+# ideology
+df['ideology'].value_counts()
+mask = df['ideology'].between(1,7)
+df = df[mask]
+
+# party_id & other related
+df['party_id'].value_counts()
+mask = df['party_id'].between(1,3)
+df = df[mask]
+
+df['party_id_str'].value_counts()
+mask = df['party_id'].between(1,7)
+df = df[mask]
+
+df['party_id_imp'].value_counts()
+mask = df['party_id_imp'].between(1,5)
+df = df[mask]
+
 # vote_intention 
 df = df[df['vote_intention'].between(1,2)]  # We are keeping intentions for major parties
+
+# You could also skip the mask step 
+# political_interest
+df['political_interest'].value_counts()
+df = df[df['political_interest'] > 0]
+
+# follow_politics_media 
+df['follow_politics_media'].value_counts()
+df = df[df['follow_politics_media'] > 0]
+
+# understand_issues
+df['understand_issues'].value_counts()
+df = df[df['understand_issues'] > 0]
+
 
 ### Step 3: Build Quantities of Interests
 # Build an Affective Polarization Variable
@@ -89,8 +132,10 @@ df = df[mask]
 
 df['affective_polarization'] = np.abs(df['feeling_democrat'] - df['feeling_republican'])
 
+## Take a look at our DV
+df['affective_polarization'].plot(kind='kde', title='Density Plot')
 
-## Check DV
+## Or using Seaborn!
 sns.kdeplot(
    data=df, x="affective_polarization", hue="political_knowledge_scale",
    fill=True, common_norm=False, palette="crest",
@@ -98,7 +143,10 @@ sns.kdeplot(
 )
 
 # TODO: Check IV
-
+df['political_knowledge_scale'].value_counts().sort_index().plot(
+    kind='bar',
+    title="Distribution of Political Knowledge Scale"
+)
 
 # Step 4: Modeling - Build a Regression Model
 # Use the cleaned data to build a regression model. 
