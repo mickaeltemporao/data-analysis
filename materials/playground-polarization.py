@@ -168,7 +168,7 @@ model = sm.OLS(y, x).fit()
 print(model.summary())
 
 # TODO: export to latex/md
-model.summary().as_latex()
+print(summary_col([model]).as_latex())
 
 # Step 5: Visualize Results
 # Create a visualization to summarize the results of the regression model.
