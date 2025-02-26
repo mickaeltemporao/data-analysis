@@ -156,13 +156,14 @@ df['political_knowledge_scale'].value_counts().sort_index().plot(
 # We will include control variables such as age, sex, education, income, and ideology.
 
 # Define the independent variables (including control variables)
-X = df[['political_knowledge_scale', 'age', 'sex', 'education', 'ideology']]
+independent_variables = ['political_knowledge_scale', 'age', 'sex', 'education', 'ideology']
+x = df[independent_variables]
 # Add a constant to the model (intercept)
-X = sm.add_constant(X)
+x = sm.add_constant(x)
 # Define the dependent variable
 y = df['affective_polarization']
 # Fit the regression model
-model = sm.OLS(y, X).fit()
+model = sm.OLS(y, x).fit()
 # Print the summary of the regression model
 print(model.summary())
 
@@ -197,7 +198,7 @@ plt.tight_layout()
 # Create a visualization of the predicted values of affective polarization 
 # across the range of political knowledge scores.
 
-predicted_values_full = model.predict(X)
+predicted_values_full = model.predict(x)
 plt.figure(figsize=(10, 6))
 plt.scatter(df['political_knowledge_scale'], y, label='Actual Values', color='blue', alpha=0.5)
 plt.scatter(df['political_knowledge_scale'], predicted_values_full, label='Predicted Values', color='red', alpha=0.5)
