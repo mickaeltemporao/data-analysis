@@ -1,12 +1,18 @@
 # Load Pandas
 import pandas as pd
-import statsmodels.api as sm
+import statsmodels.formula.api as sm
 import matplotlib.pyplot as plt
 import seaborn as sns
+from statsmodels.iolib.summary2 import summary_col
 
 # Step 1: Load, select & rename Variables
 data_url = "https://raw.githubusercontent.com/datamisc/ts-2020/main/data.csv"
-anes_data  = pd.read_csv(data_url, compression='gzip')
+anes_data = pd.read_csv(data_url, compression='gzip')
+
+# How does political knowledge impact levels of 
+# affective polarization
+
+# H1: low levels lead to more affective polarization
 
 vars = {
     "V201033": "vote_intention",
@@ -65,6 +71,13 @@ political_knowledge_vars = [
 ]
 
 df['political_knowledge_scale'] = df[political_knowledge_vars].sum(axis=1)
+
+df['political_knowledge_scale'] = df[political_knowledge_vars].sum(axis=1)
+
+
+df['pk_dummy'] = df['political_knowledge_scale'] == 4 
+df['pk_dummy'] = df['pk_dummy'].astype(int)
+df['pk_dummy'].value_counts()
 
 
 # TODO: Quick Data Cleaning | WARNING We drop irrelevant observations!
@@ -145,29 +158,28 @@ sns.kdeplot(
    alpha=.5, linewidth=0,
 )
 
-# TODO: Check IV
+# Take a look at the IV
 df['political_knowledge_scale'].value_counts().sort_index().plot(
     kind='bar',
     title="Distribution of Political Knowledge Scale"
 )
 
 # Step 4: Modeling - Build a Regression Model
-# Use the cleaned data to build a regression model. 
+# Use the cleaned data stored in `df` to build a regression model. 
 # We will include control variables such as age, sex, education, income, and ideology.
 
-# Define the independent variables (including control variables)
-independent_variables = ['political_knowledge_scale', 'age', 'sex', 'education', 'ideology']
-x = df[independent_variables]
-# Add a constant to the model (intercept)
-x = sm.add_constant(x)
-# Define the dependent variable
-y = df['affective_polarization']
-# Fit the regression model
-model = sm.OLS(y, x).fit()
-# Print the summary of the regression model
-print(model.summary())
+# First we define the model formula
+# It takes the following form DV ~ IV or y ~ x
 
-# TODO: export to latex/md
+formula = "affective_polarization ~ political_knowledge_scale + age + sex + education + ideology"
+
+# Fit the regression model
+model = sm.ols(formula=formula, data=df).fit()
+
+# Print the summary of the regression model
+model.summary()
+
+# Export model to Markdown/Latex
 print(summary_col([model]).as_latex())
 
 # Step 5: Visualize Results
@@ -179,7 +191,7 @@ coef_df = pd.DataFrame({
     'lower_ci': model.conf_int()[0],
     'upper_ci': model.conf_int()[1],
     'pval': model.pvalues
-}).drop('const')
+}).drop('Intercept')
 
 
 # Make the figure
