@@ -13,7 +13,7 @@
 
 ### Data Modeling
 
-We have started to use data to answer questions using descriptive statistics such as `df['some_variable'].mean()`. We have also learned how to use visualizations to identify variable relationships and trends using `df[]()`. People often says that an image is worth a 1000 words. Images are a great tool to convey a message however, our perceptions can be biased [@lewandowsky1989perception]. Let's take a closer look.
+We have started to use data to answer questions using descriptive statistics such as `df['some_variable'].mean()`. We have also learned how to use visualizations to identify variable relationships and trends using `df[]()`. People often says that an image is worth a 1000 words. Images are a great tool to convey a message however, our perceptions can be biased [(Lewandowsky and Spence 1989)](https://journals.sagepub.com/doi/pdf/10.1177/0049124189018002002). Let's take a closer look.
 
 #### Relationships between variables can be complex to see
 

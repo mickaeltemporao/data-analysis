@@ -3,10 +3,10 @@
 This schedule is an approximation, subject to change due needs of the students in the course. Students will be informed of changes to the schedule.
 
 ???+ info inline end "Groups Info"
-    - **Group 1:** Margaux LG., Sofia S. Sébastien F., Yemmanuil G., 
+    - **Group 1:** Margaux LG., Sofia S. Sébastien F., Yemmanuil G.
     - **Group 2:** Mahe DL., Chloé C., Maddalena M., Rose Marie P., Victoria S.
-    - **Group 3:** Alessandro B., Anaïs J., Justine L. Riccardo C., 
-    - **Group 4:** Adelina D., Roberto S., Sebastian SG. Valerio P., 
+    - **Group 3:** Alessandro B., Anaïs J., Justine L. Riccardo C.
+    - **Group 4:** Adelina D., Roberto S., Sebastian SG. Valerio P.
 
 - **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
 - **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
