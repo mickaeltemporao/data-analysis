@@ -37,7 +37,8 @@ This schedule is an approximation, subject to change due needs of the students i
 | 2025/02/26 | [:fontawesome-solid-book-open: From Models to Predictions](modules/inference.md) | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md/#s2-the-group-presenting) | |
 | 2025/03/12 | [:fontawesome-solid-book-open: From Predictions to Explanations](modules/explanation.md) |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md/#s2-the-group-presenting) |  |
 | 2025/03/19 | :fontawesome-solid-book-open: From Explanations to Communication |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md/#s2-the-group-presenting) | |
-| 2025/03/26 | :fontawesome-solid-book-open: From Communication to Publication |                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)|
+| 2025/03/26 | :fontawesome-solid-book-open: From Communication to Publication |                                                                            | |
+| 2025/04/15 | |                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)|
 
 <!-- **:fontawesome-solid-award: Modeling** -->
 <!-- analysis.md -->
