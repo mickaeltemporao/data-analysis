@@ -4,14 +4,10 @@
 - [ ] Theory
     - What is a model?
     - Identify and quantify variable relationships
-    - Interpret results from simple linear regression models
 - [ ] Code
-    - Train a simple linear regression model 
-    - Produce model summary tables 
-    - Make predictions using a trained model
+    - Build a Simple Model
 - [ ] Application
-    - Interpret regression table outputs
-    - Integrate regression tables into markdown documents
+    - Make Predictions Using your Model
 
 ## Theory
 
@@ -34,6 +30,8 @@ We have started to use data to answer questions using descriptive statistics suc
 #### Is the relationship observed due to random chance?
 
 - To avoid such biases, we can quantify the strength of relationships using statistical models (e.g. Linear Regression)
+
+## Code
 
 ### What is a model?
 
@@ -61,16 +59,12 @@ plt.ylabel('Frequency')
 plt.title('Histogram of Time to IEP')
 ```
 
-## Code
-- [ ] Code
-    - Train a simple linear regression model 
-    - Produce model summary tables 
-    - Make predictions using a trained model
 
 ## Application
-- [ ] Application
-    - Interpret regression table outputs
-    - Integrate regression tables into markdown documents
+
+Let's head to Github and open our codespace (text editor)
+
+- [GitHub :fontawesome-brands-github:](https://github.com/)
 
 
 ## For Next Time
