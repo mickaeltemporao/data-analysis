@@ -74,6 +74,8 @@ nav:
       - modules/modeling.md
       - modules/inference.md
       - modules/explanation.md
+      # - modules/communication.md
+      # - modules/publication.md
       # - modules/management.md
       # - modules/descriptive-inference.md
       # - modules/causal-inference.md

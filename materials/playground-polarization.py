@@ -148,10 +148,10 @@ df = df[mask]
 
 df['affective_polarization'] = np.abs(df['feeling_democrat'] - df['feeling_republican'])
 
-## Take a look at our DV
+# Take a look at our DV
 df['affective_polarization'].plot(kind='kde', title='Density Plot')
 
-## Or using Seaborn!
+# Or using Seaborn!
 sns.kdeplot(
    data=df, x="affective_polarization", hue="sex",
    fill=True, common_norm=False, palette="crest",
@@ -169,7 +169,7 @@ df['political_knowledge_scale'].value_counts().sort_index().plot(
 # We will include control variables such as age, sex, education, income, and ideology.
 
 # First we define the model formula
-# It takes the following form DV ~ IV or y ~ x
+# It takes the following form DV ~ IVs
 
 formula = "affective_polarization ~ political_knowledge_scale + age + sex + education + ideology"
 
