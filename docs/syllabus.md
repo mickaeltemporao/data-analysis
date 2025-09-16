@@ -3,7 +3,6 @@
 ## Overview
 
 !!! note inline end "Course"
-
     - :fontawesome-solid-building-columns: A.116 | Espace Numérique 
     - :fontawesome-solid-clock: Wednesdays 15h45-19h00 
 
@@ -25,7 +24,7 @@ The course is designed for social science students with no previous experience o
 - The most important requirement is motivation to work hard on likely unfamiliar material.
 - The second most important requirement is to have access to a computer in order to participate and complete the various activities. From there, we will learn as we go!
 
-???+ warning
+!!! warning
 
     In order to fight against digital inequalities among students, Sciences Po Bordeaux sets up a support system under certain conditions (presentation of a purchase invoice; N-1 tax notice of your reference tax household ; notification of CROUS scholarship; certificate of attendance for the current year).
 
