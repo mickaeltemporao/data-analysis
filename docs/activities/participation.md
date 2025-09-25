@@ -3,22 +3,21 @@
 The participation grade is divided into three parts: a student presentation, a student discussion, and student engagement.
 
 ## **:fontawesome-solid-chalkboard-user: Presentation**
-During each class meeting, a student group will make 15 minute presentation about weekly mandatory reading. 
-The student group making the presentation prepares and shares a two-page reading note, that is due 24 hours before the class meeting for the presentation.
-
+During each class meeting, a student group will make 15 minute presentation about weekly mandatory reading.
+The student group making the presentation prepares and shares a reading note, that is **due 24 hours before the class meeting** for the presentation.
 
 ### S1 - The group presenting:
 
-1. Prepares a [:fontawesome-solid-clipboard: Reading Note](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/reading-note.ipynb) of the mandatory reading.
+1. Prepares a [:fontawesome-solid-clipboard: Reading Note](../activities/reading-note.md) of the mandatory reading.
 2. Shares a link to the reading note on the chat 24h in advance of the presentation.
-3. Prepares a 15 minutes presentation.
+3. Prepares a 10 minutes presentation.
 
-### S2 - The group presenting:
-
-1. Prepares and compiles a reading note pdf using VSCode and the `reading-note.md` starter found on :fontawesome-brands-github: GitHub.
-2. Sends the reading note in pdf format on the chat 24h in advance of the presentation.
-3. Prepares a 15 minutes presentation.
-
+<!-- ### S2 - The group presenting: -->
+<!---->
+<!-- 1. Prepares and compiles a reading note pdf using VSCode and the `reading-note.md` starter found on :fontawesome-brands-github: GitHub. -->
+<!-- 2. Sends the reading note in pdf format on the chat 24h in advance of the presentation. -->
+<!-- 3. Prepares a 10 minutes presentation. -->
+<!---->
 All other students are expected to have read the mandatory reading and are ready to engage in the discussion.
 
 ## **:fontawesome-regular-comment-dots: Discussion**

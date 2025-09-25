@@ -4,11 +4,16 @@
 
 !!! note inline end "Course"
     - :fontawesome-solid-building-columns: A.116 | Espace Numérique 
-    - :fontawesome-solid-clock: Wednesdays 15h45-19h00 
+    - :fontawesome-solid-clock: Thursdays 14h00-17h00 
 
 What will you learn in this course? Our goal is to give you the ability to understand, explain, and perform modern social science research with a special focus on data analysis and inference. You will be able to read and understand the methodology of most academic articles in the social sciences, but more importantly you will have a foot in the door of the data science world. The ability to collect and analyze data in a sophisticated manner has become a crucial skill set for the modern job market across industries. Through a combination of lectures, hands-on exercises, and a final project, you will learn how to clean, visualize, and interpret complex datasets, gaining valuable insights into citizens' attitudes, behaviors, and broader political trends. Finally, you will obtain data literacy that will help you be a critical consumer of evidence for the rest of your life.
 
-This course also introduces to cutting-edge *open source* research tools. These tools will be incrementally introduced to students. Learning support will be provided for at least one programming language, such as *C++*, *Julia*, *Python*, or *R*, but the choice of language supported may vary between years, depending on judged benefits to students, whether in terms of pedagogy or resulting skills. This year, we will rely on :fontawesome-brands-python: *Python!*
+![Draw The Owl](https://www.forimpact.org/wp-content/uploads/2014/01/HowToDrawOwl.jpg){width=425}
+
+
+This course also introduces to cutting-edge *open source* research tools. These tools will be incrementally introduced to students. Learning support will be provided for at least one programming language, such as *C++*, *Julia*, *Python*, or *R*, but the choice of language supported may vary between years, depending on judged benefits to students, whether in terms of pedagogy or resulting skills. 
+
+- This year, we will rely on [:fontawesome-brands-python: **Python.**](https://www.python.org/)
 
 ### Goals
 
@@ -54,16 +59,16 @@ The course is evaluated over two semesters through various activities allowing s
 
 | Activities    | Percentage |
 | -             | :-:        |
-| Participation | 30%        |
-| Milestones    | 30%        |
-| Paper         | 40%        |
+| :fontawesome-solid-chalkboard-user: Participation | 30% |
+| :fontawesome-solid-award: Milestones              | 30% |
+| :fontawesome-regular-file-code: Paper             | 40% |
 
 
 ## Communication
 
-We will use an interactive **:fontawesome-regular-comment: Chat** platform as the primary communication medium for this course. When you have questions outside of class meetings, click the **Chat** tab at the top of this page and ask your question in the appropriate channel. The onboarding activity should help you get started!
+This course uses a **:fontawesome-brands-whatsapp: WhatsApp** community as the main communication channel. Outside of course meetings, you can connect with peers and instructors by clicking the **[Chat](https://chat.whatsapp.com/Ie9P3jBaaHB2xPRJNztNRB)** tab at the top of this page and posting in an appropriate channel. The onboarding activity will walk you through getting started.
 
-Asking questions publicly and providing answers to your peers' questions allows everyone to learn dynamically. Furthermore, if you have a question on a topic, it is likely that someone else has the same question. Finally, being active on the platform, whether by answering the questions of your peers or by asking questions, is strongly encouraged and will have a positive impact on your participation grade.
+Asking questions publicly and providing answers to your peers' questions allows everyone to learn dynamically. Furthermore, if you have a question on a topic, it is likely that someone else has the same question. Finally, being active on the platform, whether by answering the questions of your peers or by asking questions, is strongly encouraged and will have a positive impact on your participation grade!
 
-Reserve private messages with the instructor for personal matters.
+Reserve private messages or emails with the instructor for personal matters.
 

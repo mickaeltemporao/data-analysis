@@ -1,6 +1,6 @@
 # 40% | Research Project
 
-Students are required to submit a project, in the form of a co-authored and reproducible research paper that uses some of the methods and tools introduced during the course. You will apply the skills and concepts learned in this course to answer a research question that can be tackled using the [ANES 2020](https://electionstudies.org/data-center/2020-time-series-study/) dataset. 
+Students are required to submit a project, in the form of a co-authored and reproducible research paper that uses some of the methods and tools introduced during the course. You will apply the skills and concepts learned in this course to answer a research question that can be tackled using the [ANES 2024](https://electionstudies.org/data-center/2024-time-series-study/) dataset. 
 
 The objective behind the constraint on the data is to get you working with real data on a research project as quickly as possible. In this paper, you will prepare the data, visualize and describe your data, discuss the limitations of the data, carry out a motivated and valid model implementation, and assess the strengths and weaknesses of your model.
 

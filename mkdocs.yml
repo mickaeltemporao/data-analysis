@@ -44,8 +44,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mickaeltemporao
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/mickaeltemporao
 extra_css:
   - stylesheets/extra.css
   - css/custom.css
@@ -64,7 +62,7 @@ nav:
     - Modules:
       - modules/introduction.md
       # - modules/tools.md
-      - modules/science.md
+      # - modules/science.md
       - modules/variables.md
       - modules/data.md
       - modules/exploration-1.md
