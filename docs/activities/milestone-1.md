@@ -5,13 +5,16 @@
 - Become familiar with typst syntax.
 - Improve academic writing skills.
 
+---
+
 ## Instructions
 
 ### The Setup
 Before you can start this milestone, you need to have a [**typst**](https://typst.app/) account. You need to use typst to write, save and share your work.
 
 ### The Milestone
-1. Write a summary paragraph of your project idea.
+1. Create an Empty Document on the [**typst.app**](https://typst.app/).
+2. Write a summary paragraph of your project idea.
     - Your idea is related to american political behaviour and/or public opinion.
     - You introduce a puzzle, mention what your research question is and formulate a hypothesis based on what you know today.
     - Format your in-text citations using the [APA format](https://www.mendeley.com/guides/apa-citation-guide).
