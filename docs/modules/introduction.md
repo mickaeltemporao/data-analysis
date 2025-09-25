@@ -27,10 +27,6 @@
 
 # A Cutting-Edge Toolbox
 
-!!! warning inline end 
-
-    **Getting started is the hardest part!** Setting up your tools is tedious, but once everything is in place, your research workflow will continuously improve, and will can elevate your work to new highs. Invest the effort now, and your future self will thank you!
-
 ## :fontawesome-solid-wand-magic-sparkles: A quick word about ChatGPT and other LLMs 
 
 ### What are they? What is the intuition behind it? 
@@ -52,6 +48,12 @@ ChatGPT is a Large Language Model (LLM) designed to generate human-like text bas
 4. **Seek Practical Examples**: When learning new concepts, ask for real-world applications or examples. You could inquire, "Can you provide examples of how political campaigns have successfully influenced public opinion?" This contextualizes your knowledge and makes it more relatable.
 
 5. **Reflect and Review**: After receiving information, take time to reflect on what you've learned. For example, summarize the key factors that affect public opinion in your own words, or discuss with ChatGPT how these factors might apply to current political events to solidify your understanding.
+
+!!! warning inline end 
+
+    **Getting started is the hardest part!** Setting up your tools is tedious, but once everything is in place, your research workflow will continuously improve, and will can elevate your work to new highs. Invest the effort now, and your future self will thank you!
+
+
 
 ## Other Tools: What They Are & Why They Matter
 
@@ -102,32 +104,20 @@ You should get paper.pdf.
 
 ---
 
-
 ### The Assignment 
 
-<!-- TODO: Add COX article about 5 questions! [--](--.md)-->
-- [**Getting started with Assignments (Milestones)**](/activities/challenges.md)
-- :fontawesome-solid-award: Link to [**Milestone 1**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)
-- Google Scholar & Annual Reviews
+- [Getting started with Assignments (Milestones)](activities/challenges.md)
+- :fontawesome-solid-award: Link to [**Milestone 1**](../activities/milestone-1.md)
+- Use [Google Scholar](https://scholar.google.com/), [Cairn](https://www.cairn.info/), or [Annual Reviews](https://www.annualreviews.org/) to identify scientific articles.
+- Check [The “Big 5” and Other Ideas* For Presentations](https://econ.lse.ac.uk/staff/spischke/phds/The%20Big%205.pdf), especially the Big 5 questions on page 5 & 6 to help you prepare your paragraph & presentations.
 
 ## For next time
-- :fontawesome-solid-award: **Complete** [**Milestone 1**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)
-- :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
-    - [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. American Journal of Political Science, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353)
-- :fontawesome-solid-house-laptop: Recommended Practice
-    - [:fontawesome-brands-markdown: Markdown Tutorial](https://commonmark.org/help/tutorial/)
-    - [:fontawesome-solid-file-code: Python Exercises](https://www.hackinscience.org/exercises/)
+:fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md)
 
+:fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
 
+- [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. American Journal of Political Science, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353)
 
-## For next time
-- :fontawesome-solid-award: **Complete** [**Milestone 1**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)
-- :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
-    - [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. American Journal of Political Science, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353)
-- :fontawesome-solid-house-laptop: Recommended Practice
-    - [:fontawesome-brands-markdown: Markdown Tutorial](https://commonmark.org/help/tutorial/)
-    - [:fontawesome-solid-file-code: Python Exercises](https://www.hackinscience.org/exercises/)
+:fontawesome-solid-house-laptop: Recommended Practice
 
-- :fontawesome-solid-brain: Start thinking about a topic/concept that your group might be interested in and consider how it can impact citizens' political attitudes and behaviors in the context of electoral campaigns.
-    - Looking for inspiration? Check published "Journal Articles" in the [ANES Bibliography](https://electionstudies.org/papers-documents/anes-bibliography/)
-
+- [:fontawesome-solid-quote-left: typst](https://typst.app/docs/tutorial/)
