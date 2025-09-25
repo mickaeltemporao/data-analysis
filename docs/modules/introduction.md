@@ -106,7 +106,7 @@ You should get paper.pdf.
 
 ### The Assignment 
 
-- [Getting started with Assignments (Milestones)](activities/challenges.md)
+- [Getting started with Assignments (Milestones)](../activities/challenges.md)
 - :fontawesome-solid-award: Link to [**Milestone 1**](../activities/milestone-1.md)
 - Use [Google Scholar](https://scholar.google.com/), [Cairn](https://www.cairn.info/), or [Annual Reviews](https://www.annualreviews.org/) to identify scientific articles.
 - Check [The “Big 5” and Other Ideas* For Presentations](https://econ.lse.ac.uk/staff/spischke/phds/The%20Big%205.pdf), especially the Big 5 questions on page 5 & 6 to help you prepare your paragraph & presentations.
