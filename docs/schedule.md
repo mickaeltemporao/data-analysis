@@ -2,11 +2,11 @@
 
 This schedule is an approximation, subject to change due needs of the students in the course. Students will be informed of changes to the schedule.
 
-???+ info inline end "Groups Info"
-    - **Group 1:** Margaux LG., Sofia S. Sébastien F., Yemmanuil G.
-    - **Group 2:** Mahe DL., Chloé C., Maddalena M., Rose Marie P., Victoria S.
-    - **Group 3:** Alessandro B., Anaïs J., Justine L. Riccardo C.
-    - **Group 4:** Adelina D., Roberto S., Sebastian SG. Valerio P.
+!!! info inline end "Groups Info"
+    - **Group 1:** Student A., Student B.,... 
+    - **Group 2:** Student E.,
+    - **Group 3:** Student I.,
+    - **Group 4:** ...,
 
 - **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
 - **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
@@ -16,30 +16,27 @@ This schedule is an approximation, subject to change due needs of the students i
 
 ## Overview
 
-### First Semester
-
 | Date       | Class Meeting | Presentation                                                               | Deadline |
 | :-:        |:-:            | :-:                                                                        | :-:      |
-| 2024/09/12 | [:fontawesome-solid-book-open: Introduction](modules/introduction.md)                |                                                                            |          |
-| 2024/09/25 | [:fontawesome-solid-book-open: The Scientific Method](modules/science.md)              |                                                                            | [**:fontawesome-regular-paper-plane: Onboarding**](resources/onboarding.md) |
-| 2024/10/09 | [:fontawesome-solid-book-open: From Concepts to Variables](modules/variables.md)       |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
-| 2024/10/23 | [:fontawesome-solid-book-open: From Variables to Data](modules/data.md)                |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
-| 2024/11/06 | [:fontawesome-solid-book-open: From Data to Insights](/modules/exploration-1.md)       |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
-| 2024/11/20 | [:fontawesome-solid-book-open: From Insights to Comparisons](modules/exploration-2.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
-| 2024/12/04 | [:fontawesome-solid-book-open: What's Next?](modules/next.md)                        |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
+| 2025/09/25 | [:fontawesome-solid-book-open: **Introduction**](modules/introduction.md)                |                                                                            |          |
+| 2025/10/02 | [:fontawesome-solid-book-open: From Concepts to Variables](modules/variables.md)       |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-1.ipynb)     |
+| 2025/10/09 | [:fontawesome-solid-book-open: From Variables to Data](modules/data.md)                |[**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | |
+| 2025/10/23 | [:fontawesome-solid-book-open: From Data to Insights](/modules/exploration-1.md)       |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)     |
+| 2025/11/06 | [:fontawesome-solid-book-open: From Insights to Comparisons](modules/exploration-2.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+| 2025/12/04 | [:fontawesome-solid-book-open: What's Next?](modules/next.md)                        |                                                                            | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) |
 
-### Second Semester
-
-| Date       | Class Meeting | Presentation                                                               | Deadline |
-| :-:        | :-:           | :-:                                                                        | :-:      |
-| 2025/02/05 | [:fontawesome-solid-book-open: From Comparisons to Transformations](modules/wrangling.md) |                                                                            |          |
-| 2025/02/19 | [:fontawesome-solid-book-open: From Transformations to Models](modules/modeling.md) | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md/#s2-the-group-presenting) | [**:fontawesome-solid-award: Update**](activities/m4-analysis.md)     |
-| 2025/02/26 | [:fontawesome-solid-book-open: From Models to Predictions](modules/inference.md) | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md/#s2-the-group-presenting) | |
-| 2025/03/12 | [:fontawesome-solid-book-open: From Predictions to Explanations](modules/explanation.md) |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md/#s2-the-group-presenting) |  |
-| 2025/03/19 | [:fontawesome-solid-book-open: From Explanations to Communication](modules/communication.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md/#s2-the-group-presenting) | |
-| 2025/03/26 | :fontawesome-solid-book-open: From Communication to Publication |                                                                            | |
-| 2025/04/15 | |                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)|
-
+<!-- ### Second Semester -->
+<!---->
+<!-- | Date       | Class Meeting | Presentation                                                               | Deadline | -->
+<!-- | :-:        | :-:           | :-:                                                                        | :-:      | -->
+<!-- | 2025/02/05 | [:fontawesome-solid-book-open: From Comparisons to Transformations](modules/wrangling.md) |                                                                            |          | -->
+<!-- | 2025/02/19 | [:fontawesome-solid-book-open: From Transformations to Models](modules/modeling.md) | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md/#s2-the-group-presenting) | [**:fontawesome-solid-award: Update**](activities/m4-analysis.md)     | -->
+<!-- | 2025/02/26 | [:fontawesome-solid-book-open: From Models to Predictions](modules/inference.md) | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md/#s2-the-group-presenting) | | -->
+<!-- | 2025/03/12 | [:fontawesome-solid-book-open: From Predictions to Explanations](modules/explanation.md) |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md/#s2-the-group-presenting) |  | -->
+<!-- | 2025/03/19 | [:fontawesome-solid-book-open: From Explanations to Communication](modules/communication.md) |[**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md/#s2-the-group-presenting) | | -->
+<!-- | 2025/03/26 | :fontawesome-solid-book-open: From Communication to Publication |                                                                            | | -->
+<!-- | 2025/04/15 | |                                                                            | [**:fontawesome-regular-file-code: Project**](activities/project.md)| -->
+<!---->
 <!-- **:fontawesome-solid-award: Modeling** -->
 <!-- analysis.md -->
 <!-- modeling.md -->
