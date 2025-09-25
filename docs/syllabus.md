@@ -46,7 +46,7 @@ This course has 12 modules that span over two semesters of 6 class meetings. Dur
 ### Class Meetings
 Each class meeting is divided into three parts: theory, application and a code.
 
-In the theory part, a group of students carries out a presentation a 20 minutes presentation that is followed by a comment from another student and a question period. The teacher ends this part by providing extra colour to the reading and the presentation.
+In the theory part, a group of students carries out a presentation a 10 minutes presentation that is followed by a comment from another student and a question period. The teacher ends this part by providing extra colour to the reading and the presentation.
 
 In the application part, students have the opportunity to articulate theoretical concepts through practical exercises to help them understand critical aspects of research methods and set them for success.
 
