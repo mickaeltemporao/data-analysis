@@ -18,7 +18,7 @@ This schedule is an approximation, subject to change due needs of the students i
 ## Overview
 
 | Date       | Class Meeting | Presentation                                                               | Deadline |
-| :-:        |:-:            | :-:                                                                        | :-:      |
+| :-:        |:-:            | :-:          | :-: |
 | 2025/09/25 | [:fontawesome-solid-book-open: **Introduction**](modules/introduction.md)                |                                                                            |          |
 | 2025/10/02 | [:fontawesome-solid-book-open: From Concepts to Variables](modules/variables.md)       |[**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](activities/milestone-1.md)     |
 | 2025/10/09 | [:fontawesome-solid-book-open: From Variables to Data](modules/data.md)                |[**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | |

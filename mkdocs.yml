@@ -64,15 +64,15 @@ nav:
       # - modules/tools.md
       # - modules/science.md
       - modules/variables.md
-      - modules/data.md
-      - modules/exploration-1.md
-      - modules/exploration-2.md
-      - modules/next.md
-      - modules/wrangling.md
-      - modules/modeling.md
-      - modules/inference.md
-      - modules/explanation.md
-      - modules/communication.md
+      # - modules/data.md
+      # - modules/exploration-1.md
+      # - modules/exploration-2.md
+      # - modules/next.md
+      # - modules/wrangling.md
+      # - modules/modeling.md
+      # - modules/inference.md
+      # - modules/explanation.md
+      # - modules/communication.md
       # - modules/publication.md
       # - modules/management.md
       # - modules/descriptive-inference.md
@@ -103,8 +103,7 @@ nav:
     - resources/misc.md
     - resources/onboarding.md
   - Chat: "https://chat.whatsapp.com/Ie9P3jBaaHB2xPRJNztNRB"
-  # - Chat: "https://teams.microsoft.com/l/channel/19%3Avu56gi47cWMRcApqmqVDMcIfFqH2ii-xZfqAngUNH7w1%40thread.tacv2/General?groupId=5a6b90cb-a892-49a9-ad95-ad20235b7673&tenantId=d9315e4a-c1e0-43e9-b21d-2e94e2cafc7f"
-  # - Chat: "https://gitter.im/ScPoBx/data-analysis"
+  - This is Fine: "https://media.npr.org/assets/img/2023/01/14/this-is-fine_custom-b7c50c845a78f5d7716475a92016d52655ba3115.jpg"
 
 validation:
   links:

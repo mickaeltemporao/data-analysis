@@ -5,12 +5,11 @@
     - Presentation & Discussion
     - Dependent and Independent Variables
 - [ ] Application
-    - M1 review, concepts, variables
+    - Concepts, & Variables
     - ANES Data Overview
-- [ ] Code
-    - Voter Turnout & Code
-    - Data Types and Structures
-
+- [ ] Code 
+    - Scientific Writing - Citing 
+    - Package Manager Setup & Github
 
 ## Theory
 
@@ -64,15 +63,30 @@ The concept of political ideology can't be directly measured, but it can be oper
         - ...
 
 2. With regards to your identified concepts, identify potential variables that you could use in the ANES codebook.
-    - [ANES Codebook](https://electionstudies.org/anes_timeseries_2020_userguidecodebook_20220210/)
-    - [ANES 2020 Overview](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbkf01.htm)
+    - [About the ANES 2024](https://electionstudies.org/data-center/2024-time-series-study/)
+    - [ANES 2024 Documentation](https://sda.berkeley.edu/sdaweb/docs/anes2024prelim/DOC/hcbk.htm)
 
 ## Code
 
-Let's dive in!
+
+## Installing a Package Manager
+- This will make installing software much easier!
+    - **Windows**: [Chocolatey](https://chocolatey.org/install)  
+    - **Mac**: [Homebrew](https://brew.sh/)  
+    - **Linux**: You already have a package manager (e.g., `apt`, `dnf`, `pacman`).  
+- Can you install :fontawesome-solid-laptop-code: VS Code using your package manager ?
+- Can you install :fontawesome-brands-python: Python using your package manager ?
+
+## Put your paper on GitHub
+- In GitHub 
+  - Create a new public or private repository.
+  - Upload the pdf.
+  - Add a commit changes: “My first commit, horray!”
+  - Push your changes to GitHub.
+
+## Maybe some code?
 
 - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
-- [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 
 
 ## For next time
@@ -82,6 +96,6 @@ Let's dive in!
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
     - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
 - :fontawesome-solid-house-laptop: Recommended Practice
+    - [:fontawesome-solid-file-code: Getting Started with Python](Update the bibliography/references in your Milestone 1).
     - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
-    - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 

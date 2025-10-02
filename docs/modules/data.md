@@ -4,11 +4,10 @@
 - [ ] Theory
     - Presentation & Discussion
 - [ ] Application
-    - Variables Types & Levels of Measurement
     - Milestone 1 Review
-- [ ] Code
-    - Scientific Writing - Citing & Markdown 
-    - Functions and Packages
+    - Variables Types & Levels of Measurement
+- [ ] Code 
+    - Getting Started with Python, Functions, & Packages
 
 ## Theory
 ### Presentation & Discussion
@@ -40,10 +39,12 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 
 ## Code
 
+- [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
 - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
 - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
 
 ## For next time
+- Identify how to measure your concepts and which variables from ANES you could use for your project.
 - :fontawesome-solid-award: **Complete** [**Milestone 2**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
     - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)

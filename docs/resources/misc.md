@@ -3,11 +3,12 @@
 All the materials required for this course are free and will shared with the students. For those who would like to add more colour to the concepts introduced in this course here are some indicative readings that can be useful but not required for the course. Some of those are also free and accessible online.
 
 ## Misc
+- [NotebookLM](https://notebooklm.google/)
 - [Research Rabbit](https://www.researchrabbit.ai/)
 
 ## Data
-- [ANES Article DataBase](https://electionstudies.org/papers-documents/anes-bibliography/)
-- [ANES 2020](https://sda.berkeley.edu/sdaweb/docs/nes2020full/DOC/hcbk.htm)
+- [ANES Question Research](https://electionstudies.org/data-tools/anes-question-search/)
+- [ANES Article Database](https://electionstudies.org/papers-documents/anes-bibliography/)
 
 ## Journals
 
@@ -33,5 +34,4 @@ All the materials required for this course are free and will shared with the stu
 ### Books
 - [Salganik, M. J. (2019). *Bit by bit: Social research in the digital age.* Princeton University Press.](https://www.bitbybitbook.com/en/1st-ed/preface/)
 - [VanderPlas, J. (2016). *Python data science handbook: Essential tools for working with data.* "O'Reilly Media, Inc.".](https://jakevdp.github.io/PythonDataScienceHandbook/)
-
 
