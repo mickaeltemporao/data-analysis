@@ -68,8 +68,10 @@ The concept of political ideology can't be directly measured, but it can be oper
 
 ## Code
 
+### Citing?
+- [📚 Academic Citations in typst](../resources/writing.md#academic-citations-in-typst)
 
-## Installing a Package Manager
+### Installing a Package Manager
 - This will make installing software much easier!
     - **Windows**: [Chocolatey](https://chocolatey.org/install)  
     - **Mac**: [Homebrew](https://brew.sh/)  
@@ -77,25 +79,22 @@ The concept of political ideology can't be directly measured, but it can be oper
 - Can you install :fontawesome-solid-laptop-code: VS Code using your package manager ?
 - Can you install :fontawesome-brands-python: Python using your package manager ?
 
-## Put your paper on GitHub
+### Put your paper on GitHub
 - In GitHub 
   - Create a new public or private repository.
   - Upload the pdf.
   - Add a commit changes: “My first commit, horray!”
   - Push your changes to GitHub.
 
-## Maybe some code?
-
-- [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
-
 
 ## For next time
 
-<!-- - Identify how to measure your concepts and which variables from ANES you could use for your project. -->
-- :fontawesome-solid-brain: Start thinking about how the different concepts of your project are interrelated, translate them into variables (DV, IV, CV) and how the scientific literature supports those relationships.
+- :fontawesome-solid-brain: Start Thinking About :
+    - how the different concepts of your project are interrelated, translate them into variables (DV, IV, CV) and how the scientific literature supports those relationships.
+    - how to measure such concepts with survey data and which variables from ANES you can use.
 - :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
     - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
 - :fontawesome-solid-house-laptop: Recommended Practice
-    - [:fontawesome-solid-file-code: Getting Started with Python](Update the bibliography/references in your Milestone 1).
+    - :fontawesome-solid-pen-nib: Update the bibliography/references in your Milestone 1 using typst and a `.bib` file
     - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
 
