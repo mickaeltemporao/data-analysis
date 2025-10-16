@@ -36,12 +36,13 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 
 ## **Code**
 
+### Notebooks?
+- [📘 Using a Notebook in VS Code](../resources/notebook-vscode.md)
 
-- [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
 <!-- - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb) -->
 <!-- - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) -->
 
-### A little Extra... Put your paper on [:fontawesome-brands-github: **GitHub**](https://github.com/)
+### A little Extra... Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
   - Create a new public or private repository.
   - Upload the `main.typ` file from Milestone 1.
   - Add a commit message: "My first commit, horray!"
