@@ -30,9 +30,10 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 - Gender - Categorical variable (e.g., male, female, non-binary, other)
 - Political Participation - Scale measuring levels of engagement (e.g., none, some, active)
 
-
-    - How the different concepts in your project are interrelated, translate them into variables (DV, IV, CV) and how the scientific literature supports those relationships.
-    - How to measure such concepts with survey data and which variables from ANES you can use.
+### Your
+- How are the different concepts in your project interrelated?
+- Translate them into variables (DV, IV, CV) 
+- How to measure such concepts with survey data and which variables from ANES you can use.
 
 ## **Code**
 
