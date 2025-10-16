@@ -1,31 +1,24 @@
 # From Variables to Data
 
-## Agenda
-- [ ] Theory
-    - Presentation & Discussion
-- [ ] Application
-    - Milestone 1 Review
-    - Variables Types & Levels of Measurement
-- [ ] Code 
-    - Getting Started with Python, Functions, & Packages
-
-## Theory
+## **Theory**
 ### Presentation & Discussion
 - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
 
-## Variable Types & Levels of Measurement
+## **Application**
+### Variable Types & Levels of Measurement
 
 Variables can broadly be categorized as either **discrete** or **continuous**. 
 
 - **Discrete variables** are those that take on a countable number of values, meaning they can only be whole numbers. An example of a discrete variable is the number of voters in an election, which might be represented as 3,450 voters. 
 - **Continuous variables** can take on an infinite number of values within a given range, allowing for more precise measurement. For instance, the time it takes for respondents to answer a survey can be a continuous variable, such as 2.5 minutes, indicating that time can be measured in fractions and is not limited to whole numbers. 
 
-| Levels | Description                                      | Example                                  |
-|:-------------:|--------------------------------------------------|------------------------------------------|
-| Nominal       | Categories without any mathematical relation.    | Party Identification (e.g., Democrat Republican) |
-| Ordinal       | Categories with a meaningful order but unequal intervals. | Level of education (e.g., high school, bachelor's, master's, phd, ...) |
-| Interval      | Numeric values with meaningful intervals but no true zero. | Feeling Thermometer (e.g., survey responses on a scale from 0 to 100) |
-| Ratio         | Numeric values with meaningful intervals and a true zero. | Age of a respondent (e.g., 25 years old) |
+ | Levels   | Description                                                | Example                                                                |
+ |:--------:|------------------------------------------------------------|------------------------------------------------------------------------|
+ | Nominal  | Categories without any mathematical relation.              | Party Identification (e.g., Democrat Republican)                       |
+ | Ordinal  | Categories with a meaningful order but unequal intervals.  | Level of education (e.g., high school, bachelor's, master's, phd, ...) |
+ | Interval | Numeric values with meaningful intervals but no true zero. | Feeling Thermometer (e.g., survey responses on a scale from 0 to 100)  |
+ | Ratio    | Numeric values with meaningful intervals and a true zero.  | Age of a respondent (e.g., 25 years old)                               |
+
 
 ### Let's practice:
 
@@ -37,17 +30,34 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 - Gender - Categorical variable (e.g., male, female, non-binary, other)
 - Political Participation - Scale measuring levels of engagement (e.g., none, some, active)
 
-## Code
+
+    - How the different concepts in your project are interrelated, translate them into variables (DV, IV, CV) and how the scientific literature supports those relationships.
+    - How to measure such concepts with survey data and which variables from ANES you can use.
+
+## **Code**
+
 
 - [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
-- [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb)
-- [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
+<!-- - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb) -->
+<!-- - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) -->
 
-## For next time
-- Identify how to measure your concepts and which variables from ANES you could use for your project.
-- :fontawesome-solid-award: **Complete** [**Milestone 2**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)
-- :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
-    - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
-- :fontawesome-solid-house-laptop: Recommended Practice
-    - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb)
+### A little Extra... Put your paper on [:fontawesome-brands-github: **GitHub**](https://github.com/)
+  - Create a new public or private repository.
+  - Upload the `main.typ` file from Milestone 1.
+  - Add a commit message: "My first commit, horray!"
+  - Push your contribution to the GitHub repository.
+
+## **Get Ready for Next Week: Think. Read. Practice.**
+:fontawesome-solid-brain: **Thinking Ahead**
+
+- Identify how to measure the concepts in your project and which variables from ANES you could use.
+
+:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
+
+- [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
+
+:fontawesome-solid-house-laptop: **Practice**
+
+- [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
+    <!-- - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) -->
 

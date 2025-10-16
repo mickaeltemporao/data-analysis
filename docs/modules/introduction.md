@@ -86,12 +86,6 @@ We computed the average penguin body mass by species. See the figure below.
 
 You should get paper.pdf.
 
-## Put your paper on GitHub
-- In GitHub 
-  - Create a new public or private repository.
-  - Upload the pdf.
-  - Add a commit changes: “My first commit, horray!”
-  - Push your changes to GitHub.
 
 ## Package Manager Setup:  
 - This will make installing software much easier!
@@ -111,13 +105,15 @@ You should get paper.pdf.
 - Use [Google Scholar](https://scholar.google.com/), [Cairn](https://www.cairn.info/), or [Annual Reviews](https://www.annualreviews.org/) to identify scientific articles.
 - Check [The “Big 5” and Other Ideas* For Presentations](https://econ.lse.ac.uk/staff/spischke/phds/The%20Big%205.pdf), especially the Big 5 questions on page 5 & 6 to help you prepare your paragraph & presentations.
 
-## For next time
-:fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md)
+## **Get Ready for Next Week: Think. Read. Practice.**
+:fontawesome-solid-brain: **Thinking Ahead**
 
-:fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
+- :fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md)
+
+:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
 
 - [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. American Journal of Political Science, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353)
 
-:fontawesome-solid-house-laptop: Recommended Practice
+:fontawesome-solid-house-laptop: **Practice**
 
 - [:fontawesome-solid-quote-left: typst](https://typst.app/docs/tutorial/)

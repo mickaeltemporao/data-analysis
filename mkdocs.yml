@@ -64,7 +64,7 @@ nav:
       # - modules/tools.md
       # - modules/science.md
       - modules/variables.md
-      # - modules/data.md
+      - modules/data.md
       # - modules/exploration-1.md
       # - modules/exploration-2.md
       # - modules/next.md
