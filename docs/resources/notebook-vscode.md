@@ -14,7 +14,6 @@ To work with `.ipynb` notebooks, you need the **Jupyter extension**.
 1. Click on the **Extensions** icon on the left sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`).
 2. In the search bar, type **"Jupyter"**.
 3. Click **Install** on the official extension by **Microsoft**.
-   - This will also automatically install the **Python** extension if needed.
 
 ## 3. Download the Notebook File
 You’ll need to download a **Notebook** file.
