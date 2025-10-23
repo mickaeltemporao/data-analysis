@@ -1,5 +1,8 @@
 # Instructions
 
+!!! warning inline end 
+    Don't include the instructions or the writing tip in your document.
+
 - Use the following template to create your document.
 - Create the relevant sections using typst syntax.
 - All **sources are leveraged** and put in perspective in the document.
@@ -15,8 +18,6 @@
 - **1 sentence** = ~20 words
 
 
-!!! warning inline end 
-    Don't include these instructions in your document.
 
 ---
 
