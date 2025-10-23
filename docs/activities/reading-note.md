@@ -3,10 +3,10 @@
 !!! warning inline end 
     Don't include the instructions or the writing tip in your document.
 
-- Use the following template to create your document.
-- Create the relevant sections using typst syntax.
+- Use the template below to create your document.
+- Create all the relevant sections using typst syntax.
 - All **sources are leveraged** and put in perspective in the document.
-- The in-text references and the reference list are formated using the **[APA](https://www.mendeley.com/guides/apa-citation-guide) citation guide**.
+- The in-text references and the reference list are formatted using the **[APA](https://www.mendeley.com/guides/apa-citation-guide) citation guide**.
 - The reading note is **500 words** max!
 
 ## Writing Tip
