@@ -21,10 +21,6 @@
 - Let's load Notebook \#01 into VS Code: 
     - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks)
 
-### Milestone 2
-
-- [**:fontawesome-solid-award: Proposal**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-2.ipynb)    
-
 
 ## **Get Ready for Next Week: Think. Read. Practice.**
 :fontawesome-solid-brain: **Thinking Ahead**
@@ -38,5 +34,5 @@
 
 :fontawesome-solid-house-laptop: **Practice**
 
-- Try exploring and running contents from Notebook \#04 in the notebooks repository: 
-    - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks)
+- :fontawesome-solid-award: **Complete** [**Milestone 2**](../activities/milestone-2.md)
+
