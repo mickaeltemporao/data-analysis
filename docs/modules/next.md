@@ -25,7 +25,15 @@ for ways to improve the process for the next iteration ([Beck, K., et al. 2001](
 
 - More wrangling and exploration (data preprocessing, cleaning, visualization, ...) 
 - Data modeling ... :fontawesome-solid-rocket:
-- [VS Code :fontawesome-solid-terminal:](https://code.visualstudio.com/) and [Github :fontawesome-brands-github:](https://github.com/)
+- [Github :fontawesome-brands-github:](https://github.com/)
+
+### A little Extra... Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
+  - Create a new public or private repository.
+  - Upload the `main.typ` file from Milestone 1.
+  - Add a commit message: "My first commit, horray!"
+  - Push your contribution to the GitHub repository.
+
+
 
 ### Let's look ahead!
 - [:fontawesome-solid-file-code: Playground 1](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/playground-1.ipynb)

@@ -108,7 +108,7 @@ You should get paper.pdf.
 ## **Get Ready for Next Week: Think. Read. Practice.**
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- :fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md)
+- What are the key concepts in your project idea (your Milestone 1)
 
 :fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
 
@@ -116,4 +116,4 @@ You should get paper.pdf.
 
 :fontawesome-solid-house-laptop: **Practice**
 
-- [:fontawesome-solid-quote-left: typst](https://typst.app/docs/tutorial/)
+- :fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md)

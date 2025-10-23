@@ -1,4 +1,4 @@
-# Milestone 1 – Project Idea
+# Milestone I – Project Idea
 
 :fontawesome-solid-brain: **Brainstorm a topic or concept in political behavior that interests your group**. Consider how this topic could influence citizens’ political attitudes and behaviors, particularly in the context of **American electoral campaigns**.
 

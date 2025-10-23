@@ -30,10 +30,13 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 - Gender - Categorical variable (e.g., male, female, non-binary, other)
 - Political Participation - Scale measuring levels of engagement (e.g., none, some, active)
 
-### Your
-- How are the different concepts in your project interrelated?
-- Translate them into variables (DV, IV, CV) 
-- How to measure such concepts with survey data and which variables from ANES you can use.
+**With regards to your project idea**
+
+<!-- TODO: Adjust this to have student classify variables into a type, to better fit the current application section -->
+
+- Identify the key concepts with regards to your project idea.
+- How are these concepts interrelated?
+- Translate them into variables (DV, IV, CV)
 
 ## **Code**
 
@@ -43,7 +46,9 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 <!-- - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb) -->
 <!-- - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) -->
 
-### A little Extra... Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
+### Something extra? 
+Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
+
   - Create a new public or private repository.
   - Upload the `main.typ` file from Milestone 1.
   - Add a commit message: "My first commit, horray!"
