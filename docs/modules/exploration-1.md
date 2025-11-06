@@ -7,7 +7,6 @@
 
 
 ## **Code**
-
 ### The Data Science Pipeline
 ![Variables](../images/ds-pipeline.svg)
 
@@ -23,16 +22,17 @@
 
 
 ## **Get Ready for Next Week: Think. Read. Practice.**
-:fontawesome-solid-brain: **Thinking Ahead**
+:fontawesome-solid-house-laptop: **Practice**
 
-- Start exploring relevant variables (DV, IV, CV) related to your proposal using the ANES dataset and pandas. 
-    - You should use the code in the Pandas section at the end of the [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) notebook (copy/paste and adjust to your needs).
+- :fontawesome-solid-award: **Complete** [**Milestone 2**](../activities/milestone-2.md)
 
 :fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
 
 - [Barber, M., and Jeremy C. Pope. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
 
-:fontawesome-solid-house-laptop: **Practice**
+:fontawesome-solid-brain: **Thinking Ahead**
 
-- :fontawesome-solid-award: **Complete** [**Milestone 2**](../activities/milestone-2.md)
+- Start exploring dependent (DV), independent (IV), and control variables (CV) related to your proposal using the ANES 2024 dataset in Pandas.
 
+    - From the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) repository, download the Notebook #03 (`03-functions-and-packages.ipynb`) file and open it in VS Code.
+    - Rely on the Pandas section at the end of the notebook (copy, paste, and adjust the example code to fit your variables and analysis)
