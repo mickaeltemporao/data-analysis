@@ -16,7 +16,6 @@
     To load and use a notebook in VS Code follow the steps 3 to 5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
 ### Working with Data
 
-
 - Let's load Notebook \#01 into VS Code: 
     - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks)
 
@@ -32,7 +31,7 @@
 
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Start exploring dependent (DV), independent (IV), and control variables (CV) related to your proposal using the ANES 2024 dataset in Pandas.
+- Start exploring dependent (DV), independent (IV), and control variables (CV) related to your proposal using the ANES 2024 dataset.
 
     - From the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) repository, download the Notebook #03 (`03-functions-and-packages.ipynb`) file and open it in VS Code.
     - Rely on the Pandas section at the end of the notebook (copy, paste, and adjust the example code to fit your variables and analysis)
