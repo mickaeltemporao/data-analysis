@@ -49,6 +49,3 @@
 - Doe, J. (1995). *Helping Students Doing Research: Designing a Template.* Some University Press.
 - Doe, J. (1995). *Helping Students Doing Research: Designing a Template.* Some University Press.
 
-
-
-

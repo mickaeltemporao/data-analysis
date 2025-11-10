@@ -34,7 +34,7 @@ You need to :
 
 - Create a document in [Typst](https://typst.app/) that follows the template below to complete the Milestone. Your final document is **1000 words max.**
 
-- Use your Milestone 1 as a starting pooing. You can copy/paste and revise based on received feedback.
+- Use your Milestone 1 as a starting point. You can copy/paste and revise based on received feedback.
 
 - Use [Google Scholar](https://scholar.google.com/) to find 5+ scientific articles. Create a `references.bib` file that includes the scientific articles.
 
