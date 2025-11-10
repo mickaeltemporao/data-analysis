@@ -31,6 +31,17 @@ Introduce your research question here. Explain why it matters, provide brief con
 - This section sets up the full paper. Be explicit about the causal relationship or mechanism you expect.
 - Remember: *Your current milestone 3 article must remain under 1500 words, excluding the abstract.*
 
+
+=== IMPORTANT
+- *Find scientific articles:* Use Google Scholar to find at least 10 scientific articles that you include in a separate `references.bib` file.
+- *Leverage citations properly:*  Show that you can connect your project with the existing scientific literature. 
+- *References are automatically generated:* You need to use/cite each work from your `references.bib` file and have your references automatically generated.
+  - Only use parenthetical citations (eg. There are risks inherent in using LLMs without verification `@author1234key`.)
+    - Parenthetical citations are the default in `typst` so you simply have to add your citation key (eg. `@author1234key`) at the end of your sentences.
+  - You are responsible to look up and use the appropriate `typst` syntax to link and load your bibliography file and change its style.
+    - Use the "chicago-author-date" citation style.
+
+
 == Subsection: Dependent Variable (Rename this section)
 
 Briefly introduce your dependent variable in conceptual terms.
@@ -58,7 +69,7 @@ Describe the DV you selected:
 === IMPORTANT
 
 - In this typst file, you need to include *a figure* visualising the DV distribution.
-- The code to create the figure must be saved in a `m3-notebook.ipynb` using Python.
+- The code to create the figure must be saved in the `da-m3-notebook-group0.ipynb` using Python.
 - Export the figure as a PNG and insert it here.
   - Make sure to look up and use the appropriate `typst` syntax to insert the figure into this document.
 
@@ -75,7 +86,7 @@ Describe the main IV you selected:
 === IMPORTANT
 
 - Include *one figure* visualising the IV distribution.
-- The figure must be generated in `notebook.ipynb` using Python.
+- The code to create the figure must be saved in the `da-m3-notebook-group0.ipynb` using Python.
 - Export the figure as a PNG and insert it here.
   - Make sure to look up and use the appropriate `typst` syntax to insert the figure into this document.
 
@@ -85,11 +96,4 @@ Write a short paragraph interpreting the distribution.
 
 Provide a concise paragraph discussing your *preliminary findings* from exploring your variables. Mention any patterns or surprises that relate to your hypothesis.
 
-=== IMPORTANT
-
-- You need to cite work from your bibliography file and have your references automatically generated.
-  - Use the "chicago-author-date" citation style.
-  - You are responsible to look up and use the appropriate `typst` syntax to link and load your bibliography file.
-- Only use parenthetical citations, and avoid using narrative citations (eg. There are risks inherent in using LLMs without verification `@richards2025llms`)
-  - Parenthetical citations are the default in `typst` so you simply have to add your key (eg. `@author1234key`) at the end of the sentence.
 
