@@ -22,16 +22,14 @@
 - Begin developing and organising relevant code and analyses that contribute to your reproducible research paper (your final project).
 
 ## **Get Ready for Next Week: Think. Read. Practice.**
+:fontawesome-solid-house-laptop: **Practice**
+
+- :fontawesome-solid-award: **Complete** [**Milestone 3**](../activities/milestone-3.md)
+
 :fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
 
 - [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398)
 
-:fontawesome-solid-house-laptop: **Practice**
-
-- Run through notebooks #04 and #05.
-    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) from the GitHub repository
-
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Copy/paste and update code in prevoius notebooks (#4 and #5) to start building the code and analyses for your final research project.
-
+- Copy/paste and update code from [:fontawesome-solid-file-code: Notebooks 4 & 5](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) to start preparing the analyses for your final research project.
