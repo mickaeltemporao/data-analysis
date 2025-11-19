@@ -24,7 +24,7 @@
 ## **Get Ready for Next Week: Think. Read. Practice.**
 :fontawesome-solid-house-laptop: **Practice**
 
-- :fontawesome-solid-award: **Complete** [**Milestone 3**](../activities/milestone-3.md)
+- :fontawesome-solid-award: **Start** [**Milestone 3**](../activities/milestone-3.md)
 
 :fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
 
