@@ -27,7 +27,7 @@ This schedule is an approximation, subject to change due needs of the students i
    | 2025/11/20 | [:fontawesome-solid-book-open: **Catch-Up: Sharpen Your Coding Skills**](modules/catch-up.md)                                            |  | |
    | 2025/12/04 | :fontawesome-solid-book-open: What's Next?                                           | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | [**:fontawesome-solid-award: Exploration**](activities/milestone-3.md)                           |
 
-   | 2025/20/06 | :fontawesome-solid-book-open: From Comparisons to Visualisation                      |  | |
+   <!-- | 2025/20/06 | :fontawesome-solid-book-open: From Comparisons to Visualisation                      |  | | -->
   <!-- [:fontawesome-solid-book-open: What's Next?](modules/next.md)                          | | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) | -->
 <!-- [:fontawesome-solid-book-open: From Comparisons to Transformations](modules/wrangling.md) |                                                                            |          | -->
 <!-- [:fontawesome-solid-book-open: From Transformations to Models](modules/modeling.md) | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md/#s2-the-group-presenting) | [**:fontawesome-solid-award: Update**](activities/m4-analysis.md)     | -->
