@@ -25,7 +25,8 @@ This schedule is an approximation, subject to change due needs of the students i
    | 2025/10/23 | [:fontawesome-solid-book-open: **From Data to Insights**](modules/exploration-1.md)  | [**:fontawesome-solid-chalkboard-user: - G5**](activities/participation.md) |                                                                     |
    | 2025/11/06 | [:fontawesome-solid-book-open: **From Insights to Comparisons**](modules/exploration-2.md)                           | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](activities/milestone-2.md) |
    | 2025/11/20 | [:fontawesome-solid-book-open: **Catch-Up: Sharpen Your Coding Skills**](modules/catch-up.md)                                            |  | |
-   | 2025/12/04 | :fontawesome-solid-book-open: What's Next?                                           | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | [**:fontawesome-solid-award: Exploration**](activities/milestone-3.md)                           |
+   | 2025/12/04 | :fontawesome-solid-book-open: What's Next?                                           | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) | |
+   | 2025/12/05 | Deliver Milestone 3 before 5:00 PM                                           | | [**:fontawesome-solid-award: Exploration**](activities/milestone-3.md)                           |
 
    <!-- | 2025/20/06 | :fontawesome-solid-book-open: From Comparisons to Visualisation                      |  | | -->
   <!-- [:fontawesome-solid-book-open: What's Next?](modules/next.md)                          | | [**:fontawesome-solid-award: Exploration**](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb) | -->
