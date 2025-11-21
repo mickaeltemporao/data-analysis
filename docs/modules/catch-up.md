@@ -9,6 +9,8 @@
 - To start, download and open the notebooks directly in VS Code:
     - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
 
+<!-- Notebook 4 - Data Visualisation -->
+
 ## **Get Ready for Next Week**
 
 :fontawesome-solid-award: **Complete** [**Milestone 3**](../activities/milestone-3.md)
