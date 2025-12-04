@@ -1,11 +1,16 @@
 # Coding
 
+## Notebooks
+- [Notebooks used in Class](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
+
 ## Python
 - [Python Tutorial](https://www.kaggle.com/learn/python): Introduction to the basics of Python.
-- [Python Exercises](https://www.hackinscience.org/exercises/): A list of Python exercises.
 - [Python Notes](https://chrisalbon.com/): A curated list of Python notes by Chris Albon.
+- [A Python Textbook written in French](https://python.sdv.univ-paris-diderot.fr/01_introduction/#19-autres-ressources)
+- [Documention](https://www.python.org/): The official python website.
 
 ## Pandas
+- [Intro to Pandas](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb): An introduction to pandas on Colaboratory.
 - [Pandas Tutorial](https://www.kaggle.com/learn/pandas): Introduction to the basics of Pandas.
 - [Pandas Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf): A summary of Pandas commands.
 - [Intro to Pandas](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb): An introduction to Pandas on Colaboratory.
