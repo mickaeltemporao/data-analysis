@@ -1,6 +1,6 @@
 1. Introduction
-2. From context to questions
-3. From questions to concepts
+2. From Context to Questions
+3. From Questions to Concepts
 4. From Concepts to Variables
 5. From Variables to Data
 

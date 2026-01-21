@@ -1,3 +1,24 @@
+# 2025-2026
+
+## S1
+- Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.
+- Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." *American Political Science Review*, 89(2), 271-294.
+- Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.
+- Barber, M., & Pope, J. C. (2019). Does party trump ideology? Disentangling party and ideology in America. *American Political Science Review*, 113(1), 38-54.
+- Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. British Journal of Political Science, 55, 1-24.
+
+## S2
+
+- [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf)
+
+- [Family Matters: How Immigrant Histories Can Promote Inclusion](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/871DB7A02565D65FB0584FE89D7EF35D/S0003055420001057a.pdf/family-matters-how-immigrant-histories-can-promote-inclusion.pdf)
+
+- [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf)
+
+
+---
+
+- [Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. *Political Analysis*, 31(3), 337-351.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/035D7C8A55B237942FB6DBAD7CAA4E49/S1047198723000025a.pdf/out_of_one_many_using_language_models_to_simulate_human_samples.pdf)
 
 Making the Most of Statistical Analyses: Improving Interpretation and Presentation - King 2000
 
@@ -14,33 +35,12 @@ Potential
 Mosleh, M., Yang, Q., Zaman, T., Pennycook, G., & Rand, D. G. (2024). Differences in misinformation sharing can lead to politically asymmetric sanctions. Nature, 1-8.
 - https://www.nature.com/articles/s41586-024-07942-8
 
-S2
-
-[González-Bailón, S., Lazer, D., Barberá, P., Godel, W., Allcott, H., Brown, T., ... & Tucker, J. A. (2024). The Diffusion and Reach of (Mis) Information on Facebook During the US 2020 Election. *Sociological Science*, 11, 1124-1146.](https://sociologicalscience.com/download/vol_11/december/SocSci_v11_1124to1146_2.pdf)
-
-Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. American Political Science Review, 1-18.
-Chicago
-- https://www.cambridge.org/core/journals/american-political-science-review/article/toxic-speech-and-limited-demand-for-content-moderation-on-social-media/405333D7072585903E81BEF1729378F8
-
-Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. Political Analysis, 31(3), 337-351.
-- https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49
-
-Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. Nature, 608(7921), 108-121.
-- https://www.nature.com/articles/s41586-022-04996-4
-
-
-S1
-Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." American Political Science Review, 89(2), 271-294.
 
 Bartels, L. M. (1996). "Uninformed Votes: Information Effects in Presidential Elections." American Journal of Political Science, 40(1), 194-230.
 
-
-
-
-
 https://nulib-oer.github.io/empirical-methods-polisci/data.html#introduction-2
 https://www.scribbr.com/category/methodology/
-https://www.scribbr.com/methodology/operationalization/
+https://www.scribbr.com/methodology/operationalizationa
 https://www.publichealth.columbia.edu/research/population-health-methods/content-analysis
 https://nulib-oer.github.io/empirical-methods-polisci/data.html#
 

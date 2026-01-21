@@ -11,13 +11,11 @@
 - :fontawesome-solid-award: [Milestone 3](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb)
 
 ## **Application**
-
 ### Retrospective
 
 In agile project management, a retrospective is a brief meeting held, at the end of an iteration (e.g. sprint), to look for ways to improve the process for the next iteration ([Beck, K., et al. 2001](http://agilemanifesto.org/)).
 
 - [🔗 Retrospective](https://miro.com/app/board/uXjVJg_KYis=/?share_link_id=582096732525)
-
 
 ### Let's look ahead!
 

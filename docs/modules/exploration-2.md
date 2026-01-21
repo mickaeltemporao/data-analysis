@@ -14,7 +14,7 @@
     To load and use a notebook in VS Code follow the steps 3 to 5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
 
 - To start, download and open the notebooks directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) from the GitHub repository
+    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
 
 ## **Application**
 ### Start your Research Project Notebook
@@ -32,4 +32,4 @@
 
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Copy/paste and update code from [:fontawesome-solid-file-code: Notebooks 4 & 5](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) to start preparing the analyses for your final research project.
+- Copy/paste and update code from [:fontawesome-solid-file-code: Notebooks 4 & 5](https://github.com/mickaeltemporao/materials/tree/main/notebooks) to start preparing the analyses for your final research project.

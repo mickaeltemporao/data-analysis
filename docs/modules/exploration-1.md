@@ -17,7 +17,7 @@
 ### Working with Data
 
 - Let's load Notebook \#01 into VS Code: 
-    - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks)
+    - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
 
 
 ## **Get Ready for Next Week: Think. Read. Practice.**
@@ -33,5 +33,5 @@
 
 - Start exploring dependent (DV), independent (IV), and control variables (CV) related to your proposal using the ANES 2024 dataset.
 
-    - From the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks) repository, download the Notebook #03 (`03-functions-and-packages.ipynb`) file and open it in VS Code.
+    - From the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) repository, download the Notebook #03 (`03-functions-and-packages.ipynb`) file and open it in VS Code.
     - Rely on the Pandas section at the end of the notebook (copy, paste, and adjust the example code to fit your variables and analysis)

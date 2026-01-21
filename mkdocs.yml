@@ -68,8 +68,8 @@ nav:
       - modules/exploration-1.md
       - modules/exploration-2.md
       - modules/catch-up.md
-      # - modules/next.md
-      # - modules/wrangling.md
+      - modules/next.md
+      - modules/wrangling.md
       # - modules/modeling.md
       # - modules/inference.md
       # - modules/explanation.md
