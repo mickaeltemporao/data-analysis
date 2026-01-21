@@ -1,61 +1,58 @@
 # From Comparisons to Transformations
-## Agenda
 
-- [ ] Theory
-    - Catch-up and Progress: Review previous concepts and prepare to dive deeper.
-    - Milestone 3 Appointment
-    - Tools 2.0 Introduction 
-- [ ] Code
-    - Hands-on paper writing & coding
-    - Coding Bits
-- [ ] Application
-    - Milestone 4 Kick-start
+This module marks a shift from **describing data** to **actively transforming it**. You will learn how to reshape raw survey data into analytically meaningful variables using Python.
 
-## Theory
+!!! tip inline end "Reminder"
+    Good quantitative analysis is not just about running models, it starts with **careful decisions about how concepts become variables**.
 
-GitHub and Visual Studio Code (VSCode) are transformative tools that enhance both collaboration and productivity. GitHub, is a powerful platform for version control, allows to manage and track changes to their code and research projects efficiently. It facilitates seamless collaboration among researchers, enabling them to share, review, and merge contributions from multiple authors. This is particularly valuable in interdisciplinary projects or when working with large datasets. Meanwhile, VSCode serves as a versatile text editor, offering a robust environment for coding, writing, and managing research documents. 
+## **Theory**
 
-![Super Mario GIF](https://media.tenor.com/TkEBLikWqNEAAAAM/lol-super-mario.gif)
+### Where We Are in the Course
 
-Together, GitHub and VSCode empower researchers to conduct rigorous, reproducible research while fostering a collaborative research culture.
+- Milestone 3 & Upcoming milestones 
+    - Moving beyond exploration toward transformations and modeling
+- [:fontawesome-solid-file-code: Playground Notebooks](https://github.com/mickaeltemporao/materials/tree/main/notebooks) 
 
-### Tools 2.0
-- Text Editor: [VS Code :fontawesome-solid-terminal:](https://code.visualstudio.com/)
-- Version Control System: [GitHub :fontawesome-brands-github:](https://github.com/)
-    - Some knownn projects developed on GitHub:
-        - [Google Chrome](https://github.com/chromium)
-        - [Zotero](https://github.com/zotero)
-        - [Moodle Platform](https://github.com/python)
-        - [Python Language](https://github.com/python)
-        - [Meta Llama](https://github.com/meta-llama)
-        - [Bitcoin](https://github.com/bitcoin)
-    - Master saving your work and maintaining version control with GitHub.
-    - Access your GitHub [**Working Repository**](https://classroom.github.com/a/zJGMr4zh)
+## **Application**
+### Retrospective
 
-- Bibfile, Citations, and Scientific Papers
-    - Practice citing sources and compiling your references using a `.bib` file and incorporate citations into your analysis.
-    - Find and import citations on [Google Scholar](https://scholar.google.com/)
+In agile project management, a retrospective is a brief meeting held, at the end of an iteration (e.g. sprint), to look for ways to improve the process for the next iteration ([Beck, K., et al. 2001](http://agilemanifesto.org/)).
 
-## Code
+- [Retrospective](https://miro.com/app/board/uXjVJg_KYis=/?share_link_id=582096732525)
 
-- Saving Figures
-    - Open the data management notebook `06-data-management-existing-values.ipynb`
-    - How to save figures effectively and include them in a paper.
-- Explore how to clean existing values
-- Explore how to create and analyze a polarization variable.
+## **Code**
 
-## Application
+### Data Wrangling & Cleaning
 
-- Milestone 4 Kick-start
+!!! tip inline end
+    To load and use a notebook in VS Code follow the steps 3-5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
 
-## For Next Time
+#### What You’ll Practice
+Using ANES 2020 data, you will learn how to:
 
-- :fontawesome-solid-award: **Complete** [**Milestone 4**](../activities/m4-analysis.md)
+- Recode categorical survey variables
+- Create new variables from existing ones
+- Handle missing values explicitly
+- Prepare data for statistical modeling and visualization
 
-- :fontawesome-solid-brain: Start defining a formal model that summarizes your paper's core idea.
+#### Notebooks
+- Download and open **Notebooks 5 & 6** in VS Code:
+    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
 
-- :fontawesome-solid-book: Mandatory Reading, Note, & Presentation
+## **Get Ready for Next Week: Think. Read. Practice.**
+:fontawesome-solid-brain: **Thinking Ahead**
+
+- Start defining a formal model that summarizes your paper's core idea. 
+- Ask yourself:
+    - What is my dependent variable?
+    - What are my key explanatory variables, main indepndent variable?
+    - Do these variables already exist in ANES, or must I construct them?
+
+:fontawesome-solid-house-laptop: **Practice**
+
+- Data wrangling [:fontawesome-solid-file-code: Notebooks 5 & 6](https://github.com/mickaeltemporao/materials/tree/main/notebooks) 
+
+:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
     - [González-Bailón, S., et al. (2024). The Diffusion and Reach of (Mis) Information on Facebook During the US 2020 Election. *Sociological Science*, 11, 1124-1146.](https://sociologicalscience.com/download/vol_11/december/SocSci_v11_1124to1146_2.pdf)
 
-- Optional: [Create an online Github Profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
-
+<!-- - Optional: [Create an online Github Profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) -->
