@@ -42,17 +42,18 @@ Using ANES 2020 data, you will learn how to:
 ## **Get Ready for Next Week: Think. Read. Practice.**
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Start defining a formal model that summarizes your paper's core idea. 
-- Ask yourself:
+- Start defining a formal model that summarizes your paper's core idea. Ask yourself:
     - What is my dependent variable?
-    - What are my key explanatory variables, main indepndent variable?
+    - What are my key independent and control variables?
     - Do these variables already exist in ANES, or must I construct them?
+
+:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
+
+- [Allamong, M. B. (2024). Political alienation and the Trump vote in the 2016 and 2020 US presidential elections. *Public Opinion Quarterly*, 88(1), 1-21.](https://academic.oup.com/poq/article/88/1/1/7636367)
+<!-- - [González-Bailón, S., et al. (2024). The Diffusion and Reach of (Mis) Information on Facebook During the US 2020 Election. *Sociological Science*, 11, 1124-1146.](https://sociologicalscience.com/download/vol_11/december/SocSci_v11_1124to1146_2.pdf) -->
 
 :fontawesome-solid-house-laptop: **Practice**
 
 - Data wrangling [:fontawesome-solid-file-code: Notebooks 5 & 6](https://github.com/mickaeltemporao/materials/tree/main/notebooks) 
-
-:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
-    - [González-Bailón, S., et al. (2024). The Diffusion and Reach of (Mis) Information on Facebook During the US 2020 Election. *Sociological Science*, 11, 1124-1146.](https://sociologicalscience.com/download/vol_11/december/SocSci_v11_1124to1146_2.pdf)
 
 <!-- - Optional: [Create an online Github Profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) -->
