@@ -19,7 +19,7 @@ To work with `.ipynb` notebooks, you need the **Jupyter extension**.
 You’ll need to download a **Notebook** file.
 
 1. Click the link below to open a repository on GitHub containing various notebooks:
-    - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/data-analysis-codespace/tree/main/notebooks)
+    - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
 2. Once the page opens, locate the **`01-getting-started.ipynb`** file.
 3. Click on the file to open it, then look for the **Download** icon (usually a downward arrow).
 4. Save the file to a folder you can easily access (for example, your **Documents** or **Downloads** folder).
