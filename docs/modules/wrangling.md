@@ -48,7 +48,6 @@ Using ANES 2020 data, you will learn how to:
     - Do these variables already exist in ANES, or must I construct them?
 
 <!-- :fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation** -->
-
 <!-- - [Allamong, M. B. (2024). Political alienation and the Trump vote in the 2016 and 2020 US presidential elections. *Public Opinion Quarterly*, 88(1), 1-21.](https://academic.oup.com/poq/article/88/1/1/7636367) -->
 <!-- - [González-Bailón, S., et al. (2024). The Diffusion and Reach of (Mis) Information on Facebook During the US 2020 Election. *Sociological Science*, 11, 1124-1146.](https://sociologicalscience.com/download/vol_11/december/SocSci_v11_1124to1146_2.pdf) -->
 
