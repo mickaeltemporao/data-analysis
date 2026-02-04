@@ -87,10 +87,11 @@ df['age_groups'] = pd.cut(df['age'], bins=[0, 35, 50, 65, 100],
 **4. Additive Scale Creation**
 ```python
 # Combine related survey items into an additive scale
-scale_items = ['V241229', 'V241230', 'V241234']  # trust-related items
+scale_items = ['V242417', 'V242418', 'V242419']  # trust-related items
 
-df[scale_items] = df[scale_items].replace([-9, -8, -1], pd.NA)
-df['trust_scale'] = df[scale_items].sum(axis=1)
+df[scale_items] = df[scale_items].replace([-9, -8, -7, -6, -5], pd.NA)  # recode missing
+df[scale_items] = 5 - df[scale_items]  # Reverse values so higher = more trust
+df['trust_scale'] = df[scale_items].sum(axis=1)/12  # create new scale variable
 
 ```
 
