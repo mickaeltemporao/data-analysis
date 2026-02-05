@@ -120,20 +120,20 @@ Additive scales combine multiple related survey items into a single measure by s
 
 ## **Get Ready for Next Week: Think. Read. Practice.**
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
-- Begin thinking about **Milestone 4 requirements**
-    - How do transformation choices affect your hypothesis?
-    - What academic literature supports your data preparation decisions?
-
+<!-- :fontawesome-solid-brain: **Thinking Ahead** -->
+<!---->
+<!-- - Begin thinking about **Milestone 4 requirements** -->
+<!--     - How do transformation choices affect your hypothesis? -->
+<!--     - What academic literature supports your data preparation decisions? -->
+<!---->
 <!-- :fontawesome-solid-book: **Optional Reading** -->
 
 
 :fontawesome-solid-house-laptop: **Practice**
 
-- Complete **Notebook 6 exercises**
-- Start applying transformation techniques to your own research data
-- Prepare variable cleaning documentation for **Milestone 4**
+<!-- - Start applying transformation techniques to your own research data -->
+<!-- - Prepare variable cleaning documentation for **Milestone 4** -->
+- :fontawesome-solid-award: **Complete** [**Milestone 4**](../activities/milestone-2.md)
 
 ---
 
