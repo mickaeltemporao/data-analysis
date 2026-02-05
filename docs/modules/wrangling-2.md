@@ -137,5 +137,5 @@ Additive scales combine multiple related survey items into a single measure by s
 
 <!-- - Start applying transformation techniques to your own research data -->
 <!-- - Prepare variable cleaning documentation for **Milestone 4** -->
-- :fontawesome-solid-award: **Complete** [**Milestone 4**](../activities/milestone-2.md)
+- :fontawesome-solid-award: **Complete** [**Milestone 4**](../activities/milestone-4.md)
 
