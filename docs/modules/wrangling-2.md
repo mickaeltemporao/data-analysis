@@ -97,6 +97,10 @@ df['trust_scale'] = df[scale_items].sum(axis=1)/12  # create new scale variable
 
 Additive scales combine multiple related survey items into a single measure by summing responses across rows.
 
+---
+
+**Remember**: The goal is not just to transform data, but to do so **systematically and transparently**. Every recoding decision should be defensible and documented.
+
 #### Notebook
 - Download and open **Notebook 6** in VS Code:
     - [:fontawesome-solid-file-code: **06-data-management-existing-values.ipynb**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
@@ -135,6 +139,3 @@ Additive scales combine multiple related survey items into a single measure by s
 <!-- - Prepare variable cleaning documentation for **Milestone 4** -->
 - :fontawesome-solid-award: **Complete** [**Milestone 4**](../activities/milestone-2.md)
 
----
-
-**Remember**: The goal is not just to transform data, but to do so **systematically and transparently**. Every recoding decision should be defensible and documented.
