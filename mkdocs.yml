@@ -72,7 +72,7 @@ nav:
       - modules/wrangling.md
       - modules/wrangling-2.md
       - modules/modeling.md
-      # - modules/inference.md
+      - modules/inference.md
       # - modules/explanation.md
       # - modules/communication.md
       # - modules/publication.md
