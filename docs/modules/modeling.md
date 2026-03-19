@@ -25,7 +25,7 @@ For example, let's say we recorded the time I take to come to the *Sciences Po B
 
 ![Time to Sciences Po Bordeaux](../images/time-iep.png){ width=80% .center }
 
-## Application 
+## Code
 
 
 ### Modeling with Words
@@ -85,9 +85,9 @@ mean_text = alt.Chart(pd.DataFrame({"x":[mean_val]})).mark_text(
 hist + mean_line + mean_text
 ```
 
-## Hack Time
+## Application
 
-During hack time, we will work from **[Notebook 7](https://github.com/mickaeltemporao/materials/tree/main/notebooks)**. 
+We will work from **[Notebook 7](https://github.com/mickaeltemporao/materials/tree/main/notebooks)**. 
 
 !!! tip inline end
     To load and use a notebook in VS Code, follow steps 3 to 5 in
@@ -119,6 +119,4 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 - [Altair User Guide](https://altair-viz.github.io/)
 - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 - [Statsmodels User Guide](https://www.statsmodels.org/stable/example_formulas.html#fitting-models-using-r-style-formulas)
-
-
 

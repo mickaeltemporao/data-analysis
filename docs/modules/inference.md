@@ -1,8 +1,8 @@
-# From Models to Predictions
+# From Models to Explanations
 
 ## Agenda
 - [ ] Theory
-    - Presentation & Discussion
+    - 
 - [ ] Code 
     - Creating Quantities of Interest 
 - [ ] Application
@@ -10,8 +10,7 @@
 
 ## Theory
 
-- [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf)
-
+...
 
 ## Code 
 
@@ -29,7 +28,7 @@ df = pd.read_csv("../data/clean_anes.csv")
 mask = (df['feeling_democrat'] >= 0) & (df['feeling_republican'] >= 0)
 df = df[mask]
 
-df['affective_polarization'] = np.abs(df['feeling_democrat'] - df['feeling_republican'])
+df['affective_polarization'] = abs(df['feeling_democrat'] - df['feeling_republican'])
 
 ```
 
@@ -65,11 +64,20 @@ df['political_knowledge_scale'] = df[political_knowledge_vars].sum(axis=1)
 
 ## Application
 
-Let's head to Github and open our codespace (text editor)
+### Data Modeling Lab
+<a href="materials/modeling-lab.ipynb" download>Download Modeling L</a>
 
-- [GitHub :fontawesome-brands-github:](https://github.com/)
+- Download the following modeling lab file and open it in VSCode: [lab-modeling.ipynb](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/lab-modeling.ipynb)
 
-## What's Next?
-- :fontawesome-solid-book: Mandatory Reading, Reading Note & Presentation
-    - [Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. *Political Analysis*, 31(3), 337-351.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/035D7C8A55B237942FB6DBAD7CAA4E49/S1047198723000025a.pdf/out_of_one_many_using_language_models_to_simulate_human_samples.pdf)
+We will use contents mostly from from **[Notebook 7 & 8](https://github.com/mickaeltemporao/materials/tree/main/notebooks)**. 
+
+!!! tip inline end
+    To load and use a notebook in VS Code, follow steps 3 to 5 in
+    [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+
+Focus on *understanding how each IV (predictors) is related to the DV (outcome)*. Ask yourself:
+
+- How does each variable help me explain the outcome (DV)?
+- What is the causal mechanism behind it? 
+- What is the hypothetical direction of the effect (+/-)?
 
