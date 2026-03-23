@@ -24,7 +24,7 @@ You need to:
 - Use your previous Milestone 4 (.typst file and .ipynb) as a starting point, incorporating any feedback received.
 
 - Apply linear regression techniques learned in recent in :
-    - [`07-data-modeling-insights.ipynb`](https://github.com/mickaeltemporao/materials/tree/main/notebooks):
+    - [`07-data-modeling-insights.ipynb`](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
     - [the data modeling lab](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/lab-modeling.ipynb)
 - Estimate a sequence of nested regression models to test your hypothesis.
 - Export your regression table using the `make_table()` function from `mmisc`.
