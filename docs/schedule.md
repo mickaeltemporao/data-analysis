@@ -31,42 +31,5 @@ This schedule is an approximation, subject to change due needs of the students i
 | 2026/02/05 | [:fontawesome-solid-book-open: **From Transformations to Cleaned Data**](modules/wrangling-2.md)                            |                                                                             |                                                                        |
 | 2026/03/05 | [:fontawesome-solid-book-open: **From Cleaned Data to Models**](modules/modeling.md)                                     |                                                                             | [**:fontawesome-solid-award: Analysis**](activities/milestone-4.md)                                 |
 | 2026/03/19 | [:fontawesome-solid-book-open: **From Models to Explanations**](modules/inference.md)                                     |                                                                             |                                                                        |
-| 2026/04/02 | :fontawesome-solid-book-open: From Explanations to Communication                              |                                                                             | **:fontawesome-solid-award: Modeling**                                 |
+| 2026/04/02 | :fontawesome-solid-book-open: From Explanations to Communication                              |                                                                             | [**:fontawesome-solid-award: Modeling**](activities/milestone-5.md)                                 |
 
- <!-- | 2026/02/05 | [:fontawesome-solid-book-open: From Transformations to Models](modules/modeling.md)           | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) |                                                                        | -->
- <!-- | 2026/03/05 | [:fontawesome-solid-book-open: From Models to Predictions](modules/inference.md)              | [**:fontawesome-solid-chalkboard-user: - G2-3**](activities/participation.md) | **:fontawesome-solid-award: Analysis**  | -->
- <!-- | 2026/03/19 | [:fontawesome-solid-book-open: From Predictions to Explanations](modules/explanation.md)      | [**:fontawesome-solid-chalkboard-user: - G3-4**](activities/participation.md) |                | -->
- <!-- | 2026/04/02 | [:fontawesome-solid-book-open: From Explanations to Communication](modules/communication.md)  | [**:fontawesome-solid-chalkboard-user: - G5**](activities/participation.md) |  **:fontawesome-solid-award: Modeling**                                                                      | -->
-
-<!-- From Comparisons to Patterns -->
-<!-- From Comparisons to Trends -->
-<!-- From Data to Summaries -->
-<!-- From Concepts to Variables -->
-<!-- From Transformation to Models -->
-<!-- From Models to Inference -->
-<!-- From Inference to Intuition -->
-<!-- From Intuition to Communication -->
-<!-- From Communication to Publication -->
-
-<!-- | Date       | Module                             | Class                                                      | Presentation                                                                   | Deadline                                  | -->
-<!-- | :-:        | :-:                                | :-:                                                        | :-:                                                                            | :-:                                       | -->
-<!-- | 2022/01/14 | Wrangling Survey Data I            | [:fontawesome-solid-book-open:](modules/management-1.md) |                                                                                |                                           | -->
-<!-- | 2022/01/21 | Wrangling Survey Data II           | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) |                                           | -->
-<!-- | 2022/01/28 | Wrangling Survey Data III          | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) |                                           | -->
-<!-- | 2022/02/04 | Modeling I                         | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) | **:fontawesome-solid-award: Analysis**    | -->
-<!-- | 2022/02/11 | Modeling II                        | :fontawesome-solid-book-open:                            |                                                                                |                                           | -->
-<!-- | 2022/02/18 | Modeling III                       | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           | -->
-<!-- | 2022/02/25 | :fontawesome-solid-umbrella-beach: |                                                            |                                                                                |                                           | -->
-<!-- | 2022/03/04 | Inference I                        | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) |                                           | -->
-<!-- | 2022/03/11 | Inference II                       | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | **:fontawesome-solid-award: Modeling**    | -->
-<!-- | 2022/03/18 | Inference III                      | :fontawesome-solid-book-open:                            |                                                                                |                                           | -->
-<!-- | 2022/03/25 | Communication I                    | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) |                                           | -->
-<!-- | 2022/04/01 | Communication II                   | :fontawesome-solid-book-open:                            | [**:fontawesome-solid-chalkboard-user: - G4**](activities/participation.md) |                                           | -->
-<!-- | 2022/04/10 | **Paper Deadline**                 |                                                            |                                                                                | **:fontawesome-regular-file-code: Paper** | -->
-
-<!-- [](modules/programming-2.md)  -->
-<!-- [](modules/programming-3.md) -->
-<!-- [](modules/exploration-1.md) -->
-<!-- [](modules/exploration-2.md)  -->
-<!-- [](modules/exploration-4.md)  -->
-<!-- [](modules/exploration-5.md)  -->
