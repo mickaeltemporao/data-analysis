@@ -23,7 +23,7 @@ Building on Milestone 3's basic exploration, you will now conduct a **more sophi
 You need to:
 
 - Use your Milestone 3 (.typst file and .ipynb) as a starting point, incorporating any feedback received.
-- Apply data cleaning, transformation, and analysis techniques learned in recent [modules](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
+- Apply data cleaning, transformation, and analysis techniques learned in recent [**modules**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
     - `04-data-exploration-columns.ipynb`
     - `05-data-exploration-rows.ipynb`
     - `06-data-management-existing-values.ipynb`
