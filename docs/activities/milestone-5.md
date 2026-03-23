@@ -39,8 +39,8 @@ Your Milestone 5 typst file is an updated Milestone 4 typst file that:
 - **Includes a results section**: 
     - **Assesses coefficient stability**: Note how IV coefficients and the R-squared values changes across models.
     - **Connects results to hypothesis**: Explain what the coefficients reveal about your theoretical expectations (SSS).
-    - **Revisit your DAG**: Compare your empirical model to your theoretical model from Milestone 2
     - **Discusses limitations**: Acknowledge potential model limitation and potential threats to causal inference (e.g., omitted variable bias, reciprocal causation, ...)
+    - Revisit your DAG (optional): If you created a DAG for Milestone 2, you can use it to help you reflect on how your thinking has evolved. No need to create a new DAG unless you want to.
 
 ### What is expected from a **coding** perspective
 
