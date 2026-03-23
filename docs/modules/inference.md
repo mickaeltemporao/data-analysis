@@ -183,4 +183,7 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 
 ## **Get Ready for Next Week: Think. Read. Practice.**
 
-**Milestone 5 - Forthcoming...**
+:fontawesome-solid-house-laptop: **Practice**
+
+- :fontawesome-solid-award: **Complete** [**Milestone 5**](../activities/milestone-5.md)
+
