@@ -3,11 +3,11 @@
 This schedule is an approximation, subject to change due needs of the students in the course. Students will be informed of changes to the schedule.
 
 !!! info inline end "Groups Info"
-    - **Group 1:** Clothilde, Flavio, Martino, Tommaso
-    - **Group 2:** Anouk, Chloé, Mila, Wissal
-    - **Group 3:** Aurèle, Fanny, Talilah, Théa
-    - **Group 4:** Assumpta, Mathéo, Sheperd
-    - **Group 5:** Eleonora, Emma, Léane, Marianna
+    - **Group 1:** ...
+    - **Group 2:** ...
+    - **Group 3:** ...
+    - **Group 4:** ...
+    - **Group 5:** ...
 
 - **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day. Also contains a link to the class meeting materials.
 - **:fontawesome-solid-chalkboard-user: Presentation:** Indicates that there is a student presentation this day. Contains a link to the instructions.
@@ -20,7 +20,8 @@ This schedule is an approximation, subject to change due needs of the students i
 | Date       | Class Meeting                                                                                 | Presentation                                                                | Deadline                                                               |
 |:----------:|-----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------:|:----------------------------------------------------------------------:|
 | 2025/09/25 | [:fontawesome-solid-book-open: **Introduction**](modules/introduction.md)                     |                                                                             |                                                                        |
-| 2025/10/02 | [:fontawesome-solid-book-open: **From Concepts to Variables**](modules/variables.md)          | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](activities/milestone-1.md)        |
+| 2025/10/02 | [:fontawesome-solid-book-open: **From Concepts to Variables**](modules/variables.md)          | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | |
+<!-- | 2025/10/02 | [:fontawesome-solid-book-open: **From Concepts to Variables**](modules/variables.md)          | [**:fontawesome-solid-chalkboard-user: - G1**](activities/participation.md) | [**:fontawesome-solid-award: Idea**](activities/milestone-1.md)        | -->
 | 2025/10/16 | [:fontawesome-solid-book-open: **From Variables to Data**](modules/data.md)                   | [**:fontawesome-solid-chalkboard-user: - G3**](activities/participation.md) |                                                                        |
 | 2025/10/23 | [:fontawesome-solid-book-open: **From Data to Insights**](modules/exploration-1.md)           | [**:fontawesome-solid-chalkboard-user: - G5**](activities/participation.md) |                                                                        |
 | 2025/11/06 | [:fontawesome-solid-book-open: **From Insights to Comparisons**](modules/exploration-2.md)    | [**:fontawesome-solid-chalkboard-user: - G2**](activities/participation.md) | [**:fontawesome-solid-award: Proposal**](activities/milestone-2.md)    |
