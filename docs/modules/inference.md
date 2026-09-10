@@ -199,9 +199,9 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 
 ### Explore
 - **Live Demo (Group 5):** Visualizing Regression Models & Substantive Findings. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html) to follow along and lead the peer discussion.
 - In your analysis notebook, extract regression parameters (`results.params`, `results.conf_int()`) to create a coefficient plot for your manuscript.
 - *Looking Ahead:* The [Research Project](../activities/project.md) final paper is due Friday, March 26, 2027 at 23:59 via email.
 

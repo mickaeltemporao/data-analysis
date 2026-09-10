@@ -36,9 +36,9 @@
 
 ### Explore
 - **Live Demo (Group 5):** Visualizing Relationships with Altair. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
 - Export your two Altair figures as images and integrate them with accompanying text into your Typst manuscript.
 - :fontawesome-solid-award: **Complete [Milestone 3 - Exploration](../activities/milestone-3.md)** (Due Friday, Nov 20 at 23:59 via email).
 

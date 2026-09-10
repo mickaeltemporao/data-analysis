@@ -42,9 +42,9 @@ In agile project management, a retrospective is a brief meeting held, at the end
 
 ### Explore
 - **Semester 2 Roadmap:** We resume on January 08, 2027 with Module 7 (*From Comparisons to Transformations*). Student group live demos resume in Session 8 with Group 1 (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Pandas Data Cleaning and Transformation Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to prepare.
 
 ### Practice
-- The class should review the [Pandas Data Cleaning and Transformation Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to prepare.
 - Review instructor comments on [Milestone 3 - Exploration](../activities/milestone-3.md) and consolidate your group's project code repository.
 - Explore data wrangling examples in [Notebooks #05 & #06](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 

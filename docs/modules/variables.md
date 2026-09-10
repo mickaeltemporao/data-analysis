@@ -86,9 +86,9 @@ The concept of political ideology can't be directly measured, but it can be oper
 
 ### Explore
 - **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
 - Refine your research puzzle based on instructor feedback from Milestone 1 and keep your `.bib` references organized.
 - Work through the [Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb) interactive notebook.
 

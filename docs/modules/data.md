@@ -66,9 +66,9 @@ Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
 
 ### Explore
 - **Live Demo (Group 3):** Data Acquisition & Column Inspection. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
 - Practice loading and exploring datasets using [Notebook #02](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 - :fontawesome-solid-award: **Complete [Milestone 2 - Proposal](../activities/milestone-2.md)** (Due Friday, Oct 23 at 08:00 before class via email).
 

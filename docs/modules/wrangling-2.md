@@ -136,9 +136,9 @@ Additive scales combine multiple related survey items into a single measure by s
 
 ### Explore
 - **Live Demo (Group 2):** Subgroup Analysis & Cross-Tabulations. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
 - Finalize your cleaned dataset and export your bivariate figures into your Typst manuscript for Milestone 4.
 - :fontawesome-solid-award: **Complete [Milestone 4 - Analysis](../activities/milestone-4.md)** (Due Friday, Feb 05 at 08:00 before class via email).
 

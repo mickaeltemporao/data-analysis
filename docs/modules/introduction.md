@@ -127,9 +127,9 @@ Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **O
 
 ### Explore
 - **Live Demo (Group 1):** Typst for Scientific Writing. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Typst Documentation](https://typst.app/docs/) and [Guide to Citations in Typst](../resources/writing.md#academic-citations-in-typst) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Typst Documentation](https://typst.app/docs/) and [Guide to Citations in Typst](../resources/writing.md#academic-citations-in-typst) to follow along and lead the peer discussion.
 - Complete your local programming setup via the [Onboarding](../resources/onboarding.md) guide.
 - :fontawesome-solid-award: **Complete [Milestone 1 - Idea](../activities/milestone-1.md)** (Due Friday, Sep 25 at 08:00 before class via email).
 

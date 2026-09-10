@@ -48,9 +48,9 @@ Using ANES 2020 data, you will learn how to:
 
 ### Explore
 - **Live Demo (Group 1):** Survey Data Recoding & Variable Creation. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Pandas Working with Missing Data Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Pandas Working with Missing Data Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to follow along and lead the peer discussion.
 - Practice recoding your project's DV and IV using [Notebooks #05 & #06](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 - *Looking Ahead:* Milestone 4 - Analysis will be due in Session 9 (Feb 05 at 08:00).
 

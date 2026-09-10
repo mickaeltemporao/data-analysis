@@ -35,9 +35,9 @@
 
 ### Explore
 - **Live Demo (Group 4):** Filtering Survey Rows & Univariate Charts. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
 - In your group repository, start an exploratory notebook (`exploration.ipynb`) to inspect your DV and IV using [Notebooks #03 & #04](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 - *Looking Ahead:* Milestone 3 - Exploration will be due in Session 6 (Nov 20 at 23:59).
 

@@ -118,9 +118,9 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 
 ### Explore
 - **Live Demo (Group 4):** Multiple Regression & Exporting Tables. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
 - Fit your nested regression models in Python and generate your final Typst regression table.
 - :fontawesome-solid-award: **Complete [Milestone 5 - Modeling](../activities/milestone-5.md)** (Due Friday, Mar 05 at 08:00 before class via email).
 

@@ -33,9 +33,9 @@ This module bridges the gap between transformed survey data and empirical hypoth
 
 ### Explore
 - **Live Demo (Group 3):** Linear Regression & Categorical Predictors. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the [Statsmodels Formula API Guide](https://www.statsmodels.org/stable/example_formulas.html) to follow along and lead the peer discussion.
 
 ### Practice
-- The class should review the [Statsmodels Formula API Guide](https://www.statsmodels.org/stable/example_formulas.html) to follow along and lead the peer discussion.
 - Start a modeling notebook (`modeling.ipynb`) in your group repository and fit a baseline univariate regression ($DV \sim IV$) with `smf.ols`.
 - *Looking Ahead:* Milestone 5 - Modeling will be due in Session 11 (Mar 05 at 08:00).
 
