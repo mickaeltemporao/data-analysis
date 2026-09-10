@@ -85,23 +85,28 @@ Git provides version control to track changes to your files, while GitHub hosts 
 
 ### First lines of code in Typst
 
-Since we will use Typst from Day 1 for scientific writing and all milestone submissions, let's create your first document and try adding a citation!
+Since we will use Typst from Day 1 for scientific writing and all milestone submissions, let's create your first document with simple formatting:
 
-1. Create a document named `paper.typ` on [Typst](https://typst.app/):
+1. Create a new document on [Typst](https://typst.app/) and paste the following snippet:
 
 ```typst
 = Political Behavior & Public Opinion
+== First Steps with Typst
 
-This document was produced with Typst.
-According to @dassonneville2018gender, political knowledge is shaped by early socialization.
+This document was created with *Typst* for our _Data Analysis_ course.
 
-#bibliography("references.bib")
+=== Research Hypotheses
+- *H1:* Higher political interest increases voter turnout.
+- *H2:* Partisan identity influences media consumption.
+
+We can even write math formulas easily: $Y = beta_0 + beta_1 X + epsilon$
 ```
 
-2. Check the [📚 Guide to Academic Citations in Typst](../resources/writing.md#academic-citations-in-typst) to see how `.bib` files work.
-3. Export and compile your document to PDF (`paper.pdf`).
+2. Export and compile your document to PDF (`paper.pdf`).
 
-### Automated Environment Setup
+Check the [📚 Guide to Academic Citations in Typst](../resources/writing.md#academic-citations-in-typst) to see how citations and `.bib` bibliography files are handled in Typst (we will cover this if time allows).
+
+### Onboarding
 
 Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **Onboarding**](../resources/onboarding.md) page to install VS Code, Python, the Jupyter extensions, and data science libraries on your computer with a single command.
 
