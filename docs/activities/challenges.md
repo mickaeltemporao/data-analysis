@@ -23,7 +23,11 @@ Each milestone instructions page provides explicit guidelines, word limits, and 
 
 1. Open the milestone by clicking the milestone link on the [Schedule](../schedule.md) page.
 2. Read the instructions carefully, and work collaboratively in your group on your Typst manuscript and Jupyter notebook.
-3. Export your files according to the naming convention (e.g. `da-milestoneX-groupY.pdf`, `.typ`, `.ipynb`) and submit them on the class WhatsApp group before the deadline.
+3. Export your files according to the naming convention (e.g. `da-milestoneX-groupY.pdf`, `.typ`, `.ipynb`) and email them to the instructor before the deadline with the subject line:
+    ```text
+    [DATA-ANALYSIS] Milestone X - Group Y
+    ```
+
 
 ## Grading Scale
 

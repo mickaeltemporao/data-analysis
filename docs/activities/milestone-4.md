@@ -64,9 +64,14 @@ Similarly, your Milestone 4 ipynb file is an updated Milestone 3 ipynb file that
     - `da-milestone4-group0.typ`
     - `da-milestone4-group0.pdf`
     - `da-m4-notebook-group0.ipynb`
-2. Keep file names consistent for organization.
-3. Submit **three files** in the General Chat.
+2. Keep file names consistent for organization (e.g., `da-milestone4-group1.typ`, `da-milestone4-group1.pdf`, `da-m4-notebook-group1.ipynb`).
+3. Email **all 3 files attached** to the instructor before the deadline with the subject line:
+    ```text
+    [DATA-ANALYSIS] Milestone 4 - Group X
+    ```
+    *(List all contributing group members in the body of the email).*
 4. Manuscript length must not exceed **3000 words** (excluding references, figures, and captions).
+
 
 ---
 

@@ -48,8 +48,13 @@ You need to :
 1. Export **both** files from Typst:
     - `da-milestone2-group0.typ`
     - `da-milestone2-group0.pdf`
-2. Keep file names consistent so submissions stay organized.
-3. Submit **both files** in the General Chat.
+2. Keep file names consistent so submissions stay organized (e.g., `da-milestone2-group1.typ`, `da-milestone2-group1.pdf`).
+3. Email **both files attached** to the instructor before the deadline with the subject line:
+    ```text
+    [DATA-ANALYSIS] Milestone 2 - Group X
+    ```
+    *(List all contributing group members in the body of the email).*
+
 
 ---
 

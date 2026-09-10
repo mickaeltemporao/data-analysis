@@ -14,7 +14,12 @@ The final paper synthesizes the cumulative work accomplished across the 5 milest
     1. Rendered PDF manuscript (`da-final-paper-groupX.pdf`)
     2. Typst source code and `.bib` file (`da-final-paper-groupX.typ` and `references.bib`)
     3. Fully executable Python analysis notebook (`da-final-notebook-groupX.ipynb`)
-- **Deadline:** **Friday, March 26, 2027 at 23:59** on the class WhatsApp group.
+- **Deadline & Submission:** **Friday, March 26, 2027 at 23:59** via email to the instructor with the subject line:
+    ```text
+    [DATA-ANALYSIS] Final Paper - Group X
+    ```
+    *(Attach all 3 deliverables and list all contributing group members in the body of the email).*
+
 
 ## Evaluation Rubric
 

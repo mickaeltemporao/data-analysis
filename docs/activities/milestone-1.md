@@ -44,12 +44,17 @@ Before you can start this milestone, you need to have a [**typst**](https://typs
 1. When you have completed your milestone, **export your work from Typst as both**:
     * a `.pdf` version of your milestone
     * the `.typ` source file
-2. Submit **both files together** in the General Chat.
+2. Email **both files attached** to the instructor before the deadline with the subject line:
+    ```text
+    [DATA-ANALYSIS] Milestone 1 - Group X
+    ```
+    *(Replace `Group X` with your actual group number, and list all contributing group members in the body of the email).*
 3. **File Naming:** To help keep submissions organized, use a consistent format such as:
 
 ```
 da-milestone1-group1.typ
 da-milestone1-group1.pdf
 ```
+
 
 This keeps it easy to identify your files and ensures nothing gets lost.

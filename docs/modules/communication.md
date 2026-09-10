@@ -165,7 +165,7 @@ Let's head to Github and open our codespace (text editor)
 
 :fontawesome-solid-house-laptop: **Practice & Deadlines**
 
-- :fontawesome-regular-file-code: **Final Paper Deadline:** [**Research Project**](../activities/project.md) is due **Friday, March 26, 2027 at 23:59** on WhatsApp.
+- :fontawesome-regular-file-code: **Final Paper Deadline:** [**Research Project**](../activities/project.md) is due **Friday, March 26, 2027 at 23:59** via email (Subject: `[DATA-ANALYSIS] Final Paper - Group X`).
 - :fontawesome-solid-list-check: Verify your 3 required deliverables before submission:
     1. Rendered PDF manuscript (`da-final-paper-groupX.pdf`)
     2. Typst source and bibliography (`da-final-paper-groupX.typ` and `references.bib`)

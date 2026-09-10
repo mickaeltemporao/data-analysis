@@ -43,5 +43,10 @@ You will move back and forth between Typst and the notebook as you refine your a
     - `da-milestone3-group0.typ`
     - `da-milestone3-group0.pdf`
     - `da-m3-notebook-group0.ipynb`
-2. Adjust the file names and keep them consistent so submissions stay organized.
-3. Submit 3 files in the General Chat.
+2. Adjust the file names and keep them consistent so submissions stay organized (e.g., `da-milestone3-group1.typ`, `da-milestone3-group1.pdf`, `da-m3-notebook-group1.ipynb`).
+3. Email **all 3 files attached** to the instructor before the deadline with the subject line:
+    ```text
+    [DATA-ANALYSIS] Milestone 3 - Group X
+    ```
+    *(List all contributing group members in the body of the email).*
+
