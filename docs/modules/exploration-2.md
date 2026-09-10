@@ -1,4 +1,4 @@
-# From Insights to Comparisons
+# From Insights to Visualization
 
 ## **Theory**
 ### Presentation & Discussion

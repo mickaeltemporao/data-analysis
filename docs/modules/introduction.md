@@ -6,10 +6,10 @@
 - [ ] Science ?
 - [ ] Hack-time
     - Groups & Planning
-    - LLMs, VS Code, Typst, Git/GitHub...
-    - Getting started with Milestone 1
+    - First steps with Typst & Citing
+    - Automated Setup via Onboarding
 - [ ] For next time
-    - Finish Milestone 1
+    - Complete the [:fontawesome-regular-paper-plane: Onboarding](../resources/onboarding.md)
 
 ---
 
@@ -72,27 +72,27 @@ Typst is a lightweight, open-source tool for creating clean, formatted documents
 
 # Hack-Time: Setup + Your First Lines of Code 
 
-## First Typst document
-- Create a document named `paper.typ` with the following contents:
+## First Typst Document & Citing
 
-```
-= Some Random Text
+Since we will use Typst from Day 1 for scientific writing and all milestone submissions, let's create your first document and try adding a citation!
+
+1. Create a document named `paper.typ` on [Typst](https://typst.app/):
+
+```typst
+= Political Behavior & Public Opinion
 
 This document was produced with Typst.
-We computed the average penguin body mass by species. See the figure below.
-#image("find_some_figure.png", width: 80%)
+According to @dassonneville2018gender, political knowledge is shaped by early socialization.
+
+#bibliography("references.bib")
 ```
-- Compile (export as pdf).
 
-You should get paper.pdf.
+2. Check the [📚 Guide to Academic Citations in Typst](../resources/writing.md#academic-citations-in-typst) to see how `.bib` files work.
+3. Export and compile your document to PDF (`paper.pdf`).
 
+## Automated Environment Setup
 
-## Package Manager Setup:  
-- This will make installing software much easier!
-    - **Windows**: [Chocolatey](https://chocolatey.org/install)  
-    - **Mac**: [Homebrew](https://brew.sh/)  
-    - **Linux**: You already have a package manager (e.g., `apt`, `dnf`, `pacman`).  
-- Can you install :fontawesome-brands-python: Python using your package manager ?
+Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **Onboarding**](../resources/onboarding.md) page to install VS Code, Python, the Jupyter extensions, and data science libraries on your computer with a single command.
 
 ![This is Fine...](../images/fine.jpg)
 

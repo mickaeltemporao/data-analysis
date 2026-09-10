@@ -1,4 +1,4 @@
-# From Transformations to Models
+# From Hypotheses to Models
 
 This module introduces the fundamental concepts of **statistical modeling** in political science research. We have already explored our data, visualized distributions, and examined relationships between variables. Now, we ask:
 

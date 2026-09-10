@@ -147,5 +147,5 @@ Let's head to Github and open our codespace (text editor)
 
 
 ## For next time
-- :fontawesome-solid-triangle-exclamation: Start Wrapping-up your [**:fontawesome-regular-file-code: Project**](activities/project.md) 
+- :fontawesome-solid-triangle-exclamation: Start Wrapping-up your [**:fontawesome-regular-file-code: Project**](../activities/project.md) 
 

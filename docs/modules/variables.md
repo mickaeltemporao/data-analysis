@@ -8,8 +8,8 @@
     - Concepts, & Variables
     - ANES Data Overview
 - [ ] Code 
-    - Scientific Writing - Citing 
-    - Package Manager Setup & Github
+    - Student Group Live Demo: Python & Pandas Data Structures
+    - Exploring ANES 2024 Variables in VS Code
 
 ## Theory
 
@@ -67,18 +67,14 @@ The concept of political ideology can't be directly measured, but it can be oper
     - [About the ANES 2024](https://electionstudies.org/data-center/2024-time-series-study/)
     - [ANES 2024 Documentation](https://sda.berkeley.edu/sdaweb/docs/anes2024prelim/DOC/hcbk.htm)
 
-## Code
+## Code: Live Demo & Hands-on Lab
 
-### Citing?
-- [📚 Academic Citations in typst](../resources/writing.md#academic-citations-in-typst)
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 2)
+- **Topic:** Python & Pandas Data Structures (lists, dicts, Series & DataFrames).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
-### Installing a Package Manager
-- This will make installing software much easier!
-    - **Windows**: [Chocolatey](https://chocolatey.org/install)  
-    - **Mac**: [Homebrew](https://brew.sh/)  
-    - **Linux**: You already have a package manager (e.g., `apt`, `dnf`, `pacman`).  
-- Can you install :fontawesome-solid-laptop-code: VS Code using your package manager ?
-- Can you install :fontawesome-brands-python: Python using your package manager ?
+### Hands-on Practice
+- Work in your group's VS Code workspace to search and explore variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
 
 
 ## **Get Ready for Next Week: Think. Read. Practice.**

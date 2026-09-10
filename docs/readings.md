@@ -1,13 +1,18 @@
-# 2025-2026
+# 2026–2027 Suggested Conceptual Readings
 
-## S1
+!!! info "Optional & Suggested Readings"
+    These scientific articles are **suggested readings** that accompany the instructor's lectures on theoretical frameworks, research design, and empirical methods in political science.
+    
+    Students are encouraged to consult these papers for inspiration, literature reviews, and benchmark empirical models for their ANES research projects.
+
+## Semester 1 — Conceptual Foundations & Exploration
 - Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.
 - Brady, H. E., Verba, S., & Schlozman, K. L. (1995). "Beyond SES: A Resource Model of Political Participation." *American Political Science Review*, 89(2), 271-294.
 - Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.
 - Barber, M., & Pope, J. C. (2019). Does party trump ideology? Disentangling party and ideology in America. *American Political Science Review*, 113(1), 38-54.
-- Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. British Journal of Political Science, 55, 1-24.
+- Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.
 
-## S2
+## Semester 2 — Wrangling, Modeling & Statistical Inference
 
 - [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf)
 

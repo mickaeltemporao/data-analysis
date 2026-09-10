@@ -1,4 +1,4 @@
-# What's Next?
+# From Visualization to Comparisons
 
 ## **Theory**
 ### Presentation & Discussion
@@ -8,7 +8,7 @@
 ## **Code**
 ### Milestone Check-in
 
-- :fontawesome-solid-award: [Milestone 3](https://colab.research.google.com/github/mickaeltemporao/data-analysis/blob/main/materials/assignment-3.ipynb)
+- :fontawesome-solid-award: [**Milestone 3**](../activities/milestone-3.md)
 
 ## **Application**
 ### Retrospective
