@@ -132,12 +132,13 @@ Additive scales combine multiple related survey items into a single measure by s
 ### Think
 - How do your key outcome variables vary across sociodemographic subgroups (e.g., age cohorts, education levels, party identification)?
 - How will cross-tabulations and subgroup mean comparisons help substantiate the bivariate relationships required in Milestone 4?
+- **Suggested Reading:** [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf) - Demonstrates how large-scale subgroup aggregation and cross-sectional comparisons uncover deep socioeconomic and political patterns.
 
 ### Explore
-- **Live Demo (Group 2):** Subgroup Analysis & Cross-Tabulations. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
-- **Suggested Reading:** [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf) — Demonstrates how large-scale subgroup aggregation and cross-sectional comparisons uncover deep socioeconomic and political patterns.
+- **Live Demo (Group 2):** Subgroup Analysis & Cross-Tabulations. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
 
 ### Practice
+- The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
 - Finalize your cleaned dataset and export your bivariate figures into your Typst manuscript for Milestone 4.
 - :fontawesome-solid-award: **Complete [Milestone 4 - Analysis](../activities/milestone-4.md)** (Due Friday, Feb 05 at 08:00 before class via email).
 

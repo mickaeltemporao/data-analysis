@@ -21,7 +21,7 @@ By the end of this milestone, you should be able to:
 
 * **Define concepts precisely.** Avoid vague terms, say *how* you'll measure them in ANES (include variable names if possible).
 
-* **Revise carefully.** This proposal will serve as the foundation of your final paper—clarity and precision now will save time later!
+* **Revise carefully.** This proposal will serve as the foundation of your final paper - clarity and precision now will save time later!
 
 ## 🧩 The Milestone
 

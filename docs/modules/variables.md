@@ -82,12 +82,13 @@ The concept of political ideology can't be directly measured, but it can be oper
 ### Think
 - How are the different concepts in your project interrelated? Translate them into concrete variables (DV, IV, CV) and reflect on how existing scientific literature supports those theoretical mechanisms.
 - Identify candidate survey variables from the ANES 2024 codebook to measure these concepts.
+- **Suggested Reading:** [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E) - A foundational paper on operationalizing multi-dimensional concepts into measurable survey variables.
 
 ### Explore
-- **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
-- **Suggested Reading:** [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E) — A foundational paper on operationalizing multi-dimensional concepts into measurable survey variables.
+- **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
 
 ### Practice
+- The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
 - Refine your research puzzle based on instructor feedback from Milestone 1 and keep your `.bib` references organized.
 - Work through the [Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb) interactive notebook.
 

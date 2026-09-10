@@ -36,7 +36,7 @@ If you see a message about selecting a **kernel**:
 
 1. Click **“Select Kernel”** at the top-right of the notebook.
 2. Choose an existing Python environment or create a new one.
-3. Wait for the environment to load — then you can start coding!
+3. Wait for the environment to load - then you can start coding!
 
 ## You’re Ready!
 You can now:

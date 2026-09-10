@@ -123,12 +123,13 @@ Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **O
 
 ### Think
 - What are the key concepts in your project idea (Milestone 1), and how might they relate to political behavior in the ANES 2024?
+- **Suggested Reading:** [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353) - An exemplary study on framing research questions and operationalizing survey variables.
 
 ### Explore
-- **Live Demo (Group 1):** Typst for Scientific Writing. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Typst Documentation](https://typst.app/docs/) and [Guide to Citations in Typst](../resources/writing.md#academic-citations-in-typst) to follow along and lead the peer discussion.
-- **Suggested Reading:** [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353) — An exemplary study on framing research questions and operationalizing survey variables.
+- **Live Demo (Group 1):** Typst for Scientific Writing. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
 
 ### Practice
+- The class should review the [Typst Documentation](https://typst.app/docs/) and [Guide to Citations in Typst](../resources/writing.md#academic-citations-in-typst) to follow along and lead the peer discussion.
 - Complete your local programming setup via the [Onboarding](../resources/onboarding.md) guide.
 - :fontawesome-solid-award: **Complete [Milestone 1 - Idea](../activities/milestone-1.md)** (Due Friday, Sep 25 at 08:00 before class via email).
 

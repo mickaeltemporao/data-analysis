@@ -151,12 +151,13 @@ Let's head to Github and open our codespace (text editor)
 ### Think
 - Synthesize your cumulative work from all 5 milestones into a seamless, cohesive academic narrative (4,000–5,000 words in Typst).
 - Craft an impactful conclusion: What are the theoretical and normative implications of your empirical findings for American political behavior? What are your study's limitations?
+- **Suggested Reading:** [Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press.](https://www.cambridge.org/core/books/social-science-methodology/7EB69752D8DF374737EB156BF24C21D3) - Practical wisdom on structuring conclusions, addressing counter-arguments, and ensuring transparent and reproducible empirical research.
 
 ### Explore
 - **Live Demo Series Retrospective:** Review the handouts and code snippets shared by peer groups on WhatsApp across the semester. Use these techniques to polish your data pipeline and figures.
-- **Suggested Reading:** [Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press.](https://www.cambridge.org/core/books/social-science-methodology/7EB69752D8DF374737EB156BF24C21D3) — Practical wisdom on structuring conclusions, addressing counter-arguments, and ensuring transparent and reproducible empirical research.
 
 ### Practice
+- Exchange your draft PDF with a peer group for an informal pre-submission check to catch typos, unclear labels, or formatting glitches.
 - Verify your 3 required deliverables before submission:
     1. Rendered PDF manuscript (`da-final-paper-groupX.pdf`)
     2. Typst source and bibliography (`da-final-paper-groupX.typ` and `references.bib`)

@@ -114,12 +114,13 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 ### Think
 - What happens to your primary coefficient ($\beta_1$) when you introduce demographic and political controls in nested model specifications? Does your finding survive controlling for confounders?
 - How will you format and present nested regression models in an academic publication-ready table in Typst?
+- **Suggested Reading:** [King, G., Tomz, M., & Wittenberg, J. (2000). Making the most of statistical analyses: Improving interpretation and presentation. *American Journal of Political Science*, 44(2), 347-361.](https://gking.harvard.edu/files/gking/files/making.pdf) - The seminal classic on converting raw statistical regression output into meaningful, substantive quantities of interest for social science readers.
 
 ### Explore
-- **Live Demo (Group 4):** Multiple Regression & Exporting Tables. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
-- **Suggested Reading:** [King, G., Tomz, M., & Wittenberg, J. (2000). Making the most of statistical analyses: Improving interpretation and presentation. *American Journal of Political Science*, 44(2), 347-361.](https://gking.harvard.edu/files/gking/files/making.pdf) — The seminal classic on converting raw statistical regression output into meaningful, substantive quantities of interest for social science readers.
+- **Live Demo (Group 4):** Multiple Regression & Exporting Tables. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
 
 ### Practice
+- The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
 - Fit your nested regression models in Python and generate your final Typst regression table.
 - :fontawesome-solid-award: **Complete [Milestone 5 - Modeling](../activities/milestone-5.md)** (Due Friday, Mar 05 at 08:00 before class via email).
 

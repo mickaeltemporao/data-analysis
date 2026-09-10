@@ -62,12 +62,13 @@ Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
 ### Think
 - Identify specific survey questions from ANES 2024 to operationalize your DV, IV, and control variables.
 - Structure your proposal into a cohesive 5-paragraph narrative linking your research puzzle, theoretical mechanism, and empirical expectations.
+- **Suggested Reading:** [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true) - Demonstrates how distinct psychological and ideological identities in survey data produce measurable behavioral polarization.
 
 ### Explore
-- **Live Demo (Group 3):** Data Acquisition & Column Inspection. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
-- **Suggested Reading:** [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true) — Demonstrates how distinct psychological and ideological identities in survey data produce measurable behavioral polarization.
+- **Live Demo (Group 3):** Data Acquisition & Column Inspection. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
 
 ### Practice
+- The class should review the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
 - Practice loading and exploring datasets using [Notebook #02](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 - :fontawesome-solid-award: **Complete [Milestone 2 - Proposal](../activities/milestone-2.md)** (Due Friday, Oct 23 at 08:00 before class via email).
 

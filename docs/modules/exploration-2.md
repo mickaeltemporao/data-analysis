@@ -32,12 +32,13 @@
 ### Think
 - How do your DV and IV relate to each other when examined together? Think about whether your relationship is continuous-by-continuous (scatter plot), categorical-by-continuous (box/bar plot), or categorical-by-categorical (grouped frequency chart).
 - What substantive story do your preliminary bivariate figures tell, and does it align with your original hypothesis?
+- **Suggested Reading:** [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398) - Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
 
 ### Explore
-- **Live Demo (Group 5):** Visualizing Relationships with Altair. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
-- **Suggested Reading:** [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398) — Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
+- **Live Demo (Group 5):** Visualizing Relationships with Altair. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
 
 ### Practice
+- The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
 - Export your two Altair figures as images and integrate them with accompanying text into your Typst manuscript.
 - :fontawesome-solid-award: **Complete [Milestone 3 - Exploration](../activities/milestone-3.md)** (Due Friday, Nov 20 at 23:59 via email).
 
