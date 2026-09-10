@@ -11,11 +11,11 @@ There will be dedicated time during class meetings in the hands-on lab to work o
 
 | Milestone | Weight | Topic | Description |
 | :---: | :---: | :--- | :--- |
-| [**Milestone 1**](milestone-1.md) | **10%** | **Project Idea** | Research puzzle, initial hypothesis, and 2 academic citations in Typst |
-| [**Milestone 2**](milestone-2.md) | **10%** | **Proposal & Literature** | 5-paragraph introduction, DV/IV definition, 5+ citations in `.bib` |
-| [**Milestone 3**](milestone-3.md) | **10%** | **Exploratory Data Analysis** | Preliminary variable exploration, distributions, and 2 figures in Typst |
-| [**Milestone 4**](milestone-4.md) | **10%** | **Data Wrangling & Analysis** | Missing data recoding, scale construction, creating new variables & columns, bivariate relationships |
-| [**Milestone 5**](milestone-5.md) | **10%** | **Econometric Modeling** | Nested OLS regressions in `statsmodels`, Typst regression tables |
+| [**Milestone 1**](milestone-1.md) | **10%** | **Idea** | Research puzzle, initial hypothesis, and 2 academic citations in Typst |
+| [**Milestone 2**](milestone-2.md) | **10%** | **Proposal** | 5-paragraph introduction, DV/IV definition, 5+ citations in `.bib` |
+| [**Milestone 3**](milestone-3.md) | **10%** | **Exploration** | Preliminary variable exploration, distributions, and 2 figures in Typst |
+| [**Milestone 4**](milestone-4.md) | **10%** | **Analysis** | Missing data recoding, scale construction, creating new variables & columns, bivariate relationships |
+| [**Milestone 5**](milestone-5.md) | **10%** | **Modeling** | Nested OLS regressions in `statsmodels`, Typst regression tables |
 
 ## Milestone Workflow
 
