@@ -1,7 +1,7 @@
 # From Variables to Data
 
 ## **Theory**
-### Presentation & Discussion
+### Suggested Conceptual Reading & Discussion
 - [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. American political science review, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
 
 ## **Application**
@@ -38,13 +38,16 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 - How are these concepts interrelated?
 - Translate them into variables (DV, IV, CV)
 
-## **Code**
+## **Code: Live Demo & Hands-on Lab**
 
-### Notebooks?
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 2)
+- **Topic:** Python & Pandas Data Structures (Variables, lists, dictionaries, Series & DataFrames basics).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
+
+### Hands-on Practice
 - [📘 Using a Notebook in VS Code](../resources/notebook-vscode.md)
+- Open Notebook #02 in VS Code to explore Python lists, dictionaries, and Pandas Series and DataFrame manipulation.
 
-<!-- - [:fontawesome-solid-file-code: Data Types and Structures](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/02-data-types-and-structures.ipynb) -->
-<!-- - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) -->
 
 ### Something extra? 
 Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
@@ -54,17 +57,26 @@ Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
   - Add a commit message: "My first commit, horray!"
   - Push your contribution to the GitHub repository.
 
-## **Get Ready for Next Week: Think. Read. Practice.**
+## **Get Ready for Next Session: Think. Explore. Practice.**
+
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Identify how to measure the concepts in your project and which variables from ANES you could use.
+- Identify specific survey questions from ANES 2024 to operationalize your DV, IV, and control variables.
+- Structure your proposal into a cohesive 5-paragraph narrative linking your research puzzle, theoretical mechanism, and empirical expectations.
 
-:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
+:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Data Acquisition & Column Inspection**
+
+- 🎤 **Group 3 on Deck:** Prepare a 10–15 min demonstration showing how to read survey datasets into pandas, inspect column attributes (`.shape`, `.info()`, `.describe()`), and subset key columns. Distribute your handout on WhatsApp before class.
+- 👥 **Class Preparation:** Skim the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html). Subsetting columns and inspecting survey structures is the first step of empirical research, and your group will provide feedback using *"I like, I wish, I wonder"*.
+
+:fontawesome-solid-book-open-reader: **Suggested Reading**
 
 - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
+    - *Why read it:* Demonstrates how distinct psychological and ideological identities in survey data produce measurable behavioral polarization.
 
-:fontawesome-solid-house-laptop: **Practice**
+:fontawesome-solid-house-laptop: **Practice & Deadlines**
 
-- [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb)
-    <!-- - [:fontawesome-solid-file-code: Functions and Packages](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/03-functions-and-packages.ipynb) -->
+- :fontawesome-solid-award: **Milestone Due:** [**Milestone 2 - Proposal**](../activities/milestone-2.md) (Due Friday, Oct 23 at 08:00 before class)
+- :fontawesome-solid-file-code: Practice loading and exploring datasets using [:fontawesome-solid-file-code: Notebook #02](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+
 

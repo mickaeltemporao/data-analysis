@@ -1,13 +1,19 @@
 # From Insights to Visualization
 
 ## **Theory**
-### Presentation & Discussion
+### Suggested Conceptual Reading & Discussion
 
 - [Barber, M., and Jeremy C. Pope. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
 
-## **Code**
+## **Code: Live Demo & Hands-on Lab**
+
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 4)
+- **Topic:** Filtering Survey Rows & Univariate Charts (Boolean masks, `.value_counts()`, distributions with Altair).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
+
 ### The Data Science Pipeline
 ![Variables](../images/ds-pipeline.svg)
+
 
 ### Extracting Insights from Observations
 !!! tip inline end
@@ -21,15 +27,25 @@
 - In **VS Code**, create a new **Jupyter Notebook** (`.ipynb` file) to serve as the foundation for your research project.
 - Begin developing and organising relevant code and analyses that contribute to your reproducible research paper (your final project).
 
-## **Get Ready for Next Week: Think. Read. Practice.**
-:fontawesome-solid-house-laptop: **Practice**
-
-- :fontawesome-solid-award: **Start** [**Milestone 3**](../activities/milestone-3.md)
-
-:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
-
-- [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398)
+## **Get Ready for Next Session: Think. Explore. Practice.**
 
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Copy/paste and update code from [:fontawesome-solid-file-code: Notebooks 4 & 5](https://github.com/mickaeltemporao/materials/tree/main/notebooks) to start preparing the analyses for your final research project.
+- How do your DV and IV relate to each other when examined together? Think about whether your relationship is continuous-by-continuous (scatter plot), categorical-by-continuous (box/bar plot), or categorical-by-categorical (grouped frequency chart).
+- What substantive story do your preliminary bivariate figures tell, and does it align with your original hypothesis?
+
+:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Visualizing Relationships with Altair**
+
+- 🎤 **Group 5 on Deck:** Prepare a 10–15 min demonstration illustrating bivariate visualizations with Altair (scatter plots, grouped bars, color encodings, tooltips, and exporting images). Distribute your handout on WhatsApp before class.
+- 👥 **Class Preparation:** Explore the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html). Visualizing two-variable relationships is the core requirement of Milestone 3, and your group will provide feedback using *"I like, I wish, I wonder"*.
+
+:fontawesome-solid-book-open-reader: **Suggested Reading**
+
+- [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398)
+    - *Why read it:* Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
+
+:fontawesome-solid-house-laptop: **Practice & Deadlines**
+
+- :fontawesome-solid-award: **Milestone Due:** [**Milestone 3 - Exploration**](../activities/milestone-3.md) (Due Friday, Nov 20 at 23:59)
+- :fontawesome-solid-file-code: Export your two Altair figures as images and integrate them with accompanying text into your Typst manuscript.
+

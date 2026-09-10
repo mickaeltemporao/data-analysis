@@ -41,9 +41,14 @@ Working together on data transformation challenges using ANES 2020 data. We'll e
 
 Interactive coding session where we apply transformation techniques to prepare data for hypothesis testing.
 
-## **Code**
+## **Code: Live Demo & Hands-on Lab**
+
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 1)
+- **Topic:** Survey Data Recoding & Variable Creation (Handling `-9`/`-8`/DK codes to `NaN`, masks vs. `.replace()`, binary indicators).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Data Management & Variable Creation
+
 
 !!! tip inline end
     To load and use a notebook in VS Code follow the steps 3-5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
@@ -122,20 +127,26 @@ Additive scales combine multiple related survey items into a single measure by s
     - Assess impact on analytical conclusions
     - Document transformation decisions
 
-## **Get Ready for Next Week: Think. Read. Practice.**
+## **Get Ready for Next Session: Think. Explore. Practice.**
 
-<!-- :fontawesome-solid-brain: **Thinking Ahead** -->
-<!---->
-<!-- - Begin thinking about **Milestone 4 requirements** -->
-<!--     - How do transformation choices affect your hypothesis? -->
-<!--     - What academic literature supports your data preparation decisions? -->
-<!---->
-<!-- :fontawesome-solid-book: **Optional Reading** -->
+:fontawesome-solid-brain: **Thinking Ahead**
 
+- How do your key outcome variables vary across sociodemographic subgroups (e.g., age cohorts, education levels, party identification)?
+- How will cross-tabulations and subgroup mean comparisons help substantiate the bivariate relationships required in Milestone 4?
 
-:fontawesome-solid-house-laptop: **Practice**
+:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Subgroup Analysis & Cross-Tabulations**
 
-<!-- - Start applying transformation techniques to your own research data -->
-<!-- - Prepare variable cleaning documentation for **Milestone 4** -->
-- :fontawesome-solid-award: **Complete** [**Milestone 4**](../activities/milestone-4.md)
+- 🎤 **Group 2 on Deck:** Prepare a 10–15 min demonstration showing how to use `df.groupby()` to compare group statistics and `pd.crosstab(..., normalize='index')` to generate row-normalized proportion tables. Distribute your handout on WhatsApp before class.
+- 👥 **Class Preparation:** Review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html). Grouped comparisons are central to political science cross-tabs, and your group will provide feedback using *"I like, I wish, I wonder"*.
+
+:fontawesome-solid-book-open-reader: **Suggested Reading**
+
+- [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf)
+    - *Why read it:* Demonstrates how large-scale subgroup aggregation and cross-sectional comparisons uncover deep socioeconomic and political patterns.
+
+:fontawesome-solid-house-laptop: **Practice & Deadlines**
+
+- :fontawesome-solid-award: **Milestone Due:** [**Milestone 4 - Analysis**](../activities/milestone-4.md) (Due Friday, Feb 05 at 08:00 before class)
+- :fontawesome-solid-laptop-code: Finalize your cleaned dataset and export your bivariate figures into your Typst manuscript for Milestone 4.
+
 

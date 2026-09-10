@@ -1,21 +1,19 @@
 # From Explanations to Communication
 
-## Agenda
-- [ ] Theory
-    - Presentation & Discussion
-- [ ] Code 
-    - Grouping, Summarising, and Visualizing
-- [ ] Application
-    - Project Visualization Hack-time
+This final module focuses on **communicating substantive findings** from your statistical models. You will learn how to translate raw regression coefficients into compelling visual narratives and coefficient plots that clearly convey your research conclusions.
 
-## Theory
+## **Theory**
 
-### Presentation & Discussion
+### Suggested Conceptual Reading & Discussion
 
-- [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf)
+- [Kastellec, J. P., & Leoni, E. L. (2007). Using graphs instead of tables in political science. *Perspectives on Politics*, 5(4), 755-771.](https://www.cambridge.org/core/journals/perspectives-on-politics/article/using-graphs-instead-of-tables-in-political-science/58332A6DC13454792621C42B12F6C7E2)
 
+## **Code: Live Demo & Hands-on Lab**
 
-## Code 
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 5)
+- **Topic:** Visualizing Regression Models & Substantive Findings (Plotting coefficients with 95% CIs (`plt.errorbar`), predicted margins, communicating results).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
+ 
 
 Visualizations are powerful tools for communicating research findings, and this module emphasizes creating visualizations to illustrate the impact of key variables within your research projects.
 
@@ -146,6 +144,31 @@ Let's head to Github and open our codespace (text editor)
 - [GitHub :fontawesome-brands-github:](https://github.com/)
 
 
-## For next time
-- :fontawesome-solid-triangle-exclamation: Start Wrapping-up your [**:fontawesome-regular-file-code: Project**](../activities/project.md) 
+---
+
+## **Get Ready for Next Session: Think. Explore. Practice.**
+
+:fontawesome-solid-brain: **Thinking Ahead**
+
+- Synthesize your cumulative work from all 5 milestones into a seamless, cohesive academic narrative (4,000–5,000 words in Typst).
+- Craft an impactful conclusion: What are the theoretical and normative implications of your empirical findings for American political behavior? What are your study's limitations?
+
+:fontawesome-solid-chalkboard-user: **Live Demo Retrospective & Peer Engagement**
+
+- 🎓 **Live Demo Series Complete:** Review the handouts and code snippets shared by peer groups on WhatsApp across the semester. Use these techniques to polish your data pipeline and figures.
+- 👥 **Final Peer Check:** Exchange your draft PDF with a peer group for an informal pre-submission read to catch typos, awkward phrasing, or unclear figure labels.
+
+:fontawesome-solid-book-open-reader: **Suggested Reading**
+
+- [Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press.](https://www.cambridge.org/core/books/social-science-methodology/7EB69752D8DF374737EB156BF24C21D3)
+    - *Why read it:* Practical wisdom on structuring conclusions, addressing counter-arguments, and ensuring transparent and reproducible empirical social science.
+
+:fontawesome-solid-house-laptop: **Practice & Deadlines**
+
+- :fontawesome-regular-file-code: **Final Paper Deadline:** [**Research Project**](../activities/project.md) is due **Friday, March 26, 2027 at 23:59** on WhatsApp.
+- :fontawesome-solid-list-check: Verify your 3 required deliverables before submission:
+    1. Rendered PDF manuscript (`da-final-paper-groupX.pdf`)
+    2. Typst source and bibliography (`da-final-paper-groupX.typ` and `references.bib`)
+    3. Fully executable analysis notebook (`da-final-notebook-groupX.ipynb`)
+
 

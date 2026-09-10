@@ -13,6 +13,10 @@ By the end of this module, you will have a conceptual understanding of modeling 
 
 ## **Theory**
 
+### Suggested Conceptual Reading & Discussion
+
+- [Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. *Political Analysis*, 31(3), 337-351.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/035D7C8A55B237942FB6DBAD7CAA4E49/S1047198723000025a.pdf/out_of_one_many_using_language_models_to_simulate_human_samples.pdf)
+
 ### What is a Model?
 
 A **model** is a simplified representation of reality that allows us to:
@@ -25,10 +29,14 @@ For example, let's say we recorded the time I take to come to the *Sciences Po B
 
 ![Time to Sciences Po Bordeaux](../images/time-iep.png){ width=80% .center }
 
-## Code
+## **Code: Live Demo & Hands-on Lab**
 
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 3)
+- **Topic:** Linear Regression & Categorical Predictors (Specifying `DV ~ IV`, adding `C(category)`, interpreting slopes, reference levels & R²).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Modeling with Words
+
 
 Even without code, practice **conceptual modeling**:
 
@@ -101,22 +109,26 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 
 ---
 
-## **Get Ready for Next Week: Think. Read. Practice.**
+## **Get Ready for Next Session: Think. Explore. Practice.**
 
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Prepare a formal model that summarizes your project. 
-    - `Y ~ IV+CV1+CV2+...`
+- What happens to your primary coefficient ($\beta_1$) when you introduce demographic and political controls in nested model specifications? Does your finding survive controlling for confounders?
+- How will you format and present nested regression models in an academic publication-ready table in Typst?
 
-<!-- :fontawesome-solid-book: **Optional Reading** -->
+:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Multiple Regression & Exporting Tables**
 
-:fontawesome-solid-house-laptop: **Practice**
+- 🎤 **Group 4 on Deck:** Prepare a 10–15 min demonstration showing how to estimate nested regression models (Baseline $\rightarrow$ Demographics $\rightarrow$ Full Controls) and export publication-ready regression tables into Typst using `make_table` or formatted markdown. Distribute your handout on WhatsApp before class.
+- 👥 **Class Preparation:** Skim the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/). Embedding clean statistical tables is required for Milestone 5, and your group will provide feedback using *"I like, I wish, I wonder"*.
 
-- Try using `statsmodels` to train the model related to your final project.
+:fontawesome-solid-book-open-reader: **Suggested Reading**
 
-### Additional Resources
+- [King, G., Tomz, M., & Wittenberg, J. (2000). Making the most of statistical analyses: Improving interpretation and presentation. *American Journal of Political Science*, 44(2), 347-361.](https://gking.harvard.edu/files/gking/files/making.pdf)
+    - *Why read it:* The seminal classic on converting raw statistical regression output into meaningful, substantive quantities of interest for social science readers.
 
-- [Altair User Guide](https://altair-viz.github.io/)
-- [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
-- [Statsmodels User Guide](https://www.statsmodels.org/stable/example_formulas.html#fitting-models-using-r-style-formulas)
+:fontawesome-solid-house-laptop: **Practice & Deadlines**
+
+- :fontawesome-solid-award: **Milestone Due:** [**Milestone 5 - Modeling**](../activities/milestone-5.md) (Due Friday, Mar 05 at 08:00 before class)
+- :fontawesome-solid-file-code: Fit your nested regression models in Python and generate your final Typst regression table.
+
 

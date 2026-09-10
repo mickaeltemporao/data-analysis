@@ -1,14 +1,20 @@
 # From Data to Insights
 
 ## **Theory**
-### Presentation & Discussion
+### Suggested Conceptual Reading & Discussion
 
 - [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
 
 
-## **Code**
+## **Code: Live Demo & Hands-on Lab**
+
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 3)
+- **Topic:** Data Acquisition & Column Inspection (Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting).
+- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
+
 ### The Data Science Pipeline
 ![Variables](../images/ds-pipeline.svg)
+
 
 
 ## **Application**
@@ -20,18 +26,25 @@
     - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
 
 
-## **Get Ready for Next Week: Think. Read. Practice.**
-:fontawesome-solid-house-laptop: **Practice**
-
-- :fontawesome-solid-award: **Complete** [**Milestone 2**](../activities/milestone-2.md)
-
-:fontawesome-solid-book: **Mandatory Reading, Reading Note & Presentation**
-
-- [Barber, M., and Jeremy C. Pope. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
+## **Get Ready for Next Session: Think. Explore. Practice.**
 
 :fontawesome-solid-brain: **Thinking Ahead**
 
-- Start exploring dependent (DV), independent (IV), and control variables (CV) related to your proposal using the ANES 2024 dataset.
+- What are the distributions of your key variables? Think about what a histogram or bar chart of your DV and IV should look like, and watch out for non-substantive response categories (e.g., "Don't know" or refused).
+- How will you filter your survey sample to ensure your empirical analysis focuses on the relevant target population?
 
-    - From the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) repository, download the Notebook #03 (`03-functions-and-packages.ipynb`) file and open it in VS Code.
-    - Rely on the Pandas section at the end of the notebook (copy, paste, and adjust the example code to fit your variables and analysis)
+:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Filtering Survey Rows & Univariate Charts**
+
+- 🎤 **Group 4 on Deck:** Prepare a 10–15 min demonstration showing how to create boolean filters/masks in pandas, compute frequency tables with `.value_counts()`, and visualize univariate distributions with Altair. Distribute your handout on WhatsApp before class.
+- 👥 **Class Preparation:** Skim the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts). Visualizing single-variable distributions is essential for your upcoming Milestone 3, and your group will provide feedback using *"I like, I wish, I wonder"*.
+
+:fontawesome-solid-book-open-reader: **Suggested Reading**
+
+- [Barber, M., & Pope, J. C. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
+    - *Why read it:* An outstanding example of using survey data and clean graphical displays to disentangle competing political identities.
+
+:fontawesome-solid-house-laptop: **Practice & Deadlines**
+
+- :fontawesome-solid-laptop-code: In your group's repository, start an exploratory notebook (`exploration.ipynb`) to inspect your DV and IV using [:fontawesome-solid-file-code: Notebooks #03 & #04](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+- :fontawesome-solid-calendar-check: *Looking Ahead:* [Milestone 3 - Exploration](../activities/milestone-3.md) will be due in two weeks (Nov 20 at 23:59).
+
