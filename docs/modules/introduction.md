@@ -3,13 +3,32 @@
 ## Agenda
 - [ ] Getting to know each other
 - [ ] The Syllabus
-- [ ] Science ?
-- [ ] Hack-time
-    - Groups & Planning
-    - First steps with Typst & Citing
-    - Automated Setup via Onboarding
-- [ ] For next time
-    - Complete the [:fontawesome-regular-paper-plane: Onboarding](../resources/onboarding.md)
+- [ ] A Quick Word About LLMs (ChatGPT, Claude, Gemini, ...)
+- [ ] Science & The Scientific Method
+- [ ] A Cutting-Edge Toolbox (Writing, Hacking, Collaborating)
+- [ ] Hack-time: Setup + First Lines of Code
+- [ ] For next time: Complete Onboarding & Milestone 1
+
+---
+
+## :fontawesome-solid-wand-magic-sparkles: A Quick Word About LLMs (ChatGPT, Claude, Gemini, ...)
+
+### What are they? What is the intuition behind it? 
+
+ChatGPT is a Large Language Model (LLM) designed to generate human-like text based on the input it receives. It is part of the GPT (Generative Pre-trained Transformer) family of models and relies on deep learning algorithms to generate coherent and contextually relevant responses in a conversational format.
+
+- [The intuition behind word embeddings](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo/)
+- [The intuition behind LLMs](https://ig.ft.com/generative-ai/)
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a3/Gradient_descent.gif)
+
+### Using LLMs as a learning tool
+
+1. **Ask Open-Ended Questions**: Instead of seeking direct answers, pose open-ended questions that encourage exploration of concepts. For example, ask, *"What factors influence voter behavior in elections?"* to gain a deeper understanding of political behavior.
+2. **Request Explanations and Summaries**: Use LLMs to explain complex topics in simpler terms or to summarize articles and books. For instance, you might ask, *"Can you summarize the main theories of public opinion formation?"* to clarify your understanding of how public opinion is shaped.
+3. **Engage in Discussion**: Treat your interaction as a conversation. Ask follow-up questions, such as, *"How do social media platforms impact public opinion during elections?"* This encourages critical thinking and helps you explore the nuances of political behavior.
+4. **Seek Practical Examples**: When learning new concepts, ask for real-world applications or examples. You could inquire, *"Can you provide examples of how political campaigns have successfully influenced public opinion?"* This contextualizes your knowledge and makes it more relatable.
+5. **Reflect and Review**: After receiving information, take time to reflect on what you've learned. For example, summarize the key factors that affect public opinion in your own words, or discuss with the LLM how these factors might apply to current political events to solidify your understanding.
 
 ---
 
@@ -17,45 +36,24 @@
 
 ![](../images/coffee.jpg){: style="height:175px" align=right}
 
-1. Goal is inference: We seek to learn about the world from data.
-2. Procedures are public: Methods and materials should be transparent and reproducible.
-3. Conclusions are uncertain: We quantify uncertainty and avoid overclaiming.
-4. The content is the method: The contribution lies in clear, defensible procedures.
+1. **Goal is inference**: We seek to learn about the world from data.
+2. **Procedures are public**: Methods and materials should be transparent and reproducible.
+3. **Conclusions are uncertain**: We quantify uncertainty and avoid overclaiming.
+4. **The content is the method**: The contribution lies in clear, defensible procedures.
 
 ### [Is a literature review a contribution?](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/00B62000B6760AB78E1BD27E32A94C9F/S1049096506060264a.pdf/doing-a-literature-review.pdf?casa_token=szUhrJK1G30AAAAA:yj5nqRIULvP0oFEmACEq9AkAIZPdF8YBt9xWDetabQJwdKzVTZQ3yZvbGszZMNoesDnYgFtim2AA)
 
+---
 
-# A Cutting-Edge Toolbox
-
-## :fontawesome-solid-wand-magic-sparkles: A quick word about ChatGPT and other LLMs 
-
-### What are they? What is the intuition behind it? 
-
-ChatGPT is a Large Language Model (LLM) designed to generate human-like text based on the input it receives. It is part of the GPT (Generative Pre-trained Transformer) family of models and relying on deep learning algorithms to generate coherent and contextually relevant responses in a conversational format.
-
-- [The intuition behind word embeddings](https://www.cs.cmu.edu/~dst/WordEmbeddingDemo/)
-- [The intuition behind LLM's](https://ig.ft.com/generative-ai/)
-
-![](https://upload.wikimedia.org/wikipedia/commons/a/a3/Gradient_descent.gif)
-
-### Using LLMs as a learning tool
-1. **Ask Open-Ended Questions**: Instead of seeking direct answers, pose open-ended questions that encourage exploration of concepts. For example, ask, *"What factors influence voter behavior in elections?" to gain a deeper understanding of political behavior.*
-
-2. **Request Explanations and Summaries**: Use ChatGPT to explain complex topics in simpler terms or to summarize articles and books. For instance, you might ask, "Can you summarize the main theories of public opinion formation?" to clarify your understanding of how public opinion is shaped.
-
-3. **Engage in Discussion**: Treat your interaction as a conversation. Ask follow-up questions, such as, "How do social media platforms impact public opinion during elections?" This encourages critical thinking and helps you explore the nuances of political behavior.
-
-4. **Seek Practical Examples**: When learning new concepts, ask for real-world applications or examples. You could inquire, "Can you provide examples of how political campaigns have successfully influenced public opinion?" This contextualizes your knowledge and makes it more relatable.
-
-5. **Reflect and Review**: After receiving information, take time to reflect on what you've learned. For example, summarize the key factors that affect public opinion in your own words, or discuss with ChatGPT how these factors might apply to current political events to solidify your understanding.
+## A Cutting-Edge Toolbox
 
 !!! warning inline end 
 
-    **Getting started is the hardest part!** Setting up your tools is tedious, but once everything is in place, your research workflow will continuously improve, and will can elevate your work to new highs. Invest the effort now, and your future self will thank you!
+    **Getting started is the hardest part!** Setting up your tools is tedious, but once everything is in place, your research workflow will continuously improve and can elevate your work to new heights. Invest the effort now, and your future self will thank you!
 
+### Writing with **:fontawesome-solid-quote-left: Typst**
 
-
-## Other Tools: What They Are & Why They Matter
+Typst is a lightweight, open-source tool for creating clean, formatted documents. Think of it as a text editor made for scientific papers, notes, or reports which include figures, citations, or even math. Combined with Git, your research becomes reproducible, versionable, and easy to manage.
 
 ### Hacking with **:fontawesome-solid-laptop-code: VS Code**
 
@@ -65,14 +63,11 @@ VS Code is a free code editor that helps you write and organize your project fil
 
 Git provides version control to track changes to your files, while GitHub hosts your projects online, making it easy to share, collaborate, and back up your work. Using Git and GitHub ensures reproducibility, maintains a history of your work, and simplifies collaboration with anyone around the globe.
 
-### Writing with **:fontawesome-solid-quote-left: Typst**
+---
 
-Typst is a lightweight, open-source tool for creating clean, formatted documents. Think of it as a text editor made for Scientific papers, notes, or reports which include figures, citations, or even math. Combined with Git, your research becomes reproducible, versionable, and easy to manage.
+## Hack-Time: Setup + Your First Lines of Code 
 
-
-# Hack-Time: Setup + Your First Lines of Code 
-
-## First Typst Document & Citing
+### First Typst Document & Citing
 
 Since we will use Typst from Day 1 for scientific writing and all milestone submissions, let's create your first document and try adding a citation!
 
@@ -90,13 +85,11 @@ According to @dassonneville2018gender, political knowledge is shaped by early so
 2. Check the [📚 Guide to Academic Citations in Typst](../resources/writing.md#academic-citations-in-typst) to see how `.bib` files work.
 3. Export and compile your document to PDF (`paper.pdf`).
 
-## Automated Environment Setup
+### Automated Environment Setup
 
 Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **Onboarding**](../resources/onboarding.md) page to install VS Code, Python, the Jupyter extensions, and data science libraries on your computer with a single command.
 
 ![This is Fine...](../images/fine.jpg)
-
----
 
 ### The Assignment 
 
@@ -105,7 +98,10 @@ Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **O
 - Use [Google Scholar](https://scholar.google.com/), [Cairn](https://www.cairn.info/), or [Annual Reviews](https://www.annualreviews.org/) to identify scientific articles.
 - Check [The “Big 5” and Other Ideas* For Presentations](https://econ.lse.ac.uk/staff/spischke/phds/The%20Big%205.pdf), especially the Big 5 questions on page 5 & 6 to help you prepare your paragraph & presentations.
 
+---
+
 ## **Get Ready for Next Week: Think. Read. Practice.**
+
 :fontawesome-solid-brain: **Thinking Ahead**
 
 - What are the key concepts in your project idea (your Milestone 1)
