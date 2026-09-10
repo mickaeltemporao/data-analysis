@@ -2,11 +2,13 @@
 
 ## Getting to know each other
 
-Welcome to **Data Analysis in Political Science**! We'll start our first session by getting to know one another:
+Welcome to **Data Analysis in Political Science**! We'll start our first session by getting to know one another.
 
-- Who you are and what topics in politics, society, or public policy fascinate you.
-- Your prior experience (if any) with data, statistics, or programming. (No prior coding experience is required!)
-- What you hope to build or investigate in your research project this year.
+Tell us:
+
+- **Who you are:** Your name, the topics in politics and society that fascinate you, and what you would like to do after your Bachelor's or Master's.
+- **Your background:** Your prior experience (if any) with data, statistics, or programming. *(No prior coding experience is required!)*
+- **Your expectations:** What you hope or expect to get from this class.
 
 ---
 
