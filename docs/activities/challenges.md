@@ -13,7 +13,7 @@ There will be dedicated time during class meetings in the hands-on lab to work o
 | :---: | :---: | :--- | :---: | :--- |
 | [**Milestone 1**](milestone-1.md) | **10%** | **Project Idea** | 2026/10/09 (08:00) | Research puzzle, initial hypothesis, and 2 academic citations in Typst |
 | [**Milestone 2**](milestone-2.md) | **10%** | **Proposal & Literature** | 2026/11/06 (08:00) | 5-paragraph introduction, DV/IV definition, 5+ citations in `.bib` |
-| [**Milestone 3**](milestone-3.md) | **10%** | **Exploratory Data Analysis** | 2026/12/04 (17:00) | Preliminary variable exploration, distributions, and 2 figures in Typst |
+| [**Milestone 3**](milestone-3.md) | **10%** | **Exploratory Data Analysis** | 2026/12/04 (23:59) | Preliminary variable exploration, distributions, and 2 figures in Typst |
 | [**Milestone 4**](milestone-4.md) | **10%** | **Data Wrangling & Analysis** | 2027/02/05 (08:00) | Missing data recoding, scale construction, creating new variables & columns, bivariate relationships |
 | [**Milestone 5**](milestone-5.md) | **10%** | **Econometric Modeling** | 2027/03/05 (08:00) | Nested OLS regressions in `statsmodels`, Typst regression tables |
 
