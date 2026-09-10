@@ -34,7 +34,7 @@
 - What substantive story do your preliminary bivariate figures tell, and does it align with your original hypothesis?
 
 ### Explore
-- **Live Demo (Group 5):** Visualizing Relationships with Altair. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 5):** Visualizing Relationships with Altair. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
 - **Suggested Reading:** [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398) — Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
 
 ### Practice

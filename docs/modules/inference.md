@@ -197,7 +197,7 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 - Beyond statistical significance ($p < 0.05$), what is the substantive real-world effect size of your findings (e.g., predicted probabilities, marginal changes)?
 
 ### Explore
-- **Live Demo (Group 5):** Visualizing Regression Models & Substantive Findings. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 5):** Visualizing Regression Models & Substantive Findings. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html) to follow along and lead the peer discussion.
 - **Suggested Reading:** [Kastellec, J. P., & Leoni, E. L. (2007). Using graphs instead of tables in political science. *Perspectives on Politics*, 5(4), 755-771.](https://www.cambridge.org/core/journals/perspectives-on-politics/article/using-graphs-instead-of-tables-in-political-science/58332A6DC13454792621C42B12F6C7E2) — The definitive methodological case for why coefficient plots and substantive quantity graphs communicate empirical results far more effectively than regression tables alone.
 
 ### Practice

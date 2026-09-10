@@ -50,7 +50,7 @@ This course has 12 modules that span over two semesters of 6 class meetings. Dur
 Each class meeting is divided into three distinct parts to build practical data analysis skills:
 
 - **:fontawesome-solid-book-open: Theory & Research Concepts:** The instructor introduces core methodological foundations using curated empirical political science articles as illustrative case studies.
-- **:fontawesome-solid-chalkboard-user: Student Group Live Demo:** A designated student group conducts a 10–15 minute hands-on demonstration using a prepared handout (Jupyter notebook). This is immediately followed by a constructive peer discussion ([**:fontawesome-regular-comment-dots: Peer Discussion**](activities/participation.md#peer-discussion)) initiated by a randomly selected student group using the **"I like, I wish, I wonder"** feedback framework.
+- **:fontawesome-solid-chalkboard-user: Student Group Live Demo:** A designated student group conducts a 10–15 minute hands-on demonstration using a prepared handout (Jupyter notebook or Typst document). Presenting groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor ahead of time to get direction. This is immediately followed by a constructive peer discussion ([**:fontawesome-regular-comment-dots: Peer Discussion**](activities/participation.md#peer-discussion)) initiated by a randomly selected student group using the **"I like, I wish, I wonder"** feedback framework.
 - **:fontawesome-solid-laptop-code: Hands-on Lab:** Students work in VS Code with guided instructor coaching to apply these techniques directly to their survey data and advance their milestone deliverables.
 
 

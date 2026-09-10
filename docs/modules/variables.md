@@ -8,7 +8,7 @@
     - Concepts, & Variables
     - ANES Data Overview
 - [ ] Code 
-    - Student Group Live Demo: Typst for Reproducible Reports (Group 1)
+    - Student Group Live Demo: Typst for Scientific Writing (Group 1)
     - Exploring ANES 2024 Variables in VS Code
 
 ## Theory
@@ -70,7 +70,7 @@ The concept of political ideology can't be directly measured, but it can be oper
 ## Code: Live Demo & Hands-on Lab
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 1)
-- **Topic:** Typst for Reproducible Reports (syntax, document structure, `.bib` citations, exporting PDF).
+- **Topic:** Typst for Scientific Writing (syntax, document structure, `.bib` citations, exporting PDF).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Hands-on Practice
@@ -84,7 +84,7 @@ The concept of political ideology can't be directly measured, but it can be oper
 - Identify candidate survey variables from the ANES 2024 codebook to measure these concepts.
 
 ### Explore
-- **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
 - **Suggested Reading:** [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E) — A foundational paper on operationalizing multi-dimensional concepts into measurable survey variables.
 
 ### Practice

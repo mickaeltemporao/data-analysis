@@ -116,7 +116,7 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 - How will you format and present nested regression models in an academic publication-ready table in Typst?
 
 ### Explore
-- **Live Demo (Group 4):** Multiple Regression & Exporting Tables. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
+- **Live Demo (Group 4):** Multiple Regression & Exporting Tables. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
 - **Suggested Reading:** [King, G., Tomz, M., & Wittenberg, J. (2000). Making the most of statistical analyses: Improving interpretation and presentation. *American Journal of Political Science*, 44(2), 347-361.](https://gking.harvard.edu/files/gking/files/making.pdf) — The seminal classic on converting raw statistical regression output into meaningful, substantive quantities of interest for social science readers.
 
 ### Practice

@@ -46,7 +46,7 @@ Using ANES 2020 data, you will learn how to:
 - Which categorical variables need to be recoded into binary indicator dummies (0/1) or multi-item additive scales?
 
 ### Explore
-- **Live Demo (Group 1):** Survey Data Recoding & Variable Creation. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Pandas Working with Missing Data Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 1):** Survey Data Recoding & Variable Creation. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Pandas Working with Missing Data Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to follow along and lead the peer discussion.
 - **Suggested Reading:** [Allamong, M. B. (2024). Political alienation and the Trump vote in the 2016 and 2020 US presidential elections. *Public Opinion Quarterly*, 88(1), 1-21.](https://academic.oup.com/poq/article/88/1/1/7636367) — Demonstrates how survey items measuring complex psychological attitudes are operationalized and recoded across multiple presidential election cycles.
 
 ### Practice

@@ -33,7 +33,7 @@
 - How will you filter your survey sample to ensure your empirical analysis focuses on the relevant target population?
 
 ### Explore
-- **Live Demo (Group 4):** Filtering Survey Rows & Univariate Charts. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
+- **Live Demo (Group 4):** Filtering Survey Rows & Univariate Charts. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
 - **Suggested Reading:** [Barber, M., & Pope, J. C. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3) — An outstanding example of using survey data and clean graphical displays to disentangle competing political identities.
 
 ### Practice

@@ -134,7 +134,7 @@ Additive scales combine multiple related survey items into a single measure by s
 - How will cross-tabulations and subgroup mean comparisons help substantiate the bivariate relationships required in Milestone 4?
 
 ### Explore
-- **Live Demo (Group 2):** Subgroup Analysis & Cross-Tabulations. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 2):** Subgroup Analysis & Cross-Tabulations. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction). The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
 - **Suggested Reading:** [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf) — Demonstrates how large-scale subgroup aggregation and cross-sectional comparisons uncover deep socioeconomic and political patterns.
 
 ### Practice

@@ -13,6 +13,7 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 - **Duration:** The live demo lasts **10–15 minutes**.
 - **Handout:** The presenting group must prepare a **handout** (a Jupyter notebook `.ipynb` or Typst document) and share it on the class WhatsApp group **before class**.
 - **Frequency:** There are 5 student groups. Each group presents **at least twice** during the year (once in Semester 1, once in Semester 2).
+- **Preparation & Direction:** Groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor ahead of their demo to get direction, review code examples, and refine their presentation plan.
 - **Structure:**
     1. Introduce the problem or concept (why does this matter in social science?).
     2. Walk through executable, clean code step-by-step.
@@ -22,7 +23,7 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 
 | Session | Group | Topic & Focus | Handout Example |
 | :---: | :---: | :--- | :--- |
-| **S2** | **Group 1** | **Typst for Reproducible Reports** | Syntax, document structure, `.bib` citations, exporting PDF |
+| **S2** | **Group 1** | **Typst for Scientific Writing** | Syntax, document structure, `.bib` citations, exporting PDF |
 | **S3** | **Group 2** | **Python & Pandas Data Structures** | Variables, lists, dictionaries, Series & DataFrames basics |
 | **S4** | **Group 3** | **Data Acquisition & Column Inspection** | Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting |
 | **S5** | **Group 4** | **Filtering Survey Rows & Univariate Charts** | Boolean masks, `.value_counts()`, distributions with Altair |
