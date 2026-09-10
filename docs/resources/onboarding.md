@@ -14,7 +14,16 @@ Before our second class meeting, please complete the following onboarding steps 
 
 ---
 
-## 2. Install Your Data Science Environment (Automated Script)
+## 2. Create a Typst Account
+
+We will use [**Typst**](https://typst.app/) throughout the course for authoring reproducible scientific papers, milestone reports, and formatted tables.
+
+- Sign up for a free account at [**typst.app**](https://typst.app/).
+- Typst is a modern, fast, and intuitive alternative to LaTeX that lets you produce publication-quality PDFs with ease.
+
+---
+
+## 3. Install Your Data Science Environment (Automated Script)
 
 We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`pandas`, `statsmodels`, `altair`, and `vl-convert-python` for exporting figures).
 
@@ -52,7 +61,7 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
 ---
 
-## 3. Managing Your Project Python Environment in VS Code
+## 4. Managing Your Project Python Environment in VS Code
 
 In data science, creating an **isolated virtual environment (`.venv`)** inside your project folder ensures that your libraries and code remain stable and reproducible across projects.
 
@@ -82,16 +91,7 @@ Whenever you open or create a `.ipynb` notebook file in VS Code:
 
 ---
 
-## 4. Create a Typst Account
-
-We will use [**Typst**](https://typst.app/) throughout the course for authoring reproducible scientific papers, milestone reports, and formatted tables.
-
-- Sign up for a free account at [**typst.app**](https://typst.app/).
-- Typst is a modern, fast, and intuitive alternative to LaTeX that lets you produce publication-quality PDFs with ease.
-
----
-
-## ✅ How to Verify Your Setup
+## 5. How to Verify Your Setup
 
 To verify that your installation and environment are completely operational:
 

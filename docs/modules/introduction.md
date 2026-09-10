@@ -1,17 +1,29 @@
 # Introduction
 
-## Agenda
-- [ ] Getting to know each other
-- [ ] The Syllabus
-- [ ] A Quick Word About LLMs (ChatGPT, Claude, Gemini, ...)
-- [ ] Science & The Scientific Method
-- [ ] A Cutting-Edge Toolbox (Writing, Hacking, Collaborating)
-- [ ] Hack-time: Setup + First Lines of Code
-- [ ] For next time: Complete Onboarding & Milestone 1
+## Getting to know each other
+
+Welcome to **Data Analysis in Political Science**! We'll start our first session by getting to know one another:
+
+- Who you are and what topics in politics, society, or public policy fascinate you.
+- Your prior experience (if any) with data, statistics, or programming. (No prior coding experience is required!)
+- What you hope to build or investigate in your research project this year.
 
 ---
 
-## :fontawesome-solid-wand-magic-sparkles: A Quick Word About LLMs (ChatGPT, Claude, Gemini, ...)
+## The Syllabus
+
+We will walk through the core structure, expectations, and roadmap of the course:
+
+- **Structure:** 12 bi-weekly class meetings across two semesters (Fridays 08:00–11:15 in Salle A.116 Laboratoire).
+- **Evaluation Breakdown:**
+    - :fontawesome-solid-award: **50% Milestones:** 5 cumulative milestones (10% each) building your empirical research step-by-step.
+    - :fontawesome-solid-chalkboard-user: **30% Participation:** Student Group Live Demos (2 per group), peer discussion ("I like, I wish, I wonder"), and class engagement.
+    - :fontawesome-regular-file-code: **20% Research Paper:** An original, fully reproducible empirical paper (~4,000–5,000 words in Typst).
+- Review the full course policies, objectives, and communication guidelines on the [📘 **Syllabus**](../syllabus.md).
+
+---
+
+## A Quick Word About LLMs (ChatGPT, Claude, Gemini, ...)
 
 ### What are they? What is the intuition behind it? 
 
@@ -65,9 +77,11 @@ Git provides version control to track changes to your files, while GitHub hosts 
 
 ---
 
-## Hack-Time: Setup + Your First Lines of Code 
+## Hack-Time
 
-### First Typst Document & Citing
+![This is Fine...](../images/fine.jpg)
+
+### First lines of code in Typst
 
 Since we will use Typst from Day 1 for scientific writing and all milestone submissions, let's create your first document and try adding a citation!
 
@@ -88,8 +102,6 @@ According to @dassonneville2018gender, political knowledge is shaped by early so
 ### Automated Environment Setup
 
 Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **Onboarding**](../resources/onboarding.md) page to install VS Code, Python, the Jupyter extensions, and data science libraries on your computer with a single command.
-
-![This is Fine...](../images/fine.jpg)
 
 ### The Assignment 
 
@@ -112,4 +124,4 @@ Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **O
 
 :fontawesome-solid-house-laptop: **Practice**
 
-- :fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md)
+- :fontawesome-solid-award: **Complete** [**Milestone 1**](../activities/milestone-1.md) (Due Friday, Sep 25 at 08:00)

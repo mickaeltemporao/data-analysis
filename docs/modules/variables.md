@@ -8,7 +8,7 @@
     - Concepts, & Variables
     - ANES Data Overview
 - [ ] Code 
-    - Student Group Live Demo: Python & Pandas Data Structures
+    - Student Group Live Demo: Typst for Reproducible Reports (Group 1)
     - Exploring ANES 2024 Variables in VS Code
 
 ## Theory
@@ -69,8 +69,8 @@ The concept of political ideology can't be directly measured, but it can be oper
 
 ## Code: Live Demo & Hands-on Lab
 
-### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 2)
-- **Topic:** Python & Pandas Data Structures (lists, dicts, Series & DataFrames).
+### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 1)
+- **Topic:** Typst for Reproducible Reports (syntax, document structure, `.bib` citations, exporting PDF).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Hands-on Practice
