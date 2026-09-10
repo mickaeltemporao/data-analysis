@@ -33,26 +33,19 @@ In agile project management, a retrospective is a brief meeting held, at the end
 
 ---
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - Review your cumulative work and instructor feedback across Milestones 1–3. What variable transformations (e.g., handling missing values, creating composite scales, re-categorizing) will be necessary before running regression models in Semester 2?
 - How do your initial exploratory findings inform your core theoretical argument?
 
-:fontawesome-solid-chalkboard-user: **Semester 2 Roadmap: Data Wrangling & Transformations**
+### Explore
+- **Semester 2 Roadmap:** We resume on January 08, 2027 with Module 7 (*From Comparisons to Transformations*). Student group live demos resume in Session 8 with Group 1. Review the [Pandas Data Cleaning and Transformation Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to prepare.
+- **Suggested Reading:** [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf) — Demonstrates meticulous survey data preparation, recoding decisions, and clean empirical presentation.
 
-- 🚀 **Semester 2 Kickoff:** We resume on **January 08, 2027** with Module 7 (*From Comparisons to Transformations*). Student group live demos resume in Session 8 with Group 1.
-- 👥 **Class Preparation:** Skim the [Pandas Data Cleaning and Transformation Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html). Understanding how pandas handles missing values and data types will accelerate your Semester 2 workflow.
+### Practice
+- Review instructor comments on [Milestone 3 - Exploration](../activities/milestone-3.md) and consolidate your group's project code repository.
+- Explore data wrangling examples in [Notebooks #05 & #06](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf)
-    - *Why read it:* Demonstrates meticulous survey data preparation, recoding decisions, and clean empirical presentation in a top political science journal.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-laptop-code: Review instructor comments on [Milestone 3 - Exploration](../activities/milestone-3.md) and consolidate your group's project code repository.
-- :fontawesome-solid-file-code: Explore data wrangling examples in [:fontawesome-solid-file-code: Notebooks #05 & #06](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 
 

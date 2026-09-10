@@ -127,26 +127,19 @@ Additive scales combine multiple related survey items into a single measure by s
     - Assess impact on analytical conclusions
     - Document transformation decisions
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - How do your key outcome variables vary across sociodemographic subgroups (e.g., age cohorts, education levels, party identification)?
 - How will cross-tabulations and subgroup mean comparisons help substantiate the bivariate relationships required in Milestone 4?
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Subgroup Analysis & Cross-Tabulations**
+### Explore
+- **Live Demo (Group 2):** Subgroup Analysis & Cross-Tabulations. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf) — Demonstrates how large-scale subgroup aggregation and cross-sectional comparisons uncover deep socioeconomic and political patterns.
 
-- 🎤 **Group 2 on Deck:** Prepare a 10–15 min demonstration showing how to use `df.groupby()` to compare group statistics and `pd.crosstab(..., normalize='index')` to generate row-normalized proportion tables. Distribute your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Review the [Pandas GroupBy Guide](https://pandas.pydata.org/docs/user_guide/groupby.html). Grouped comparisons are central to political science cross-tabs, and your group will provide feedback using *"I like, I wish, I wonder"*.
+### Practice
+- Finalize your cleaned dataset and export your bivariate figures into your Typst manuscript for Milestone 4.
+- :fontawesome-solid-award: **Complete [Milestone 4 - Analysis](../activities/milestone-4.md)** (Due Friday, Feb 05 at 08:00 before class via email).
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., Hendren, N., Fluegge, R. B., ... & Wernerfelt, N. (2022). Social capital I: measurement and associations with economic mobility. *Nature*, 608(7921), 108-121.](https://www.nature.com/articles/s41586-022-04996-4.pdf)
-    - *Why read it:* Demonstrates how large-scale subgroup aggregation and cross-sectional comparisons uncover deep socioeconomic and political patterns.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-award: **Milestone Due:** [**Milestone 4 - Analysis**](../activities/milestone-4.md) (Due Friday, Feb 05 at 08:00 before class)
-- :fontawesome-solid-laptop-code: Finalize your cleaned dataset and export your bivariate figures into your Typst manuscript for Milestone 4.
 
 

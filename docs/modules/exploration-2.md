@@ -27,25 +27,18 @@
 - In **VS Code**, create a new **Jupyter Notebook** (`.ipynb` file) to serve as the foundation for your research project.
 - Begin developing and organising relevant code and analyses that contribute to your reproducible research paper (your final project).
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - How do your DV and IV relate to each other when examined together? Think about whether your relationship is continuous-by-continuous (scatter plot), categorical-by-continuous (box/bar plot), or categorical-by-categorical (grouped frequency chart).
 - What substantive story do your preliminary bivariate figures tell, and does it align with your original hypothesis?
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Visualizing Relationships with Altair**
+### Explore
+- **Live Demo (Group 5):** Visualizing Relationships with Altair. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398) — Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
 
-- 🎤 **Group 5 on Deck:** Prepare a 10–15 min demonstration illustrating bivariate visualizations with Altair (scatter plots, grouped bars, color encodings, tooltips, and exporting images). Distribute your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Explore the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html). Visualizing two-variable relationships is the core requirement of Milestone 3, and your group will provide feedback using *"I like, I wish, I wonder"*.
+### Practice
+- Export your two Altair figures as images and integrate them with accompanying text into your Typst manuscript.
+- :fontawesome-solid-award: **Complete [Milestone 3 - Exploration](../activities/milestone-3.md)** (Due Friday, Nov 20 at 23:59 via email).
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398)
-    - *Why read it:* Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-award: **Milestone Due:** [**Milestone 3 - Exploration**](../activities/milestone-3.md) (Due Friday, Nov 20 at 23:59)
-- :fontawesome-solid-file-code: Export your two Altair figures as images and integrate them with accompanying text into your Typst manuscript.
 

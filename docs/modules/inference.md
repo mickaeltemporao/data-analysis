@@ -190,26 +190,19 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 
 ---
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - How can you communicate your regression estimates visually using dot-and-whisker coefficient plots (with 95% confidence intervals) rather than relying solely on dense numeric tables?
 - Beyond statistical significance ($p < 0.05$), what is the substantive real-world effect size of your findings (e.g., predicted probabilities, marginal changes)?
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Visualizing Regression Models & Substantive Findings**
+### Explore
+- **Live Demo (Group 5):** Visualizing Regression Models & Substantive Findings. Group 5 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Kastellec, J. P., & Leoni, E. L. (2007). Using graphs instead of tables in political science. *Perspectives on Politics*, 5(4), 755-771.](https://www.cambridge.org/core/journals/perspectives-on-politics/article/using-graphs-instead-of-tables-in-political-science/58332A6DC13454792621C42B12F6C7E2) — The definitive methodological case for why coefficient plots and substantive quantity graphs communicate empirical results far more effectively than regression tables alone.
 
-- 🎤 **Group 5 on Deck:** Prepare a 10–15 min demonstration showing how to extract model coefficients and confidence intervals from `statsmodels` results, plot them using `plt.errorbar()` or seaborn, and interpret substantive findings. Distribute your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Skim the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html). Visualizing regression effects is key to professional scientific communication, and your group will provide feedback using *"I like, I wish, I wonder"*.
+### Practice
+- In your analysis notebook, extract regression parameters (`results.params`, `results.conf_int()`) to create a coefficient plot for your manuscript.
+- *Looking Ahead:* The [Research Project](../activities/project.md) final paper is due Friday, March 26, 2027 at 23:59 via email.
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Kastellec, J. P., & Leoni, E. L. (2007). Using graphs instead of tables in political science. *Perspectives on Politics*, 5(4), 755-771.](https://www.cambridge.org/core/journals/perspectives-on-politics/article/using-graphs-instead-of-tables-in-political-science/58332A6DC13454792621C42B12F6C7E2)
-    - *Why read it:* The definitive methodological case for why coefficient plots and substantive quantity graphs communicate empirical results far more effectively than regression tables alone.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-laptop-code: In your analysis notebook, extract regression parameters (`results.params`, `results.conf_int()`) to create a coefficient plot for your manuscript.
-- :fontawesome-solid-calendar-check: *Final Project Countdown:* The [**Final Research Paper**](../activities/project.md) is due on **Friday, March 26, 2027 at 23:59**.
 
 

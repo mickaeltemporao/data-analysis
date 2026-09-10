@@ -77,26 +77,19 @@ The concept of political ideology can't be directly measured, but it can be oper
 - Work in your group's VS Code workspace to search and explore variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
 
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - How are the different concepts in your project interrelated? Translate them into concrete variables (DV, IV, CV) and reflect on how existing scientific literature supports those theoretical mechanisms.
-- Identify how to measure these concepts using survey items and note candidate variables from the ANES 2024 codebook.
+- Identify candidate survey variables from the ANES 2024 codebook to measure these concepts.
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Python & Pandas Data Structures**
+### Explore
+- **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E) — A foundational paper on operationalizing multi-dimensional concepts into measurable survey variables.
 
-- 🎤 **Group 2 on Deck:** Prepare a 10–15 min demonstration walking through fundamental Python data structures (lists, dictionaries) and how they build into pandas `Series` and `DataFrame` objects. Distribute your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html). Every analytical operation in this course relies on pandas DataFrames, and your group will provide feedback using *"I like, I wish, I wonder"*.
+### Practice
+- Refine your research puzzle based on instructor feedback from Milestone 1 and keep your `.bib` references organized.
+- Work through the [Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb) interactive notebook.
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E)
-    - *Why read it:* A foundational paper showing how to operationalize multi-dimensional concepts (resources, psychological engagement, recruitment networks) into measurable survey variables.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-pen-nib: Refine your research puzzle based on instructor feedback from [Milestone 1 - Idea](../activities/milestone-1.md) and keep your `.bib` references organized.
-- :fontawesome-solid-file-code: Work through the [:fontawesome-solid-file-code: Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb) interactive notebook.
 
 

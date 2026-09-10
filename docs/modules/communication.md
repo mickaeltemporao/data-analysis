@@ -146,29 +146,21 @@ Let's head to Github and open our codespace (text editor)
 
 ---
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - Synthesize your cumulative work from all 5 milestones into a seamless, cohesive academic narrative (4,000–5,000 words in Typst).
 - Craft an impactful conclusion: What are the theoretical and normative implications of your empirical findings for American political behavior? What are your study's limitations?
 
-:fontawesome-solid-chalkboard-user: **Live Demo Retrospective & Peer Engagement**
+### Explore
+- **Live Demo Series Retrospective:** Review the handouts and code snippets shared by peer groups on WhatsApp across the semester. Use these techniques to polish your data pipeline and figures.
+- **Suggested Reading:** [Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press.](https://www.cambridge.org/core/books/social-science-methodology/7EB69752D8DF374737EB156BF24C21D3) — Practical wisdom on structuring conclusions, addressing counter-arguments, and ensuring transparent and reproducible empirical research.
 
-- 🎓 **Live Demo Series Complete:** Review the handouts and code snippets shared by peer groups on WhatsApp across the semester. Use these techniques to polish your data pipeline and figures.
-- 👥 **Final Peer Check:** Exchange your draft PDF with a peer group for an informal pre-submission read to catch typos, awkward phrasing, or unclear figure labels.
-
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press.](https://www.cambridge.org/core/books/social-science-methodology/7EB69752D8DF374737EB156BF24C21D3)
-    - *Why read it:* Practical wisdom on structuring conclusions, addressing counter-arguments, and ensuring transparent and reproducible empirical social science.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-regular-file-code: **Final Paper Deadline:** [**Research Project**](../activities/project.md) is due **Friday, March 26, 2027 at 23:59** via email (Subject: `[DATA-ANALYSIS] Final Paper - Group X`).
-- :fontawesome-solid-list-check: Verify your 3 required deliverables before submission:
+### Practice
+- Verify your 3 required deliverables before submission:
     1. Rendered PDF manuscript (`da-final-paper-groupX.pdf`)
     2. Typst source and bibliography (`da-final-paper-groupX.typ` and `references.bib`)
     3. Fully executable analysis notebook (`da-final-notebook-groupX.ipynb`)
+- :fontawesome-solid-award: **Submit your [Research Project](../activities/project.md)** by Friday, March 26, 2027 at 23:59 via email to the instructor (Subject: `[DATA-ANALYSIS] Final Paper - Group X`).
 
 

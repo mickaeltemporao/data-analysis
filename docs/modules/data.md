@@ -57,26 +57,19 @@ Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
   - Add a commit message: "My first commit, horray!"
   - Push your contribution to the GitHub repository.
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
+### Think
 - Identify specific survey questions from ANES 2024 to operationalize your DV, IV, and control variables.
 - Structure your proposal into a cohesive 5-paragraph narrative linking your research puzzle, theoretical mechanism, and empirical expectations.
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Data Acquisition & Column Inspection**
+### Explore
+- **Live Demo (Group 3):** Data Acquisition & Column Inspection. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true) — Demonstrates how distinct psychological and ideological identities in survey data produce measurable behavioral polarization.
 
-- 🎤 **Group 3 on Deck:** Prepare a 10–15 min demonstration showing how to read survey datasets into pandas, inspect column attributes (`.shape`, `.info()`, `.describe()`), and subset key columns. Distribute your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Skim the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html). Subsetting columns and inspecting survey structures is the first step of empirical research, and your group will provide feedback using *"I like, I wish, I wonder"*.
+### Practice
+- Practice loading and exploring datasets using [Notebook #02](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+- :fontawesome-solid-award: **Complete [Milestone 2 - Proposal](../activities/milestone-2.md)** (Due Friday, Oct 23 at 08:00 before class via email).
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true)
-    - *Why read it:* Demonstrates how distinct psychological and ideological identities in survey data produce measurable behavioral polarization.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-award: **Milestone Due:** [**Milestone 2 - Proposal**](../activities/milestone-2.md) (Due Friday, Oct 23 at 08:00 before class)
-- :fontawesome-solid-file-code: Practice loading and exploring datasets using [:fontawesome-solid-file-code: Notebook #02](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
 
 

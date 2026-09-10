@@ -26,25 +26,18 @@
     - [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
 
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
-
-- What are the distributions of your key variables? Think about what a histogram or bar chart of your DV and IV should look like, and watch out for non-substantive response categories (e.g., "Don't know" or refused).
+### Think
+- What are the empirical distributions of your key variables? Think about what a histogram or bar chart of your DV and IV should look like, and watch out for non-substantive response categories (e.g., "Don't know" or refused).
 - How will you filter your survey sample to ensure your empirical analysis focuses on the relevant target population?
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Filtering Survey Rows & Univariate Charts**
+### Explore
+- **Live Demo (Group 4):** Filtering Survey Rows & Univariate Charts. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Barber, M., & Pope, J. C. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3) — An outstanding example of using survey data and clean graphical displays to disentangle competing political identities.
 
-- 🎤 **Group 4 on Deck:** Prepare a 10–15 min demonstration showing how to create boolean filters/masks in pandas, compute frequency tables with `.value_counts()`, and visualize univariate distributions with Altair. Distribute your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Skim the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts). Visualizing single-variable distributions is essential for your upcoming Milestone 3, and your group will provide feedback using *"I like, I wish, I wonder"*.
+### Practice
+- In your group repository, start an exploratory notebook (`exploration.ipynb`) to inspect your DV and IV using [Notebooks #03 & #04](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+- *Looking Ahead:* Milestone 3 - Exploration will be due in Session 6 (Nov 20 at 23:59).
 
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Barber, M., & Pope, J. C. (2019). Does Party Trump Ideology? Disentangling Party and Ideology in America. *American Political Science Review*, 113(1), 38–54.](https://www.cambridge.org/core/journals/american-political-science-review/article/does-party-trump-ideology-disentangling-party-and-ideology-in-america/B5BAD0AE947BD3CF18D51D399263C8D3)
-    - *Why read it:* An outstanding example of using survey data and clean graphical displays to disentangle competing political identities.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-laptop-code: In your group's repository, start an exploratory notebook (`exploration.ipynb`) to inspect your DV and IV using [:fontawesome-solid-file-code: Notebooks #03 & #04](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
-- :fontawesome-solid-calendar-check: *Looking Ahead:* [Milestone 3 - Exploration](../activities/milestone-3.md) will be due in two weeks (Nov 20 at 23:59).
 

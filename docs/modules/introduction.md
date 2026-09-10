@@ -119,24 +119,17 @@ Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **O
 
 ---
 
-## **Get Ready for Next Session: Think. Explore. Practice.**
+## Get Ready for Next Session: Think. Explore. Practice.
 
-:fontawesome-solid-brain: **Thinking Ahead**
+### Think
+- What are the key concepts in your project idea (Milestone 1), and how might they relate to political behavior in the ANES 2024?
 
-- What are the key concepts in your project idea (your Milestone 1), and how might they relate to political behavior in the ANES 2024?
+### Explore
+- **Live Demo (Group 1):** Typst for Reproducible Reports. Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class. The class should review the [Typst Documentation](https://typst.app/docs/) and [Guide to Citations in Typst](../resources/writing.md#academic-citations-in-typst) to follow along and lead the peer discussion.
+- **Suggested Reading:** [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353) — An exemplary study on framing research questions and operationalizing survey variables.
 
-:fontawesome-solid-chalkboard-user: **Live Demo Spotlight: Typst for Reproducible Reports**
+### Practice
+- Complete your local programming setup via the [Onboarding](../resources/onboarding.md) guide.
+- :fontawesome-solid-award: **Complete [Milestone 1 - Idea](../activities/milestone-1.md)** (Due Friday, Sep 25 at 08:00 before class via email).
 
-- 🎤 **Group 1 on Deck:** Prepare a 10–15 min demonstration showing Typst syntax, document structure, and `.bib` citation integration. Share your handout on WhatsApp before class.
-- 👥 **Class Preparation:** Explore the [Typst Documentation](https://typst.app/docs/) and [Guide to Academic Citations in Typst](../resources/writing.md#academic-citations-in-typst). You will need these formatting tools for your milestone submissions, and your group will provide feedback during class using *"I like, I wish, I wonder"*.
-
-:fontawesome-solid-book-open-reader: **Suggested Reading**
-
-- [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353)
-    - *Why read it:* An exemplary empirical study demonstrating how to frame a clear research question, define core concepts, and operationalize survey variables.
-
-:fontawesome-solid-house-laptop: **Practice & Deadlines**
-
-- :fontawesome-solid-award: **Milestone Due:** [**Milestone 1 - Idea**](../activities/milestone-1.md) (Due Friday, Sep 25 at 08:00 before class)
-- :fontawesome-solid-laptop-code: Complete your local programming setup via the [:fontawesome-regular-paper-plane: **Onboarding**](../resources/onboarding.md) guide.
 
