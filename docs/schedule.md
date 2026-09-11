@@ -2,12 +2,14 @@
 
 This schedule is an approximation, subject to change due needs of the students in the course. Students will be informed of changes to the schedule.
 
+
+[4, 1, 3, 2]
+
 !!! info inline end "Groups Info"
-    - **Group 1:** ...
-    - **Group 2:** ...
-    - **Group 3:** ...
-    - **Group 4:** ...
-    - **Group 5:** ...
+    - **Group 1:** Eva, Logan, Nicola, Stella, Yanis
+    - **Group 2:** Francesca, Kiri, Rosa, Victor, Louisa
+    - **Group 3:** Charline, Clara, Elettra, Giulia, Giulia, Morgane
+    - **Group 4:** Giacomo, Isabella, Lucie, Ludovica, Tessa,
 
 - **:fontawesome-solid-book-open: Class:** Indicates that there is a class meeting this day, linking to class materials.
 - **:fontawesome-solid-chalkboard-user: Live Demo:** Indicates a 10–15 min live demo with handout, followed by peer discussion.
