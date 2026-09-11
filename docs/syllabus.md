@@ -3,7 +3,7 @@
 ## Overview
 
 !!! note inline end "Course & Instructor"
-    - :fontawesome-solid-building-columns: Class: Salle A.116 Laboratoire 
+    - :fontawesome-solid-building-columns: A.116
     - :fontawesome-solid-clock: Fridays 08h00–11h15 
     - :fontawesome-solid-door-open: Office: A.110
     - :fontawesome-regular-calendar-check: [**Book a meeting**](https://cal.com/mickaeltemporao/1-1-meeting)

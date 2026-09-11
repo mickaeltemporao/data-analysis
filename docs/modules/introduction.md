@@ -16,7 +16,7 @@ Tell us:
 
 We will walk through the core structure, expectations, and roadmap of the course:
 
-- **Structure:** 12 bi-weekly class meetings across two semesters (Fridays 08:00–11:15 in Salle A.116 Laboratoire).
+- **Structure:** 12 bi-weekly class meetings across two semesters (Fridays 08:00–11:15 in A.116).
 - **Evaluation Breakdown:**
     - :fontawesome-solid-award: **50% Milestones:** 5 cumulative milestones (10% each) building your empirical research step-by-step.
     - :fontawesome-solid-chalkboard-user: **30% Participation:** Student Group Live Demos (2 per group), peer discussion ("I like, I wish, I wonder"), and class engagement.

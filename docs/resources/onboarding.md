@@ -29,17 +29,17 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
 === ":fontawesome-brands-apple: macOS"
 
-    Open the **Terminal** app (press :keys:Cmd + Space, type `Terminal`, and press :keys:Enter), then paste the following command and press :keys:Enter:
+    Open the **Terminal** app (press ++cmd+space++, type `Terminal`, and press ++enter++), then paste the following command and press ++enter++:
 
     ```bash
     curl -fsSL https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-mac.sh | bash
     ```
 
-    *If prompted for your Mac password, type it in (characters won't appear on screen) and press :keys:Enter. The script will configure Homebrew, VS Code, Python, and the Jupyter environment automatically.*
+    *If prompted for your Mac password, type it in (characters won't appear on screen) and press ++enter++. The script will configure Homebrew, VS Code, Python, and the Jupyter environment automatically.*
 
 === ":fontawesome-brands-windows: Windows"
 
-    Open **PowerShell as Administrator** (right-click the Start Menu :fontawesome-brands-windows:, select **Terminal (Admin)** or **Windows PowerShell (Admin)**), then paste the following command and press :keys:Enter:
+    Open **PowerShell as Administrator** (right-click the Start Menu :fontawesome-brands-windows:, select **Terminal (Admin)** or **Windows PowerShell (Admin)**), then paste the following command and press ++enter++:
 
     ```powershell
     irm https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-windows.ps1 | iex
@@ -72,12 +72,12 @@ In data science, creating an **isolated virtual environment (`.venv`)** inside y
 ### Step 2: Create Your Virtual Environment
 In VS Code, you can create a local environment in two clicks:
 
-1. Open the Command Palette (:keys:Cmd + Shift + P on macOS, :keys:Ctrl + Shift + P on Windows).
-2. Type `Python: Create Environment...` and press :keys:Enter.
+1. Open the Command Palette (++cmd+shift+p++ on macOS, ++ctrl+shift+p++ on Windows).
+2. Type `Python: Create Environment...` and press ++enter++.
 3. Select **Venv** (.venv), then select your installed Python interpreter.
 4. VS Code will create a hidden `.venv` directory in your folder and activate it automatically for any terminal or notebook inside this workspace.
 
-*(Alternative via Terminal)*: You can also open the integrated terminal in VS Code (:keys:Ctrl + \`) and run:
+*(Alternative via Terminal)*: You can also open the integrated terminal in VS Code (++ctrl+grave++) and run:
 ```bash
 python3 -m venv .venv
 ```
@@ -95,7 +95,7 @@ Whenever you open or create a `.ipynb` notebook file in VS Code:
 
 To verify that your installation and environment are completely operational:
 
-1. In VS Code with your `data-analysis` folder open, press :keys:Cmd + Shift + P (or :keys:Ctrl + Shift + P) and select `Create: New Jupyter Notebook`.
+1. In VS Code with your `data-analysis` folder open, press ++cmd+shift+p++ (or ++ctrl+shift+p++) and select `Create: New Jupyter Notebook`.
 2. Save the file as `test.ipynb`.
 3. In the first code cell, paste the following test script:
 

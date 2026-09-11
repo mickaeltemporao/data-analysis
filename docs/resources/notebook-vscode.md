@@ -11,7 +11,7 @@ Follow these simple steps to open and work with a `.ipynb` (Jupyter/Ipython Note
 ## 2. Install the Jupyter (ipynb) Extension
 To work with `.ipynb` notebooks, you need the **Jupyter extension**.
 
-1. Click on the **Extensions** icon on the left sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`).
+1. Click on the **Extensions** icon on the left sidebar (or press ++ctrl+shift+x++ / ++cmd+shift+x++).
 2. In the search bar, type **"Jupyter"**.
 3. Click **Install** on the official extension by **Microsoft**.
 
@@ -40,7 +40,7 @@ If you see a message about selecting a **kernel**:
 
 ## You’re Ready!
 You can now:
-- Edit and run code cells (`Shift + Enter`)
+- Edit and run code cells (++shift+enter++)
 - Write notes in Markdown cells
-- Save your work as you progress (`Ctrl+S` / `Cmd+S`)
+- Save your work as you progress (++ctrl+s++ / ++cmd+s++)
 
