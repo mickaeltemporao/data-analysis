@@ -25,7 +25,7 @@ We will use [**Typst**](https://typst.app/) throughout the course for authoring 
 
 ## 3. Install Your Data Science Environment (Automated Script)
 
-We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`pandas`, `statsmodels`, `altair`, and `vl-convert-python` for exporting figures).
+We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`pandas` for data management, `statsmodels` for modeling, `altair` for data visualization, and `vl-convert-python` for exporting figures).
 
 === ":fontawesome-brands-apple: macOS"
 

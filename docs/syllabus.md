@@ -15,7 +15,7 @@ What will you learn in this course? Our goal is to give you the ability to under
 
 This course introduces students to cutting-edge open source research tools for social science data analysis.
 
-- We will rely on [:fontawesome-brands-python: **Python**](https://www.python.org/) within **Visual Studio Code** (using a Jupyter Notebooks workflow), leveraging core data science libraries including **pandas**, **statsmodels**, and **Altair** for data visualization.
+- We will rely on [:fontawesome-brands-python: **Python**](https://www.python.org/) within **Visual Studio Code** (using a Jupyter Notebooks workflow), leveraging core data science libraries: **pandas** for data management, **statsmodels** for modeling, and **Altair** for data visualization.
 - For reproducible academic writing and formatting, students will use [**Typst**](https://typst.app/).
 
 ### Goals
