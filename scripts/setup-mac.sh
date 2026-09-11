@@ -53,9 +53,9 @@ else
 fi
 
 # 6. Install Core Python Libraries (including vl-convert-python for Altair image exports)
-echo "📚 Installing core data analysis packages (pandas, statsmodels, altair, vl-convert-python)..."
+echo "📚 Installing core data analysis packages (pandas, altair, statsmodels, vl-convert-python)..."
 python3 -m pip install --upgrade pip --quiet || true
-python3 -m pip install --quiet pandas statsmodels altair vega_datasets vl-convert-python || true
+python3 -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python || true
 
 echo "============================================================"
 echo "🎉 Setup complete! You are ready for Data Analysis."

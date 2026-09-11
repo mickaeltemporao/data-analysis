@@ -25,7 +25,7 @@ We will use [**Typst**](https://typst.app/) throughout the course for authoring 
 
 ## 3. Install Your Data Science Environment (Automated Script)
 
-We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`pandas` for data management, `statsmodels` for modeling, `altair` for data visualization, and `vl-convert-python` for exporting figures).
+We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`pandas` for data management, `altair` for data visualization, `statsmodels` for modeling, and `vl-convert-python` for exporting figures).
 
 === ":fontawesome-brands-apple: macOS"
 
@@ -54,7 +54,7 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
     ```bash
     # Ubuntu / Debian example:
     sudo apt update && sudo apt install -y python3 python3-pip python3-venv
-    pip install pandas statsmodels altair vega_datasets vl-convert-python
+    pip install pandas altair statsmodels vega_datasets vl-convert-python
     code --install-extension ms-python.python
     code --install-extension ms-toolsai.jupyter
     ```
@@ -101,8 +101,8 @@ To verify that your installation and environment are completely operational:
 
 ```python
 import pandas as pd
-import statsmodels.formula.api as sm
 import altair as alt
+import statsmodels.formula.api as sm
 import vl_convert as vlc
 
 print("🎉 Environment successfully configured for Data Analysis!")

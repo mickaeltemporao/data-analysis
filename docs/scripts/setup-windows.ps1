@@ -53,9 +53,9 @@ if (Get-Command code -ErrorAction SilentlyContinue) {
 }
 
 # 3. Install Core Python Libraries (including vl-convert-python for Altair image exports)
-Write-Host "📚 Installing data analysis packages (pandas, statsmodels, altair, vl-convert-python)..." -ForegroundColor Yellow
+Write-Host "📚 Installing data analysis packages (pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
 python -m pip install --upgrade pip --quiet
-python -m pip install --quiet pandas statsmodels altair vega_datasets vl-convert-python
+python -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python
 
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "🎉 Setup complete! You are ready for Data Analysis." -ForegroundColor Green
