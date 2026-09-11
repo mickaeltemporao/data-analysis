@@ -19,6 +19,11 @@ I try to always give credit but if I forgot anyone, please feel free to reach ou
 - Yannick Dufresne
 - [Steven V. Miller](http://svmiller.com/)
 
+# AI Acknowledgment 🤖
+
+In the spirit of open science and responsible technology use, portions of this project's code, structure, and documentation were drafted or refactored with the assistance of AI assistants adhering to the directives in [`AGENTS.md`](AGENTS.md). 
+
+All instructional materials, scripts, and interpretations have been carefully curated, tested, and validated by the instructor to ensure they meet our learning objectives and pedagogical standards.
 
 # Feedback
 If you have any feedback on the course or find any typos or errors in this website go to issues, click on the “New Issue” button to create a new issue, and add your suggestion or describe the problem.
