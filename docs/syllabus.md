@@ -3,9 +3,9 @@
 ## Overview
 
 !!! note inline end "Course & Instructor"
-    - :fontawesome-solid-building-columns: A.116
-    - :fontawesome-solid-clock: Fridays 08h00–11h15 
-    - :fontawesome-solid-door-open: Office: A.110
+    - :fontawesome-solid-building-columns: Classroom A.116
+    - :fontawesome-solid-clock: Fridays 08h00–11h15
+    - :fontawesome-solid-door-open: Office A.110
     - :fontawesome-regular-calendar-check: [**Book a meeting**](https://cal.com/mickaeltemporao/1-1-meeting)
 
 What will you learn in this course? Our goal is to give you the ability to understand, explain, and perform modern social science research with a special focus on data analysis and inference. You will be able to read and understand the methodology of most academic articles in the social sciences, but more importantly you will have a foot in the door of the data science world. The ability to collect and analyze data in a sophisticated manner has become a crucial skill set for the modern job market across industries. Through a combination of lectures, hands-on exercises, and a final project, you will learn how to clean, visualize, and interpret complex datasets, gaining valuable insights into citizens' attitudes, behaviors, and broader political trends. Finally, you will obtain data literacy that will help you be a critical consumer of evidence for the rest of your life.
