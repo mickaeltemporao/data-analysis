@@ -39,3 +39,32 @@ The documentation site is built using **Material for MkDocs**.
   - Avoid decorative emoji clutter in content subheaders.
   - Use GitHub-style alerts (`> [!NOTE]`, `> [!TIP]`, etc.) or MkDocs admonitions (`!!! note`, `!!! tip`) where appropriate.
   - Ensure all external and internal links are valid and active.
+
+---
+
+## 4. Beginner-First Pedagogical Guidelines
+
+Students in this course are social science students who have **never coded or used a terminal before**. All materials, onboarding guides, tutorials, and notebooks must strictly follow these instructional principles:
+
+1. **Assume Zero Prior Knowledge**:
+   - Never assume familiarity with developer concepts (such as "terminal", "cell", "kernel", "virtual environment", "working directory", "PATH", or "package manager").
+   - Explicitly define concepts in plain language upon first mention (e.g., explain what a notebook is and that a code cell is the rectangular box where code is typed and executed).
+
+2. **Explicit, Platform-Specific Instructions**:
+   - Always separate keyboard shortcuts and navigation by operating system (macOS vs. Windows) rather than combining them into ambiguous strings like `Cmd/Ctrl + Shift + P`.
+   - Provide explicit sub-bullet points for macOS (`Cmd + ...`) and Windows (`Ctrl + ...`).
+
+3. **Concrete UI Guidance & Search Queries**:
+   - Give realistic, fuzzy-search-friendly terms for search boxes (e.g., tell students to type `Python Create Env` and click the matching dropdown option, rather than demanding exact colon-and-ellipsis syntax like `"Python: Create Environment..."`).
+   - Describe visual landmarks in the interface (e.g., the top search bar, the triangular play icon on the left of the cell, the explorer sidebar).
+
+4. **Clear Success Criteria & Recovery Steps**:
+   - Always tell students the exact message or visual cue they should see when a step succeeds (e.g., `🎉 Setup complete! You are ready for Data Analysis.`, or a green checkmark below the cell).
+   - Provide recovery instructions if the success state is not reached (e.g., *"If you do not see this final message, run the command again"*).
+
+5. **Prefer GUI/Click Workflows over Terminal Alternatives**:
+   - Do not suggest terminal or CLI alternatives (such as `python3 -m venv .venv`) when a user-friendly VS Code GUI option exists. Introducing redundant command-line alternatives causes confusion for true beginners.
+
+6. **Anticipate Common Beginner Pitfalls**:
+   - Remind students that terminal password input is invisible (no characters or asterisks appear).
+   - Account for multi-stage installation prompts (e.g., Xcode Command Line Tools on macOS requiring a pop-up installer to finish before re-running the script).

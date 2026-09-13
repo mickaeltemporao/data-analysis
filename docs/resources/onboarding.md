@@ -29,23 +29,52 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
 === ":fontawesome-brands-apple: macOS"
 
-    Open the **Terminal** app (press ++cmd+space++, type `Terminal`, and press ++enter++), then paste the following command and press ++enter++:
+    1. Open the **Terminal** app:
+        - Press ++cmd+space++ to open Spotlight search.
+        - Type `Terminal` and press ++enter++.
 
-    ```bash
-    curl -fsSL https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-mac.sh | bash
-    ```
+    2. Copy and paste the following command into Terminal, then press ++enter++:
 
-    *If prompted for your Mac password, type it in (characters won't appear on screen) and press ++enter++. The script will configure Homebrew, VS Code, Python, and the Jupyter environment automatically.*
+        ```bash
+        curl -fsSL https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-mac.sh | bash
+        ```
+
+    3. **Important details during installation:**
+        - **Xcode Tools pop-up:** If a pop-up window appears asking to install "Command Line Developer Tools", click **Install** and wait for it to complete. Once finished, run the command above once more in Terminal.
+        - **Password prompt:** When the script asks for your Mac password (`Password: 🔑`), type your computer password and press ++enter++. *Note: For security reasons, characters will not appear on screen as you type—just type your password normally and press Enter.*
+        
+    4. **Verify Success:**
+        Run the script until you see this final confirmation message at the bottom of the Terminal:
+        
+        ```text
+        🎉 Setup complete! You are ready for Data Analysis.
+        ```
+        
+        > [!IMPORTANT]
+        > If you do not see this final success message, re-run the command in your Terminal.
 
 === ":fontawesome-brands-windows: Windows"
 
-    Open **PowerShell as Administrator** (right-click the Start Menu :fontawesome-brands-windows:, select **Terminal (Admin)** or **Windows PowerShell (Admin)**), then paste the following command and press ++enter++:
+    1. Open **PowerShell as Administrator**:
+        - Right-click the Windows Start Menu button :fontawesome-brands-windows:.
+        - Select **Terminal (Admin)** or **Windows PowerShell (Admin)**.
+        - Click **Yes** if Windows prompts you to allow changes.
 
-    ```powershell
-    irm https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-windows.ps1 | iex
-    ```
+    2. Copy and paste the following command into PowerShell, then press ++enter++:
 
-    *The script will detect Winget or Chocolatey, install VS Code and Python, and configure your Jupyter notebook workflow automatically.*
+        ```powershell
+        irm https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-windows.ps1 | iex
+        ```
+
+    3. **Verify Success:**
+        Keep the window open while it downloads and configures your environment. Run the script until you see this final confirmation message:
+
+        ```text
+        🎉 Setup complete! You are ready for Data Analysis.
+        ```
+
+        > [!IMPORTANT]
+        > If you do not see this final success message, or if any download was interrupted, simply paste and run the command again.
 
 === ":fontawesome-brands-linux: Linux"
 
@@ -61,52 +90,85 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
 ---
 
-## 4. Managing Your Project Python Environment in VS Code
+## 4. Set Up Your Course Workspace in VS Code
 
-In data science, creating an **isolated virtual environment (`.venv`)** inside your project folder ensures that your libraries and code remain stable and reproducible across projects.
+Now that your software is installed, you need to open **Visual Studio Code** and configure a dedicated workspace folder for the course.
 
-### Step 1: Create a Course Workspace Folder
-1. Create a dedicated folder on your computer (e.g., `Documents/data-analysis`).
-2. Open **Visual Studio Code**, then go to **File** > **Open Folder...** and select your `data-analysis` folder.
+### Step 1: Create and Open Your Course Folder in VS Code
+1. If you haven't already, create a dedicated folder on your computer named `data-analysis` inside your `Documents` directory (e.g., `Documents/data-analysis`).
+2. Open the **Visual Studio Code** application.
+3. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
+4. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
+*(If VS Code displays a pop-up asking "Do you trust the authors of the files in this folder?", click **Yes, I trust the authors**).*
 
-### Step 2: Create Your Virtual Environment
-In VS Code, you can create a local environment in two clicks:
+### Step 2: Create Your Virtual Environment (.venv)
+In data science, a **virtual environment** keeps your course packages isolated and stable. To create one directly inside VS Code:
 
-1. Open the Command Palette (++cmd+shift+p++ on macOS, ++ctrl+shift+p++ on Windows).
-2. Type `Python: Create Environment...` and press ++enter++.
-3. Select **Venv** (.venv), then select your installed Python interpreter.
-4. VS Code will create a hidden `.venv` directory in your folder and activate it automatically for any terminal or notebook inside this workspace.
-
-*(Alternative via Terminal)*: You can also open the integrated terminal in VS Code (++ctrl+grave++) and run:
-```bash
-python3 -m venv .venv
-```
-
-### Step 3: Select the Kernel for Jupyter Notebooks
-Whenever you open or create a `.ipynb` notebook file in VS Code:
-1. Look at the **top-right corner** of the notebook window for the kernel selector (it might say *Select Kernel*).
-2. Click **Select Kernel** > **Python Environments...**
-3. Choose the interpreter with **`('.venv': venv)`** next to it.
-4. Your notebook is now running in your isolated project environment!
+1. Open the **Command Palette** (the search bar at the very top of VS Code):
+    - **macOS:** press ++cmd+shift+p++
+    - **Windows:** press ++ctrl+shift+p++
+2. In the search box that appears at the top of the window, type:
+    ```text
+    Python Create Env
+    ```
+3. In the dropdown list, look for the option named **`Python: Create Environment...`**, and click on it (or highlight it and press ++enter++).
+4. When asked for the environment type, choose **Venv** (it will show `.venv`).
+5. Select the recommended Python interpreter listed on your screen.
+6. VS Code will now configure your environment in the background. A hidden `.venv` folder will be created inside your `data-analysis` workspace.
 
 ---
 
-## 5. How to Verify Your Setup
+## 5. Verify Your Setup with a Test Notebook
 
-To verify that your installation and environment are completely operational:
+Let's test your environment to confirm that everything is working properly.
 
-1. In VS Code with your `data-analysis` folder open, press ++cmd+shift+p++ (or ++ctrl+shift+p++) and select `Create: New Jupyter Notebook`.
-2. Save the file as `test.ipynb`.
-3. In the first code cell, paste the following test script:
+### Step 1: Open Your Course Folder in VS Code
+1. Open **Visual Studio Code**.
+2. Make sure your `data-analysis` folder is currently open (you should see `DATA-ANALYSIS` listed at the top of the left sidebar under *Explorer*). If not, click **File** > **Open Folder...** (or **File** > **Open...** on macOS) and select your `data-analysis` folder.
 
-```python
-import pandas as pd
-import altair as alt
-import statsmodels.formula.api as sm
-import vl_convert as vlc
+### Step 2: Create a New Jupyter Notebook
+1. Open the Command Palette:
+    - **macOS:** press ++cmd+shift+p++
+    - **Windows:** press ++ctrl+shift+p++
+2. Type into the top search bar:
+    ```text
+    Create Jupyter
+    ```
+3. In the search results, click on **`Create: New Jupyter Notebook`**.
+4. A new tab named `Untitled-1.ipynb` will open on your screen.
+5. Save this file:
+    - **macOS:** press ++cmd+s++
+    - **Windows:** press ++ctrl+s++
+    - Name the file `test.ipynb` and click **Save** (make sure it is saved inside your `data-analysis` folder).
 
-print("🎉 Environment successfully configured for Data Analysis!")
+### Step 3: What is a Notebook and What is a Cell?
+- **Jupyter Notebook**: An interactive document where you can write notes, run Python code, and display charts all in one place.
+- **Code Cell**: Inside your new notebook, you will see a rectangular box in the main window with a small play icon (:fontawesome-solid-play:) or bracket `[ ]` on its left side. This box is called a **code cell**. It is the place where you type and run Python code.
+
+### Step 4: Paste and Run the Test Code
+1. Click directly inside the rectangular code cell (you will see a blinking text cursor).
+2. Paste the following test code into the cell:
+
+    ```python
+    import pandas as pd
+    import altair as alt
+    import statsmodels.formula.api as sm
+    import vl_convert as vlc
+
+    print("🎉 Environment successfully configured for Data Analysis!")
+    ```
+
+3. **Run the code:**
+    - Click the triangular **Play** icon (:fontawesome-solid-play:) on the left edge of the cell, **OR**
+    - Click inside the cell and press ++shift+enter++.
+    *(If VS Code prompts you to select a kernel or Python environment in the top right, select your `.venv` environment).*
+
+### Step 5: Confirm Success!
+Directly underneath the cell, you should see the confirmation output:
+
+```text
+🎉 Environment successfully configured for Data Analysis!
 ```
 
-4. Click the **Run** button :fontawesome-solid-play: next to the cell. If it displays the success message without errors, you are ready for class!
+A green checkmark will also appear next to the cell. If you see this message without any errors, your computer is 100% ready for the course!
 
