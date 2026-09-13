@@ -57,6 +57,40 @@ echo "📚 Installing core data analysis packages (pandas, altair, statsmodels, 
 python3 -m pip install --upgrade pip --quiet || true
 python3 -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python || true
 
+# 7. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
+echo "⚙️ Configuring beginner-friendly VS Code settings..."
+python3 - << 'EOF' || true
+import json, os
+from pathlib import Path
+
+settings_path = Path.home() / "Library" / "Application Support" / "Code" / "User" / "settings.json"
+settings_path.parent.mkdir(parents=True, exist_ok=True)
+
+data = {}
+if settings_path.exists():
+    try:
+        with open(settings_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        data = {}
+
+data.update({
+    "workbench.startupEditor": "none",
+    "workbench.welcomePage.walkthroughs.openOnInstall": False,
+    "github.copilot.enable": {"*": False},
+    "github.copilot.editor.enableAutoCompletions": False,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "notebook.lineNumbers": "on",
+    "notebook.output.textLineLimit": 150,
+    "notebook.insertToolbarLocation": "betweenCells"
+})
+
+with open(settings_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=4)
+EOF
+
 echo "============================================================"
 echo "🎉 Setup complete! You are ready for Data Analysis."
 echo "👉 Open VS Code, press Cmd+Shift+P, and select 'Python: Create Environment' (.venv) for your course folder."
