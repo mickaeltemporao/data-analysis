@@ -82,6 +82,9 @@ data.update({
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
+    "python.REPL.sendToNativeREPL": True,
+    "python.terminal.activateEnvironment": True,
+    "python.terminal.executeInFileDir": True,
     "notebook.lineNumbers": "on",
     "notebook.output.textLineLimit": 150,
     "notebook.insertToolbarLocation": "betweenCells"

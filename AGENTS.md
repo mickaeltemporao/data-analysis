@@ -22,7 +22,7 @@ When generating or editing examples, code snippets, documentation, or assignment
 - **Data Visualization**: Use [`Altair`](https://altair-viz.github.io/) for declarative statistical visualizations (univariate distributions, bivariate relationships, faceted charts).
 - **Statistical Modeling**: Use [`statsmodels`](https://www.statsmodels.org/) (specifically the formula API: `import statsmodels.formula.api as sm`) for linear regressions (OLS) and hypothesis testing.
 - **Scientific Writing & Reporting**: Use [**Typst**](https://typst.app/) for manuscripts, handouts, and reproducible academic deliverables.
-- **Development Environment**: Visual Studio Code with Jupyter Notebooks (`.ipynb`) in an isolated project virtual environment (`.venv`).
+- **Development Environment**: Visual Studio Code with interactive Python scripts (`.py`) in an isolated project virtual environment (`.venv`).
 
 ---
 
@@ -47,8 +47,8 @@ The documentation site is built using **Material for MkDocs**.
 Students in this course are social science students who have **never coded or used a terminal before**. All materials, onboarding guides, tutorials, and notebooks must strictly follow these instructional principles:
 
 1. **Assume Zero Prior Knowledge**:
-   - Never assume familiarity with developer concepts (such as "terminal", "cell", "kernel", "virtual environment", "working directory", "PATH", or "package manager").
-   - Explicitly define concepts in plain language upon first mention (e.g., explain what a notebook is and that a code cell is the rectangular box where code is typed and executed).
+   - Never assume familiarity with developer concepts (such as "terminal", "script", "REPL", "virtual environment", "working directory", "PATH", or "package manager").
+   - Explicitly define concepts in plain language upon first mention (e.g., explain what a script file is and that code is executed line-by-line using Shift+Enter in the integrated terminal/REPL).
 
 2. **Explicit, Platform-Specific Instructions**:
    - Always separate keyboard shortcuts and navigation by operating system (macOS vs. Windows) rather than combining them into ambiguous strings like `Cmd/Ctrl + Shift + P`.

@@ -118,7 +118,9 @@ In data science, a **virtual environment** keeps your course packages isolated a
 
 ---
 
-## 5. Verify Your Setup with a Test Notebook
+## 5. Verify Your Setup with an Interactive Python Script
+
+In this course, we work directly with clean Python script files (`.py`) and an interactive line-by-line execution workflow, paired with [**Typst**](https://typst.app/) for scientific writing.
 
 Let's test your environment to confirm that everything is working properly.
 
@@ -126,49 +128,37 @@ Let's test your environment to confirm that everything is working properly.
 1. Open **Visual Studio Code**.
 2. Make sure your `data-analysis` folder is currently open (you should see `DATA-ANALYSIS` listed at the top of the left sidebar under *Explorer*). If not, click **File** > **Open Folder...** (or **File** > **Open...** on macOS) and select your `data-analysis` folder.
 
-### Step 2: Create a New Jupyter Notebook
-1. Open the Command Palette:
-    - **macOS:** press ++cmd+shift+p++
-    - **Windows:** press ++ctrl+shift+p++
-2. Type into the top search bar:
-    ```text
-    Create Jupyter
-    ```
-3. In the search results, click on **`Create: New Jupyter Notebook`**.
-4. A new tab named `Untitled-1.ipynb` will open on your screen.
-5. Save this file:
-    - **macOS:** press ++cmd+s++
-    - **Windows:** press ++ctrl+s++
-    - Name the file `test.ipynb` and click **Save** (make sure it is saved inside your `data-analysis` folder).
+### Step 2: Create a New Python Script
+1. In the top menu of VS Code, click **File** > **New File...** (or click the **New File** icon next to `DATA-ANALYSIS` in the left Explorer sidebar).
+2. Type `test.py` as the filename and press ++enter++.
+3. If VS Code prompts you where to save it, choose your `data-analysis` folder.
 
-### Step 3: What is a Notebook and What is a Cell?
-- **Jupyter Notebook**: An interactive document where you can write notes, run Python code, and display charts all in one place.
-- **Code Cell**: Inside your new notebook, you will see a rectangular box in the main window with a small play icon (:fontawesome-solid-play:) or bracket `[ ]` on its left side. This box is called a **code cell**. It is the place where you type and run Python code.
+### Step 3: Paste the Test Code
+Paste the following test code directly into your `test.py` editor window:
 
-### Step 4: Paste and Run the Test Code
-1. Click directly inside the rectangular code cell (you will see a blinking text cursor).
-2. Paste the following test code into the cell:
+```python
+import pandas as pd
+import altair as alt
+import statsmodels.formula.api as sm
+import vl_convert as vlc
 
-    ```python
-    import pandas as pd
-    import altair as alt
-    import statsmodels.formula.api as sm
-    import vl_convert as vlc
+print("🎉 Environment successfully configured for Data Analysis!")
+```
 
-    print("🎉 Environment successfully configured for Data Analysis!")
-    ```
+### Step 4: Run Your Code Line-by-Line with ++shift+enter++
+In VS Code, you can execute code interactively one line at a time:
 
-3. **Run the code:**
-    - Click the triangular **Play** icon (:fontawesome-solid-play:) on the left edge of the cell, **OR**
-    - Click inside the cell and press ++shift+enter++.
-    *(If VS Code prompts you to select a kernel or Python environment in the top right, select your `.venv` environment).*
+1. Click on the very first line of code (`import pandas as pd`) to place your blinking cursor there.
+2. Press ++shift+enter++.
+3. A **Python REPL** terminal panel will automatically pop up at the bottom of VS Code, execute the line, and advance your cursor to the next line.
+4. Keep pressing ++shift+enter++ to step through each line of code (or highlight all lines with ++cmd+a++ on macOS / ++ctrl+a++ on Windows and press ++shift+enter++).
 
 ### Step 5: Confirm Success!
-Directly underneath the cell, you should see the confirmation output:
+In the Python REPL terminal at the bottom of your screen, you should see the final confirmation message:
 
 ```text
 🎉 Environment successfully configured for Data Analysis!
 ```
 
-A green checkmark will also appear next to the cell. If you see this message without any errors, your computer is 100% ready for the course!
+If you see this message printed in the terminal without errors, your computer is 100% ready for the course!
 
