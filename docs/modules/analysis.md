@@ -27,7 +27,7 @@ This module bridges the gap between transformed survey data and empirical hypoth
 ## Get Ready for Next Session: Think. Explore. Practice.
 
 ### Think
-- How does your research hypothesis translate into a formal econometric model ($Y = \beta_0 + \beta_1 X + \epsilon$)? What is the expected sign (+ / -) of the slope coefficient $\beta_1$?
+- How does your research hypothesis translate into a formal linear regression model ($Y = \beta_0 + \beta_1 X + \epsilon$)? What is the expected sign (+ / -) of the slope coefficient $\beta_1$?
 - For categorical predictors (e.g., race, religion, region), what is your reference/baseline category, and how will you interpret differences relative to that baseline?
 - **Suggested Reading:** [Argyle, L. P., Busby, E. C., Fulda, N., Gubler, J. R., Rytting, C., & Wingate, D. (2023). Out of one, many: Using language models to simulate human samples. *Political Analysis*, 31(3), 337-351.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/035D7C8A55B237942FB6DBAD7CAA4E49/S1047198723000025a.pdf/out_of_one_many_using_language_models_to_simulate_human_samples.pdf) - Illustrates rigorous regression model specifications and how contemporary computational methods interface with empirical political behavior.
 
@@ -36,7 +36,7 @@ This module bridges the gap between transformed survey data and empirical hypoth
 - The class should review the [Statsmodels Formula API Guide](https://www.statsmodels.org/stable/example_formulas.html) to follow along and lead the peer discussion.
 
 ### Practice
-- Start a modeling notebook (`modeling.ipynb`) in your group repository and fit a baseline univariate regression ($DV \sim IV$) with `smf.ols`.
+- Start a modeling script (`modeling.py`) in your group repository and fit a baseline regression ($DV \sim IV$) with `smf.ols`.
 - *Looking Ahead:* Milestone 5 - Modeling will be due in Session 11 (Mar 05 at 08:00).
 
 

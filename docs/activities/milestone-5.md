@@ -26,7 +26,7 @@ You need to:
 - Apply linear regression techniques learned in recent in :
     - [`07-data-modeling-insights.ipynb`](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
     - [the data modeling lab](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/lab-modeling.ipynb)
-- Estimate a sequence of nested regression models to test your hypothesis.
+- Estimate multiple regression models side by side (adding controls step by step) to test your hypothesis and observe coefficient stability.
 - Export your regression table using the `make_table()` function from `mmisc`.
 - Interpret your results in relation to your theoretical expectations.
 

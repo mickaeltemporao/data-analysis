@@ -14,7 +14,20 @@ AI coding agents working on this codebase must adhere to the following principle
 
 ---
 
-## 2. Core Curriculum & Technology Stack
+## 2. Disciplinary Framing: Quantitative Political Science
+
+All theoretical, methodological, and empirical materials must strictly align with conventions from **quantitative political science** (as published in *Political Analysis*, *American Journal of Political Science [AJPS]*, and *American Political Science Review [APSR]*):
+
+- **No "Econometrics" Jargon**:
+  - Never use "econometric", "econometrics", or economic jargon.
+  - Use quantitative political science terminology: "statistical modeling", "quantitative methodology", "empirical analysis", or "regression analysis".
+- **No "Nested Models" Terminology**:
+  - Never use the label "nested models".
+  - Use standard political science empirical presentation: **placing multiple regression models side by side with progressively added control variables (covariates)** to observe whether the primary coefficient of interest ($\beta_1$) remains stable or is attenuated when accounting for confounders.
+
+---
+
+## 3. Core Curriculum & Technology Stack
 
 When generating or editing examples, code snippets, documentation, or assignments, adhere strictly to the designated course tools:
 
@@ -26,7 +39,7 @@ When generating or editing examples, code snippets, documentation, or assignment
 
 ---
 
-## 3. Documentation & Site Standards
+## 4. Documentation & Site Standards
 
 The documentation site is built using **Material for MkDocs**.
 
@@ -42,7 +55,7 @@ The documentation site is built using **Material for MkDocs**.
 
 ---
 
-## 4. Beginner-First Pedagogical Guidelines
+## 5. Beginner-First Pedagogical Guidelines
 
 Students in this course are social science students who have **never coded or used a terminal before**. All materials, onboarding guides, tutorials, and notebooks must strictly follow these instructional principles:
 

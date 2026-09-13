@@ -56,7 +56,7 @@ Interpreting regression results requires connecting numbers back to theory:
 ## **Code: Live Demo & Hands-on Lab**
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 4)
-- **Topic:** Multiple Regression & Exporting Tables (Nested models: Baseline → Demographics → Controls, `make_table` for Typst).
+- **Topic:** Multiple Regression & Exporting Tables (Models with controls: Baseline → Demographics → Full model, `make_table` for Typst).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Extracting insights

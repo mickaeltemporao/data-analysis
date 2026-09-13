@@ -31,7 +31,7 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 | **S8** | **Group 1** | **Survey Data Recoding & Variable Creation** | Handling `-9`/`-8`/DK codes to `NaN`, masks vs. `.replace()`, binary indicators |
 | **S9** | **Group 2** | **Subgroup Analysis & Cross-Tabulations** | `groupby()`, comparing group means, `pd.crosstab(..., normalize='index')` |
 | **S10** | **Group 3** | **Linear Regression & Categorical Predictors** | Specifying `DV ~ IV`, adding `C(category)`, interpreting slopes, reference levels & R² |
-| **S11** | **Group 4** | **Multiple Regression & Exporting Tables** | Nested models (Baseline → Demographics → Controls), `make_table` for Typst |
+| **S11** | **Group 4** | **Multiple Regression & Exporting Tables** | Models with controls (Baseline → Demographics → Full model), `make_table` for Typst |
 | **S12** | **Group 5** | **Visualizing Regression Models & Substantive Findings** | Plotting coefficients with 95% CIs (`plt.errorbar`), predicted margins, communicating results |
 
 ---

@@ -15,7 +15,7 @@ There will be dedicated time during class meetings in the hands-on lab to work o
 | [**Milestone 2**](milestone-2.md) | **10%** | **Proposal** | 5-paragraph introduction, DV/IV definition, 5+ citations in `.bib` |
 | [**Milestone 3**](milestone-3.md) | **10%** | **Exploration** | Preliminary variable exploration, distributions, and 2 figures in Typst |
 | [**Milestone 4**](milestone-4.md) | **10%** | **Analysis** | Missing data recoding, scale construction, creating new variables & columns, bivariate relationships |
-| [**Milestone 5**](milestone-5.md) | **10%** | **Modeling** | Nested OLS regressions in `statsmodels`, Typst regression tables |
+| [**Milestone 5**](milestone-5.md) | **10%** | **Modeling** | OLS regressions with controls in `statsmodels`, Typst regression tables |
 
 ## Milestone Workflow
 

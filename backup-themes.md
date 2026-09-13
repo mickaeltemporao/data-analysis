@@ -291,7 +291,7 @@ print(merged_df['_merge'].value_counts())
 ## 8. Automated Typst Regression Tables with `make_table`
 
 ### Methodological Rationale
-Students must present nested models (e.g., Baseline $\rightarrow$ Demographic Controls $\rightarrow$ Attitudinal Controls) in their final research project. Copy-pasting numbers from Python into a report introduces human error and breaks reproducibility. Exporting directly to Typst tables ensures professional presentation.
+Students must present models with controls side by side (e.g., Baseline $\rightarrow$ Demographic Controls $\rightarrow$ Attitudinal Controls) in their final research project to evaluate coefficient stability. Copy-pasting numbers from Python into a report introduces human error and breaks reproducibility. Exporting directly to Typst tables ensures professional presentation.
 
 ### Key Python & Typst Tools
 - `statsmodels.iolib.summary2.summary_col`
@@ -303,7 +303,7 @@ Students must present nested models (e.g., Baseline $\rightarrow$ Demographic Co
 import statsmodels.formula.api as smf
 from statsmodels.iolib.summary2 import summary_col
 
-# Estimate 3 nested models
+# Estimate 3 models with progressive controls
 m1 = smf.ols("affective_polarization ~ political_knowledge", data=df).fit()
 m2 = smf.ols("affective_polarization ~ political_knowledge + age + female", data=df).fit()
 m3 = smf.ols("affective_polarization ~ political_knowledge + age + female + ideology", data=df).fit()
