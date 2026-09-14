@@ -7,9 +7,8 @@
 
 ## **Code: Live Demo & Hands-on Lab**
 
-### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 5)
-- **Topic:** Visualizing Relationships with Altair (Bivariate charts, scatter plots, grouped bars, color encodings).
-- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
+### :fontawesome-solid-laptop-code: Hands-on Lab & Milestone 3 Workshop
+- **Focus:** Visualizing Relationships with Altair (bivariate charts, scatter plots, grouped bars, color encodings) and polishing figures for Milestone 3.
 
 ### Milestone Check-in
 

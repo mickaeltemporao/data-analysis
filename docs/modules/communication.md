@@ -10,9 +10,8 @@ This final module focuses on **communicating substantive findings** from your st
 
 ## **Code: Live Demo & Hands-on Lab**
 
-### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 5)
-- **Topic:** Visualizing Regression Models & Substantive Findings (Plotting coefficients with 95% CIs (`plt.errorbar`), predicted margins, communicating results).
-- Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
+### :fontawesome-solid-person-chalkboard: Final Group Presentations & Research Synthesis
+- **Focus:** Presenting research project findings, visualizing regression models with 95% confidence intervals, and finalizing Typst manuscripts.
  
 
 Visualizations are powerful tools for communicating research findings, and this module emphasizes creating visualizations to illustrate the impact of key variables within your research projects.

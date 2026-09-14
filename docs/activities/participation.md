@@ -11,8 +11,8 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 ### Live Demo Requirements
 
 - **Duration:** The live demo lasts **10–15 minutes**.
-- **Handout:** The presenting group must prepare a **handout** (a Jupyter notebook `.ipynb` or Typst document) and share it on the class WhatsApp group **before class**.
-- **Frequency:** There are 5 student groups. Each group presents **at least twice** during the year (once in Semester 1, once in Semester 2).
+- **Handout:** The presenting group must prepare a **handout** (an interactive Python script `.py` or Typst document) and share it on the class WhatsApp group **before class**.
+- **Frequency:** There are 4 student groups. Each group presents **twice** during the year (once in Semester 1, once in Semester 2).
 - **Preparation & Direction:** Groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor ahead of their demo to get direction, review code examples, and refine their presentation plan.
 - **Structure:**
     1. Introduce the problem or concept (why does this matter in social science?).
@@ -27,12 +27,23 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 | **S3** | **Group 2** | **Python & Pandas Data Structures** | Variables, lists, dictionaries, Series & DataFrames basics |
 | **S4** | **Group 3** | **Data Acquisition & Column Inspection** | Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting |
 | **S5** | **Group 4** | **Filtering Survey Rows & Univariate Charts** | Boolean masks, `.value_counts()`, distributions with Altair |
-| **S6** | **Group 5** | **Visualizing Relationships with Altair** | Bivariate charts, scatter plots, grouped bars, color encodings |
 | **S8** | **Group 1** | **Survey Data Recoding & Variable Creation** | Handling `-9`/`-8`/DK codes to `NaN`, masks vs. `.replace()`, binary indicators |
 | **S9** | **Group 2** | **Subgroup Analysis & Cross-Tabulations** | `groupby()`, comparing group means, `pd.crosstab(..., normalize='index')` |
 | **S10** | **Group 3** | **Linear Regression & Categorical Predictors** | Specifying `DV ~ IV`, adding `C(category)`, interpreting slopes, reference levels & R² |
-| **S11** | **Group 4** | **Multiple Regression & Exporting Tables** | Models with controls (Baseline → Demographics → Full model), `make_table` for Typst |
-| **S12** | **Group 5** | **Visualizing Regression Models & Substantive Findings** | Plotting coefficients with 95% CIs (`plt.errorbar`), predicted margins, communicating results |
+| **S11** | **Group 4** | **Multiple Regression Specifications & Exporting Tables** | Models with controls (Baseline → Demographics → Full model), `make_table` for Typst |
+
+### Back-Up Live Demo Themes {: #backup-live-demo-themes }
+
+If a scheduled live demo requires substitution or if a group wishes to explore an alternative topic with instructor approval, groups may select from the following backup themes:
+
+- **Semester 1 Backup: Visualizing Relationships with Altair**  
+  Bivariate charts, scatter plots, grouped bars, color/size encodings, and interactive tooltips for exploratory analysis.
+- **Semester 2 Backup: Visualizing Regression Models & Substantive Findings**  
+  Plotting regression coefficients with 95% confidence intervals (`plt.errorbar`), predicted margins, and communicating substantive findings in Typst.
+- **Cross-Tabulations & Survey Margins**  
+  Computing row and column percentages with `pd.crosstab(..., normalize='index')` to analyze demographic differences in political behavior.
+- **Navigating ANES Codebooks & Survey Weights**  
+  Understanding questionnaire skip patterns, reading ANES documentation, and applying survey sampling weights.
 
 ---
 
