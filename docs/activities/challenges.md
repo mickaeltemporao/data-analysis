@@ -22,8 +22,8 @@ There will be dedicated time during class meetings in the hands-on lab to work o
 Each milestone instructions page provides explicit guidelines, word limits, and starter templates.
 
 1. Open the milestone by clicking the milestone link on the [Schedule](../schedule.md) page.
-2. Read the instructions carefully, and work collaboratively in your group on your Typst manuscript and Jupyter notebook.
-3. Export your files according to the naming convention (e.g. `da-milestoneX-groupY.pdf`, `.typ`, `.ipynb`) and email them to the instructor before the deadline with the subject line:
+2. Read the instructions carefully, and work collaboratively in your group on your Typst manuscript and Python script.
+3. Export your files according to the naming convention (e.g. `da-milestoneX-groupY.pdf`, `.typ`, `.py`) and email them to the instructor before the deadline with the subject line:
     ```text
     [DATA-ANALYSIS] Milestone X - Group Y
     ```
