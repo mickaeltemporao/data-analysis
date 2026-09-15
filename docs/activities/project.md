@@ -1,6 +1,6 @@
 # :fontawesome-regular-file-code: 20% | Research Project
 
-Students are required to submit a final project in the form of a co-authored and fully reproducible research paper that applies the data science methods and quantitative political science tools introduced during the course. 
+Students are required to submit a final project in the form of a co-authored and fully reproducible research paper that applies the quantitative methods and tools learned throughout the course. 
 
 Working in their designated groups, students will answer an original research question in political behavior or public opinion using the [**ANES 2024**](https://electionstudies.org/data-center/2024-time-series-study/) dataset.
 
