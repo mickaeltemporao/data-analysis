@@ -90,7 +90,7 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
     3. **What this automated script does:**
         - Installs Python, `uv`, `git`, and base tools via `pacman`.
         - Installs Visual Studio Code (`visual-studio-code-bin` built from AUR).
-        - Sets up an isolated course virtual environment (`.venv`) using **`uv`** and installs all required packages (`pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
+        - Sets up an isolated course virtual environment (`data-analysis`) using **`uv`** and installs all required packages (`pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
         - Installs VS Code Python extensions and applies beginner-friendly sane defaults (disables Copilot, enables Native REPL Smart Send, enables auto-save and word wrap).
 
     4. **Verify Success:**
@@ -109,27 +109,30 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
 Now that your software is installed, you need to open **Visual Studio Code** and configure a dedicated workspace folder for the course.
 
-### Step 1: Create and Open Your Course Folder in VS Code
-1. If you haven't already, create a dedicated folder on your computer named `data-analysis` inside your `Documents` directory (e.g., `Documents/data-analysis`).
-2. Open the **Visual Studio Code** application.
-3. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
-4. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
+### Step 1: Open Your Course Folder in VS Code
+The automated setup script has created a dedicated `data-analysis` folder inside your `Documents` directory (e.g., `Documents/data-analysis`).
+
+1. Open the **Visual Studio Code** application.
+2. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
+3. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
 *(If VS Code displays a pop-up asking "Do you trust the authors of the files in this folder?", click **Yes, I trust the authors**).*
 
-### Step 2: Create Your Virtual Environment (.venv)
-In data science, a **virtual environment** keeps your course packages isolated and stable. To create one directly inside VS Code:
+### Step 2: Confirm Your Virtual Environment (data-analysis)
+In data science, a **virtual environment** keeps your course packages isolated and stable. Because the setup script already configured your workspace, VS Code will automatically detect and activate your **`data-analysis`** environment!
 
-1. Open the **Command Palette** (the search bar at the very top of VS Code):
-    - **macOS:** press ++cmd+shift+p++
-    - **Windows:** press ++ctrl+shift+p++
-2. In the search box that appears at the top of the window, type:
-    ```text
-    Python Create Env
-    ```
-3. In the dropdown list, look for the option named **`Python: Create Environment...`**, and click on it (or highlight it and press ++enter++).
-4. When asked for the environment type, choose **Venv** (it will show `.venv`).
-5. Select the recommended Python interpreter listed on your screen.
-6. VS Code will now configure your environment in the background. A hidden `.venv` folder will be created inside your `data-analysis` workspace.
+- Look at the bottom-right status bar in VS Code: you should see **`data-analysis`** (or `Python ... ('data-analysis': venv)`).
+- If it is not selected automatically:
+    1. Open the **Command Palette** (the search bar at the very top of VS Code):
+        - **macOS:** press ++cmd+shift+p++
+        - **Windows:** press ++ctrl+shift+p++
+    2. In the search box, type:
+        ```text
+        Python Select Interpreter
+        ```
+    3. Click on the option containing **`data-analysis`**.
+
+> [!TIP]
+> If you ever need to recreate your environment from scratch, you can type `Python Create Env` in the Command Palette and choose **Venv**.
 
 ---
 

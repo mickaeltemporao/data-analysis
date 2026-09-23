@@ -31,12 +31,12 @@ else
     echo "✅ Homebrew is already installed."
 fi
 
-# 3. Install VS Code and Python via Homebrew
+# 3. Install VS Code, Python, and uv via Homebrew
 echo "💻 Installing Visual Studio Code..."
 brew install --cask visual-studio-code || true
 
-echo "🐍 Installing Python..."
-brew install python || true
+echo "🐍 Installing Python and uv..."
+brew install python uv || brew install python || true
 
 # 4. Configure 'code' CLI path if needed
 if ! command -v code &>/dev/null; then
@@ -52,10 +52,26 @@ else
     echo "⚠️ Note: Could not find 'code' command in PATH. Please launch VS Code manually and install extensions: Python, Jupyter."
 fi
 
-# 6. Install Core Python Libraries (including vl-convert-python for Altair image exports)
-echo "📚 Installing core data analysis packages (pandas, altair, statsmodels, vl-convert-python)..."
-python3 -m pip install --upgrade pip --quiet || true
-python3 -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python || true
+# 6. Set up Course Workspace Directory and data-analysis environment
+TARGET_DIR="$HOME/Documents/data-analysis"
+if [ "$PWD" != "$HOME" ] && [ -d "$PWD/.git" -o -f "$PWD/pyproject.toml" -o -f "$PWD/mkdocs.yml" ]; then
+    TARGET_DIR="$PWD"
+fi
+
+echo "📁 Setting up course workspace in $TARGET_DIR..."
+mkdir -p "$TARGET_DIR"
+
+echo "⚡ Creating Python virtual environment (data-analysis)..."
+if command -v uv &>/dev/null; then
+    uv venv "$TARGET_DIR/data-analysis" --prompt data-analysis
+    echo "📚 Installing core data analysis packages into data-analysis environment (pandas, altair, statsmodels, vl-convert-python)..."
+    uv pip install --python "$TARGET_DIR/data-analysis/bin/python" pandas altair statsmodels vega_datasets vl-convert-python
+else
+    python3 -m venv --prompt data-analysis "$TARGET_DIR/data-analysis"
+    echo "📚 Installing core data analysis packages into data-analysis environment (pandas, altair, statsmodels, vl-convert-python)..."
+    "$TARGET_DIR/data-analysis/bin/pip" install --upgrade pip --quiet || true
+    "$TARGET_DIR/data-analysis/bin/pip" install --quiet pandas altair statsmodels vega_datasets vl-convert-python || true
+fi
 
 # 7. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
 echo "⚙️ Configuring beginner-friendly VS Code settings..."
@@ -85,6 +101,7 @@ data.update({
     "python.REPL.sendToNativeREPL": True,
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
+    "python.defaultInterpreterPath": "${workspaceFolder}/data-analysis/bin/python",
     "notebook.lineNumbers": "on",
     "notebook.output.textLineLimit": 150,
     "notebook.insertToolbarLocation": "betweenCells"
@@ -96,4 +113,5 @@ EOF
 
 echo "============================================================"
 echo "🎉 Setup complete! You are ready for Data Analysis."
-echo "👉 Open VS Code, press Cmd+Shift+P, and select 'Python: Create Environment' (.venv) for your course folder."
+echo "👉 Course workspace and data-analysis environment are ready at: $TARGET_DIR"
+echo "👉 Launch VS Code and open your course folder: code $TARGET_DIR"

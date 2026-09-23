@@ -1,6 +1,6 @@
 # ==============================================================================
 # Setup Script for Windows — Data Analysis (Sciences Po Bordeaux)
-# Installs VS Code, Python, Jupyter extensions, and data science libraries.
+# Installs VS Code, Python, Jupyter extensions, sets up data-analysis environment, and data science libraries.
 # ==============================================================================
 
 $ErrorActionPreference = "Continue"
@@ -52,10 +52,28 @@ if (Get-Command code -ErrorAction SilentlyContinue) {
     Write-Host "⚠️ VS Code installed. If 'code' command is not found, launch VS Code and install the Python and Jupyter extensions." -ForegroundColor Yellow
 }
 
-# 3. Install Core Python Libraries (including vl-convert-python for Altair image exports)
-Write-Host "📚 Installing data analysis packages (pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
-python -m pip install --upgrade pip --quiet
-python -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python
+# 3. Set up Course Workspace Directory and data-analysis environment
+$docsPath = [System.Environment]::GetFolderPath('MyDocuments')
+$targetDir = Join-Path $docsPath "data-analysis"
+if ((Get-Location).Path -ne $HOME -and ((Test-Path ".git") -or (Test-Path "pyproject.toml") -or (Test-Path "mkdocs.yml"))) {
+    $targetDir = (Get-Location).Path
+}
+
+Write-Host "📁 Setting up course workspace in $targetDir..." -ForegroundColor Yellow
+if (-not (Test-Path $targetDir)) {
+    New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+}
+
+$venvPath = Join-Path $targetDir "data-analysis"
+Write-Host "⚡ Creating Python virtual environment (data-analysis)..." -ForegroundColor Yellow
+if (-not (Test-Path (Join-Path $venvPath "Scripts\python.exe"))) {
+    python -m venv --prompt data-analysis $venvPath
+}
+
+Write-Host "📚 Installing core data analysis packages into data-analysis environment (pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
+$venvPython = Join-Path $venvPath "Scripts\python.exe"
+& $venvPython -m pip install --upgrade pip --quiet
+& $venvPython -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python
 
 # 4. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
 Write-Host "⚙️ Configuring beginner-friendly VS Code settings..." -ForegroundColor Yellow
@@ -85,6 +103,7 @@ if appdata:
         "python.REPL.sendToNativeREPL": True,
         "python.terminal.activateEnvironment": True,
         "python.terminal.executeInFileDir": True,
+        "python.defaultInterpreterPath": "${workspaceFolder}/data-analysis/Scripts/python.exe",
         "notebook.lineNumbers": "on",
         "notebook.output.textLineLimit": 150,
         "notebook.insertToolbarLocation": "betweenCells"
@@ -98,4 +117,5 @@ try {
 
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "🎉 Setup complete! You are ready for Data Analysis." -ForegroundColor Green
-Write-Host "👉 Open VS Code, press Ctrl+Shift+P, and select 'Python: Create Environment' (.venv) for your course folder." -ForegroundColor Green
+Write-Host "👉 Course workspace and data-analysis environment are ready at: $targetDir" -ForegroundColor Green
+Write-Host "👉 Launch VS Code and open your course folder: code `"$targetDir`"" -ForegroundColor Green

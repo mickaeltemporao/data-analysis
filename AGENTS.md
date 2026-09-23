@@ -35,7 +35,7 @@ When generating or editing examples, code snippets, documentation, or assignment
 - **Data Visualization**: Use [`Altair`](https://altair-viz.github.io/) for declarative statistical visualizations (univariate distributions, bivariate relationships, faceted charts).
 - **Statistical Modeling**: Use [`statsmodels`](https://www.statsmodels.org/) (specifically the formula API: `import statsmodels.formula.api as sm`) for linear regressions (OLS) and hypothesis testing.
 - **Scientific Writing & Reporting**: Use [**Typst**](https://typst.app/) for manuscripts, handouts, and reproducible academic deliverables.
-- **Development Environment**: Visual Studio Code with interactive Python scripts (`.py`) in an isolated project virtual environment (`.venv`).
+- **Development Environment**: Visual Studio Code with interactive Python scripts (`.py`) in an isolated project virtual environment (`data-analysis`).
 
 ---
 
