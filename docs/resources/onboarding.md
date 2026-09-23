@@ -25,7 +25,7 @@ We will use [**Typst**](https://typst.app/) throughout the course for authoring 
 
 ## 3. Install Your Data Science Environment (Automated Script)
 
-We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`pandas` for data management, `altair` for data visualization, `statsmodels` for modeling, and `vl-convert-python` for exporting figures).
+We provide an automated setup script that installs **Visual Studio Code**, **Python**, the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`ipykernel` for interactive line-by-line execution, `pandas` for data management, `altair` for data visualization, `statsmodels` for modeling, and `vl-convert-python` for exporting figures).
 
 === ":fontawesome-brands-apple: macOS"
 
@@ -90,7 +90,7 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
     3. **What this automated script does:**
         - Installs Python, `uv`, `git`, and base tools via `pacman`.
         - Installs Visual Studio Code (`visual-studio-code-bin` built from AUR).
-        - Sets up an isolated course virtual environment (`data-analysis`) using **`uv`** and installs all required packages (`pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
+        - Sets up an isolated course virtual environment (`data-analysis`) using **`uv`** and installs all required packages (`ipykernel`, `pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
         - Installs VS Code Python extensions and applies beginner-friendly sane defaults (disables Copilot, enables Native REPL Smart Send, enables auto-save and word wrap).
 
     4. **Verify Success:**

@@ -63,14 +63,14 @@ mkdir -p "$TARGET_DIR"
 
 echo "⚡ Creating Python virtual environment (data-analysis)..."
 if command -v uv &>/dev/null; then
-    uv venv "$TARGET_DIR/data-analysis" --prompt data-analysis
-    echo "📚 Installing core data analysis packages into data-analysis environment (pandas, altair, statsmodels, vl-convert-python)..."
-    uv pip install --python "$TARGET_DIR/data-analysis/bin/python" pandas altair statsmodels vega_datasets vl-convert-python
+    uv venv --seed "$TARGET_DIR/data-analysis" --prompt data-analysis
+    echo "📚 Installing core packages into data-analysis environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
+    uv pip install --python "$TARGET_DIR/data-analysis/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python
 else
     python3 -m venv --prompt data-analysis "$TARGET_DIR/data-analysis"
-    echo "📚 Installing core data analysis packages into data-analysis environment (pandas, altair, statsmodels, vl-convert-python)..."
+    echo "📚 Installing core packages into data-analysis environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
     "$TARGET_DIR/data-analysis/bin/pip" install --upgrade pip --quiet || true
-    "$TARGET_DIR/data-analysis/bin/pip" install --quiet pandas altair statsmodels vega_datasets vl-convert-python || true
+    "$TARGET_DIR/data-analysis/bin/pip" install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
 fi
 
 # 7. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)

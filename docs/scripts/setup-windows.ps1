@@ -70,10 +70,10 @@ if (-not (Test-Path (Join-Path $venvPath "Scripts\python.exe"))) {
     python -m venv --prompt data-analysis $venvPath
 }
 
-Write-Host "📚 Installing core data analysis packages into data-analysis environment (pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
+Write-Host "📚 Installing core packages into data-analysis environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
 $venvPython = Join-Path $venvPath "Scripts\python.exe"
 & $venvPython -m pip install --upgrade pip --quiet
-& $venvPython -m pip install --quiet pandas altair statsmodels vega_datasets vl-convert-python
+& $venvPython -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python
 
 # 4. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
 Write-Host "⚙️ Configuring beginner-friendly VS Code settings..." -ForegroundColor Yellow

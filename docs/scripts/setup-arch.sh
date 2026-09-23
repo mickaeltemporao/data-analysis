@@ -63,10 +63,10 @@ echo "📁 Setting up course workspace in $TARGET_DIR..."
 mkdir -p "$TARGET_DIR"
 
 echo "⚡ Creating Python virtual environment (data-analysis) using uv..."
-uv venv "$TARGET_DIR/data-analysis" --prompt data-analysis
+uv venv --seed "$TARGET_DIR/data-analysis" --prompt data-analysis
 
-echo "📚 Installing core data analysis packages into data-analysis environment with uv (pandas, altair, statsmodels, vl-convert-python)..."
-uv pip install --python "$TARGET_DIR/data-analysis/bin/python" pandas altair statsmodels vega_datasets vl-convert-python
+echo "📚 Installing core packages into data-analysis environment with uv (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
+uv pip install --python "$TARGET_DIR/data-analysis/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python
 
 # 6. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
 echo "⚙️ Configuring beginner-friendly VS Code settings..."
