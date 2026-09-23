@@ -76,12 +76,33 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
         > [!IMPORTANT]
         > If you do not see this final success message, or if any download was interrupted, simply paste and run the command again.
 
-=== ":fontawesome-brands-linux: Linux"
+=== ":fontawesome-brands-linux: Arch Linux"
 
-    Simply use your package manager to download and install VS Code, Python, and the required data science packages. (*I use Arch btw!* :fontawesome-brands-linux:)
+    1. Open your **Terminal** app.
+    2. Copy and paste the following command into Terminal, then press ++enter++:
+
+        ```bash
+        curl -fsSL https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-arch.sh | bash
+        ```
+
+    3. **What this automated script does:**
+        - Installs Python, `uv`, `git`, and base tools via `pacman`.
+        - Installs Visual Studio Code (or Code - OSS).
+        - Sets up an isolated course virtual environment (`.venv`) using **`uv`** and installs all required packages (`pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
+        - Installs VS Code Python extensions and applies beginner-friendly sane defaults (disables Copilot, enables Native REPL Smart Send, enables auto-save and word wrap).
+
+    4. **Verify Success:**
+        Run the script until you see this final confirmation message at the bottom of the Terminal:
+
+        ```text
+        🎉 Setup complete! You are ready for Data Analysis.
+        ```
+
+=== ":fontawesome-brands-linux: Ubuntu / Debian"
+
+    Use your package manager to download and install VS Code, Python, and the required data science packages:
 
     ```bash
-    # Ubuntu / Debian example:
     sudo apt update && sudo apt install -y python3 python3-pip python3-venv
     pip install pandas altair statsmodels vega_datasets vl-convert-python
     code --install-extension ms-python.python
