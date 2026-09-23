@@ -142,16 +142,12 @@ In this course, we work directly with clean Python script files (`.py`) and an i
 
 Let's test your environment to confirm that everything is working properly.
 
-### Step 1: Open Your Course Folder in VS Code
-1. Open **Visual Studio Code**.
-2. Make sure your `data-analysis` folder is currently open (you should see `DATA-ANALYSIS` listed at the top of the left sidebar under *Explorer*). If not, click **File** > **Open Folder...** (or **File** > **Open...** on macOS) and select your `data-analysis` folder.
-
-### Step 2: Create a New Python Script
-1. In the top menu of VS Code, click **File** > **New File...** (or click the **New File** icon next to `DATA-ANALYSIS` in the left Explorer sidebar).
+### Step 1: Create a New Python Script
+1. In your open `data-analysis` workspace in VS Code, click **File** > **New File...** (or click the **New File** icon next to `DATA-ANALYSIS` in the left Explorer sidebar).
 2. Type `test.py` as the filename and press ++enter++.
 3. If VS Code prompts you where to save it, choose your `data-analysis` folder.
 
-### Step 3: Paste the Test Code
+### Step 2: Paste the Test Code
 Paste the following test code directly into your `test.py` editor window:
 
 ```python
@@ -163,7 +159,7 @@ import vl_convert as vlc
 print("🎉 Environment successfully configured for Data Analysis!")
 ```
 
-### Step 4: Run Your Code Line-by-Line with ++shift+enter++
+### Step 3: Run Your Code Line-by-Line with ++shift+enter++
 In VS Code, you can execute code interactively one line at a time:
 
 1. Click on the very first line of code (`import pandas as pd`) to place your blinking cursor there.
@@ -171,7 +167,7 @@ In VS Code, you can execute code interactively one line at a time:
 3. A **Python REPL** terminal panel will automatically pop up at the bottom of VS Code, execute the line, and advance your cursor to the next line.
 4. Keep pressing ++shift+enter++ to step through each line of code (or highlight all lines with ++cmd+a++ on macOS / ++ctrl+a++ on Windows and press ++shift+enter++).
 
-### Step 5: Confirm Success!
+### Step 4: Confirm Success!
 In the Python REPL terminal at the bottom of your screen, you should see the final confirmation message:
 
 ```text
