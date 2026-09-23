@@ -7,6 +7,7 @@
 set -e
 
 echo "🚀 Starting Data Analysis Arch Linux Setup..."
+echo "ℹ️  (I use Arch, btw.)"
 echo "============================================================"
 
 # 1. Check for pacman
@@ -30,17 +31,17 @@ if command -v code &>/dev/null; then
 elif command -v visual-studio-code-bin &>/dev/null; then
     echo "✅ Visual Studio Code (AUR) is already installed."
 else
-    echo "💻 Installing Visual Studio Code..."
-    if command -v yay &>/dev/null; then
-        echo "Detected yay — installing visual-studio-code-bin from AUR..."
-        yay -S --needed --noconfirm visual-studio-code-bin || sudo pacman -S --needed --noconfirm code
-    elif command -v paru &>/dev/null; then
-        echo "Detected paru — installing visual-studio-code-bin from AUR..."
-        paru -S --needed --noconfirm visual-studio-code-bin || sudo pacman -S --needed --noconfirm code
-    else
-        echo "Installing code (Code - OSS) from official extra repository..."
-        sudo pacman -S --needed --noconfirm code
-    fi
+    echo "💻 Installing Visual Studio Code from AUR (building manually via makepkg)..."
+    BUILD_DIR=$(mktemp -d)
+    trap 'rm -rf "$BUILD_DIR"' EXIT
+    echo "Cloning visual-studio-code-bin from AUR..."
+    git clone https://aur.archlinux.org/visual-studio-code-bin.git "$BUILD_DIR/visual-studio-code-bin"
+    (
+        cd "$BUILD_DIR/visual-studio-code-bin"
+        makepkg -si --noconfirm
+    )
+    rm -rf "$BUILD_DIR"
+    trap - EXIT
 fi
 
 # 4. Install VS Code Extensions

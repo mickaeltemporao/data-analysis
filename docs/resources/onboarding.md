@@ -78,6 +78,8 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
 === ":fontawesome-brands-linux: Arch Linux"
 
+    *(I use Arch, btw! :fontawesome-brands-linux:)*
+
     1. Open your **Terminal** app.
     2. Copy and paste the following command into Terminal, then press ++enter++:
 
@@ -87,7 +89,7 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
 
     3. **What this automated script does:**
         - Installs Python, `uv`, `git`, and base tools via `pacman`.
-        - Installs Visual Studio Code (or Code - OSS).
+        - Installs Visual Studio Code (`visual-studio-code-bin` built from AUR).
         - Sets up an isolated course virtual environment (`.venv`) using **`uv`** and installs all required packages (`pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
         - Installs VS Code Python extensions and applies beginner-friendly sane defaults (disables Copilot, enables Native REPL Smart Send, enables auto-save and word wrap).
 
@@ -98,16 +100,8 @@ We provide an automated setup script that installs **Visual Studio Code**, **Pyt
         🎉 Setup complete! You are ready for Data Analysis.
         ```
 
-=== ":fontawesome-brands-linux: Ubuntu / Debian"
-
-    Use your package manager to download and install VS Code, Python, and the required data science packages:
-
-    ```bash
-    sudo apt update && sudo apt install -y python3 python3-pip python3-venv
-    pip install pandas altair statsmodels vega_datasets vl-convert-python
-    code --install-extension ms-python.python
-    code --install-extension ms-toolsai.jupyter
-    ```
+        > [!IMPORTANT]
+        > If you do not see this final success message, simply paste and run the command again.
 
 ---
 
