@@ -23,10 +23,10 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 
 | Session | Group | Topic & Focus | Handout Example |
 | :---: | :---: | :--- | :--- |
-| **S2** | **Group 1** | **Python & Pandas Data Structures** | Variables, lists, dictionaries, Series & DataFrames basics |
-| **S3** | **Group 2** | **Data Acquisition & Column Inspection** | Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting |
-| **S4** | **Group 3** | **Filtering Survey Rows & Subsetting** | Boolean masks, `.query()`, handling missing values, `.value_counts()` |
-| **S5** | **Group 4** | **Exploratory Data Visualization with Altair** | Univariate distributions, bivariate charts, encodings & tooltips |
+| **S2** | **Group 1** | **Typst for Scientific Writing** | Syntax, document structure, `.bib` citations, exporting PDF |
+| **S3** | **Group 2** | **Python & Pandas Data Structures** | Variables, lists, dictionaries, Series & DataFrames basics |
+| **S4** | **Group 3** | **Data Acquisition & Column Inspection** | Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting |
+| **S5** | **Group 4** | **Filtering Survey Rows & Univariate Charts** | Boolean masks, `.value_counts()`, distributions with Altair |
 | **S8** | **Group 1** | **Survey Data Recoding & Variable Creation** | Handling `-9`/`-8`/DK codes to `NaN`, masks vs. `.replace()`, binary indicators |
 | **S9** | **Group 2** | **Subgroup Analysis & Cross-Tabulations** | `groupby()`, comparing group means, `pd.crosstab(..., normalize='index')` |
 | **S10** | **Group 3** | **Linear Regression & Categorical Predictors** | Specifying `DV ~ IV`, adding `C(category)`, interpreting slopes, reference levels & R² |

@@ -8,8 +8,9 @@
     - Concepts, & Variables
     - ANES Data Overview
 - [ ] Code 
-    - Student Group Live Demo: Python & Pandas Data Structures (Group 1)
-    - Initial Python Scripting in VS Code
+    - Student Group Live Demo: Typst for Scientific Writing (Group 1)
+    - Environment & Configuration Check
+    - First Steps in Python (`01_getting_started.py`)
 
 ## Theory
 
@@ -70,19 +71,29 @@ The concept of political ideology can't be directly measured, but it can be oper
 ## Code: Live Demo & Hands-on Lab
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 1)
-- **Topic:** Python & Pandas Data Structures (variables, lists, dictionaries, Series & DataFrames basics).
+- **Topic:** Typst for Scientific Writing (syntax, document structure, `.bib` citations, exporting PDF).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
-### Hands-on Practice
-- **Writing & Executing Python Code in VS Code:**
-    - Open your project workspace in VS Code.
-    - Create or open a Python script (`.py` file), such as [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) and [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) from the [course materials](https://github.com/mickaeltemporao/materials/tree/main/src).
-    - Run code line-by-line using **Smart Send**:
+### :fontawesome-solid-screwdriver-wrench: Configuration & Environment Check
+Before running code, let's verify that everyone's local programming setup works seamlessly:
+
+1. **Verify VS Code and Environment:**
+    - Open VS Code and open your course folder (`File → Open Folder...`).
+    - Open the Command Palette (++cmd+shift+p++ on macOS / ++ctrl+shift+p++ on Windows).
+    - Type `Python Select Interpreter` and ensure **`data-analysis`** (or `.venv`) is selected.
+    - Look at the bottom-right status bar: it should display `Python 3.12... ('data-analysis': venv)`.
+2. **Test Smart Send (Interactive Terminal):**
+    - Create a new file named `test.py` or open [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py).
+    - Place your cursor on the first line and run it using **Smart Send**:
         - On macOS: Press ++cmd+enter++ or ++shift+enter++
         - On Windows: Press ++ctrl+enter++ or ++shift+enter++
-    - Verify the interactive Python terminal opens at the bottom and displays your evaluated output.
-- **Connecting Theory to Data:**
-    - Work with your group to search candidate variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
+    - **Success check:** An interactive Python terminal opens at the bottom of your screen and executes the code.
+
+### Hands-on Practice: Getting Started with Python
+- Follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md) to practice working with interactive Python scripts.
+- Download and open [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) from the [course materials](https://github.com/mickaeltemporao/materials/tree/main/src).
+- Practice running code line-by-line using Smart Send (++shift+enter++).
+- **Connecting Theory to Data:** Work with your group to search candidate variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
 
 
 ## Get Ready for Next Session: Think. Explore. Practice.
@@ -93,12 +104,13 @@ The concept of political ideology can't be directly measured, but it can be oper
 - **Suggested Reading:** [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E) - A foundational paper on operationalizing multi-dimensional concepts into measurable survey variables.
 
 ### Explore
-- **Live Demo (Group 2):** Data Acquisition & Column Inspection (reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting). Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the course Python materials ([`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py) and [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py)) to follow along and lead the peer discussion.
+- **Live Demo (Group 2):** Python & Pandas Data Structures (variables, lists, dictionaries, Series & DataFrames basics). Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the course Python materials ([`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py)) and the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
 
 ### Practice
 - Refine your research puzzle based on instructor feedback from Milestone 1 and keep your `.bib` references organized.
-- Download and run [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) and [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) in VS Code to build confidence with Python data structures.
+- Download and run [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) in VS Code to gain confidence executing Python code interactively.
+
 
 
 

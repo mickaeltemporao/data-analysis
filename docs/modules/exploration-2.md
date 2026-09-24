@@ -8,7 +8,7 @@
 ## **Code: Live Demo & Hands-on Lab**
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 4)
-- **Topic:** Exploratory Data Visualization with Altair (univariate distributions, bivariate charts, encodings & tooltips).
+- **Topic:** Filtering Survey Rows & Univariate Charts (boolean masks, `.value_counts()`, distributions with Altair).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### The Data Science Pipeline
@@ -19,8 +19,8 @@
 !!! tip inline end
     To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
-- Download and open the interactive Python visualization script directly in VS Code:
-    - Open [`10_visualization_insights.py`](https://github.com/mickaeltemporao/materials/blob/main/src/10_visualization_insights.py) from the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src)
+- Download and open the interactive Python visualization scripts directly in VS Code:
+    - Open [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`10_visualization_insights.py`](https://github.com/mickaeltemporao/materials/blob/main/src/10_visualization_insights.py) from the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src)
 - Practice creating charts with Altair: defining encodings (`x`, `y`, `color`), adding tooltips, and saving/exporting chart figures.
 
 ## **Application**
