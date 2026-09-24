@@ -122,7 +122,7 @@ In data science, a **virtual environment** keeps your course packages isolated a
 
 - Look at the bottom-right status bar in VS Code: you should see **`data-analysis`** (or `Python ... ('data-analysis': venv)`).
 - If it is not selected automatically:
-    1. Open the **Command Palette** (the search bar at the very top of VS Code):
+    1. Open the **Command Palette** (press ++f1++ or click the search bar at the very top of VS Code):
         - **macOS:** press ++cmd+shift+p++
         - **Windows:** press ++ctrl+shift+p++
     2. In the search box, type:
@@ -165,7 +165,7 @@ In VS Code, you can execute code interactively one line at a time:
 1. Click on the very first line of code (`import pandas as pd`) to place your blinking cursor there.
 2. Press ++shift+enter++.
 3. A **Python REPL** terminal panel will automatically pop up at the bottom of VS Code, execute the line, and advance your cursor to the next line.
-4. Keep pressing ++shift+enter++ to step through each line of code (or highlight all lines with ++cmd+a++ on macOS / ++ctrl+a++ on Windows and press ++shift+enter++).
+4. Keep pressing ++shift+enter++ to step through each line of code.
 
 ### Step 4: Confirm Success!
 In the Python REPL terminal at the bottom of your screen, you should see the final confirmation message:

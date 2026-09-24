@@ -79,7 +79,9 @@ Before running code, let's verify that everyone's local programming setup works 
 
 1. **Verify VS Code and Environment:**
     - Open VS Code and open your course folder (`File → Open Folder...`).
-    - Open the Command Palette (++cmd+shift+p++ on macOS / ++ctrl+shift+p++ on Windows).
+    - Open the **Command Palette**: press ++f1++ (or click the search bar at the very top of VS Code):
+        - On macOS: press ++cmd+shift+p++
+        - On Windows: press ++ctrl+shift+p++
     - Type `Python Select Interpreter` and ensure **`data-analysis`** (or `.venv`) is selected.
     - Look at the bottom-right status bar: it should display `Python 3.12... ('data-analysis': venv)`.
 2. **Test Smart Send (Interactive Terminal):**

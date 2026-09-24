@@ -14,7 +14,7 @@ A **Python script** is a simple text file ending in `.py` containing lines of Py
 
 1. Launch **Visual Studio Code**.
 2. Open your course project folder:
-    - Click **File → Open Folder...** (or press ++cmd+o++ on macOS / ++ctrl+k++ ++ctrl+o++ on Windows).
+    - Click **File → Open Folder...** from the top menu.
     - Select your course workspace folder (e.g., `data-analysis`).
     - Click **Open**.
 3. You will see your project files listed in the **Explorer** sidebar on the left.
@@ -25,9 +25,11 @@ A **Python script** is a simple text file ending in `.py` containing lines of Py
 
 Make sure VS Code is using the `data-analysis` environment set up during onboarding:
 
-1. Open the Command Palette:
-    - On macOS: Press ++cmd+shift+p++
-    - On Windows: Press ++ctrl+shift+p++
+1. Open the **Command Palette**:
+    - Press ++f1++ (or click the search bar at the very top of VS Code).
+    - Alternatively:
+        - On macOS: Press ++cmd+shift+p++
+        - On Windows: Press ++ctrl+shift+p++
 2. In the top search bar, type `Python Select Interpreter` and click on **Python: Select Interpreter**.
 3. In the dropdown list, click on the environment labeled **`data-analysis`** (or `.venv`).
 4. **Success Check:** Look at the bottom-right status bar of VS Code. You should see `Python 3.12... ('data-analysis': venv)` displayed.
