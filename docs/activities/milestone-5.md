@@ -4,7 +4,7 @@
 
 By the end of this milestone, you should be able to:
 
-* **Specify and estimate** a linear regression model using `statsmodels`.
+* **Specify and estimate** a linear regression model using [`statsmodels`](https://www.statsmodels.org/).
 * **Interpret regression coefficients** in relation to your hypothesis.
 * **Export regression tables and visualisations** into a research paper.
 

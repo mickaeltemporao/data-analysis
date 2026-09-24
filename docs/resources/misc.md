@@ -7,8 +7,9 @@ All the materials required for this course are free and will shared with the stu
 - [Research Rabbit](https://www.researchrabbit.ai/)
 
 ## Data
-- [ANES Question Research](https://electionstudies.org/data-tools/anes-question-search/)
-- [ANES Article Database](https://electionstudies.org/papers-documents/anes-bibliography/)
+- [American National Election Studies (ANES) Official Website](https://electionstudies.org/): The official ANES website for public opinion research and national election survey datasets.
+- [ANES Question Research](https://electionstudies.org/data-tools/anes-question-search/): Search tool for survey questions asked across historical ANES studies.
+- [ANES Article Database](https://electionstudies.org/papers-documents/anes-bibliography/): Searchable bibliography of published empirical political science research using ANES data.
 
 ## Journals
 

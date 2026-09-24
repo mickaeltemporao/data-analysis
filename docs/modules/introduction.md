@@ -67,15 +67,23 @@ ChatGPT is a Large Language Model (LLM) designed to generate human-like text bas
 
 ### Writing with **:fontawesome-solid-quote-left: Typst**
 
-Typst is a lightweight, open-source tool for creating clean, formatted documents. Think of it as a text editor made for scientific papers, notes, or reports which include figures, citations, or even math. Combined with Git, your research becomes reproducible, versionable, and easy to manage.
+[**Typst**](https://typst.app/) is a lightweight, open-source tool for creating clean, formatted documents. Think of it as a text editor made for scientific papers, notes, or reports which include figures, citations, or even math. Combined with Git, your research becomes reproducible, versionable, and easy to manage.
 
 ### Hacking with **:fontawesome-solid-laptop-code: VS Code**
 
-VS Code is a free code editor that helps you write and organize your project files in one place. Beyond coding, you can use it to manage documents, run scripts, and integrate extensions for Python, Git, Typst, and more, essentially making it your all-in-one research workspace.
+[**Visual Studio Code**](https://code.visualstudio.com/) is a free code editor that helps you write and organize your project files in one place. Beyond coding, you can use it to manage documents, run scripts, and integrate extensions for Python, Git, Typst, and more, essentially making it your all-in-one research workspace.
 
 ### Collaborating on **:fontawesome-brands-github: GitHub**
 
-Git provides version control to track changes to your files, while GitHub hosts your projects online, making it easy to share, collaborate, and back up your work. Using Git and GitHub ensures reproducibility, maintains a history of your work, and simplifies collaboration with anyone around the globe.
+Git provides version control to track changes to your files, while [**GitHub**](https://github.com/) hosts your projects online, making it easy to share, collaborate, and back up your work. Using Git and GitHub ensures reproducibility, maintains a history of your work, and simplifies collaboration with anyone around the globe.
+
+### Analyzing Data with **:fontawesome-brands-python: Python**
+
+[:fontawesome-brands-python: **Python**](https://www.python.org/) is the open-source programming language we will use for quantitative political science, leveraging three core libraries:
+
+- [**pandas**](https://pandas.pydata.org/): For high-performance tabular data structures, data filtering, subsetting, and recoding.
+- [**Altair**](https://altair-viz.github.io/): For declarative statistical visualization and exploratory plots.
+- [**statsmodels**](https://www.statsmodels.org/): For linear regressions (OLS) and hypothesis testing using intuitive formula syntax.
 
 ---
 

@@ -64,4 +64,18 @@ Make sure VS Code is using the `data-analysis` environment set up during onboard
     - On Windows: Press ++ctrl+s++
 - **Restarting fresh:** If your code encounters an error and you want to start clean, click the trash can icon at the top-right of the terminal panel to close the terminal, then press ++shift+enter++ again on line 1 to launch a fresh session.
 
+---
+
+## 6. Official Resources & References
+
+For documentation, syntax guides, and cheat sheets for the tools used in this course:
+
+- [**Course Coding Resources**](coding.md): Full listing of official sites, tutorials, and cheat sheets.
+- [Visual Studio Code Official Website](https://code.visualstudio.com/): Official VS Code homepage and documentation.
+- [Python Official Documentation](https://docs.python.org/3/): Python standard library and language tutorial.
+- [pandas Documentation](https://pandas.pydata.org/docs/): Tabular data structures and manipulation guide.
+- [Altair Documentation](https://altair-viz.github.io/): Declarative statistical charting gallery and examples.
+- [statsmodels Documentation](https://www.statsmodels.org/stable/): Statistical modeling and linear regression guides.
+
+
 

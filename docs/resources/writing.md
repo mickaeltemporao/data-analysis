@@ -8,9 +8,14 @@
     - The last sentence concludes the idea.
 - **1 sentence** = Roughly 20 words.
 
-## typst
+## Typst
 
-Typst is a lightweight, open-source tool for creating clean, formatted documents. Think of it as a text editor made for Scientific papers, notes, or reports which include figures, citations, or even math. Combined with Git, your research becomes reproducible, versionable, and easy to manage.
+Typst is a modern, lightweight, and open-source markup-based typesetting system designed for authoring clean, formatted documents. Think of it as a fast, intuitive alternative to LaTeX made for scientific papers, notes, and empirical reports that include figures, tables, citations, and mathematical formulas. Combined with Git, your research becomes reproducible, versionable, and easy to manage.
+
+- [Typst Official Website](https://typst.app/): The official web app and collaborative editing platform for Typst.
+- [Typst Official Documentation](https://typst.app/docs/): Comprehensive guides, tutorials, and syntax overview.
+- [Typst Reference Guide](https://typst.app/docs/reference/): Detailed reference for functions, layouts, math, and styling.
+- [Typst Universe](https://typst.app/universe/): Official repository of community templates, packages, and report layouts.
 
 ## First Typst document
 - Create a document named `paper.typ` with the following contents:

@@ -29,7 +29,7 @@ You need to :
 
 - Download the following Python script template : [da-m3-script-group0.py](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/da-m3-script-group0.py)
     - Open the script in VS Code and follow the instructions in it. 
-    - Use this script to produce at least two figures using Altair that you will integrate into the Typst file.
+    - Use this script to produce at least two figures using [Altair](https://altair-viz.github.io/) that you will integrate into the Typst file.
     - Run code interactively using Smart Send (++shift+enter++).
     - Export your figures to PNG and insert them into your Typst manuscript.
 
