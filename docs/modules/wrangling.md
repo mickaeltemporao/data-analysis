@@ -11,7 +11,7 @@ This module marks a shift from **describing data** to **actively transforming it
 
 - Milestone 3 & Upcoming milestones 
     - Moving beyond exploration toward transformations and modeling
-- [:fontawesome-solid-file-code: Course Python Scripts](https://github.com/mickaeltemporao/materials/tree/main/src) 
+- [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) 
 
 ## **Application**
 ### Retrospective
@@ -37,7 +37,7 @@ Using ANES 2020 data, you will learn how to:
 
 #### Interactive Python Scripts
 - Download and open [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository
+    - Get the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository
 
 ## Get Ready for Next Session: Think. Explore. Practice.
 

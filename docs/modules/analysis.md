@@ -15,7 +15,7 @@ This module bridges the gap between transformed survey data and empirical hypoth
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Hands-on Practice
-- Download and open [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) from the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src) to compute grouped means and two-way cross-tabulations on your project variables using pandas (`.groupby()`, `pd.crosstab()`).
+- Download and open [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) from the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) to compute grouped means and two-way cross-tabulations on your project variables using pandas (`.groupby()`, `pd.crosstab()`).
 
 ## **Application**
 
@@ -33,7 +33,7 @@ This module bridges the gap between transformed survey data and empirical hypoth
 
 ### Explore
 - **Live Demo (Group 3):** Linear Regression & Categorical Predictors. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the course Python materials ([`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py) and [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py)) and the [Statsmodels Formula API Guide](https://www.statsmodels.org/stable/example_formulas.html) to follow along and lead the peer discussion.
+- The class should review the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) ([`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py) and [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py)) and the [Statsmodels Formula API Guide](https://www.statsmodels.org/stable/example_formulas.html) to follow along and lead the peer discussion.
 
 ### Practice
 - Start a modeling script (`modeling.py`) in your group project workspace and fit a baseline regression ($DV \sim IV$) with `smf.ols`.

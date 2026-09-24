@@ -63,7 +63,7 @@ Interpreting regression results requires connecting numbers back to theory:
 
 #### Interactive Python Scripts
 - Download and open [`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py) and [`modeling-playground.py`](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py) in VS Code:
-    - **[:fontawesome-solid-file-code: Course Python Scripts](https://github.com/mickaeltemporao/materials/tree/main/src)**
+    - **[:fontawesome-solid-file-code: Course Materials](https://github.com/mickaeltemporao/materials/tree/main/src)**
 
 ### Creating Quantities of Interest
 

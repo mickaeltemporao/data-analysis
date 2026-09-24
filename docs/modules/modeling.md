@@ -95,7 +95,7 @@ hist + mean_line + mean_text
 
 ## Application
 
-We will work from [`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py) and [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py) in the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src).
+We will work from [`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py) and [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py) in the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 
 !!! tip inline end
     To run Python scripts in VS Code, follow
@@ -118,7 +118,7 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 
 ### Explore
 - **Live Demo (Group 4):** Multiple Regression Specifications & Exporting Tables (models with controls: Baseline → Demographics → Full model, `make_table` for Typst). Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the course Python materials ([`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py)) and the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
+- The class should review the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) ([`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py)) and the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
 
 ### Practice
 - Fit your regression models with controls in Python and generate your final Typst regression table.

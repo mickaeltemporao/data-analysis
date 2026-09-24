@@ -1,7 +1,7 @@
 # Coding
 
 ## Course Python Materials
-- [Course Python Scripts (`materials/src`)](https://github.com/mickaeltemporao/materials/tree/main/src): Interactive `.py` scripts used in class and live demos.
+- [**Course materials** (`materials/src`)](https://github.com/mickaeltemporao/materials/tree/main/src): Interactive `.py` scripts used in class and live demos.
 - [📘 Running Python Scripts in VS Code](notebook-vscode.md): Step-by-step tutorial on executing code line-by-line using Smart Send.
 
 ## Python

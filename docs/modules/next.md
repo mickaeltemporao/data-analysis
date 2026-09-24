@@ -28,7 +28,7 @@ In agile project management, a retrospective is a brief meeting held, at the end
     To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
 - Download and open the playground scripts directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository (e.g., [`playground-polarization.py`](https://github.com/mickaeltemporao/materials/blob/main/src/playground-polarization.py)).
+    - Get the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository (e.g., [`playground-polarization.py`](https://github.com/mickaeltemporao/materials/blob/main/src/playground-polarization.py)).
 
 ---
 

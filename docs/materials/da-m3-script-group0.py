@@ -7,9 +7,7 @@ This script helps your group create the two required figures for Milestone 3:
 2. One figure visualizing your Main Independent Variable (IV) distribution.
 
 Instructions:
-- Run code interactively in VS Code using Smart Send:
-    - On macOS: Shift+Enter or Cmd+Enter
-    - On Windows: Shift+Enter or Ctrl+Enter
+- Run code interactively in VS Code using Smart Send (Shift+Enter).
 - Adapt the example code below with your project's chosen ANES 2024 variables.
 - Export your figures as PNG or SVG and insert them into your Typst manuscript.
 """

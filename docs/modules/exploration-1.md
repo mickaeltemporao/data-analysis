@@ -23,7 +23,7 @@
 ### Working with Data
 
 - Let's open and run [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py) in VS Code:
-    - [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src)
+    - [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src)
 - Practice reading data files with pandas, inspecting dataset structure (`.shape`, `.info()`, `.columns`), calculating summary statistics (`.describe()`), and selecting columns.
 
 
@@ -36,7 +36,7 @@
 
 ### Explore
 - **Live Demo (Group 4):** Filtering Survey Rows & Univariate Charts (boolean masks, `.value_counts()`, distributions with Altair). Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the course Python materials ([`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py)) and the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
+- The class should review the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) ([`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py)) and the [Altair Simple Charts Documentation](https://altair-viz.github.io/gallery/index.html#simple-charts) to follow along and lead the peer discussion.
 
 ### Practice
 - In your group project folder, create an exploratory Python script (`exploration.py`) to inspect your DV and IV using [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py).

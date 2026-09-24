@@ -84,14 +84,12 @@ Before running code, let's verify that everyone's local programming setup works 
     - Look at the bottom-right status bar: it should display `Python 3.12... ('data-analysis': venv)`.
 2. **Test Smart Send (Interactive Terminal):**
     - Create a new file named `test.py` or open [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py).
-    - Place your cursor on the first line and run it using **Smart Send**:
-        - On macOS: Press ++cmd+enter++ or ++shift+enter++
-        - On Windows: Press ++ctrl+enter++ or ++shift+enter++
+    - Place your cursor on the first line and run it using **Smart Send** (++shift+enter++).
     - **Success check:** An interactive Python terminal opens at the bottom of your screen and executes the code.
 
 ### Hands-on Practice: Getting Started with Python
 - Follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md) to practice working with interactive Python scripts.
-- Download and open [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) from the [course materials](https://github.com/mickaeltemporao/materials/tree/main/src).
+- Download and open [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) from the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 - Practice running code line-by-line using Smart Send (++shift+enter++).
 - **Connecting Theory to Data:** Work with your group to search candidate variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
 
@@ -105,7 +103,7 @@ Before running code, let's verify that everyone's local programming setup works 
 
 ### Explore
 - **Live Demo (Group 2):** Python & Pandas Data Structures (variables, lists, dictionaries, Series & DataFrames basics). Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the course Python materials ([`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py)) and the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
+- The class should review the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) ([`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py)) and the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
 
 ### Practice
 - Refine your research puzzle based on instructor feedback from Milestone 1 and keep your `.bib` references organized.

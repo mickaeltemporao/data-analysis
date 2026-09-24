@@ -46,7 +46,7 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 
 ### Hands-on Practice
 - Follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md) to open and run interactive Python scripts.
-- Download and open [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) and [`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py) from the [course materials](https://github.com/mickaeltemporao/materials/tree/main/src).
+- Download and open [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) and [`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py) from the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 - Practice working with core data structures (lists, dictionaries, pandas Series and DataFrames), calling functions, and inspecting basic survey variables using Smart Send (++shift+enter++).
 
 ## Get Ready for Next Session: Think. Explore. Practice.
@@ -58,7 +58,7 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 
 ### Explore
 - **Live Demo (Group 3):** Data Acquisition & Column Inspection (reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting). Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the course Python materials ([`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py)) and the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
+- The class should review the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) ([`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py)) and the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
 
 ### Practice
 - Practice loading and exploring datasets using [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) and [`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py).

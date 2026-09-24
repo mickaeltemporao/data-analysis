@@ -20,7 +20,7 @@
     To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
 - Download and open the interactive Python visualization scripts directly in VS Code:
-    - Open [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`10_visualization_insights.py`](https://github.com/mickaeltemporao/materials/blob/main/src/10_visualization_insights.py) from the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src)
+    - Open [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`10_visualization_insights.py`](https://github.com/mickaeltemporao/materials/blob/main/src/10_visualization_insights.py) from the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src)
 - Practice creating charts with Altair: defining encodings (`x`, `y`, `color`), adding tooltips, and saving/exporting chart figures.
 
 ## **Application**

@@ -36,7 +36,7 @@ Make sure VS Code is using the `data-analysis` environment set up during onboard
 
 ## 3. Download a Course Python Script
 
-1. Open the course materials repository on GitHub:
+1. Open the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) repository on GitHub:
     - [:fontawesome-solid-file-code: **Course Python Materials (`materials/src`)**](https://github.com/mickaeltemporao/materials/tree/main/src)
 2. Click on the script you wish to open (for example, [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) or [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py)).
 3. Click the **Download raw file** button (the downward arrow icon at the top right of the code view).
@@ -48,9 +48,7 @@ Make sure VS Code is using the `data-analysis` environment set up during onboard
 
 1. In the VS Code Explorer sidebar on the left, click on the script file (e.g., `01_getting_started.py`) to open it in the editor.
 2. Place your cursor on the first line of code you want to run (or highlight multiple lines).
-3. Execute the code using **Smart Send**:
-    - On macOS: Press ++shift+enter++ (or ++cmd+enter++)
-    - On Windows: Press ++shift+enter++ (or ++ctrl+enter++)
+3. Execute the code using **Smart Send**: press ++shift+enter++.
 4. **Success Check:** 
     - An **Interactive Python Terminal** will automatically open at the bottom of your screen.
     - Your code line will appear in the terminal, followed immediately by the evaluated result or output.
