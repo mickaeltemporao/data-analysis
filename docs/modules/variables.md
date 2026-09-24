@@ -8,8 +8,8 @@
     - Concepts, & Variables
     - ANES Data Overview
 - [ ] Code 
-    - Student Group Live Demo: Typst for Scientific Writing (Group 1)
-    - Exploring ANES 2024 Variables in VS Code
+    - Student Group Live Demo: Python & Pandas Data Structures (Group 1)
+    - Initial Python Scripting in VS Code
 
 ## Theory
 
@@ -70,11 +70,19 @@ The concept of political ideology can't be directly measured, but it can be oper
 ## Code: Live Demo & Hands-on Lab
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 1)
-- **Topic:** Typst for Scientific Writing (syntax, document structure, `.bib` citations, exporting PDF).
+- **Topic:** Python & Pandas Data Structures (variables, lists, dictionaries, Series & DataFrames basics).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Hands-on Practice
-- Work in your group's VS Code workspace to search and explore variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
+- **Writing & Executing Python Code in VS Code:**
+    - Open your project workspace in VS Code.
+    - Create or open a Python script (`.py` file), such as [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) and [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) from the [course materials](https://github.com/mickaeltemporao/materials/tree/main/src).
+    - Run code line-by-line using **Smart Send**:
+        - On macOS: Press ++cmd+enter++ or ++shift+enter++
+        - On Windows: Press ++ctrl+enter++ or ++shift+enter++
+    - Verify the interactive Python terminal opens at the bottom and displays your evaluated output.
+- **Connecting Theory to Data:**
+    - Work with your group to search candidate variables in the ANES 2024 codebook that can operationalize your project's theoretical concepts.
 
 
 ## Get Ready for Next Session: Think. Explore. Practice.
@@ -85,12 +93,13 @@ The concept of political ideology can't be directly measured, but it can be oper
 - **Suggested Reading:** [Brady, H. E., Verba, S., & Schlozman, K. L. (1995). Beyond SES: A resource model of political participation. *American Political Science Review*, 89(2), 271-294.](https://www.cambridge.org/core/journals/american-political-science-review/article/beyond-ses-aresource-model-of-political-participation/CE74BA78807755F0A09E589D631EB03E) - A foundational paper on operationalizing multi-dimensional concepts into measurable survey variables.
 
 ### Explore
-- **Live Demo (Group 2):** Python & Pandas Data Structures. Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the [Pandas Data Structures Introduction](https://pandas.pydata.org/docs/user_guide/dsintro.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 2):** Data Acquisition & Column Inspection (reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting). Group 2 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the course Python materials ([`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py) and [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py)) to follow along and lead the peer discussion.
 
 ### Practice
 - Refine your research puzzle based on instructor feedback from Milestone 1 and keep your `.bib` references organized.
-- Work through the [Getting Started with Python](https://colab.research.google.com/github/mickaeltemporao/itds/blob/main/materials/01-getting-started.ipynb) interactive notebook.
+- Download and run [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) and [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py) in VS Code to build confidence with Python data structures.
+
 
 
 

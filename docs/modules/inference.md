@@ -61,10 +61,9 @@ Interpreting regression results requires connecting numbers back to theory:
 
 ### Extracting insights
 
-
-#### Notebook
-- Download and open **Notebook 7 & 8** in VS Code:
-    - **[:fontawesome-solid-file-code: Notebooks 7 & 8](https://github.com/mickaeltemporao/materials/tree/main/notebooks)**
+#### Interactive Python Scripts
+- Download and open [`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py) and [`modeling-playground.py`](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py) in VS Code:
+    - **[:fontawesome-solid-file-code: Course Python Scripts](https://github.com/mickaeltemporao/materials/tree/main/src)**
 
 ### Creating Quantities of Interest
 
@@ -174,9 +173,9 @@ make_table(my_models, as_file=True)
 
 ### Data Modeling Lab
 
-Download the lab file and open it in VSCode
+Download the lab script and open it in VS Code:
 
-- [**LAB Modeling**](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/lab-modeling.ipynb)
+- [**Modeling Playground Script (`modeling-playground.py`)**](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py)
 
 Focus on *understanding how each IV (predictors) is related to the DV (outcome)*. Ask yourself:
 
@@ -185,8 +184,8 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 - What is the magnitude of the effect in practical terms?
 
 !!! tip inline end
-    To load and use a notebook in VS Code, follow steps 3 to 5 in
-    [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow
+    [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md)
 
 ---
 
@@ -202,8 +201,9 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 - The class should review the [Matplotlib Errorbar and Coefficient Plot Documentation](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html) to follow along.
 
 ### Practice
-- In your analysis notebook, extract regression parameters (`results.params`, `results.conf_int()`) to create a coefficient plot for your manuscript.
+- In your analysis script, extract regression parameters (`results.params`, `results.conf_int()`) to create a coefficient plot for your manuscript.
 - *Looking Ahead:* The [Research Project](../activities/project.md) final paper is due Friday, March 26, 2027 at 23:59 via email.
+
 
 
 

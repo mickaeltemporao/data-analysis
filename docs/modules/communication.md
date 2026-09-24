@@ -160,7 +160,7 @@ Let's head to Github and open our codespace (text editor)
 - Verify your 3 required deliverables before submission:
     1. Rendered PDF manuscript (`da-final-paper-groupX.pdf`)
     2. Typst source and bibliography (`da-final-paper-groupX.typ` and `references.bib`)
-    3. Fully executable analysis notebook (`da-final-notebook-groupX.ipynb`)
+    3. Fully executable Python analysis script (`da-final-script-groupX.py`)
 - :fontawesome-solid-award: **Submit your [Research Project](../activities/project.md)** by Friday, March 26, 2027 at 23:59 via email to the instructor (Subject: `[DATA-ANALYSIS] Final Paper - Group X`).
 
 

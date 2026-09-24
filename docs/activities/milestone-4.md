@@ -22,11 +22,11 @@ Building on Milestone 3's basic exploration, you will now conduct a **more sophi
 
 You need to:
 
-- Use your Milestone 3 (.typst file and .ipynb) as a starting point, incorporating any feedback received.
-- Apply data cleaning, transformation, and analysis techniques learned in recent [**modules**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
-    - `04-data-exploration-columns.ipynb`
-    - `05-data-exploration-rows.ipynb`
-    - `06-data-management-existing-values.ipynb`
+- Use your Milestone 3 (.typst file and Python script) as a starting point, incorporating any feedback received.
+- Apply data cleaning, transformation, and analysis techniques learned in recent [**course Python scripts**](https://github.com/mickaeltemporao/materials/tree/main/src):
+    - [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py)
+    - [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py)
+    - [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py)
 - Update your analysis with improved visualizations that examine relationships between variables and assess your initial theoretical expectations.
 
 ### What is expected from a **manuscript** perspective
@@ -42,7 +42,7 @@ Your Milestone 4 typst file is an updated Milestone 3 typst file that:
 
 ### What is expected from a **coding** perspective
 
-Similarly, your Milestone 4 ipynb file is an updated Milestone 3 ipynb file that: 
+Similarly, your Milestone 4 Python script is an updated Milestone 3 script that: 
 
 1. Data Cleaning and Variable Preparation
     - **Filter invalid responses**: Remove or recode missing values, "don't know," and refusal responses
@@ -60,11 +60,11 @@ Similarly, your Milestone 4 ipynb file is an updated Milestone 3 ipynb file that
 
 ## 💾 Submission Guidelines
 
-1. Export final files from both Typst and your notebook:
+1. Export final files from both Typst and your Python script:
     - `da-milestone4-group0.typ`
     - `da-milestone4-group0.pdf`
-    - `da-m4-notebook-group0.ipynb`
-2. Keep file names consistent for organization (e.g., `da-milestone4-group1.typ`, `da-milestone4-group1.pdf`, `da-m4-notebook-group1.ipynb`).
+    - `da-m4-script-group0.py`
+2. Keep file names consistent for organization (e.g., `da-milestone4-group1.typ`, `da-milestone4-group1.pdf`, `da-m4-script-group1.py`).
 3. Email **all 3 files attached** to the instructor before the deadline with the subject line:
     ```text
     [DATA-ANALYSIS] Milestone 4 - Group X

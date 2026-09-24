@@ -51,7 +51,7 @@ Interactive coding session where we apply transformation techniques to prepare d
 
 
 !!! tip inline end
-    To load and use a notebook in VS Code follow the steps 3-5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
 #### What You'll Practice
 Using ANES 2020 data, you will master:
@@ -106,9 +106,10 @@ Additive scales combine multiple related survey items into a single measure by s
 
 **Remember**: The goal is not just to transform data, but to do so **systematically and transparently**. Every recoding decision should be defensible and documented.
 
-#### Notebook
-- Download and open **Notebook 6** in VS Code:
-    - [:fontawesome-solid-file-code: **06-data-management-existing-values.ipynb**](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
+#### Interactive Python Script
+- Download and open [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) in VS Code:
+    - [:fontawesome-solid-file-code: **06_data_management_and_scales.py**](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py)
+
 
 #### Practice Problems
 

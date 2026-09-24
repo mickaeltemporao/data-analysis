@@ -8,7 +8,7 @@
 ## **Code: Live Demo & Hands-on Lab**
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 4)
-- **Topic:** Filtering Survey Rows & Univariate Charts (Boolean masks, `.value_counts()`, distributions with Altair).
+- **Topic:** Exploratory Data Visualization with Altair (univariate distributions, bivariate charts, encodings & tooltips).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### The Data Science Pipeline
@@ -17,15 +17,17 @@
 
 ### Extracting Insights from Observations
 !!! tip inline end
-    To load and use a notebook in VS Code follow the steps 3 to 5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
-- To start, download and open the notebooks directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
+- Download and open the interactive Python visualization script directly in VS Code:
+    - Open [`10_visualization_insights.py`](https://github.com/mickaeltemporao/materials/blob/main/src/10_visualization_insights.py) from the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src)
+- Practice creating charts with Altair: defining encodings (`x`, `y`, `color`), adding tooltips, and saving/exporting chart figures.
 
 ## **Application**
-### Start your Research Project Notebook
-- In **VS Code**, create a new **Jupyter Notebook** (`.ipynb` file) to serve as the foundation for your research project.
-- Begin developing and organising relevant code and analyses that contribute to your reproducible research paper (your final project).
+### Start your Research Project Script
+- In **VS Code**, create an exploratory Python script (such as `exploration.py` or `analysis.py`) to serve as the foundation for your research project's empirical analysis.
+- Begin developing and organizing clean, reproducible code using pandas and Altair that will generate the figures and tables for your paper.
+
 
 ## Get Ready for Next Session: Think. Explore. Practice.
 

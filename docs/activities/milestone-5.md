@@ -21,12 +21,14 @@ Building on Milestone 4's exploratory analysis, you will now **test your hypothe
 
 You need to:
 
-- Use your previous Milestone 4 (.typst file and .ipynb) as a starting point, incorporating any feedback received.
+- Use your previous Milestone 4 (.typst file and Python script) as a starting point, incorporating any feedback received.
 
-- Apply linear regression techniques learned in recent in :
-    - [`07-data-modeling-insights.ipynb`](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
-    - [the data modeling lab](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/lab-modeling.ipynb)
-- Estimate multiple regression models side by side (adding controls step by step) to test your hypothesis and observe coefficient stability.
+- Apply linear regression techniques learned in:
+    - [`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py)
+    - [`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py)
+    - [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py)
+    - [`modeling-playground.py`](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py)
+- Estimate multiple regression models side by side with progressively added control variables (covariates) to test your hypothesis and observe coefficient stability.
 - Export your regression table using the `make_table()` function from `mmisc`.
 - Interpret your results in relation to your theoretical expectations.
 
@@ -44,7 +46,7 @@ Your Milestone 5 typst file is an updated Milestone 4 typst file that:
 
 ### What is expected from a **coding** perspective
 
-Similarly, your Milestone 5 ipynb file is an updated Milestone 4 ipynb file that contains:
+Similarly, your Milestone 5 Python script is an updated Milestone 4 script that contains:
 
 1. Model Specification
     - **Baseline model**: Estimates a simple regression with your main IV predicting the DV
@@ -53,22 +55,22 @@ Similarly, your Milestone 5 ipynb file is an updated Milestone 4 ipynb file that
 
 2. Model Comparison
     - **List of models**: Create a list of models that you will use with `make_table()` and `summary_col()`
-    - **Use `summary_col()`**: Compare coefficients and estimates across models in the notebook.
+    - **Use `summary_col()`**: Compare coefficients and estimates across models in your interactive Python terminal.
     - **Export models with `make_table()`**: Generate a publication-ready table for your typst document
 
 3. Visualization (Bonus)
-    - **Use a modern visualization libraries** (e.g., Altair, seaborn, Plotly, ...)
-    - **Create a plot to visualize the effects** of your final model result.
-    - **Discuss/comment the figure** leverage the figure in your paper.
+    - **Use a modern visualization library** (such as Altair)
+    - **Create a plot to visualize the effects** of your final model result (e.g. coefficient plot with confidence intervals).
+    - **Discuss/comment the figure** and integrate it into your paper.
 
 
 ## 💾 Submission Guidelines
 
-1. Export final files from both Typst and your notebook:
+1. Export final files from both Typst and your Python script:
     - `da-milestone5-group0.typ`
     - `da-milestone5-group0.pdf`
-    - `da-m5-notebook-group0.ipynb`
-2. Keep file names consistent for organization (e.g., `da-milestone5-group1.typ`, `da-milestone5-group1.pdf`, `da-m5-notebook-group1.ipynb`).
+    - `da-m5-script-group0.py`
+2. Keep file names consistent for organization (e.g., `da-milestone5-group1.typ`, `da-milestone5-group1.pdf`, `da-m5-script-group1.py`).
 3. Email **all 3 files attached** to the instructor before the deadline with the subject line:
     ```text
     [DATA-ANALYSIS] Milestone 5 - Group X

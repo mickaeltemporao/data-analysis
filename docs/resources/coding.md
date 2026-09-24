@@ -1,29 +1,27 @@
 # Coding
 
-## Notebooks
-- [Notebooks used in Class](https://github.com/mickaeltemporao/materials/tree/main/notebooks)
+## Course Python Materials
+- [Course Python Scripts (`materials/src`)](https://github.com/mickaeltemporao/materials/tree/main/src): Interactive `.py` scripts used in class and live demos.
+- [📘 Running Python Scripts in VS Code](notebook-vscode.md): Step-by-step tutorial on executing code line-by-line using Smart Send.
 
 ## Python
-- [Python Tutorial](https://www.kaggle.com/learn/python): Introduction to the basics of Python.
-- [Python Notes](https://chrisalbon.com/): A curated list of Python notes by Chris Albon.
-- [A Python Textbook written in French](https://python.sdv.univ-paris-diderot.fr/01_introduction/#19-autres-ressources)
-- [Documention](https://www.python.org/): The official python website.
+- [Python Documentation](https://www.python.org/): The official Python documentation and language reference.
+- [Python Tutorial](https://www.kaggle.com/learn/python): Interactive introduction to Python basics.
+- [Python Notes](https://chrisalbon.com/): Curated practical reference notes by Chris Albon.
+- [A Python Textbook in French](https://python.sdv.univ-paris-diderot.fr/01_introduction/#19-autres-ressources): Introduction to programming with Python (Université Paris Cité).
 
 ## Pandas
-- [Intro to Pandas](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb): An introduction to pandas on Colaboratory.
-- [Pandas Tutorial](https://www.kaggle.com/learn/pandas): Introduction to the basics of Pandas.
-- [Pandas Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf): A summary of Pandas commands.
-- [Intro to Pandas](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb): An introduction to Pandas on Colaboratory.
+- [Pandas Official Documentation](https://pandas.pydata.org/docs/): User guide and API reference.
+- [Pandas Getting Started Tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html): Short introductory tutorials on key DataFrame workflows.
+- [Pandas Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf): Quick reference summary of essential pandas operations.
 
-## Data Visualization
-- [Matplotlib Global Cheatsheet](https://matplotlib.org/cheatsheets/cheatsheets.pdf)
-- [Matplotlib Beginner Cheatsheet](https://matplotlib.org/cheatsheets/handout-beginner.pdf)
-- [Matplotlib Intermediate Cheatsheet](https://matplotlib.org/cheatsheets/handout-intermediate.pdf)
-- [Matplotlib Tips Cheatsheet](https://matplotlib.org/cheatsheets/handout-tips.pdf)
+## Data Visualization (Altair)
+- [Altair Official Documentation](https://altair-viz.github.io/): Declarative statistical visualization library for Python.
+- [Altair Example Gallery](https://altair-viz.github.io/gallery/index.html): Visual catalog of charts, heatmaps, faceted plots, and distributions.
+- [Altair Interactive Charts](https://altair-viz.github.io/user_guide/interactions.html): Guide to tooltips, selections, and interactive brushing.
 
-## Misc
-- [Why Colaboratory/Ipython/Jupyter](https://www.nature.com/articles/d41586-018-07196-1): A article in *Nature* on the importance of notebooks.
-- [Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb): Programming interface for executing code in your browser.
-    - [Introductory Colaboratory Video](https://www.youtube.com/watch?v=inN8seMm7UI)
-    - [Guide to Colaboratory](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
+## Statistical Modeling (Statsmodels)
+- [Statsmodels Documentation](https://www.statsmodels.org/stable/): Statistical modeling and empirical analysis in Python.
+- [Statsmodels Formula API Guide](https://www.statsmodels.org/stable/example_formulas.html): Fitting OLS regressions using R-style formulas (`DV ~ IV + CV`).
+
 

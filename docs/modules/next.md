@@ -25,10 +25,10 @@ In agile project management, a retrospective is a brief meeting held, at the end
 ### Let's look ahead!
 
 !!! tip inline end
-    To load and use a notebook in VS Code follow the steps 3 to 5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
-- Download and open the playground notebooks directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
+- Download and open the playground scripts directly in VS Code:
+    - Get the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository (e.g., [`playground-polarization.py`](https://github.com/mickaeltemporao/materials/blob/main/src/playground-polarization.py)).
 
 ---
 
@@ -45,7 +45,8 @@ In agile project management, a retrospective is a brief meeting held, at the end
 
 ### Practice
 - Review instructor comments on [Milestone 3 - Exploration](../activities/milestone-3.md) and consolidate your group's project code repository.
-- Explore data wrangling examples in [Notebooks #05 & #06](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+- Explore data wrangling examples in [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py).
+
 
 
 

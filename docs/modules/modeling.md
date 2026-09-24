@@ -95,11 +95,11 @@ hist + mean_line + mean_text
 
 ## Application
 
-We will work from **[Notebook 7](https://github.com/mickaeltemporao/materials/tree/main/notebooks)**. 
+We will work from [`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py) and [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py) in the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src).
 
 !!! tip inline end
-    To load and use a notebook in VS Code, follow steps 3 to 5 in
-    [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow
+    [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md)
 
 Focus on *understanding how each IV (predictors) is related to the DV (outcome)*. Ask yourself:
 
@@ -117,8 +117,8 @@ Focus on *understanding how each IV (predictors) is related to the DV (outcome)*
 - **Suggested Reading:** [King, G., Tomz, M., & Wittenberg, J. (2000). Making the most of statistical analyses: Improving interpretation and presentation. *American Journal of Political Science*, 44(2), 347-361.](https://gking.harvard.edu/files/gking/files/making.pdf) - The seminal classic on converting raw statistical regression output into meaningful, substantive quantities of interest for social science readers.
 
 ### Explore
-- **Live Demo (Group 4):** Multiple Regression & Exporting Tables. Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
+- **Live Demo (Group 4):** Multiple Regression Specifications & Exporting Tables (models with controls: Baseline → Demographics → Full model, `make_table` for Typst). Group 4 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the course Python materials ([`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py)) and the [Typst Table Formatting Documentation](https://typst.app/docs/reference/model/table/) to follow along and lead the peer discussion.
 
 ### Practice
 - Fit your regression models with controls in Python and generate your final Typst regression table.

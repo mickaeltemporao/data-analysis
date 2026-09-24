@@ -27,23 +27,24 @@ You need to :
     - Follow the instructions inside the newly uploaded typst document. 
     - Use should use your Milestone 2 as a starting point. You can copy/paste and revise based on any feedback received.
 
-- Download the following notebook file : [da-m3-notebook-group0.ipynb](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/da-m3-notebook-group0.ipynb)
-    - Open the notebook in VS Code and follow the instructions in it. 
-    - You need to use this notebook to produce at two figures that you will integrate in the Typst file.
-    - Keep the Python code used to produce the figures in the notebook.
+- Download the following Python script template : [da-m3-script-group0.py](https://github.com/mickaeltemporao/data-analysis/blob/main/docs/materials/da-m3-script-group0.py)
+    - Open the script in VS Code and follow the instructions in it. 
+    - Use this script to produce at least two figures using Altair that you will integrate into the Typst file.
+    - Run code interactively using Smart Send (++shift+enter++).
+    - Export your figures to PNG and insert them into your Typst manuscript.
 
-You will move back and forth between Typst and the notebook as you refine your analysis.
+You will move back and forth between Typst and your Python script as you refine your analysis.
 
 
 ## 💾 Submission Guidelines
 
 * Delete any **instructions** in the files before submitting your work.
 
-1. Export the final typst, a rendered PDF and your notebook files:
+1. Export the final typst, a rendered PDF and your Python script:
     - `da-milestone3-group0.typ`
     - `da-milestone3-group0.pdf`
-    - `da-m3-notebook-group0.ipynb`
-2. Adjust the file names and keep them consistent so submissions stay organized (e.g., `da-milestone3-group1.typ`, `da-milestone3-group1.pdf`, `da-m3-notebook-group1.ipynb`).
+    - `da-m3-script-group0.py`
+2. Adjust the file names and keep them consistent so submissions stay organized (e.g., `da-milestone3-group1.typ`, `da-milestone3-group1.pdf`, `da-m3-script-group1.py`).
 3. Email **all 3 files attached** to the instructor before the deadline with the subject line:
     ```text
     [DATA-ANALYSIS] Milestone 3 - Group X

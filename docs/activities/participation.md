@@ -23,27 +23,14 @@ A live demo is a hands-on, interactive demonstration illustrating how to leverag
 
 | Session | Group | Topic & Focus | Handout Example |
 | :---: | :---: | :--- | :--- |
-| **S2** | **Group 1** | **Typst for Scientific Writing** | Syntax, document structure, `.bib` citations, exporting PDF |
-| **S3** | **Group 2** | **Python & Pandas Data Structures** | Variables, lists, dictionaries, Series & DataFrames basics |
-| **S4** | **Group 3** | **Data Acquisition & Column Inspection** | Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting |
-| **S5** | **Group 4** | **Filtering Survey Rows & Univariate Charts** | Boolean masks, `.value_counts()`, distributions with Altair |
+| **S2** | **Group 1** | **Python & Pandas Data Structures** | Variables, lists, dictionaries, Series & DataFrames basics |
+| **S3** | **Group 2** | **Data Acquisition & Column Inspection** | Reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting |
+| **S4** | **Group 3** | **Filtering Survey Rows & Subsetting** | Boolean masks, `.query()`, handling missing values, `.value_counts()` |
+| **S5** | **Group 4** | **Exploratory Data Visualization with Altair** | Univariate distributions, bivariate charts, encodings & tooltips |
 | **S8** | **Group 1** | **Survey Data Recoding & Variable Creation** | Handling `-9`/`-8`/DK codes to `NaN`, masks vs. `.replace()`, binary indicators |
 | **S9** | **Group 2** | **Subgroup Analysis & Cross-Tabulations** | `groupby()`, comparing group means, `pd.crosstab(..., normalize='index')` |
 | **S10** | **Group 3** | **Linear Regression & Categorical Predictors** | Specifying `DV ~ IV`, adding `C(category)`, interpreting slopes, reference levels & R² |
 | **S11** | **Group 4** | **Multiple Regression Specifications & Exporting Tables** | Models with controls (Baseline → Demographics → Full model), `make_table` for Typst |
-
-### Back-Up Live Demo Themes {: #backup-live-demo-themes }
-
-If a scheduled live demo requires substitution or if a group wishes to explore an alternative topic with instructor approval, groups may select from the following backup themes:
-
-- **Semester 1 Backup: Visualizing Relationships with Altair**  
-  Bivariate charts, scatter plots, grouped bars, color/size encodings, and interactive tooltips for exploratory analysis.
-- **Semester 2 Backup: Visualizing Regression Models & Substantive Findings**  
-  Plotting regression coefficients with 95% confidence intervals (`plt.errorbar`), predicted margins, and communicating substantive findings in Typst.
-- **Cross-Tabulations & Survey Margins**  
-  Computing row and column percentages with `pd.crosstab(..., normalize='index')` to analyze demographic differences in political behavior.
-- **Navigating ANES Codebooks & Survey Weights**  
-  Understanding questionnaire skip patterns, reading ANES documentation, and applying survey sampling weights.
 
 ---
 

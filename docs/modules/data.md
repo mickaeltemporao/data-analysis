@@ -41,21 +41,13 @@ Variables can broadly be categorized as either **discrete** or **continuous**.
 ## **Code: Live Demo & Hands-on Lab**
 
 ### :fontawesome-solid-chalkboard-user: Student Group Live Demo (Group 2)
-- **Topic:** Python & Pandas Data Structures (Variables, lists, dictionaries, Series & DataFrames basics).
+- **Topic:** Data Acquisition & Column Inspection (reading ANES data, `.shape`, `.info()`, `.describe()`, column subsetting).
 - Review the [Live Demo Guidelines & Schedule](../activities/participation.md#live-demo-schedule).
 
 ### Hands-on Practice
-- [📘 Using a Notebook in VS Code](../resources/notebook-vscode.md)
-- Open Notebook #02 in VS Code to explore Python lists, dictionaries, and Pandas Series and DataFrame manipulation.
-
-
-### Something extra? 
-Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
-
-  - Create a new public or private repository.
-  - Upload the `main.typ` file from Milestone 1.
-  - Add a commit message: "My first commit, horray!"
-  - Push your contribution to the GitHub repository.
+- Follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md) to open and run interactive Python scripts.
+- Download and open [`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py) and [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py) from the [course materials](https://github.com/mickaeltemporao/materials/tree/main/src).
+- Practice importing pandas (`import pandas as pd`), loading survey data, and inspecting columns using `.shape`, `.info()`, `.describe()`, and `.columns` using Smart Send (++shift+enter++).
 
 ## Get Ready for Next Session: Think. Explore. Practice.
 
@@ -65,12 +57,13 @@ Put your paper on [:fontawesome-brands-github: GitHub](https://github.com/)
 - **Suggested Reading:** [Mason, L. (2018). Ideologues without issues: The polarizing consequences of ideological identities. *Public Opinion Quarterly*, 82(S1), 866-887.](https://academic.oup.com/poq/article/82/S1/866/4951269?login=true) - Demonstrates how distinct psychological and ideological identities in survey data produce measurable behavioral polarization.
 
 ### Explore
-- **Live Demo (Group 3):** Data Acquisition & Column Inspection. Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
-- The class should review the [Pandas Indexing and Subsetting Guide](https://pandas.pydata.org/docs/user_guide/indexing.html) to follow along and lead the peer discussion.
+- **Live Demo (Group 3):** Filtering Survey Rows & Subsetting (boolean masks, `.query()`, handling missing values, `.value_counts()`). Group 3 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
+- The class should review the course Python materials ([`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py)) to follow along and lead the peer discussion.
 
 ### Practice
-- Practice loading and exploring datasets using [Notebook #02](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+- Practice loading and exploring datasets using [`03_functions_and_packages.py`](https://github.com/mickaeltemporao/materials/blob/main/src/03_functions_and_packages.py) and [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py).
 - :fontawesome-solid-award: **Complete [Milestone 2 - Proposal](../activities/milestone-2.md)** (Due Friday, Oct 23 at 08:00 before class via email).
+
 
 
 

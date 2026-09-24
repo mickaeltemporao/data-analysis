@@ -11,7 +11,7 @@ This module marks a shift from **describing data** to **actively transforming it
 
 - Milestone 3 & Upcoming milestones 
     - Moving beyond exploration toward transformations and modeling
-- [:fontawesome-solid-file-code: Playground Notebooks](https://github.com/mickaeltemporao/materials/tree/main/notebooks) 
+- [:fontawesome-solid-file-code: Course Python Scripts](https://github.com/mickaeltemporao/materials/tree/main/src) 
 
 ## **Application**
 ### Retrospective
@@ -25,7 +25,7 @@ In agile project management, a retrospective is a brief meeting held, at the end
 ### Data Wrangling & Cleaning
 
 !!! tip inline end
-    To load and use a notebook in VS Code follow the steps 3-5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
 #### What You’ll Practice
 Using ANES 2020 data, you will learn how to:
@@ -35,9 +35,9 @@ Using ANES 2020 data, you will learn how to:
 - Handle missing values explicitly
 - Prepare data for statistical modeling and visualization
 
-#### Notebooks
-- Download and open **Notebooks 5 & 6** in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
+#### Interactive Python Scripts
+- Download and open [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) in VS Code:
+    - Get the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository
 
 ## Get Ready for Next Session: Think. Explore. Practice.
 
@@ -51,7 +51,7 @@ Using ANES 2020 data, you will learn how to:
 - The class should review the [Pandas Working with Missing Data Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to follow along and lead the peer discussion.
 
 ### Practice
-- Practice recoding your project's DV and IV using [Notebooks #05 & #06](https://github.com/mickaeltemporao/materials/tree/main/notebooks).
+- Practice recoding your project's DV and IV using [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py).
 - *Looking Ahead:* Milestone 4 - Analysis will be due in Session 9 (Feb 05 at 08:00).
 
 

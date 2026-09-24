@@ -69,7 +69,7 @@ Describe the DV you selected:
 === IMPORTANT
 
 - In this typst file, you need to include *a figure* visualising the DV distribution.
-- The code to create the figure must be saved in the `da-m3-notebook-group0.ipynb` using Python.
+- The code to create the figure must be saved in the `da-m3-script-group0.py` using Python.
 - Export the figure as a PNG and insert it here.
   - Make sure to look up and use the appropriate `typst` syntax to insert the figure into this document.
 
@@ -86,7 +86,7 @@ Describe the main IV you selected:
 === IMPORTANT
 
 - Include *one figure* visualising the IV distribution.
-- The code to create the figure must be saved in the `da-m3-notebook-group0.ipynb` using Python.
+- The code to create the figure must be saved in the `da-m3-script-group0.py` using Python.
 - Export the figure as a PNG and insert it here.
   - Make sure to look up and use the appropriate `typst` syntax to insert the figure into this document.
 

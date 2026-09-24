@@ -41,7 +41,7 @@ df['trust_index'] = np.where(
 )
 ```
 
-**Curriculum Links:** `materials/notebooks/06-data-management-existing-values.ipynb`, `docs/modules/wrangling-2.md`, Milestone 4.
+**Curriculum Links:** `materials/src/06_data_management_and_scales.py`, `docs/modules/wrangling-2.md`, Milestone 4.
 
 ---
 
@@ -143,7 +143,7 @@ chart = alt.Chart(df.dropna(subset=['party_id', 'affective_polarization'])).mark
 chart.save("figures/figure1.svg")
 ```
 
-**Curriculum Links:** `materials/notebooks/08-visualization-insights.ipynb`, Milestone 3, Milestone 4.
+**Curriculum Links:** `materials/src/10_visualization_insights.py`, Milestone 3, Milestone 4.
 
 ---
 
@@ -251,7 +251,7 @@ print(interaction_model.summary().tables[1])
 # Key parameter: political_knowledge:strong_partisan (tests whether slopes differ significantly)
 ```
 
-**Curriculum Links:** `materials/notebooks/lab-modeling.ipynb`, `docs/modules/modeling.md`.
+**Curriculum Links:** `materials/src/07_intro_to_modeling.py`, `materials/src/08_multiple_regression.py`, `docs/modules/modeling.md`.
 
 ---
 
@@ -321,3 +321,18 @@ print(table)
 ```
 
 **Curriculum Links:** `docs/modules/inference.md`, `docs/modules/communication.md`, Milestone 5, Research Paper.
+ 
+---
+
+## 9. Typst for Scientific Writing & Reproducible Reports
+
+### Methodological Rationale
+Reproducible workflows require seamless document preparation without fragile copy-pasting. Typst offers modern, fast, publication-quality document compilation with native mathematics and bibliographic citation management (`.bib`).
+
+### Key Typst Tools
+- Document structuring (`=`, `==`, `===`)
+- Mathematical notation ($Y = \beta_0 + \beta_1 X + \epsilon$)
+- Academic bibliography and citations (`#bibliography("references.bib")`, `@citation_key`)
+- Tables, figures, and vector image integration (`#figure(image("figure.svg"), caption: [...])`)
+
+**Curriculum Links:** `docs/modules/introduction.md`, `docs/resources/writing.md`, Milestones 1–5, Final Research Project.

@@ -4,10 +4,10 @@
 
 ### Extracting Insights from Observations
 !!! tip inline end
-    To load and use a notebook in VS Code follow the steps 3 to 5 in [📘 Notebooks in VS Code](../resources/notebook-vscode.md)
+    To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md)
 
-- To start, download and open the notebooks directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Notebooks**](https://github.com/mickaeltemporao/materials/tree/main/notebooks) from the GitHub repository
+- To start, download and open the Python scripts directly in VS Code:
+    - Get the [:fontawesome-solid-file-code: **Course Python Scripts**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository
 
 <!-- Notebook 4 - Data Visualisation -->
 
