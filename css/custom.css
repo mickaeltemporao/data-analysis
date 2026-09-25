@@ -1,0 +1,7 @@
+img {
+    display: block;          /* Makes the image a block element */
+    margin-left: auto;      /* Centers the image */
+    margin-right: auto;     /* Centers the image */
+    max-width: 100%;        /* Ensures the image doesn't overflow */
+    height: auto;           /* Maintains the aspect ratio */
+}
