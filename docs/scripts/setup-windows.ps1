@@ -52,7 +52,7 @@ if (Get-Command code -ErrorAction SilentlyContinue) {
     Write-Host "⚠️ VS Code installed. If 'code' command is not found, launch VS Code and install the Python and Jupyter extensions." -ForegroundColor Yellow
 }
 
-# 3. Set up Course Workspace Directory and data-analysis environment
+# 3. Set up Course Workspace Directory and .env-da environment
 $docsPath = [System.Environment]::GetFolderPath('MyDocuments')
 $targetDir = Join-Path $docsPath "data-analysis"
 if ((Get-Location).Path -ne $HOME -and ((Test-Path ".git") -or (Test-Path "pyproject.toml") -or (Test-Path "mkdocs.yml"))) {
@@ -64,18 +64,66 @@ if (-not (Test-Path $targetDir)) {
     New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
 }
 
-$venvPath = Join-Path $targetDir "data-analysis"
-Write-Host "⚡ Creating Python virtual environment (data-analysis)..." -ForegroundColor Yellow
-if (-not (Test-Path (Join-Path $venvPath "Scripts\python.exe"))) {
-    python -m venv --prompt data-analysis $venvPath
+$oldVenvPath = Join-Path $targetDir "data-analysis"
+$venvPath = Join-Path $targetDir ".env-da"
+
+# Migrate old 'data-analysis' venv to '.env-da' if it exists
+if (Test-Path $oldVenvPath) {
+    Write-Host "🔄 Found existing 'data-analysis' environment. Migrating to '.env-da'..." -ForegroundColor Yellow
+    if (-not (Test-Path $venvPath)) {
+        Rename-Item -Path $oldVenvPath -NewName ".env-da" -ErrorAction SilentlyContinue
+    } else {
+        Remove-Item -Recurse -Force $oldVenvPath -ErrorAction SilentlyContinue
+    }
 }
 
-Write-Host "📚 Installing core packages into data-analysis environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
+Write-Host "⚡ Configuring Python virtual environment (.env-da)..." -ForegroundColor Yellow
+if (-not (Test-Path (Join-Path $venvPath "Scripts\python.exe"))) {
+    python -m venv --prompt .env-da $venvPath
+}
+
+Write-Host "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
 $venvPython = Join-Path $venvPath "Scripts\python.exe"
 & $venvPython -m pip install --upgrade pip --quiet
 & $venvPython -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python
+& $venvPython -m ipykernel install --user --name env-da --display-name "Python (.env-da)" 2>$null
 
-# 4. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
+# Clean up old 'data-analysis' environment directory if it still exists
+if (Test-Path $oldVenvPath) {
+    Remove-Item -Recurse -Force $oldVenvPath -ErrorAction SilentlyContinue
+}
+
+# 4. Configure Workspace Settings (.vscode/settings.json in targetDir)
+$vscodeDir = Join-Path $targetDir ".vscode"
+if (-not (Test-Path $vscodeDir)) {
+    New-Item -ItemType Directory -Path $vscodeDir -Force | Out-Null
+}
+$wsSettingsPath = Join-Path $vscodeDir "settings.json"
+$wsConfig = @"
+import json
+from pathlib import Path
+ws_path = Path(r"$wsSettingsPath")
+data = {}
+if ws_path.exists():
+    try:
+        with open(ws_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        data = {}
+data.update({
+    "python.defaultInterpreterPath": "\${workspaceFolder}/.env-da/Scripts/python.exe",
+    "python.terminal.activateEnvironment": True,
+    "python.terminal.executeInFileDir": True,
+    "python.REPL.sendToNativeREPL": True
+})
+with open(ws_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=4)
+"@
+try {
+    $wsConfig | python - 2>$null
+} catch {}
+
+# 5. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 Write-Host "⚙️ Configuring beginner-friendly VS Code settings..." -ForegroundColor Yellow
 $pyConfig = @"
 import json, os
@@ -95,6 +143,9 @@ if appdata:
     data.update({
         "workbench.startupEditor": "none",
         "workbench.welcomePage.walkthroughs.openOnInstall": False,
+        "security.workspace.trust.enabled": False,
+        "security.workspace.trust.emptyWindow": True,
+        "security.workspace.trust.untrustedFiles": "open",
         "github.copilot.enable": {"*": False},
         "github.copilot.editor.enableAutoCompletions": False,
         "editor.wordWrap": "on",
@@ -103,7 +154,7 @@ if appdata:
         "python.REPL.sendToNativeREPL": True,
         "python.terminal.activateEnvironment": True,
         "python.terminal.executeInFileDir": True,
-        "python.defaultInterpreterPath": "${workspaceFolder}/data-analysis/Scripts/python.exe",
+        "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/Scripts/python.exe",
         "notebook.lineNumbers": "on",
         "notebook.output.textLineLimit": 150,
         "notebook.insertToolbarLocation": "betweenCells"
@@ -117,5 +168,5 @@ try {
 
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "🎉 Setup complete! You are ready for Data Analysis." -ForegroundColor Green
-Write-Host "👉 Course workspace and data-analysis environment are ready at: $targetDir" -ForegroundColor Green
+Write-Host "👉 Course workspace and .env-da environment are ready at: $targetDir" -ForegroundColor Green
 Write-Host "👉 Launch VS Code and open your course folder: code `"$targetDir`"" -ForegroundColor Green

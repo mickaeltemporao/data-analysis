@@ -52,7 +52,7 @@ else
     echo "⚠️ Note: Could not find 'code' command in PATH. Please launch VS Code manually and install extensions: Python, Jupyter."
 fi
 
-# 6. Set up Course Workspace Directory and data-analysis environment
+# 6. Set up Course Workspace Directory and .env-da environment
 TARGET_DIR="$HOME/Documents/data-analysis"
 if [ "$PWD" != "$HOME" ] && [ -d "$PWD/.git" -o -f "$PWD/pyproject.toml" -o -f "$PWD/mkdocs.yml" ]; then
     TARGET_DIR="$PWD"
@@ -61,19 +61,63 @@ fi
 echo "📁 Setting up course workspace in $TARGET_DIR..."
 mkdir -p "$TARGET_DIR"
 
-echo "⚡ Creating Python virtual environment (data-analysis)..."
-if command -v uv &>/dev/null; then
-    uv venv --seed "$TARGET_DIR/data-analysis" --prompt data-analysis
-    echo "📚 Installing core packages into data-analysis environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-    uv pip install --python "$TARGET_DIR/data-analysis/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python
-else
-    python3 -m venv --prompt data-analysis "$TARGET_DIR/data-analysis"
-    echo "📚 Installing core packages into data-analysis environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-    "$TARGET_DIR/data-analysis/bin/pip" install --upgrade pip --quiet || true
-    "$TARGET_DIR/data-analysis/bin/pip" install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+# Migrate old 'data-analysis' environment to '.env-da' if it exists
+if [ -d "$TARGET_DIR/data-analysis" ]; then
+    echo "🔄 Found existing 'data-analysis' environment. Migrating to '.env-da'..."
+    if [ ! -d "$TARGET_DIR/.env-da" ]; then
+        mv "$TARGET_DIR/data-analysis" "$TARGET_DIR/.env-da"
+    else
+        rm -rf "$TARGET_DIR/data-analysis"
+    fi
 fi
 
-# 7. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, enable word wrap & auto-save)
+echo "⚡ Configuring Python virtual environment (.env-da)..."
+if command -v uv &>/dev/null; then
+    uv venv --seed "$TARGET_DIR/.env-da" --prompt .env-da
+    echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
+    uv pip install --python "$TARGET_DIR/.env-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python
+else
+    python3 -m venv --prompt .env-da "$TARGET_DIR/.env-da"
+    echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
+    "$TARGET_DIR/.env-da/bin/pip" install --upgrade pip --quiet || true
+    "$TARGET_DIR/.env-da/bin/pip" install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+fi
+
+# Clean up any leftover old 'data-analysis' directory if it exists
+if [ -d "$TARGET_DIR/data-analysis" ]; then
+    rm -rf "$TARGET_DIR/data-analysis"
+fi
+
+# Register ipykernel for Jupyter / VS Code Native REPL
+"$TARGET_DIR/.env-da/bin/python" -m ipykernel install --user --name env-da --display-name "Python (.env-da)" &>/dev/null || true
+
+# 7. Configure Workspace Settings (.vscode/settings.json in TARGET_DIR)
+mkdir -p "$TARGET_DIR/.vscode"
+python3 - << EOF || true
+import json
+from pathlib import Path
+
+ws_settings = Path("$TARGET_DIR") / ".vscode" / "settings.json"
+data = {}
+if ws_settings.exists():
+    try:
+        with open(ws_settings, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        data = {}
+
+data.update({
+    "python.defaultInterpreterPath": "\${workspaceFolder}/.env-da/bin/python",
+    "python.terminal.activateEnvironment": True,
+    "python.terminal.executeInFileDir": True,
+    "python.REPL.sendToNativeREPL": True
+})
+
+with open(ws_settings, "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=4)
+EOF
+
+# 8. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 echo "⚙️ Configuring beginner-friendly VS Code settings..."
 python3 - << 'EOF' || true
 import json, os
@@ -93,6 +137,9 @@ if settings_path.exists():
 data.update({
     "workbench.startupEditor": "none",
     "workbench.welcomePage.walkthroughs.openOnInstall": False,
+    "security.workspace.trust.enabled": False,
+    "security.workspace.trust.emptyWindow": True,
+    "security.workspace.trust.untrustedFiles": "open",
     "github.copilot.enable": {"*": False},
     "github.copilot.editor.enableAutoCompletions": False,
     "editor.wordWrap": "on",
@@ -101,7 +148,7 @@ data.update({
     "python.REPL.sendToNativeREPL": True,
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
-    "python.defaultInterpreterPath": "${workspaceFolder}/data-analysis/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/bin/python",
     "notebook.lineNumbers": "on",
     "notebook.output.textLineLimit": 150,
     "notebook.insertToolbarLocation": "betweenCells"
@@ -113,5 +160,5 @@ EOF
 
 echo "============================================================"
 echo "🎉 Setup complete! You are ready for Data Analysis."
-echo "👉 Course workspace and data-analysis environment are ready at: $TARGET_DIR"
+echo "👉 Course workspace and .env-da environment are ready at: $TARGET_DIR"
 echo "👉 Launch VS Code and open your course folder: code $TARGET_DIR"

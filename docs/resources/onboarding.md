@@ -90,7 +90,7 @@ We provide an automated setup script that installs [**Visual Studio Code**](http
     3. **What this automated script does:**
         - Installs Python, `uv`, `git`, and base tools via `pacman`.
         - Installs Visual Studio Code (`visual-studio-code-bin` built from AUR).
-        - Sets up an isolated course virtual environment (`data-analysis`) using **`uv`** and installs all required packages (`ipykernel`, `pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
+        - Sets up an isolated course virtual environment (`.env-da`) using **`uv`** and installs all required packages (`ipykernel`, `pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
         - Installs VS Code Python extensions and applies beginner-friendly sane defaults (disables Copilot, enables Native REPL Smart Send, enables auto-save and word wrap).
 
     4. **Verify Success:**
@@ -115,12 +115,21 @@ The automated setup script has created a dedicated `data-analysis` folder inside
 1. Open the **Visual Studio Code** application.
 2. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
 3. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
-*(If VS Code displays a pop-up asking "Do you trust the authors of the files in this folder?", click **Yes, I trust the authors**).*
 
-### Step 2: Confirm Your Virtual Environment (data-analysis)
-In data science, a **virtual environment** keeps your course packages isolated and stable. Because the setup script already configured your workspace, VS Code will automatically detect and activate your **`data-analysis`** environment!
+> [!IMPORTANT]
+> **Grant Workspace Trust (Avoid Restricted Mode):**  
+> If VS Code displays a pop-up window asking *"Do you trust the authors of the files in this folder?"*, click **Yes, I trust the authors**.  
+>  
+> If VS Code ever opens in **Restricted Mode** (indicated by a banner across the top or a blue shield icon in the bottom-left status bar saying *"Restricted Mode"*), extensions like Python and Jupyter will be disabled and code execution will be blocked:  
+> - Click the **"Restricted Mode"** banner or shield icon in the bottom-left corner.  
+> - Click **Trust** (or **Trust folder & enable all features**).
 
-- Look at the bottom-right status bar in VS Code: you should see **`data-analysis`** (or `Python ... ('data-analysis': venv)`).
+### Step 2: Confirm Your Virtual Environment (.env-da)
+In data science, a **virtual environment** keeps your course packages isolated and stable. To avoid confusion with your course project folder (`data-analysis`), our environment is named **`.env-da`**.
+
+Because the setup script automatically configured your workspace settings and registered the kernel, VS Code will automatically detect and select your **`.env-da`** environment whenever you open your course folder!
+
+- Look at the bottom-right status bar in VS Code: you should see **`.env-da`** (or `Python ... ('.env-da': venv)`).
 - If it is not selected automatically:
     1. Open the **Command Palette** (press ++f1++ or click the search bar at the very top of VS Code):
         - **macOS:** press ++cmd+shift+p++
@@ -129,10 +138,10 @@ In data science, a **virtual environment** keeps your course packages isolated a
         ```text
         Python Select Interpreter
         ```
-    3. Click on the option containing **`data-analysis`**.
+    3. Click on the option containing **`.env-da`**.
 
 > [!TIP]
-> If you ever need to recreate your environment from scratch, you can type `Python Create Env` in the Command Palette and choose **Venv**.
+> If you already ran the setup script during week 1 with the old environment name, simply re-run the setup script command above! The script will automatically migrate your existing environment to **`.env-da`** and configure all settings.
 
 ---
 

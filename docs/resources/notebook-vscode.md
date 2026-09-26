@@ -17,13 +17,16 @@ A **Python script** is a simple text file ending in `.py` containing lines of Py
     - Click **File → Open Folder...** from the top menu.
     - Select your course workspace folder (e.g., `data-analysis`).
     - Click **Open**.
+    *(If VS Code asks "Do you trust the authors of the files in this folder?", click **Yes, I trust the authors** to avoid Restricted Mode).*
 3. You will see your project files listed in the **Explorer** sidebar on the left.
 
 ---
 
 ## 2. Verify Your Python Environment
 
-Make sure VS Code is using the `data-analysis` environment set up during onboarding:
+Make sure VS Code is using the **`.env-da`** environment set up during onboarding:
+
+*(Note: The setup script automatically configures workspace settings and registers the kernel, so VS Code automatically selects `.env-da` whenever you open your course folder).*
 
 1. Open the **Command Palette**:
     - Press ++f1++ (or click the search bar at the very top of VS Code).
@@ -31,8 +34,8 @@ Make sure VS Code is using the `data-analysis` environment set up during onboard
         - On macOS: Press ++cmd+shift+p++
         - On Windows: Press ++ctrl+shift+p++
 2. In the top search bar, type `Python Select Interpreter` and click on **Python: Select Interpreter**.
-3. In the dropdown list, click on the environment labeled **`data-analysis`** (or `.venv`).
-4. **Success Check:** Look at the bottom-right status bar of VS Code. You should see `Python 3.12... ('data-analysis': venv)` displayed.
+3. In the dropdown list, click on the environment labeled **`.env-da`**.
+4. **Success Check:** Look at the bottom-right status bar of VS Code. You should see `Python 3.12... ('.env-da': venv)` displayed.
 
 ---
 
