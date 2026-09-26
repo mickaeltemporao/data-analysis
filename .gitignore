@@ -112,6 +112,8 @@ venv.bak/
 data-analysis/
 .data-analysis/
 .env-da/
+.venv-da/
+
 
 
 # Spyder project settings

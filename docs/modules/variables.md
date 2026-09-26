@@ -82,8 +82,8 @@ Before running code, let's verify that everyone's local programming setup works 
     - Open the **Command Palette**: press ++f1++ (or click the search bar at the very top of VS Code):
         - On macOS: press ++cmd+shift+p++
         - On Windows: press ++ctrl+shift+p++
-    - Type `Python Select Interpreter` and ensure **`.env-da`** is selected. *(Note: The setup script automatically configures your workspace to select `.env-da` and enables full trust).*
-    - Look at the bottom-right status bar: it should display `Python 3.12... ('.env-da': venv)`.
+    - Type `Python Select Interpreter` and ensure **`.venv-da`** is selected. *(Note: The setup script automatically configures your workspace to select `.venv-da` and enables full trust).*
+    - Look at the bottom-right status bar: it should display `Python 3.12... ('.venv-da': venv)`.
     - *(If VS Code prompts about workspace trust, click **Yes, I trust the authors** to ensure extensions and code execution are active).*
 2. **Test Smart Send (Interactive Terminal):**
     - Create a new file named `test.py` or open [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py).

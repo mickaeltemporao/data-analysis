@@ -74,7 +74,7 @@ else
     echo "⚠️ Note: Could not find 'code' command in PATH. Please launch VS Code manually and install extensions: Python, Jupyter."
 fi
 
-# 6. Set up Course Workspace Directory and .env-da environment
+# 6. Set up Course Workspace Directory and .venv-da environment
 TARGET_DIR="$HOME/Documents/data-analysis"
 if [ "$PWD" != "$HOME" ] && [ -d "$PWD/.git" -o -f "$PWD/pyproject.toml" -o -f "$PWD/mkdocs.yml" ]; then
     TARGET_DIR="$PWD"
@@ -83,42 +83,52 @@ fi
 echo "📁 Setting up course workspace in $TARGET_DIR..."
 mkdir -p "$TARGET_DIR"
 
-# Migrate old 'data-analysis' environment to '.env-da' if it exists
-if [ -d "$TARGET_DIR/data-analysis" ]; then
-    echo "🔄 Found existing 'data-analysis' environment. Migrating to '.env-da'..."
-    if [ ! -d "$TARGET_DIR/.env-da" ]; then
-        mv "$TARGET_DIR/data-analysis" "$TARGET_DIR/.env-da"
+# Migrate old 'data-analysis' or '.env-da' environment to '.venv-da' if it exists
+if [ -d "$TARGET_DIR/.env-da" ]; then
+    echo "🔄 Found existing '.env-da' environment. Migrating to '.venv-da'..."
+    if [ ! -d "$TARGET_DIR/.venv-da" ]; then
+        mv "$TARGET_DIR/.env-da" "$TARGET_DIR/.venv-da"
+    else
+        rm -rf "$TARGET_DIR/.env-da"
+    fi
+elif [ -d "$TARGET_DIR/data-analysis" ]; then
+    echo "🔄 Found existing 'data-analysis' environment. Migrating to '.venv-da'..."
+    if [ ! -d "$TARGET_DIR/.venv-da" ]; then
+        mv "$TARGET_DIR/data-analysis" "$TARGET_DIR/.venv-da"
     else
         rm -rf "$TARGET_DIR/data-analysis"
     fi
 fi
 
-echo "⚡ Configuring Python virtual environment (.env-da)..."
-if command -v uv &>/dev/null && uv venv --seed "$TARGET_DIR/.env-da" --prompt .env-da; then
-    echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-    uv pip install --python "$TARGET_DIR/.env-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python || {
+echo "⚡ Configuring Python virtual environment (.venv-da)..."
+if command -v uv &>/dev/null && uv venv --seed "$TARGET_DIR/.venv-da" --prompt .venv-da; then
+    echo "📚 Installing core packages into .venv-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
+    uv pip install --python "$TARGET_DIR/.venv-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python || {
         echo "⚠️ uv pip install encountered an issue; falling back to standard pip..."
-        "$TARGET_DIR/.env-da/bin/python" -m pip install --upgrade pip --quiet || true
-        "$TARGET_DIR/.env-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+        "$TARGET_DIR/.venv-da/bin/python" -m pip install --upgrade pip --quiet || true
+        "$TARGET_DIR/.venv-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
     }
 else
-    python3 -m venv --prompt .env-da "$TARGET_DIR/.env-da"
-    echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-    "$TARGET_DIR/.env-da/bin/python" -m pip install --upgrade pip --quiet || true
-    "$TARGET_DIR/.env-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+    python3 -m venv --prompt .venv-da "$TARGET_DIR/.venv-da"
+    echo "📚 Installing core packages into .venv-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
+    "$TARGET_DIR/.venv-da/bin/python" -m pip install --upgrade pip --quiet || true
+    "$TARGET_DIR/.venv-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
 fi
 
-# Clean up any leftover old 'data-analysis' directory if it exists
+# Clean up any leftover old 'data-analysis' or '.env-da' directory if it exists
+if [ -d "$TARGET_DIR/.env-da" ]; then
+    rm -rf "$TARGET_DIR/.env-da"
+fi
 if [ -d "$TARGET_DIR/data-analysis" ]; then
     rm -rf "$TARGET_DIR/data-analysis"
 fi
 
 # Register ipykernel for Jupyter / VS Code Native REPL
-"$TARGET_DIR/.env-da/bin/python" -m ipykernel install --user --name env-da --display-name "Python (.env-da)" &>/dev/null || true
+"$TARGET_DIR/.venv-da/bin/python" -m ipykernel install --user --name venv-da --display-name "Python (.venv-da)" &>/dev/null || true
 
 # 7. Configure Workspace Settings (.vscode/settings.json in TARGET_DIR)
 mkdir -p "$TARGET_DIR/.vscode"
-"$TARGET_DIR/.env-da/bin/python" - "$TARGET_DIR" << 'EOF' || true
+"$TARGET_DIR/.venv-da/bin/python" - "$TARGET_DIR" << 'EOF' || true
 import sys, json
 from pathlib import Path
 
@@ -134,7 +144,7 @@ if ws_settings.exists():
         data = {}
 
 data.update({
-    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv-da/bin/python",
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
     "python.REPL.sendToNativeREPL": True
@@ -146,7 +156,7 @@ EOF
 
 # 8. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 echo "⚙️ Configuring beginner-friendly VS Code settings..."
-"$TARGET_DIR/.env-da/bin/python" - << 'EOF' || true
+"$TARGET_DIR/.venv-da/bin/python" - << 'EOF' || true
 import json, os
 from pathlib import Path
 
@@ -175,7 +185,7 @@ data.update({
     "python.REPL.sendToNativeREPL": True,
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
-    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv-da/bin/python",
     "notebook.lineNumbers": "on",
     "notebook.output.textLineLimit": 150,
     "notebook.insertToolbarLocation": "betweenCells"
@@ -187,5 +197,5 @@ EOF
 
 echo "============================================================"
 echo "🎉 Setup complete! You are ready for Data Analysis."
-echo "👉 Course workspace and .env-da environment are ready at: $TARGET_DIR"
+echo "👉 Course workspace and .venv-da environment are ready at: $TARGET_DIR"
 echo "👉 Launch VS Code and open your course folder: code $TARGET_DIR"

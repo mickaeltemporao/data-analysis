@@ -1,6 +1,6 @@
 # ==============================================================================
 # Setup Script for Windows — Data Analysis (Sciences Po Bordeaux)
-# Installs VS Code, Python, Jupyter extensions, sets up data-analysis environment, and data science libraries.
+# Installs VS Code, Python, Jupyter extensions, sets up .venv-da environment, and data science libraries.
 # ==============================================================================
 
 $ErrorActionPreference = "Continue"
@@ -52,7 +52,7 @@ if (Get-Command code -ErrorAction SilentlyContinue) {
     Write-Host "⚠️ VS Code installed. If 'code' command is not found, launch VS Code and install the Python and Jupyter extensions." -ForegroundColor Yellow
 }
 
-# 3. Set up Course Workspace Directory and .env-da environment
+# 3. Set up Course Workspace Directory and .venv-da environment
 $docsPath = [System.Environment]::GetFolderPath('MyDocuments')
 $targetDir = Join-Path $docsPath "data-analysis"
 if ((Get-Location).Path -ne $HOME -and ((Test-Path ".git") -or (Test-Path "pyproject.toml") -or (Test-Path "mkdocs.yml"))) {
@@ -64,16 +64,24 @@ if (-not (Test-Path $targetDir)) {
     New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
 }
 
-$oldVenvPath = Join-Path $targetDir "data-analysis"
-$venvPath = Join-Path $targetDir ".env-da"
+$oldVenvPath1 = Join-Path $targetDir "data-analysis"
+$oldVenvPath2 = Join-Path $targetDir ".env-da"
+$venvPath = Join-Path $targetDir ".venv-da"
 
-# Migrate old 'data-analysis' venv to '.env-da' if it exists
-if (Test-Path $oldVenvPath) {
-    Write-Host "🔄 Found existing 'data-analysis' environment. Migrating to '.env-da'..." -ForegroundColor Yellow
+# Migrate old environment to '.venv-da' if it exists
+if (Test-Path $oldVenvPath2) {
+    Write-Host "🔄 Found existing '.env-da' environment. Migrating to '.venv-da'..." -ForegroundColor Yellow
     if (-not (Test-Path $venvPath)) {
-        Rename-Item -Path $oldVenvPath -NewName ".env-da" -ErrorAction SilentlyContinue
+        Rename-Item -Path $oldVenvPath2 -NewName ".venv-da" -ErrorAction SilentlyContinue
     } else {
-        Remove-Item -Recurse -Force $oldVenvPath -ErrorAction SilentlyContinue
+        Remove-Item -Recurse -Force $oldVenvPath2 -ErrorAction SilentlyContinue
+    }
+} elseif (Test-Path $oldVenvPath1) {
+    Write-Host "🔄 Found existing 'data-analysis' environment. Migrating to '.venv-da'..." -ForegroundColor Yellow
+    if (-not (Test-Path $venvPath)) {
+        Rename-Item -Path $oldVenvPath1 -NewName ".venv-da" -ErrorAction SilentlyContinue
+    } else {
+        Remove-Item -Recurse -Force $oldVenvPath1 -ErrorAction SilentlyContinue
     }
 }
 
@@ -105,22 +113,25 @@ if (-not $sysPython) {
 }
 if (-not $sysPython) { $sysPython = "python" }
 
-Write-Host "⚡ Configuring Python virtual environment (.env-da)..." -ForegroundColor Yellow
+Write-Host "⚡ Configuring Python virtual environment (.venv-da)..." -ForegroundColor Yellow
 if (-not (Test-Path (Join-Path $venvPath "Scripts\python.exe"))) {
-    Invoke-Expression "$sysPython -m venv --prompt .env-da `"$venvPath`""
+    Invoke-Expression "$sysPython -m venv --prompt .venv-da `"$venvPath`""
 } else {
-    Invoke-Expression "$sysPython -m venv --prompt .env-da `"$venvPath`""
+    Invoke-Expression "$sysPython -m venv --prompt .venv-da `"$venvPath`""
 }
 
-Write-Host "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
+Write-Host "📚 Installing core packages into .venv-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
 $venvPython = Join-Path $venvPath "Scripts\python.exe"
 & $venvPython -m pip install --upgrade pip --quiet
 & $venvPython -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python
-& $venvPython -m ipykernel install --user --name env-da --display-name "Python (.env-da)" 2>$null
+& $venvPython -m ipykernel install --user --name venv-da --display-name "Python (.venv-da)" 2>$null
 
-# Clean up old 'data-analysis' environment directory if it still exists
-if (Test-Path $oldVenvPath) {
-    Remove-Item -Recurse -Force $oldVenvPath -ErrorAction SilentlyContinue
+# Clean up old environment directories if they still exist
+if (Test-Path $oldVenvPath1) {
+    Remove-Item -Recurse -Force $oldVenvPath1 -ErrorAction SilentlyContinue
+}
+if (Test-Path $oldVenvPath2) {
+    Remove-Item -Recurse -Force $oldVenvPath2 -ErrorAction SilentlyContinue
 }
 
 # 4. Configure Workspace Settings (.vscode/settings.json in targetDir)
@@ -144,7 +155,7 @@ if ws_path.exists():
     except Exception:
         data = {}
 data.update({
-    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/Scripts/python.exe",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv-da/Scripts/python.exe",
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
     "python.REPL.sendToNativeREPL": True
@@ -190,7 +201,7 @@ if appdata:
         "python.REPL.sendToNativeREPL": True,
         "python.terminal.activateEnvironment": True,
         "python.terminal.executeInFileDir": True,
-        "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/Scripts/python.exe",
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv-da/Scripts/python.exe",
         "notebook.lineNumbers": "on",
         "notebook.output.textLineLimit": 150,
         "notebook.insertToolbarLocation": "betweenCells"
@@ -206,5 +217,5 @@ Remove-Item $tempUserScript -Force -ErrorAction SilentlyContinue
 
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "🎉 Setup complete! You are ready for Data Analysis." -ForegroundColor Green
-Write-Host "👉 Course workspace and .env-da environment are ready at: $targetDir" -ForegroundColor Green
+Write-Host "👉 Course workspace and .venv-da environment are ready at: $targetDir" -ForegroundColor Green
 Write-Host "👉 Launch VS Code and open your course folder: code `"$targetDir`"" -ForegroundColor Green

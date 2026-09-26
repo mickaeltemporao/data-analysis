@@ -90,7 +90,7 @@ We provide an automated setup script that installs [**Visual Studio Code**](http
     3. **What this automated script does:**
         - Installs Python, `uv`, `git`, and base tools via `pacman`.
         - Installs Visual Studio Code (`visual-studio-code-bin` built from AUR).
-        - Sets up an isolated course virtual environment (`.env-da`) using **`uv`** and installs all required packages (`ipykernel`, `pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
+        - Sets up an isolated course virtual environment (`.venv-da`) using **`uv`** and installs all required packages (`ipykernel`, `pandas`, `altair`, `statsmodels`, `vega_datasets`, `vl-convert-python`).
         - Installs VS Code Python extensions and applies beginner-friendly sane defaults (disables Copilot, enables Native REPL Smart Send, enables auto-save and word wrap).
 
     4. **Verify Success:**
@@ -124,12 +124,12 @@ The automated setup script has created a dedicated `data-analysis` folder inside
 > - Click the **"Restricted Mode"** banner or shield icon in the bottom-left corner.  
 > - Click **Trust** (or **Trust folder & enable all features**).
 
-### Step 2: Confirm Your Virtual Environment (.env-da)
-In data science, a **virtual environment** keeps your course packages isolated and stable. To avoid confusion with your course project folder (`data-analysis`), our environment is named **`.env-da`**.
+### Step 2: Confirm Your Virtual Environment (.venv-da)
+In data science, a **virtual environment** keeps your course packages isolated and stable. To avoid confusion with `.env` configuration files or your course project folder (`data-analysis`), our environment is named **`.venv-da`**.
 
-Because the setup script automatically configured your workspace settings and registered the kernel, VS Code will automatically detect and select your **`.env-da`** environment whenever you open your course folder!
+Because the setup script automatically configured your workspace settings and registered the kernel, VS Code will automatically detect and select your **`.venv-da`** environment whenever you open your course folder!
 
-- Look at the bottom-right status bar in VS Code: you should see **`.env-da`** (or `Python ... ('.env-da': venv)`).
+- Look at the bottom-right status bar in VS Code: you should see **`.venv-da`** (or `Python ... ('.venv-da': venv)`).
 - If it is not selected automatically:
     1. Open the **Command Palette** (press ++f1++ or click the search bar at the very top of VS Code):
         - **macOS:** press ++cmd+shift+p++
@@ -138,10 +138,10 @@ Because the setup script automatically configured your workspace settings and re
         ```text
         Python Select Interpreter
         ```
-    3. Click on the option containing **`.env-da`**.
+    3. Click on the option containing **`.venv-da`**.
 
 > [!TIP]
-> If you already ran the setup script during week 1 with the old environment name, simply re-run the setup script command above! The script will automatically migrate your existing environment to **`.env-da`** and configure all settings.
+> If you already ran the setup script during week 1 with an older environment name, simply re-run the setup script command above! The script will automatically migrate your existing environment to **`.venv-da`** and configure all settings.
 
 ---
 

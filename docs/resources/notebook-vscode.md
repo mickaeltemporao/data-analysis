@@ -24,9 +24,9 @@ A **Python script** is a simple text file ending in `.py` containing lines of Py
 
 ## 2. Verify Your Python Environment
 
-Make sure VS Code is using the **`.env-da`** environment set up during onboarding:
+Make sure VS Code is using the **`.venv-da`** environment set up during onboarding:
 
-*(Note: The setup script automatically configures workspace settings and registers the kernel, so VS Code automatically selects `.env-da` whenever you open your course folder).*
+*(Note: The setup script automatically configures workspace settings and registers the kernel, so VS Code automatically selects `.venv-da` whenever you open your course folder).*
 
 1. Open the **Command Palette**:
     - Press ++f1++ (or click the search bar at the very top of VS Code).
@@ -34,8 +34,8 @@ Make sure VS Code is using the **`.env-da`** environment set up during onboardin
         - On macOS: Press ++cmd+shift+p++
         - On Windows: Press ++ctrl+shift+p++
 2. In the top search bar, type `Python Select Interpreter` and click on **Python: Select Interpreter**.
-3. In the dropdown list, click on the environment labeled **`.env-da`**.
-4. **Success Check:** Look at the bottom-right status bar of VS Code. You should see `Python 3.12... ('.env-da': venv)` displayed.
+3. In the dropdown list, click on the environment labeled **`.venv-da`**.
+4. **Success Check:** Look at the bottom-right status bar of VS Code. You should see `Python 3.12... ('.venv-da': venv)` displayed.
 
 ---
 
