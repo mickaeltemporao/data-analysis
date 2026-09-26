@@ -17,7 +17,6 @@ if ! xcode-select -p &>/dev/null; then
 fi
 
 # 2. Check / Install Homebrew
-# 2. Check / Install Homebrew
 if ! command -v brew &>/dev/null; then
     if [ -x "/opt/homebrew/bin/brew" ]; then
         eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -26,9 +25,9 @@ if ! command -v brew &>/dev/null; then
     else
         echo "🍺 Homebrew not found. Installing Homebrew..."
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        if [[ $(uname -m) == "arm64" ]]; then
+        if [ -x "/opt/homebrew/bin/brew" ]; then
             eval "$(/opt/homebrew/bin/brew shellenv)"
-        else
+        elif [ -x "/usr/local/bin/brew" ]; then
             eval "$(/usr/local/bin/brew shellenv)"
         fi
     fi
@@ -36,18 +35,26 @@ else
     echo "✅ Homebrew is already installed."
 fi
 
-# Ensure brew shellenv is in .zprofile so future terminal sessions have brew in PATH
-if [[ $(uname -m) == "arm64" ]] && [ -x "/opt/homebrew/bin/brew" ]; then
-    if ! grep -qs 'brew shellenv' "$HOME/.zprofile" 2>/dev/null; then
-        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "$HOME/.zprofile"
+# Ensure brew and code are in PATH for future terminal sessions (supports both zsh and bash shells on Intel and Apple Silicon)
+for profile_file in "$HOME/.zprofile" "$HOME/.bash_profile"; do
+    if [ -x "/opt/homebrew/bin/brew" ]; then
+        if ! grep -qs 'brew shellenv' "$profile_file" 2>/dev/null; then
+            echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "$profile_file"
+        fi
+    elif [ -x "/usr/local/bin/brew" ]; then
+        if ! grep -qs 'brew shellenv' "$profile_file" 2>/dev/null; then
+            echo 'eval "$(/usr/local/bin/brew shellenv)"' >> "$profile_file"
+        fi
     fi
-elif [ -x "/usr/local/bin/brew" ]; then
-    if ! grep -qs 'brew shellenv' "$HOME/.zprofile" 2>/dev/null; then
-        echo 'eval "$(/usr/local/bin/brew shellenv)"' >> "$HOME/.zprofile"
+    if [ -d "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" ]; then
+        if ! grep -qs 'Visual Studio Code.app/Contents/Resources/app/bin' "$profile_file" 2>/dev/null; then
+            echo 'export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"' >> "$profile_file"
+        fi
     fi
-fi
+done
 
-# 3. Install VS Code, Python, and uv via Homebrew
+# 3. Install VS Code, Python, and uv via Homebrew (speed up on older Intel Macs by avoiding lengthy git auto-updates)
+export HOMEBREW_NO_AUTO_UPDATE=1
 echo "💻 Installing Visual Studio Code..."
 brew install --cask visual-studio-code || true
 
