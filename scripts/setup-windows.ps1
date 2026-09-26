@@ -98,11 +98,13 @@ $vscodeDir = Join-Path $targetDir ".vscode"
 if (-not (Test-Path $vscodeDir)) {
     New-Item -ItemType Directory -Path $vscodeDir -Force | Out-Null
 }
-$wsSettingsPath = Join-Path $vscodeDir "settings.json"
-$wsConfig = @"
-import json
+$wsConfig = @'
+import sys, json
 from pathlib import Path
-ws_path = Path(r"$wsSettingsPath")
+
+target_dir = Path(sys.argv[1])
+ws_path = target_dir / ".vscode" / "settings.json"
+ws_path.parent.mkdir(parents=True, exist_ok=True)
 data = {}
 if ws_path.exists():
     try:
@@ -111,21 +113,21 @@ if ws_path.exists():
     except Exception:
         data = {}
 data.update({
-    "python.defaultInterpreterPath": "\${workspaceFolder}/.env-da/Scripts/python.exe",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/Scripts/python.exe",
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
     "python.REPL.sendToNativeREPL": True
 })
 with open(ws_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4)
-"@
+'@
 try {
-    $wsConfig | python - 2>$null
+    $wsConfig | & $venvPython - "$targetDir" 2>$null
 } catch {}
 
 # 5. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 Write-Host "⚙️ Configuring beginner-friendly VS Code settings..." -ForegroundColor Yellow
-$pyConfig = @"
+$userPyConfig = @'
 import json, os
 from pathlib import Path
 
@@ -161,9 +163,9 @@ if appdata:
     })
     with open(settings_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
-"@
+'@
 try {
-    $pyConfig | python - 2>$null
+    $userPyConfig | & $venvPython - 2>$null
 } catch {}
 
 Write-Host "============================================================" -ForegroundColor Cyan

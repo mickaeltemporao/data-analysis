@@ -17,18 +17,34 @@ if ! xcode-select -p &>/dev/null; then
 fi
 
 # 2. Check / Install Homebrew
+# 2. Check / Install Homebrew
 if ! command -v brew &>/dev/null; then
-    echo "🍺 Homebrew not found. Installing Homebrew..."
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    
-    # Configure PATH for current session
-    if [[ $(uname -m) == "arm64" ]]; then
+    if [ -x "/opt/homebrew/bin/brew" ]; then
         eval "$(/opt/homebrew/bin/brew shellenv)"
-    else
+    elif [ -x "/usr/local/bin/brew" ]; then
         eval "$(/usr/local/bin/brew shellenv)"
+    else
+        echo "🍺 Homebrew not found. Installing Homebrew..."
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        if [[ $(uname -m) == "arm64" ]]; then
+            eval "$(/opt/homebrew/bin/brew shellenv)"
+        else
+            eval "$(/usr/local/bin/brew shellenv)"
+        fi
     fi
 else
     echo "✅ Homebrew is already installed."
+fi
+
+# Ensure brew shellenv is in .zprofile so future terminal sessions have brew in PATH
+if [[ $(uname -m) == "arm64" ]] && [ -x "/opt/homebrew/bin/brew" ]; then
+    if ! grep -qs 'brew shellenv' "$HOME/.zprofile" 2>/dev/null; then
+        echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> "$HOME/.zprofile"
+    fi
+elif [ -x "/usr/local/bin/brew" ]; then
+    if ! grep -qs 'brew shellenv' "$HOME/.zprofile" 2>/dev/null; then
+        echo 'eval "$(/usr/local/bin/brew shellenv)"' >> "$HOME/.zprofile"
+    fi
 fi
 
 # 3. Install VS Code, Python, and uv via Homebrew
@@ -79,8 +95,8 @@ if command -v uv &>/dev/null; then
 else
     python3 -m venv --prompt .env-da "$TARGET_DIR/.env-da"
     echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-    "$TARGET_DIR/.env-da/bin/pip" install --upgrade pip --quiet || true
-    "$TARGET_DIR/.env-da/bin/pip" install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+    "$TARGET_DIR/.env-da/bin/python" -m pip install --upgrade pip --quiet || true
+    "$TARGET_DIR/.env-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
 fi
 
 # Clean up any leftover old 'data-analysis' directory if it exists
@@ -93,11 +109,13 @@ fi
 
 # 7. Configure Workspace Settings (.vscode/settings.json in TARGET_DIR)
 mkdir -p "$TARGET_DIR/.vscode"
-python3 - << EOF || true
-import json
+"$TARGET_DIR/.env-da/bin/python" - "$TARGET_DIR" << 'EOF' || true
+import sys, json
 from pathlib import Path
 
-ws_settings = Path("$TARGET_DIR") / ".vscode" / "settings.json"
+target_dir = Path(sys.argv[1])
+ws_settings = target_dir / ".vscode" / "settings.json"
+ws_settings.parent.mkdir(parents=True, exist_ok=True)
 data = {}
 if ws_settings.exists():
     try:
@@ -107,7 +125,7 @@ if ws_settings.exists():
         data = {}
 
 data.update({
-    "python.defaultInterpreterPath": "\${workspaceFolder}/.env-da/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/bin/python",
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
     "python.REPL.sendToNativeREPL": True
@@ -119,7 +137,7 @@ EOF
 
 # 8. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 echo "⚙️ Configuring beginner-friendly VS Code settings..."
-python3 - << 'EOF' || true
+"$TARGET_DIR/.env-da/bin/python" - << 'EOF' || true
 import json, os
 from pathlib import Path
 

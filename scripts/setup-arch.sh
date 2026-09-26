@@ -88,11 +88,13 @@ fi
 
 # 6. Configure Workspace Settings (.vscode/settings.json in TARGET_DIR)
 mkdir -p "$TARGET_DIR/.vscode"
-python3 - << EOF || true
-import json
+"$TARGET_DIR/.env-da/bin/python" - "$TARGET_DIR" << 'EOF' || true
+import sys, json
 from pathlib import Path
 
-ws_settings = Path("$TARGET_DIR") / ".vscode" / "settings.json"
+target_dir = Path(sys.argv[1])
+ws_settings = target_dir / ".vscode" / "settings.json"
+ws_settings.parent.mkdir(parents=True, exist_ok=True)
 data = {}
 if ws_settings.exists():
     try:
@@ -102,7 +104,7 @@ if ws_settings.exists():
         data = {}
 
 data.update({
-    "python.defaultInterpreterPath": "\${workspaceFolder}/.env-da/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.env-da/bin/python",
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
     "python.REPL.sendToNativeREPL": True
