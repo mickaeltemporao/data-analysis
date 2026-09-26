@@ -173,12 +173,16 @@ Remove-Item $tempWsScript -Force -ErrorAction SilentlyContinue
 Write-Host "⚙️ Configuring beginner-friendly VS Code settings..." -ForegroundColor Yellow
 $tempUserScript = Join-Path $env:TEMP "setup_da_user.py"
 @'
-import json, os
+import sys, json, os
 from pathlib import Path
+
+target_dir = Path(sys.argv[1])
+folder_uri = target_dir.resolve().as_uri()
 
 appdata = os.environ.get("APPDATA")
 if appdata:
-    settings_path = Path(appdata) / "Code" / "User" / "settings.json"
+    user_dir = Path(appdata) / "Code" / "User"
+    settings_path = user_dir / "settings.json"
     settings_path.parent.mkdir(parents=True, exist_ok=True)
     data = {}
     if settings_path.exists():
@@ -198,6 +202,7 @@ if appdata:
         "editor.wordWrap": "on",
         "files.autoSave": "afterDelay",
         "files.autoSaveDelay": 1000,
+        "window.restoreWindows": "all",
         "python.REPL.sendToNativeREPL": True,
         "python.terminal.activateEnvironment": True,
         "python.terminal.executeInFileDir": True,
@@ -208,14 +213,51 @@ if appdata:
     })
     with open(settings_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
+
+    # Pre-seed globalStorage/storage.json so launching VS Code directly opens the course folder
+    storage_path = user_dir / "globalStorage" / "storage.json"
+    storage_path.parent.mkdir(parents=True, exist_ok=True)
+    s_data = {}
+    if storage_path.exists():
+        try:
+            with open(storage_path, "r", encoding="utf-8") as sf:
+                s_data = json.load(sf)
+        except Exception:
+            s_data = {}
+
+    win_state = s_data.get("windowsState", {})
+    if not win_state.get("lastActiveWindow") and not win_state.get("openedWindows"):
+        win_state["lastActiveWindow"] = {"folder": folder_uri}
+        win_state["openedWindows"] = [{"folderUri": folder_uri}]
+        s_data["windowsState"] = win_state
+        try:
+            with open(storage_path, "w", encoding="utf-8") as sf:
+                json.dump(s_data, sf, indent=4)
+        except Exception:
+            pass
 '@ | Set-Content -Path $tempUserScript -Encoding UTF8
 
 try {
-    & $venvPython $tempUserScript
+    & $venvPython $tempUserScript "$targetDir"
 } catch {}
 Remove-Item $tempUserScript -Force -ErrorAction SilentlyContinue
 
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "🎉 Setup complete! You are ready for Data Analysis." -ForegroundColor Green
 Write-Host "👉 Course workspace and .venv-da environment are ready at: $targetDir" -ForegroundColor Green
-Write-Host "👉 Launch VS Code and open your course folder: code `"$targetDir`"" -ForegroundColor Green
+Write-Host "🚀 Opening Visual Studio Code in your course workspace..." -ForegroundColor Green
+if (Get-Command code -ErrorAction SilentlyContinue) {
+    Start-Process code -ArgumentList "`"$targetDir`""
+} else {
+    $vscodeCandidates = @(
+        "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe",
+        "$env:ProgramFiles\Microsoft VS Code\Code.exe",
+        "${env:ProgramFiles(x86)}\Microsoft VS Code\Code.exe"
+    )
+    foreach ($vpath in $vscodeCandidates) {
+        if (Test-Path $vpath) {
+            Start-Process $vpath -ArgumentList "`"$targetDir`""
+            break
+        }
+    }
+}

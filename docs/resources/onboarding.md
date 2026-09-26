@@ -107,14 +107,14 @@ We provide an automated setup script that installs [**Visual Studio Code**](http
 
 ## 4. Set Up Your Course Workspace in VS Code
 
-Now that your software is installed, you need to open **Visual Studio Code** and configure a dedicated workspace folder for the course.
-
 ### Step 1: Open Your Course Folder in VS Code
-The automated setup script has created a dedicated `data-analysis` folder inside your `Documents` directory (e.g., `Documents/data-analysis`).
+The automated setup script creates a dedicated `data-analysis` folder inside your `Documents` directory (e.g., `Documents/data-analysis`) and **automatically launches Visual Studio Code directly inside this folder**!
 
-1. Open the **Visual Studio Code** application.
-2. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
-3. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
+- When the script finishes, VS Code will pop open on your screen with `data-analysis` already loaded as your active workspace in the left sidebar.
+- Every time you open VS Code from your Applications or Start Menu in the future, it will automatically reopen directly into your `data-analysis` workspace!
+- If you ever need to open it manually:
+    1. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
+    2. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
 
 > [!IMPORTANT]
 > **Grant Workspace Trust (Avoid Restricted Mode):**  

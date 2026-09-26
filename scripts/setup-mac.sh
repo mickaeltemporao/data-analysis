@@ -156,11 +156,15 @@ EOF
 
 # 8. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 echo "⚙️ Configuring beginner-friendly VS Code settings..."
-"$TARGET_DIR/.venv-da/bin/python" - << 'EOF' || true
-import json, os
+"$TARGET_DIR/.venv-da/bin/python" - "$TARGET_DIR" << 'EOF' || true
+import sys, json, os
 from pathlib import Path
 
-settings_path = Path.home() / "Library" / "Application Support" / "Code" / "User" / "settings.json"
+target_dir = Path(sys.argv[1])
+folder_uri = target_dir.resolve().as_uri()
+
+user_dir = Path.home() / "Library" / "Application Support" / "Code" / "User"
+settings_path = user_dir / "settings.json"
 settings_path.parent.mkdir(parents=True, exist_ok=True)
 
 data = {}
@@ -182,6 +186,7 @@ data.update({
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
+    "window.restoreWindows": "all",
     "python.REPL.sendToNativeREPL": True,
     "python.terminal.activateEnvironment": True,
     "python.terminal.executeInFileDir": True,
@@ -193,9 +198,36 @@ data.update({
 
 with open(settings_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4)
+
+# Pre-seed globalStorage/storage.json so launching VS Code directly opens the course folder
+storage_path = user_dir / "globalStorage" / "storage.json"
+storage_path.parent.mkdir(parents=True, exist_ok=True)
+s_data = {}
+if storage_path.exists():
+    try:
+        with open(storage_path, "r", encoding="utf-8") as sf:
+            s_data = json.load(sf)
+    except Exception:
+        s_data = {}
+
+win_state = s_data.get("windowsState", {})
+if not win_state.get("lastActiveWindow") and not win_state.get("openedWindows"):
+    win_state["lastActiveWindow"] = {"folder": folder_uri}
+    win_state["openedWindows"] = [{"folderUri": folder_uri}]
+    s_data["windowsState"] = win_state
+    try:
+        with open(storage_path, "w", encoding="utf-8") as sf:
+            json.dump(s_data, sf, indent=4)
+    except Exception:
+        pass
 EOF
 
 echo "============================================================"
 echo "🎉 Setup complete! You are ready for Data Analysis."
 echo "👉 Course workspace and .venv-da environment are ready at: $TARGET_DIR"
-echo "👉 Launch VS Code and open your course folder: code $TARGET_DIR"
+echo "🚀 Opening Visual Studio Code in your course workspace..."
+if command -v code &>/dev/null; then
+    code "$TARGET_DIR" || true
+elif [ -d "/Applications/Visual Studio Code.app" ]; then
+    open -a "Visual Studio Code" "$TARGET_DIR" || true
+fi
