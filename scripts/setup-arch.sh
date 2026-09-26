@@ -76,7 +76,11 @@ echo "⚡ Configuring Python virtual environment (.env-da) using uv..."
 uv venv --seed "$TARGET_DIR/.env-da" --prompt .env-da
 
 echo "📚 Installing core packages into .env-da environment with uv (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-uv pip install --python "$TARGET_DIR/.env-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python
+uv pip install --python "$TARGET_DIR/.env-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python || {
+    echo "⚠️ uv pip install encountered an issue; falling back to standard pip..."
+    "$TARGET_DIR/.env-da/bin/python" -m pip install --upgrade pip --quiet || true
+    "$TARGET_DIR/.env-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+}
 
 # Clean up any leftover old 'data-analysis' directory if it exists
 if [ -d "$TARGET_DIR/data-analysis" ]; then

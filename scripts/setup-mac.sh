@@ -17,23 +17,22 @@ if ! xcode-select -p &>/dev/null; then
 fi
 
 # 2. Check / Install Homebrew
-if ! command -v brew &>/dev/null; then
+if [ -x "/opt/homebrew/bin/brew" ]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+elif [ -x "/usr/local/bin/brew" ]; then
+    eval "$(/usr/local/bin/brew shellenv)"
+elif command -v brew &>/dev/null; then
+    eval "$(brew shellenv)"
+else
+    echo "🍺 Homebrew not found. Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     if [ -x "/opt/homebrew/bin/brew" ]; then
         eval "$(/opt/homebrew/bin/brew shellenv)"
     elif [ -x "/usr/local/bin/brew" ]; then
         eval "$(/usr/local/bin/brew shellenv)"
-    else
-        echo "🍺 Homebrew not found. Installing Homebrew..."
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        if [ -x "/opt/homebrew/bin/brew" ]; then
-            eval "$(/opt/homebrew/bin/brew shellenv)"
-        elif [ -x "/usr/local/bin/brew" ]; then
-            eval "$(/usr/local/bin/brew shellenv)"
-        fi
     fi
-else
-    echo "✅ Homebrew is already installed."
 fi
+echo "✅ Homebrew is ready."
 
 # Ensure brew and code are in PATH for future terminal sessions (supports both zsh and bash shells on Intel and Apple Silicon)
 for profile_file in "$HOME/.zprofile" "$HOME/.bash_profile"; do
@@ -95,10 +94,13 @@ if [ -d "$TARGET_DIR/data-analysis" ]; then
 fi
 
 echo "⚡ Configuring Python virtual environment (.env-da)..."
-if command -v uv &>/dev/null; then
-    uv venv --seed "$TARGET_DIR/.env-da" --prompt .env-da
+if command -v uv &>/dev/null && uv venv --seed "$TARGET_DIR/.env-da" --prompt .env-da; then
     echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."
-    uv pip install --python "$TARGET_DIR/.env-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python
+    uv pip install --python "$TARGET_DIR/.env-da/bin/python" pip ipykernel pandas altair statsmodels vega_datasets vl-convert-python || {
+        echo "⚠️ uv pip install encountered an issue; falling back to standard pip..."
+        "$TARGET_DIR/.env-da/bin/python" -m pip install --upgrade pip --quiet || true
+        "$TARGET_DIR/.env-da/bin/python" -m pip install --quiet ipykernel pandas altair statsmodels vega_datasets vl-convert-python || true
+    }
 else
     python3 -m venv --prompt .env-da "$TARGET_DIR/.env-da"
     echo "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..."

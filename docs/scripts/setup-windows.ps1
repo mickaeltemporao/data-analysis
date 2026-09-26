@@ -77,9 +77,39 @@ if (Test-Path $oldVenvPath) {
     }
 }
 
+# Resolve system Python command
+$sysPython = $null
+if (Get-Command py -ErrorAction SilentlyContinue) {
+    $testPy = try { & py -3 -c "import sys; print(sys.executable)" 2>$null } catch { $null }
+    if ($testPy) { $sysPython = "py -3" }
+}
+if (-not $sysPython -and (Get-Command python -ErrorAction SilentlyContinue)) {
+    $testPy = try { & python -c "import sys; print(sys.executable)" 2>$null } catch { $null }
+    if ($testPy) { $sysPython = "python" }
+}
+if (-not $sysPython) {
+    $candidates = @(
+        "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe",
+        "$env:ProgramFiles\Python312\python.exe",
+        "C:\Python312\python.exe",
+        "$env:LOCALAPPDATA\Programs\Python\Python311\python.exe",
+        "$env:ProgramFiles\Python311\python.exe",
+        "C:\Python311\python.exe"
+    )
+    foreach ($cand in $candidates) {
+        if (Test-Path $cand) {
+            $sysPython = "`"$cand`""
+            break
+        }
+    }
+}
+if (-not $sysPython) { $sysPython = "python" }
+
 Write-Host "⚡ Configuring Python virtual environment (.env-da)..." -ForegroundColor Yellow
 if (-not (Test-Path (Join-Path $venvPath "Scripts\python.exe"))) {
-    python -m venv --prompt .env-da $venvPath
+    Invoke-Expression "$sysPython -m venv --prompt .env-da `"$venvPath`""
+} else {
+    Invoke-Expression "$sysPython -m venv --prompt .env-da `"$venvPath`""
 }
 
 Write-Host "📚 Installing core packages into .env-da environment (ipykernel, pandas, altair, statsmodels, vl-convert-python)..." -ForegroundColor Yellow
@@ -98,7 +128,8 @@ $vscodeDir = Join-Path $targetDir ".vscode"
 if (-not (Test-Path $vscodeDir)) {
     New-Item -ItemType Directory -Path $vscodeDir -Force | Out-Null
 }
-$wsConfig = @'
+$tempWsScript = Join-Path $env:TEMP "setup_da_ws.py"
+@'
 import sys, json
 from pathlib import Path
 
@@ -120,14 +151,17 @@ data.update({
 })
 with open(ws_path, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=4)
-'@
+'@ | Set-Content -Path $tempWsScript -Encoding UTF8
+
 try {
-    $wsConfig | & $venvPython - "$targetDir" 2>$null
+    & $venvPython $tempWsScript "$targetDir"
 } catch {}
+Remove-Item $tempWsScript -Force -ErrorAction SilentlyContinue
 
 # 5. Configure Sane VS Code Defaults (Disable tutorials, disable Copilot, disable Restricted Mode, enable word wrap & auto-save)
 Write-Host "⚙️ Configuring beginner-friendly VS Code settings..." -ForegroundColor Yellow
-$userPyConfig = @'
+$tempUserScript = Join-Path $env:TEMP "setup_da_user.py"
+@'
 import json, os
 from pathlib import Path
 
@@ -163,10 +197,12 @@ if appdata:
     })
     with open(settings_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
-'@
+'@ | Set-Content -Path $tempUserScript -Encoding UTF8
+
 try {
-    $userPyConfig | & $venvPython - 2>$null
+    & $venvPython $tempUserScript
 } catch {}
+Remove-Item $tempUserScript -Force -ErrorAction SilentlyContinue
 
 Write-Host "============================================================" -ForegroundColor Cyan
 Write-Host "🎉 Setup complete! You are ready for Data Analysis." -ForegroundColor Green
