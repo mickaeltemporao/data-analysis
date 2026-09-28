@@ -155,7 +155,7 @@ Let's test your environment to confirm that everything is working properly.
 Paste the following test code directly into your `test.py` editor window:
 
 ```python
-print("hello there")
+print("Hello from Python!")
 
 # you can do some math
 40 + 2
@@ -175,7 +175,7 @@ In VS Code, you can execute code interactively one line at a time:
 In the Python REPL terminal at the bottom of your screen, you should see:
 
 ```text
-hello there
+Hello from Python!
 42
 You're ready for Data Analysis! 🔥
 ```
