@@ -72,14 +72,14 @@ $venvPath = Join-Path $targetDir ".venv-da"
 if (Test-Path $oldVenvPath2) {
     Write-Host "🔄 Found existing '.env-da' environment. Migrating to '.venv-da'..." -ForegroundColor Yellow
     if (-not (Test-Path $venvPath)) {
-        Rename-Item -Path $oldVenvPath2 -NewName ".venv-da" -ErrorAction SilentlyContinue
+        Rename-Item -Path $oldVenvPath2 -NewName ".venv-da" -Force -ErrorAction SilentlyContinue
     } else {
         Remove-Item -Recurse -Force $oldVenvPath2 -ErrorAction SilentlyContinue
     }
 } elseif (Test-Path $oldVenvPath1) {
     Write-Host "🔄 Found existing 'data-analysis' environment. Migrating to '.venv-da'..." -ForegroundColor Yellow
     if (-not (Test-Path $venvPath)) {
-        Rename-Item -Path $oldVenvPath1 -NewName ".venv-da" -ErrorAction SilentlyContinue
+        Rename-Item -Path $oldVenvPath1 -NewName ".venv-da" -Force -ErrorAction SilentlyContinue
     } else {
         Remove-Item -Recurse -Force $oldVenvPath1 -ErrorAction SilentlyContinue
     }

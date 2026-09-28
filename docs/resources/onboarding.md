@@ -105,16 +105,11 @@ We provide an automated setup script that installs [**Visual Studio Code**](http
 
 ---
 
-## 4. Set Up Your Course Workspace in VS Code
+## 4. Your Course Workspace in VS Code
 
-### Step 1: Open Your Course Folder in VS Code
-The automated setup script creates a dedicated `data-analysis` folder inside your `Documents` directory (e.g., `Documents/data-analysis`) and **automatically launches Visual Studio Code directly inside this folder**!
+When the automated setup script finishes, **Visual Studio Code opens automatically** with your `data-analysis` course folder ready in the left sidebar!
 
-- When the script finishes, VS Code will pop open on your screen with `data-analysis` already loaded as your active workspace in the left sidebar.
-- Every time you open VS Code from your Applications or Start Menu in the future, it will automatically reopen directly into your `data-analysis` workspace!
-- If you ever need to open it manually:
-    1. In the top menu of VS Code, click **File** > **Open Folder...** (on macOS, click **File** > **Open...**).
-    2. Navigate to your `Documents` folder, select your `data-analysis` folder, and click **Open**.
+*(Whenever you launch VS Code from your Applications or Start Menu in the future, it will automatically reopen straight into your `data-analysis` workspace).*
 
 > [!IMPORTANT]
 > **Grant Workspace Trust (Avoid Restricted Mode):**  
@@ -124,10 +119,10 @@ The automated setup script creates a dedicated `data-analysis` folder inside you
 > - Click the **"Restricted Mode"** banner or shield icon in the bottom-left corner.  
 > - Click **Trust** (or **Trust folder & enable all features**).
 
-### Step 2: Confirm Your Virtual Environment (.venv-da)
+### Confirm Your Virtual Environment (.venv-da)
 In data science, a **virtual environment** keeps your course packages isolated and stable. To avoid confusion with `.env` configuration files or your course project folder (`data-analysis`), our environment is named **`.venv-da`**.
 
-Because the setup script automatically configured your workspace settings and registered the kernel, VS Code will automatically detect and select your **`.venv-da`** environment whenever you open your course folder!
+Because the setup script automatically configured your workspace settings and registered the kernel, VS Code automatically selects your **`.venv-da`** environment:
 
 - Look at the bottom-right status bar in VS Code: you should see **`.venv-da`** (or `Python ... ('.venv-da': venv)`).
 - If it is not selected automatically:
@@ -160,28 +155,30 @@ Let's test your environment to confirm that everything is working properly.
 Paste the following test code directly into your `test.py` editor window:
 
 ```python
-import pandas as pd
-import altair as alt
-import statsmodels.formula.api as sm
-import vl_convert as vlc
+print("hello there")
 
-print("🎉 Environment successfully configured for Data Analysis!")
+# you can do some math
+40 + 2
+
+print("You're ready for Data Analysis! 🔥")
 ```
 
 ### Step 3: Run Your Code Line-by-Line with ++shift+enter++
 In VS Code, you can execute code interactively one line at a time:
 
-1. Click on the very first line of code (`import pandas as pd`) to place your blinking cursor there.
+1. Click on the very first line of code (`print("hello there")`) to place your blinking cursor there.
 2. Press ++shift+enter++.
 3. A **Python REPL** terminal panel will automatically pop up at the bottom of VS Code, execute the line, and advance your cursor to the next line.
 4. Keep pressing ++shift+enter++ to step through each line of code.
 
 ### Step 4: Confirm Success!
-In the Python REPL terminal at the bottom of your screen, you should see the final confirmation message:
+In the Python REPL terminal at the bottom of your screen, you should see:
 
 ```text
-🎉 Environment successfully configured for Data Analysis!
+hello there
+42
+You're ready for Data Analysis! 🔥
 ```
 
-If you see this message printed in the terminal without errors, your computer is 100% ready for the course!
+If you see these outputs printed in the terminal without errors, your computer is 100% ready for the course!
 

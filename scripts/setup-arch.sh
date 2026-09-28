@@ -66,14 +66,14 @@ mkdir -p "$TARGET_DIR"
 if [ -d "$TARGET_DIR/.env-da" ]; then
     echo "🔄 Found existing '.env-da' environment. Migrating to '.venv-da'..."
     if [ ! -d "$TARGET_DIR/.venv-da" ]; then
-        mv "$TARGET_DIR/.env-da" "$TARGET_DIR/.venv-da"
+        mv -f "$TARGET_DIR/.env-da" "$TARGET_DIR/.venv-da"
     else
         rm -rf "$TARGET_DIR/.env-da"
     fi
 elif [ -d "$TARGET_DIR/data-analysis" ]; then
     echo "🔄 Found existing 'data-analysis' environment. Migrating to '.venv-da'..."
     if [ ! -d "$TARGET_DIR/.venv-da" ]; then
-        mv "$TARGET_DIR/data-analysis" "$TARGET_DIR/.venv-da"
+        mv -f "$TARGET_DIR/data-analysis" "$TARGET_DIR/.venv-da"
     else
         rm -rf "$TARGET_DIR/data-analysis"
     fi
