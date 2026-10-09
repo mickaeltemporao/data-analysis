@@ -7,7 +7,7 @@ This schedule is an approximation, subject to change due needs of the students i
 
 !!! info inline end "Groups Info"
     - **Group 1:** Eva, Logan, Nicola, Stella, Yanis
-    - **Group 2:** Francesca, Kiri, Rosa, Victor, Louisa
+    - **Group 2:** Francesca, Kiri, Rosa, Victor, Lou
     - **Group 3:** Charline, Clara, Elettra, Giulia, Giulia, Morgane
     - **Group 4:** Giacomo, Isabella, Lucie, Ludovica, Tessa,
 
