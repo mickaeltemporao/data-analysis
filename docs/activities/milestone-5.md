@@ -22,12 +22,7 @@ Building on Milestone 4's exploratory analysis, you will now **test your hypothe
 You need to:
 
 - Use your previous Milestone 4 (.typst file and Python script) as a starting point, incorporating any feedback received.
-
-- Apply linear regression techniques learned in:
-    - [`07_intro_to_modeling.py`](https://github.com/mickaeltemporao/materials/blob/main/src/07_intro_to_modeling.py)
-    - [`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py)
-    - [`09_categorical_models.py`](https://github.com/mickaeltemporao/materials/blob/main/src/09_categorical_models.py)
-    - [`modeling-playground.py`](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py)
+- Apply linear regression techniques learned in the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 - Estimate multiple regression models side by side with progressively added control variables (covariates) to test your hypothesis and observe coefficient stability.
 - Export your regression table using the `make_table()` function from `mmisc`.
 - Interpret your results in relation to your theoretical expectations.

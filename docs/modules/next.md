@@ -27,8 +27,8 @@ In agile project management, a retrospective is a brief meeting held, at the end
 !!! tip inline end
     To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md).
 
-- Download and open the playground scripts directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository (e.g., [`playground-polarization.py`](https://github.com/mickaeltemporao/materials/blob/main/src/playground-polarization.py)).
+- **Step 1:** Head to the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) and download the playground script(s) into your local `data-analysis` course folder.
+- **Step 2:** Open **VS Code** and run code line-by-line using **Smart Send** (++shift+enter++).
 
 ---
 
@@ -45,7 +45,7 @@ In agile project management, a retrospective is a brief meeting held, at the end
 
 ### Practice
 - Review instructor comments on [Milestone 3 - Exploration](../activities/milestone-3.md) and consolidate your group's project code repository.
-- Explore data wrangling examples in [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py).
+- Explore data wrangling examples in the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 
 
 

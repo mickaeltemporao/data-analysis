@@ -27,6 +27,29 @@ We will use [**Typst**](https://typst.app/) throughout the course for authoring 
 
 We provide an automated setup script that installs [**Visual Studio Code**](https://code.visualstudio.com/), [**Python**](https://www.python.org/), the required **VS Code extensions** (Python & Jupyter Notebooks), and the core **data science packages** (`ipykernel` for interactive line-by-line execution, [**pandas**](https://pandas.pydata.org/) for data management, [**Altair**](https://altair-viz.github.io/) for data visualization, [**statsmodels**](https://www.statsmodels.org/) for statistical modeling, and `vl-convert-python` for exporting figures).
 
+=== ":fontawesome-brands-windows: Windows"
+
+    1. Open **PowerShell as Administrator**:
+        - Right-click the Windows Start Menu button :fontawesome-brands-windows:.
+        - Select **Terminal (Admin)** or **Windows PowerShell (Admin)**.
+        - Click **Yes** if Windows prompts you to allow changes.
+
+    2. Copy and paste the following command into PowerShell, then press ++enter++:
+
+        ```powershell
+        irm https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-windows.ps1 | iex
+        ```
+
+    3. **Verify Success:**
+        Keep the window open while it downloads and configures your environment. Run the script until you see this final confirmation message:
+
+        ```text
+        🎉 Setup complete! You are ready for Data Analysis.
+        ```
+
+        !!! important
+            If you do not see this final success message, or if any download was interrupted, simply paste and run the command again.
+
 === ":fontawesome-brands-apple: macOS"
 
     1. Open the **Terminal** app:
@@ -50,33 +73,10 @@ We provide an automated setup script that installs [**Visual Studio Code**](http
         🎉 Setup complete! You are ready for Data Analysis.
         ```
         
-        > [!IMPORTANT]
-        > If you do not see this final success message, re-run the command in your Terminal.
+        !!! important
+            If you do not see this final success message, re-run the command in your Terminal.
 
-=== ":fontawesome-brands-windows: Windows"
-
-    1. Open **PowerShell as Administrator**:
-        - Right-click the Windows Start Menu button :fontawesome-brands-windows:.
-        - Select **Terminal (Admin)** or **Windows PowerShell (Admin)**.
-        - Click **Yes** if Windows prompts you to allow changes.
-
-    2. Copy and paste the following command into PowerShell, then press ++enter++:
-
-        ```powershell
-        irm https://raw.githubusercontent.com/mickaeltemporao/data-analysis/main/scripts/setup-windows.ps1 | iex
-        ```
-
-    3. **Verify Success:**
-        Keep the window open while it downloads and configures your environment. Run the script until you see this final confirmation message:
-
-        ```text
-        🎉 Setup complete! You are ready for Data Analysis.
-        ```
-
-        > [!IMPORTANT]
-        > If you do not see this final success message, or if any download was interrupted, simply paste and run the command again.
-
-=== ":fontawesome-brands-linux: Arch Linux"
+=== ":fontawesome-brands-linux: Linux"
 
     *(I use Arch, btw! :fontawesome-brands-linux:)*
 
@@ -100,8 +100,8 @@ We provide an automated setup script that installs [**Visual Studio Code**](http
         🎉 Setup complete! You are ready for Data Analysis.
         ```
 
-        > [!IMPORTANT]
-        > If you do not see this final success message, simply paste and run the command again.
+        !!! important
+            If you do not see this final success message, simply paste and run the command again.
 
 ---
 
@@ -111,13 +111,13 @@ When the automated setup script finishes, **Visual Studio Code opens automatical
 
 *(Whenever you launch VS Code from your Applications or Start Menu in the future, it will automatically reopen straight into your `data-analysis` workspace).*
 
-> [!IMPORTANT]
-> **Grant Workspace Trust (Avoid Restricted Mode):**  
-> If VS Code displays a pop-up window asking *"Do you trust the authors of the files in this folder?"*, click **Yes, I trust the authors**.  
->  
-> If VS Code ever opens in **Restricted Mode** (indicated by a banner across the top or a blue shield icon in the bottom-left status bar saying *"Restricted Mode"*), extensions like Python and Jupyter will be disabled and code execution will be blocked:  
-> - Click the **"Restricted Mode"** banner or shield icon in the bottom-left corner.  
-> - Click **Trust** (or **Trust folder & enable all features**).
+!!! important "Grant Workspace Trust (Avoid Restricted Mode)"
+    If VS Code displays a pop-up window asking *"Do you trust the authors of the files in this folder?"*, click **Yes, I trust the authors**.  
+    
+    If VS Code ever opens in **Restricted Mode** (indicated by a banner across the top or a blue shield icon in the bottom-left status bar saying *"Restricted Mode"*), extensions like Python and Jupyter will be disabled and code execution will be blocked:  
+    
+    - Click the **"Restricted Mode"** banner or shield icon in the bottom-left corner.  
+    - Click **Trust** (or **Trust folder & enable all features**).
 
 ### Confirm Your Virtual Environment (.venv-da)
 In data science, a **virtual environment** keeps your course packages isolated and stable. To avoid confusion with `.env` configuration files or your course project folder (`data-analysis`), our environment is named **`.venv-da`**.
@@ -135,8 +135,8 @@ Because the setup script automatically configured your workspace settings and re
         ```
     3. Click on the option containing **`.venv-da`**.
 
-> [!TIP]
-> If you already ran the setup script during week 1 with an older environment name, simply re-run the setup script command above! The script will automatically migrate your existing environment to **`.venv-da`** and configure all settings.
+!!! tip
+    If you already ran the setup script during week 1 with an older environment name, simply re-run the setup script command above! The script will automatically migrate your existing environment to **`.venv-da`** and configure all settings.
 
 ---
 

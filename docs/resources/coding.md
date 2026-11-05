@@ -20,7 +20,7 @@
 ## Data Visualization (Altair)
 - [Altair Official Website & Documentation](https://altair-viz.github.io/): Declarative statistical visualization library for Python based on Vega-Lite.
 - [Altair Example Gallery](https://altair-viz.github.io/gallery/index.html): Visual catalog of charts, heatmaps, faceted plots, and distributions.
-- [Altair Interactive Charts Guide](https://altair-viz.github.io/user_guide/interactions.html): Guide to tooltips, selections, and interactive brushing.
+- [Altair Marks & Encodings Guide](https://altair-viz.github.io/user_guide/marks/index.html): Guide to visual marks, encodings, and customizing chart properties.
 
 ## Statistical Modeling (statsmodels)
 - [statsmodels Official Website](https://www.statsmodels.org/): Official website for statistical modeling and empirical analysis in Python.

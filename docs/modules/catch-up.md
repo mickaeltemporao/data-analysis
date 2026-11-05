@@ -6,8 +6,8 @@
 !!! tip inline end
     To run Python scripts in VS Code, follow [📘 Running Python Scripts in VS Code](../resources/notebook-vscode.md)
 
-- To start, download and open the Python scripts directly in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository
+- **Step 1:** Head to the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) and download the script(s) into your local `data-analysis` course folder.
+- **Step 2:** Open **VS Code** and practice executing code line-by-line using **Smart Send** (++shift+enter++).
 
 <!-- Notebook 4 - Data Visualisation -->
 

@@ -62,8 +62,8 @@ Interpreting regression results requires connecting numbers back to theory:
 ### Extracting insights
 
 #### Interactive Python Scripts
-- Download and open [`08_multiple_regression.py`](https://github.com/mickaeltemporao/materials/blob/main/src/08_multiple_regression.py) and [`modeling-playground.py`](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py) in VS Code:
-    - **[:fontawesome-solid-file-code: Course Materials](https://github.com/mickaeltemporao/materials/tree/main/src)**
+- **Step 1:** Head to the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) and download the appropriate script(s) into your local `data-analysis` course folder.
+- **Step 2:** Open **VS Code** and run code line-by-line using **Smart Send** (++shift+enter++).
 
 ### Creating Quantities of Interest
 
@@ -173,9 +173,8 @@ make_table(my_models, as_file=True)
 
 ### Data Modeling Lab
 
-Download the lab script and open it in VS Code:
-
-- [**Modeling Playground Script (`modeling-playground.py`)**](https://github.com/mickaeltemporao/materials/blob/main/src/modeling-playground.py)
+- **Step 1:** Head to the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) and download the appropriate modeling script into your local `data-analysis` course folder.
+- **Step 2:** Open **VS Code** and explore the regression model results interactively.
 
 Focus on *understanding how each IV (predictors) is related to the DV (outcome)*. Ask yourself:
 

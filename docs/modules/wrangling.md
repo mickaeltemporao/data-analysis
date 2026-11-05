@@ -36,8 +36,8 @@ Using ANES 2020 data, you will learn how to:
 - Prepare data for statistical modeling and visualization
 
 #### Interactive Python Scripts
-- Download and open [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) in VS Code:
-    - Get the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) from the GitHub repository
+- **Step 1:** Head to the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) and download the appropriate script(s) into your local `data-analysis` course folder.
+- **Step 2:** Open **VS Code** and run the code line-by-line using **Smart Send** (++shift+enter++).
 
 ## Get Ready for Next Session: Think. Explore. Practice.
 
@@ -51,7 +51,7 @@ Using ANES 2020 data, you will learn how to:
 - The class should review the [Pandas Working with Missing Data Guide](https://pandas.pydata.org/docs/user_guide/missing_data.html) to follow along and lead the peer discussion.
 
 ### Practice
-- Practice recoding your project's DV and IV using [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py) and [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py).
+- Practice recoding your project's DV and IV using the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 - *Looking Ahead:* Milestone 4 - Analysis will be due in Session 9 (Feb 05 at 08:00).
 
 

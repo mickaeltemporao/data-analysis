@@ -23,10 +23,7 @@ Building on Milestone 3's basic exploration, you will now conduct a **more sophi
 You need to:
 
 - Use your Milestone 3 (.typst file and Python script) as a starting point, incorporating any feedback received.
-- Apply data cleaning, transformation, and analysis techniques learned in recent [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src):
-    - [`04_data_exploration_columns.py`](https://github.com/mickaeltemporao/materials/blob/main/src/04_data_exploration_columns.py)
-    - [`05_data_exploration_rows.py`](https://github.com/mickaeltemporao/materials/blob/main/src/05_data_exploration_rows.py)
-    - [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py)
+- Apply data cleaning, transformation, and analysis techniques learned in the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src).
 - Update your analysis with improved visualizations that examine relationships between variables and assess your initial theoretical expectations.
 
 ### What is expected from a **manuscript** perspective

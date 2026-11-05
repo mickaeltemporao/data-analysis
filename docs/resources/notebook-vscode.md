@@ -43,7 +43,7 @@ Make sure VS Code is using the **`.venv-da`** environment set up during onboardi
 
 1. Open the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) repository on GitHub:
     - [:fontawesome-solid-file-code: **Course Python Materials (`materials/src`)**](https://github.com/mickaeltemporao/materials/tree/main/src)
-2. Click on the script you wish to open (for example, [`01_getting_started.py`](https://github.com/mickaeltemporao/materials/blob/main/src/01_getting_started.py) or [`02_data_types_and_structures.py`](https://github.com/mickaeltemporao/materials/blob/main/src/02_data_types_and_structures.py)).
+2. Click on the script you wish to open (for example, `01_getting_started.py` or `02_data_types_and_structures.py`).
 3. Click the **Download raw file** button (the downward arrow icon at the top right of the code view).
 4. Save or move the downloaded `.py` file into your course workspace folder.
 

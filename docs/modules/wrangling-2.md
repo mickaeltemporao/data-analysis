@@ -107,7 +107,8 @@ Additive scales combine multiple related survey items into a single measure by s
 **Remember**: The goal is not just to transform data, but to do so **systematically and transparently**. Every recoding decision should be defensible and documented.
 
 #### Interactive Python Script
-- Download and open [`06_data_management_and_scales.py`](https://github.com/mickaeltemporao/materials/blob/main/src/06_data_management_and_scales.py) from the [**course materials**](https://github.com/mickaeltemporao/materials/tree/main/src) in VS Code.
+- **Step 1:** Head to the [:fontawesome-solid-file-code: **Course Materials**](https://github.com/mickaeltemporao/materials/tree/main/src) and download the appropriate script(s) into your local `data-analysis` course folder.
+- **Step 2:** Open **VS Code** and run the code line-by-line using **Smart Send** (++shift+enter++).
 
 
 #### Practice Problems
