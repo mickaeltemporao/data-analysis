@@ -20,7 +20,7 @@
 
 In agile project management, a retrospective is a brief meeting held, at the end of an iteration (e.g. sprint), to look for ways to improve the process for the next iteration ([Beck, K., et al. 2001](http://agilemanifesto.org/)).
 
-- [🔗 Retrospective](https://miro.com/app/board/uXjVJg_KYis=/?share_link_id=582096732525)
+- [🔗 Retrospective](https://miro.com/app/board/uXjVELzIb54=/?share_link_id=167519452485)
 
 ### Let's look ahead!
 
