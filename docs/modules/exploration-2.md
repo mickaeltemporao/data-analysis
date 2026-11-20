@@ -33,7 +33,7 @@
 ### Think
 - How do your DV and IV relate to each other when examined together? Think about whether your relationship is continuous-by-continuous (scatter plot), categorical-by-continuous (box/bar plot), or categorical-by-categorical (grouped frequency chart).
 - What substantive story do your preliminary bivariate figures tell, and does it align with your original hypothesis?
-- **Suggested Reading:** [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398) - Highlights modern data visualization standards in political science for presenting survey interaction effects and group differences clearly.
+- **Suggested Reading:** [Panish, A. R. (2025). Informed or Overwhelmed? Disentangling the Effects of Cognitive Ability and Information on Public Opinion. *British Journal of Political Science*, 55, 1-24.](https://www.cambridge.org/core/journals/british-journal-of-political-science/article/informed-or-overwhelmed-disentangling-the-effects-of-cognitive-ability-and-information-on-public-opinion/75BE14D71B91D44CC700F93F37CDC398)
 
 ### Explore
 - **Exploratory Visualizations with Altair:** Review bivariate charting techniques in Altair (scatter plots, grouped bars, color/size encodings) and explore the [Altair Bivariate Visualizations Gallery](https://altair-viz.github.io/gallery/index.html) to prepare for Milestone 3.

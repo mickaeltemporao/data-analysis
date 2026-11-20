@@ -131,7 +131,7 @@ Follow the automated setup scripts on the [:fontawesome-regular-paper-plane: **O
 
 ### Think
 - What are the key concepts in your project idea (Milestone 1), and how might they relate to political behavior in the ANES 2024?
-- **Suggested Reading:** [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353) - An exemplary study on framing research questions and operationalizing survey variables.
+- **Suggested Reading:** [Dassonneville, R., & McAllister, I. (2018). Gender, political knowledge, and descriptive representation: The impact of long‐term socialization. *American Journal of Political Science*, 62(2), 249-265.](https://onlinelibrary.wiley.com/doi/epdf/10.1111/ajps.12353) 
 
 ### Explore
 - **Live Demo (Group 1):** Typst for Scientific Writing (syntax, document structure, `.bib` citations, exporting PDF). Group 1 prepares a 10–15 min demonstration and shares the handout on WhatsApp before class (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).

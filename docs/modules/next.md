@@ -37,7 +37,7 @@ In agile project management, a retrospective is a brief meeting held, at the end
 ### Think
 - Review your cumulative work and instructor feedback across Milestones 1–3. What variable transformations (e.g., handling missing values, creating composite scales, re-categorizing) will be necessary before running regression models in Semester 2?
 - How do your initial exploratory findings inform your core theoretical argument?
-- **Suggested Reading:** [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf) - Demonstrates meticulous survey data preparation, recoding decisions, and clean empirical presentation.
+- **Suggested Reading:** [Pradel, F., Zilinsky, J., Kosmidis, S., & Theocharis, Y. (2024). Toxic speech and limited demand for content moderation on social media. *American Political Science Review*, 1-18.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/405333D7072585903E81BEF1729378F8/S000305542300134Xa.pdf/toxic-speech-and-limited-demand-for-content-moderation-on-social-media.pdf)
 
 ### Explore
 - **Semester 2 Roadmap:** We resume on January 08, 2027 with Module 7 (*From Comparisons to Transformations*). Student group live demos resume in Session 8 with Group 1 (groups can [book a meeting](https://cal.com/mickaeltemporao/1-1-meeting) with the instructor to get direction).
